@@ -11,6 +11,9 @@ PreRequisites :
 
     [2.2 Remote-Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
+Running a DevContainer in VScode :
+Press ` Ctrl + Shft + P ' choose rebuild and reopen containers
+
 Environment :
 
 1. Ros2 Rolling Ridley
