@@ -44,7 +44,7 @@ ros2 launch gz_ros2_control_demos urrobot.launch.py
 
 1. press 'ctrl + shft + ` ' to open a new terminal
 2. cd ariac_ws
-3. ```colcon build```
+3. ```./bridge.sh```
 4. ```. install/setup.bash```
 
 # Launch simulation
