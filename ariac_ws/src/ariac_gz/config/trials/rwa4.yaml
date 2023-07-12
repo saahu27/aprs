@@ -1,0 +1,141 @@
+# Trial Name: rwa4.yaml
+
+# ENVIRONMENT SETUP
+
+time_limit: -1 # options: -1 (no time limit) or number of seconds (max 500)
+
+kitting_trays: # Which kitting trays will be spawn
+  tray_ids: [0, 3] 
+  slots: [4, 1]
+
+challenges:
+  - faulty_part:
+      order_id: 'KITTING1'
+      quadrant3: true
+
+parts:
+  conveyor_belt: # population params for conveyor belt
+    active: true
+    spawn_rate: 25.0 # seconds between spawn
+    order: 'random' # random or sequential
+    parts_to_spawn:
+      - type: 'battery'
+        color: 'orange'
+        number: 2
+        offset: 0.5 # between -1 and 1
+        flipped: false
+        rotation: 'pi/6'
+      - type: 'battery'
+        color: 'green'
+        number: 2
+        offset: -0.25 # between -1 and 1
+        flipped: false
+        rotation: 'pi'
+      - type: 'battery'
+        color: 'green'
+        number: 2
+        offset: -0.25 # between -1 and 1
+        flipped: false
+        rotation: 'pi'
+  bins: # bin params - 8 total bins each bin has nine total slots (1-9)
+    bin1:
+      - type: 'battery'
+        color: 'red'
+        slots: [4, 6]
+      - type: 'pump'
+        color: 'purple'
+        slots: [1]
+    bin2:
+      - type: 'pump'
+        color: 'orange'
+        slots: [4, 6]
+    bin5:
+      - type: 'regulator'
+        color: 'green'
+        slots: [4]
+      - type: 'pump'
+        color: 'purple'
+        slots: [1]
+    bin6:
+      - type: 'sensor'
+        color: 'purple'
+        slots: [4]
+
+orders:
+  - id: 'KITTING1'
+    type: 'kitting'
+    announcement:
+      time_condition: 0
+    priority: flase
+    kitting_task:
+      agv_number: 3
+      tray_id: 3
+      destination: 'warehouse'
+      products:
+        - type: 'battery'
+          color: 'green'
+          quadrant: 1
+        - type: 'battery'
+          color: 'orange'
+          quadrant: 2
+        - type: 'pump'
+          color: 'purple'
+          quadrant: 3
+        - type: 'pump'
+          color: 'orange'
+          quadrant: 4
+    - id: 'COMBINED1'
+      type: 'combined'
+      announcement:
+        time_condition: 0
+      priority: false
+      combined_task:
+        station: 'as2'
+        products:
+          - type: 'regulator'
+            color: 'green'
+            assembled_pose: 
+              xyz: [0.175, -0.223, 0.215]
+              rpy: ['pi/2', 0, '-pi/2']
+            assembly_direction: [0, 0, -1]
+          - type: 'battery'
+            color: 'red'
+            assembled_pose: 
+              xyz: [-0.15, 0.035, 0.043]
+              rpy: [0, 0, 'pi/2']
+            assembly_direction: [0, 1, 0]
+          - type: 'pump'
+            color: 'orange'
+            assembled_pose: 
+              xyz: [0.14, 0.0, 0.02]
+              rpy: [0, 0, '-pi/2']
+            assembly_direction: [0, 0, -1]
+          - type: 'sensor'
+            color: 'purple'
+            assembled_pose: 
+              xyz: [-0.1, 0.395, 0.045]
+              rpy: [0, 0, '-pi/2']
+            assembly_direction: [0, -1, 0]
+    - id: 'KITTING2'
+      type: 'kitting'
+      announcement:
+        time_condition: 100
+      priority: flase
+      kitting_task:
+        agv_number: 2
+        tray_id: 6
+        destination: 'warehouse'
+        products:
+          - type: 'battery'
+            color: 'green'
+            quadrant: 1
+          - type: 'battery'
+            color: 'orange'
+            quadrant: 2
+          - type: 'pump'
+            color: 'purple'
+            quadrant: 3
+          - type: 'pump'
+            color: 'orange'
+            quadrant: 4
+    

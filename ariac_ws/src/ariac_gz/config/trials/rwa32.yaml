@@ -1,0 +1,90 @@
+time_limit: -1
+
+kitting_trays: # Which kitting trays will be spawn
+  tray_ids: [5, 3, 4] 
+  slots: [2, 5, 1]
+
+parts:
+    bins: # bin params - 8 total bins each bin has nine total slots (1-9)
+      bin1: 
+        - type: 'battery'
+          color: 'red'
+          slots: [1, 5, 9]
+          rotation: 'pi/6'
+          flipped: false
+      bin2:
+        - type: 'sensor'
+          color: 'red'
+          slots: [2]
+          rotation: 'pi/6'
+          flipped: false
+        - type: 'sensor'
+          color: 'red'
+          slots: [3, 4]
+          rotation: 'pi/6'
+          flipped: false
+
+orders:
+  - id: 'FjnRaVzx'
+    type: 'kitting'
+    announcement:
+      time_condition: 0
+    priority: false
+    kitting_task:
+      agv_number: 3
+      tray_id: 5
+      destination: 'warehouse'
+      products:
+        # - type: 'pump'
+        #   color: 'green'
+        #   quadrant: 1
+        # - type: 'regulator'
+        #   color: 'orange'
+        #   quadrant: 2
+        # - type: 'battery'
+        #   color: 'red'
+        #   quadrant: 3
+        - type: 'sensor'
+          color: 'red'
+          quadrant: 4
+
+  - id: 'FjnRaVzy'
+    type: 'kitting'
+    announcement:
+      time_condition: 20
+    priority: true
+    kitting_task:
+      agv_number: 2
+      tray_id: 3
+      destination: 'warehouse'
+      products:
+        - type: 'battery'
+          color: 'red'
+          quadrant: 1
+        # - type: 'battery'
+        #   color: 'red'
+        #   quadrant: 2
+        # - type: 'battery'
+        #   color: 'red'
+        #   quadrant: 3
+        # - type: 'sensor'
+        #   color: 'red'
+        #   quadrant: 4
+#   - id: 'FjnRaVzd'
+#     type: 'kitting'
+#     announcement:
+#       time_condition: 40
+#     priority: false
+#     kitting_task:
+#       agv_number: 1
+#       tray_id: 4
+#       destination: 'warehouse'
+#       products:
+#         - type: 'battery'
+#           color: 'red'
+#           quadrant: 1
+
+# challenges:
+#   - faulty_part:
+#       order_id: 'FjnRaVzy'
+#       quadrant1: true

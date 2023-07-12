@@ -1,0 +1,158 @@
+time_limit: -1
+
+kitting_trays: # Which kitting trays will be spawn
+  tray_ids: [1, 2,3,4,5] 
+  slots: [1,2,3,5,6]
+
+challenges:
+  - faulty_part:
+      order_id: 'FjnRaVzx'
+      quadrant3: true
+
+parts:
+  # conveyor_belt: # population params for conveyor belt
+  #   active: true
+  #   spawn_rate: 25.0 # seconds between spawn
+  #   order: 'random' # random or sequential
+  #   parts_to_spawn:
+  #     - type: 'regulator'
+  #       color: 'orange'
+  #       number: 2
+  #       offset: 0.5 # between -1 and 1
+  #       flipped: false
+  #       rotation: 'pi/6'
+  #     - type: 'pump'
+  #       color: 'green'
+  #       number: 2
+  #       offset: -0.25 # between -1 and 1
+  #       flipped: false
+  #       rotation: 'pi'
+  #     - type: 'battery'
+  #       color: 'green'
+  #       number: 2
+  #       offset: -0.25 # between -1 and 1
+  #       flipped: false
+  #       rotation: 'pi'
+  bins: # bin params - 8 total bins each bin has nine total slots (1-9)
+    bin1: 
+      - type: 'battery'
+        color: 'red'
+        slots: [1]
+        rotation: 'pi/6'
+        flipped: false
+      - type: 'sensor'
+        color: 'red'
+        slots: [2]
+        rotation: 'pi/6'
+        flipped: false
+    bin2:
+      - type: 'regulator'
+        color: 'orange'
+        slots: [3]
+        rotation: 'pi/6'
+        flipped: false
+      - type: 'pump'
+        color: 'green'
+        slots: [2]
+        rotation: 'pi/6'
+        flipped: false
+
+orders:
+  - id: 'FjnRaVzx'
+    type: 'kitting'
+    announcement:
+      time_condition: 0
+    priority: false
+    kitting_task:
+      agv_number: 2
+      tray_id: 3
+      destination: 'warehouse'
+      products:
+        - type: 'pump'
+          color: 'green'
+          quadrant: 1
+        - type: 'regulator'
+          color: 'orange'
+          quadrant: 2
+        - type: 'battery'
+          color: 'red'
+          quadrant: 3
+        - type: 'sensor'
+          color: 'red'
+          quadrant: 4
+  - id: 'FjnRaVzy'
+    type: 'kitting'
+    announcement:
+      time_condition: 120
+    priority: true
+    kitting_task:
+      agv_number: 3
+      tray_id: 2
+      destination: 'warehouse'
+      products:
+        - type: 'regulator'
+          color: 'orange'
+          quadrant: 1
+        - type: 'battery'
+          color: 'red'
+          quadrant: 2
+        - type: 'sensor'
+          color: 'red'
+          quadrant: 3
+        - type: 'pump'
+          color: 'green'
+          quadrant: 4
+  # - id: 'COMBINED1'
+  #   type: 'combined'
+  #   announcement:
+  #     time_condition: 0
+  #   priority: false
+  #   combined_task:
+  #     station: 'as2'
+  #     products:
+  #       - type: 'regulator'
+  #         color: 'green'
+  #         assembled_pose: 
+  #           xyz: [0.175, -0.223, 0.215]
+  #           rpy: ['pi/2', 0, '-pi/2']
+  #         assembly_direction: [0, 0, -1]
+  #       - type: 'battery'
+  #         color: 'red'
+  #         assembled_pose: 
+  #           xyz: [-0.15, 0.035, 0.043]
+  #           rpy: [0, 0, 'pi/2']
+  #         assembly_direction: [0, 1, 0]
+  #       - type: 'pump'
+  #         color: 'orange'
+  #         assembled_pose: 
+  #           xyz: [0.14, 0.0, 0.02]
+  #           rpy: [0, 0, '-pi/2']
+  #         assembly_direction: [0, 0, -1]
+  #       - type: 'sensor'
+  #         color: 'purple'
+  #         assembled_pose: 
+  #           xyz: [-0.1, 0.395, 0.045]
+  #           rpy: [0, 0, '-pi/2']
+  #         assembly_direction: [0, -1, 0]
+  # - id: 'FjnRaVzz'
+  #   type: 'kitting'
+  #   announcement:
+  #     time_condition: 60
+  #   priority: true
+  #   kitting_task:
+  #     agv_number: 2
+  #     tray_id: 3
+  #     destination: 'warehouse'
+  #     products:
+  #       - type: 'pump'
+  #         color: 'green'
+  #         quadrant: 1
+  #       - type: 'regulator'
+  #         color: 'orange'
+  #         quadrant: 2
+  #       - type: 'battery'
+  #         color: 'red'
+  #         quadrant: 3
+  #       - type: 'sensor'
+  #         color: 'red'
+  #         quadrant: 4
