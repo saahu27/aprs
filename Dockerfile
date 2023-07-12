@@ -165,7 +165,7 @@ RUN apt-get update \
    
 ENV DEBIAN_FRONTEND=dialog
 
-ARG WORKSPACE=/workspaces/trial__
+ARG WORKSPACE=/workspaces/aprs
 
 # Initialize rosdep
 RUN sudo rosdep init && rosdep update
