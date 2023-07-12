@@ -1,0 +1,937 @@
+[0.000000] (-) TimerEvent: {}
+[0.000391] (gz_ros2_control) JobQueued: {'identifier': 'gz_ros2_control', 'dependencies': OrderedDict()}
+[0.000486] (ur_description) JobQueued: {'identifier': 'ur_description', 'dependencies': OrderedDict()}
+[0.000523] (gz_ros2_control_demos) JobQueued: {'identifier': 'gz_ros2_control_demos', 'dependencies': OrderedDict([('gz_ros2_control', '/workspaces/aprs/aprs_ws/install/gz_ros2_control')])}
+[0.000552] (gz_ros2_control_tests) JobQueued: {'identifier': 'gz_ros2_control_tests', 'dependencies': OrderedDict([('gz_ros2_control', '/workspaces/aprs/aprs_ws/install/gz_ros2_control')])}
+[0.000904] (gz_ros2_control) JobStarted: {'identifier': 'gz_ros2_control'}
+[0.006098] (ur_description) JobStarted: {'identifier': 'ur_description'}
+[0.010101] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'cmake'}
+[0.010272] (gz_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/aprs/aprs_ws/src/gz_ros2_control', '-DBUILD_TESTING=ON', '-DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/gz_ros2_control'], 'cwd': '/workspaces/aprs/aprs_ws/build/gz_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/gz_ros2_control'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.013030] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'cmake'}
+[0.013483] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/aprs/aprs_ws/src/Universal_Robots_ROS2_Description', '-DBUILD_TESTING=ON', '-DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur_description'], 'cwd': '/workspaces/aprs/aprs_ws/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/ur_description'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.047490] (gz_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.047999] (ur_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.082386] (gz_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.082583] (ur_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.086831] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.087041] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099501] (-) TimerEvent: {}
+[0.129353] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.129562] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.134462] (gz_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.134656] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.134720] (ur_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.134826] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.134905] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.135082] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.137021] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.137109] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.185286] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.185483] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.190442] (gz_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.190547] (ur_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.190634] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.190715] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.190931] (gz_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.191001] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.193085] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.193160] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.199570] (-) TimerEvent: {}
+[0.299803] (-) TimerEvent: {}
+[0.302515] (ur_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.302963] (gz_ros2_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.366425] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_pytest/cmake)\n'}
+[0.372694] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.6.0 (/opt/ros/rolling/share/ament_index_cpp/cmake)\n'}
+[0.374209] (gz_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 3.15.0 (/opt/ros/rolling/share/controller_manager/cmake)\n'}
+[0.399884] (-) TimerEvent: {}
+[0.409124] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[0.418299] (gz_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[0.430739] (gz_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.444784] (gz_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499976] (-) TimerEvent: {}
+[0.600221] (-) TimerEvent: {}
+[0.700454] (-) TimerEvent: {}
+[0.800697] (-) TimerEvent: {}
+[0.865981] (ur_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.868241] (ur_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.868821] (ur_description) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/aprs/aprs_ws/build/ur_description\n'}
+[0.872008] (ur_description) CommandEnded: {'returncode': 0}
+[0.872427] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'build'}
+[0.873400] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/aprs/aprs_ws/build/ur_description', '--', '-j16', '-l16'], 'cwd': '/workspaces/aprs/aprs_ws/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/ur_description'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.896248] (ur_description) CommandEnded: {'returncode': 0}
+[0.900763] (-) TimerEvent: {}
+[0.907764] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'install'}
+[0.913896] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/aprs/aprs_ws/build/ur_description'], 'cwd': '/workspaces/aprs/aprs_ws/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/ur_description'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.919179] (ur_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.919447] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config\n'}
+[0.919557] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur16e\n'}
+[0.919662] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml\n'}
+[0.919756] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml\n'}
+[0.919847] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml\n'}
+[0.919960] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml\n'}
+[0.920041] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3\n'}
+[0.920132] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml\n'}
+[0.920230] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml\n'}
+[0.920323] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml\n'}
+[0.920410] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml\n'}
+[0.920498] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5\n'}
+[0.920584] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml\n'}
+[0.920673] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml\n'}
+[0.920763] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml\n'}
+[0.920848] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml\n'}
+[0.920944] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5e\n'}
+[0.921033] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml\n'}
+[0.921120] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml\n'}
+[0.921211] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml\n'}
+[0.921289] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml\n'}
+[0.921387] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10\n'}
+[0.921472] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml\n'}
+[0.921548] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml\n'}
+[0.921636] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml\n'}
+[0.921725] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml\n'}
+[0.921809] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3e\n'}
+[0.921897] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml\n'}
+[0.921986] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml\n'}
+[0.922078] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml\n'}
+[0.922166] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml\n'}
+[0.922253] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10e\n'}
+[0.922342] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml\n'}
+[0.922429] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml\n'}
+[0.922747] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml\n'}
+[0.922847] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml\n'}
+[0.922940] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/config/initial_positions.yaml\n'}
+[0.923037] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/launch\n'}
+[0.923132] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py\n'}
+[0.923227] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes\n'}
+[0.923318] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e\n'}
+[0.923412] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/collision\n'}
+[0.923518] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl\n'}
+[0.923637] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl\n'}
+[0.923836] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/visual\n'}
+[0.923935] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae\n'}
+[0.926638] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae\n'}
+[0.928578] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3\n'}
+[0.928695] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision\n'}
+[0.928808] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl\n'}
+[0.929040] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl\n'}
+[0.929307] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl\n'}
+[0.929771] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl\n'}
+[0.930157] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl\n'}
+[0.930432] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl\n'}
+[0.931055] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl\n'}
+[0.931166] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual\n'}
+[0.931263] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae\n'}
+[0.931908] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae\n'}
+[0.932414] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae\n'}
+[0.933729] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae\n'}
+[0.935292] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae\n'}
+[0.935502] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae\n'}
+[0.936141] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae\n'}
+[0.936845] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5\n'}
+[0.936944] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision\n'}
+[0.937043] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl\n'}
+[0.937135] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl\n'}
+[0.937267] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl\n'}
+[0.937391] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl\n'}
+[0.937511] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl\n'}
+[0.937646] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl\n'}
+[0.937791] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl\n'}
+[0.937904] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual\n'}
+[0.937998] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae\n'}
+[0.938731] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae\n'}
+[0.938941] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae\n'}
+[0.939722] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae\n'}
+[0.941163] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae\n'}
+[0.941348] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae\n'}
+[0.942100] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae\n'}
+[0.943183] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e\n'}
+[0.943278] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision\n'}
+[0.943390] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl\n'}
+[0.943538] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl\n'}
+[0.943686] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl\n'}
+[0.943838] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl\n'}
+[0.943960] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl\n'}
+[0.944114] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl\n'}
+[0.944328] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl\n'}
+[0.944427] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual\n'}
+[0.944523] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae\n'}
+[0.945508] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae\n'}
+[0.945861] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae\n'}
+[0.947411] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae\n'}
+[0.949723] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae\n'}
+[0.949884] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae\n'}
+[0.951002] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae\n'}
+[0.951914] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10\n'}
+[0.952017] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision\n'}
+[0.952124] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl\n'}
+[0.952219] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl\n'}
+[0.952357] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl\n'}
+[0.952495] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl\n'}
+[0.952607] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl\n'}
+[0.952745] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl\n'}
+[0.952894] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl\n'}
+[0.953012] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual\n'}
+[0.953111] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae\n'}
+[0.954220] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae\n'}
+[0.954429] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae\n'}
+[0.955298] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae\n'}
+[0.956799] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae\n'}
+[0.956996] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae\n'}
+[0.958904] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae\n'}
+[0.961546] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e\n'}
+[0.961669] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision\n'}
+[0.961790] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl\n'}
+[0.961964] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl\n'}
+[0.962227] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl\n'}
+[0.962399] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl\n'}
+[0.962522] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl\n'}
+[0.962668] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl\n'}
+[0.962885] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl\n'}
+[0.962990] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual\n'}
+[0.963090] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae\n'}
+[0.964282] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae\n'}
+[0.964581] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae\n'}
+[0.966312] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae\n'}
+[0.968974] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae\n'}
+[0.969152] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae\n'}
+[0.970255] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae\n'}
+[0.971237] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e\n'}
+[0.971415] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision\n'}
+[0.971520] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl\n'}
+[0.971616] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl\n'}
+[0.971760] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl\n'}
+[0.971917] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl\n'}
+[0.972035] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl\n'}
+[0.972190] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl\n'}
+[0.972350] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl\n'}
+[0.972454] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual\n'}
+[0.972546] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae\n'}
+[0.973456] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae\n'}
+[0.973836] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae\n'}
+[0.975531] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae\n'}
+[0.977741] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae\n'}
+[0.977890] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae\n'}
+[0.978961] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae\n'}
+[0.980280] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/rviz\n'}
+[0.980420] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz\n'}
+[0.980530] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/urdf\n'}
+[0.980611] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro\n'}
+[0.980715] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/urdf/inc\n'}
+[0.980807] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro\n'}
+[0.980889] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro\n'}
+[0.980984] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro\n'}
+[0.981073] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro\n'}
+[0.981160] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/test\n'}
+[0.981253] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py\n'}
+[0.981344] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py\n'}
+[0.981512] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description\n'}
+[0.981685] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description\n'}
+[0.981848] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh\n'}
+[0.981977] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv\n'}
+[0.982107] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/environment/path.sh\n'}
+[0.982247] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/environment/path.dsv\n'}
+[0.982373] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/local_setup.bash\n'}
+[0.982503] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/local_setup.sh\n'}
+[0.982630] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/local_setup.zsh\n'}
+[0.982758] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/local_setup.dsv\n'}
+[0.982880] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/package.dsv\n'}
+[0.983024] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description\n'}
+[0.983164] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake\n'}
+[0.983268] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake\n'}
+[0.983404] (ur_description) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/ur_description/share/ur_description/package.xml\n'}
+[0.984894] (ur_description) CommandEnded: {'returncode': 0}
+[1.000857] (-) TimerEvent: {}
+[1.013717] (ur_description) JobEnded: {'identifier': 'ur_description', 'rc': 0}
+[1.072782] (gz_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.2.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[1.074644] (gz_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.100958] (-) TimerEvent: {}
+[1.146589] (gz_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.170809] (gz_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/rolling/include  \n'}
+[1.201050] (-) TimerEvent: {}
+[1.210411] (gz_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301139] (-) TimerEvent: {}
+[1.401381] (-) TimerEvent: {}
+[1.501623] (-) TimerEvent: {}
+[1.601877] (-) TimerEvent: {}
+[1.702123] (-) TimerEvent: {}
+[1.722335] (gz_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.2.0 (/opt/ros/rolling/share/yaml_cpp_vendor/cmake)\n'}
+[1.726137] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sim7 -- found version 7.5.0\n'}
+[1.733940] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim7\n'}
+[1.735698] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.5.0\n'}
+[1.735990] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of sdformat13\n'}
+[1.739297] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.745471] (gz_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.764056] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[1.764347] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.766037] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[1.766333] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.767199] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[1.767510] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.767604] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[1.769227] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.0.0\n'}
+[1.769547] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[1.771784] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[1.772075] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[1.772290] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[1.772593] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[1.774243] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.1\n'}
+[1.774545] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[1.774829] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[1.776492] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.1\n'}
+[1.776792] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[1.778748] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.0\n'}
+[1.779066] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12\n'}
+[1.798429] (gz_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.802193] (-) TimerEvent: {}
+[1.810550] (gz_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.813690] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.820630] (gz_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.840887] (gz_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.844884] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.851058] (gz_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.867890] (gz_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.868153] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[1.869988] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[1.870287] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs9\n'}
+[1.886890] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[1.890812] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [log]\n'}
+[1.892787] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport12-log -- found version 12.2.0\n'}
+[1.893249] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-log\n'}
+[1.893609] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [parameters]\n'}
+[1.895563] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport12-parameters -- found version 12.2.0\n'}
+[1.895948] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-parameters\n'}
+[1.896614] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[1.898441] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.4.0\n'}
+[1.898737] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.898977] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[1.899153] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.899884] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.900843] (gz_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.902252] (-) TimerEvent: {}
+[1.905433] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[1.907182] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.4.0\n'}
+[1.907543] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[1.907855] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.909530] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.4.0\n'}
+[1.909832] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[1.910072] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[1.910444] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[1.912103] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.4.0\n'}
+[1.912470] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[1.917308] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.923728] (gz_ros2_control) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.942031] (gz_ros2_control) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[1.945061] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.951712] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.973142] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[1.976276] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.982932] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[2.001825] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[2.002317] (-) TimerEvent: {}
+[2.005195] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[2.011329] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[2.030527] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[2.034104] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[2.040453] (gz_ros2_control) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[2.058214] (gz_ros2_control) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[2.058643] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[2.061007] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.4.0\n'}
+[2.061433] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[2.063778] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-fuel_tools8 -- found version 8.0.2\n'}
+[2.064077] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools8\n'}
+[2.102418] (-) TimerEvent: {}
+[2.110280] (gz_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.116739] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.122948] (gz_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.140473] (gz_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.144114] (gz_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.150434] (gz_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.168098] (gz_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.168378] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[2.168666] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.4.0\n'}
+[2.168942] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[2.169215] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[2.171438] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-gui7 -- found version 7.2.0\n'}
+[2.171769] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui7\n'}
+[2.192301] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[2.192541] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[2.192782] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.4.0\n'}
+[2.193075] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[2.193379] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.0\n'}
+[2.195513] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.4.0\n'}
+[2.195880] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering7\n'}
+[2.196161] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[2.196525] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[2.196749] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[2.196857] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[2.198579] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.2.0\n'}
+[2.198901] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[2.202467] (-) TimerEvent: {}
+[2.205971] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.4.0\n'}
+[2.206245] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.206477] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[2.206593] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.206659] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.211718] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[2.213486] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.4.0\n'}
+[2.213829] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[2.214090] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[2.219760] (gz_ros2_control) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.2.0") \n'}
+[2.220123] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[2.220414] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[2.222083] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.4.0\n'}
+[2.222400] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[2.222635] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[2.222908] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.4.0\n'}
+[2.223684] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[2.223971] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[2.224205] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[2.224295] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[2.225952] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.1\n'}
+[2.226287] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[2.227425] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[2.230811] (gz_ros2_control) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[2.231625] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[2.248854] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics6 -- found version 6.4.0\n'}
+[2.249144] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6\n'}
+[2.249408] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[2.249660] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[2.249921] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[2.250670] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [heightmap]\n'}
+[2.252421] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics6-heightmap -- found version 6.4.0\n'}
+[2.252739] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-heightmap\n'}
+[2.252984] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.4.0\n'}
+[2.253264] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [mesh]\n'}
+[2.254934] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics6-mesh -- found version 6.4.0\n'}
+[2.255248] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-mesh\n'}
+[2.255495] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.4.0\n'}
+[2.255763] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [sdf]\n'}
+[2.257422] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-physics6-sdf -- found version 6.4.0\n'}
+[2.257730] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-sdf\n'}
+[2.257994] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.5.0\n'}
+[2.260143] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[2.260440] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7\n'}
+[2.277587] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[2.277841] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.4.0\n'}
+[2.278151] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.0\n'}
+[2.278434] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.4.0\n'}
+[2.278681] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.4.0\n'}
+[2.278995] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.5.0\n'}
+[2.279386] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_pressure]\n'}
+[2.281167] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_pressure -- found version 7.2.0\n'}
+[2.281502] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_pressure\n'}
+[2.281799] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_speed]\n'}
+[2.283506] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_speed -- found version 7.2.0\n'}
+[2.283824] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_speed\n'}
+[2.284120] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [altimeter]\n'}
+[2.285762] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-altimeter -- found version 7.2.0\n'}
+[2.286070] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-altimeter\n'}
+[2.286363] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [imu]\n'}
+[2.288030] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-imu -- found version 7.2.0\n'}
+[2.288338] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-imu\n'}
+[2.288627] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [force_torque]\n'}
+[2.290276] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-force_torque -- found version 7.2.0\n'}
+[2.290591] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-force_torque\n'}
+[2.290889] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [logical_camera]\n'}
+[2.293650] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-logical_camera -- found version 7.2.0\n'}
+[2.293959] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-logical_camera\n'}
+[2.294265] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [magnetometer]\n'}
+[2.295966] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-magnetometer -- found version 7.2.0\n'}
+[2.296275] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-magnetometer\n'}
+[2.296572] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [navsat]\n'}
+[2.298230] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-navsat -- found version 7.2.0\n'}
+[2.298541] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-navsat\n'}
+[2.298830] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rendering]\n'}
+[2.300504] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-rendering -- found version 7.2.0\n'}
+[2.300807] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rendering\n'}
+[2.301102] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [lidar]\n'}
+[2.302525] (-) TimerEvent: {}
+[2.302778] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-lidar -- found version 7.2.0\n'}
+[2.303072] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-lidar\n'}
+[2.303324] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[2.303895] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [gpu_lidar]\n'}
+[2.305697] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-gpu_lidar -- found version 7.2.0\n'}
+[2.306006] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-gpu_lidar\n'}
+[2.306250] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[2.306586] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [camera]\n'}
+[2.308267] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-camera -- found version 7.2.0\n'}
+[2.308571] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-camera\n'}
+[2.308817] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[2.309144] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [boundingbox_camera]\n'}
+[2.310798] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-boundingbox_camera -- found version 7.2.0\n'}
+[2.311110] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-boundingbox_camera\n'}
+[2.311423] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [segmentation_camera]\n'}
+[2.313104] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-segmentation_camera -- found version 7.2.0\n'}
+[2.313435] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-segmentation_camera\n'}
+[2.313757] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [depth_camera]\n'}
+[2.315507] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-depth_camera -- found version 7.2.0\n'}
+[2.315914] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-depth_camera\n'}
+[2.316170] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[2.316512] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rgbd_camera]\n'}
+[2.318197] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-rgbd_camera -- found version 7.2.0\n'}
+[2.318500] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rgbd_camera\n'}
+[2.318742] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[2.319072] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [thermal_camera]\n'}
+[2.320732] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-thermal_camera -- found version 7.2.0\n'}
+[2.321042] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-thermal_camera\n'}
+[2.321279] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.2.0\n'}
+[2.321610] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [wide_angle_camera]\n'}
+[2.323263] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-sensors7-wide_angle_camera -- found version 7.2.0\n'}
+[2.323855] (gz_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-wide_angle_camera\n'}
+[2.324499] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.4.0\n'}
+[2.324780] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.2.0\n'}
+[2.325045] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.0.0\n'}
+[2.342150] (gz_ros2_control) StdoutLine: {'line': b'-- Compiling against Gazebo Garden\n'}
+[2.342356] (gz_ros2_control) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.1\n'}
+[2.344767] (gz_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.15.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[2.402638] (-) TimerEvent: {}
+[2.406837] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.407602] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.407760] (gz_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /workspaces/aprs/aprs_ws/src/gz_ros2_control/include\n'}
+[2.407818] (gz_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.408348] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.408403] (gz_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.408782] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.409435] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.409546] (gz_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.409744] (gz_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.411040] (gz_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.430873] (gz_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[2.432865] (gz_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/aprs/aprs_ws/build/gz_ros2_control\n'}
+[2.445986] (gz_ros2_control) CommandEnded: {'returncode': 0}
+[2.446665] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'build'}
+[2.446927] (gz_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/aprs/aprs_ws/build/gz_ros2_control', '--', '-j16', '-l16'], 'cwd': '/workspaces/aprs/aprs_ws/build/gz_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/gz_ros2_control'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[2.482673] (gz_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[2.482862] (gz_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o\x1b[0m\n'}
+[2.502739] (-) TimerEvent: {}
+[2.603011] (-) TimerEvent: {}
+[2.703294] (-) TimerEvent: {}
+[2.803645] (-) TimerEvent: {}
+[2.904001] (-) TimerEvent: {}
+[3.004315] (-) TimerEvent: {}
+[3.104600] (-) TimerEvent: {}
+[3.204900] (-) TimerEvent: {}
+[3.305166] (-) TimerEvent: {}
+[3.405437] (-) TimerEvent: {}
+[3.505705] (-) TimerEvent: {}
+[3.605966] (-) TimerEvent: {}
+[3.706233] (-) TimerEvent: {}
+[3.806508] (-) TimerEvent: {}
+[3.906789] (-) TimerEvent: {}
+[4.007067] (-) TimerEvent: {}
+[4.107365] (-) TimerEvent: {}
+[4.207643] (-) TimerEvent: {}
+[4.307913] (-) TimerEvent: {}
+[4.408177] (-) TimerEvent: {}
+[4.508442] (-) TimerEvent: {}
+[4.608742] (-) TimerEvent: {}
+[4.709031] (-) TimerEvent: {}
+[4.809304] (-) TimerEvent: {}
+[4.909571] (-) TimerEvent: {}
+[5.009842] (-) TimerEvent: {}
+[5.110093] (-) TimerEvent: {}
+[5.211047] (-) TimerEvent: {}
+[5.311307] (-) TimerEvent: {}
+[5.411595] (-) TimerEvent: {}
+[5.511868] (-) TimerEvent: {}
+[5.612197] (-) TimerEvent: {}
+[5.712573] (-) TimerEvent: {}
+[5.812976] (-) TimerEvent: {}
+[5.913284] (-) TimerEvent: {}
+[6.013583] (-) TimerEvent: {}
+[6.113860] (-) TimerEvent: {}
+[6.214131] (-) TimerEvent: {}
+[6.314419] (-) TimerEvent: {}
+[6.414707] (-) TimerEvent: {}
+[6.514985] (-) TimerEvent: {}
+[6.615254] (-) TimerEvent: {}
+[6.715542] (-) TimerEvent: {}
+[6.815809] (-) TimerEvent: {}
+[6.916074] (-) TimerEvent: {}
+[7.016339] (-) TimerEvent: {}
+[7.116591] (-) TimerEvent: {}
+[7.216857] (-) TimerEvent: {}
+[7.317118] (-) TimerEvent: {}
+[7.417400] (-) TimerEvent: {}
+[7.517667] (-) TimerEvent: {}
+[7.617941] (-) TimerEvent: {}
+[7.718218] (-) TimerEvent: {}
+[7.818493] (-) TimerEvent: {}
+[7.918759] (-) TimerEvent: {}
+[8.019043] (-) TimerEvent: {}
+[8.119313] (-) TimerEvent: {}
+[8.219609] (-) TimerEvent: {}
+[8.319914] (-) TimerEvent: {}
+[8.420223] (-) TimerEvent: {}
+[8.520525] (-) TimerEvent: {}
+[8.620854] (-) TimerEvent: {}
+[8.721163] (-) TimerEvent: {}
+[8.821459] (-) TimerEvent: {}
+[8.921767] (-) TimerEvent: {}
+[9.022070] (-) TimerEvent: {}
+[9.122391] (-) TimerEvent: {}
+[9.222703] (-) TimerEvent: {}
+[9.323005] (-) TimerEvent: {}
+[9.423301] (-) TimerEvent: {}
+[9.523838] (-) TimerEvent: {}
+[9.624139] (-) TimerEvent: {}
+[9.724421] (-) TimerEvent: {}
+[9.824742] (-) TimerEvent: {}
+[9.925004] (-) TimerEvent: {}
+[10.025281] (-) TimerEvent: {}
+[10.125685] (-) TimerEvent: {}
+[10.226110] (-) TimerEvent: {}
+[10.326619] (-) TimerEvent: {}
+[10.427200] (-) TimerEvent: {}
+[10.527723] (-) TimerEvent: {}
+[10.628235] (-) TimerEvent: {}
+[10.728307] (gz_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgz_hardware_plugins.so\x1b[0m\n'}
+[10.728627] (-) TimerEvent: {}
+[10.828918] (-) TimerEvent: {}
+[10.929297] (-) TimerEvent: {}
+[11.029641] (-) TimerEvent: {}
+[11.080357] (gz_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gz_hardware_plugins\n'}
+[11.129734] (-) TimerEvent: {}
+[11.229979] (-) TimerEvent: {}
+[11.330233] (-) TimerEvent: {}
+[11.430491] (-) TimerEvent: {}
+[11.530738] (-) TimerEvent: {}
+[11.630991] (-) TimerEvent: {}
+[11.731251] (-) TimerEvent: {}
+[11.831521] (-) TimerEvent: {}
+[11.931778] (-) TimerEvent: {}
+[12.032023] (-) TimerEvent: {}
+[12.132281] (-) TimerEvent: {}
+[12.232552] (-) TimerEvent: {}
+[12.332829] (-) TimerEvent: {}
+[12.433102] (-) TimerEvent: {}
+[12.533406] (-) TimerEvent: {}
+[12.557078] (gz_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgz_ros2_control-system.so\x1b[0m\n'}
+[12.633535] (-) TimerEvent: {}
+[12.733939] (-) TimerEvent: {}
+[12.834225] (-) TimerEvent: {}
+[12.934509] (-) TimerEvent: {}
+[12.958708] (gz_ros2_control) StdoutLine: {'line': b'[100%] Built target gz_ros2_control-system\n'}
+[12.967573] (gz_ros2_control) CommandEnded: {'returncode': 0}
+[12.983210] (gz_ros2_control) JobProgress: {'identifier': 'gz_ros2_control', 'progress': 'install'}
+[12.983684] (gz_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/aprs/aprs_ws/build/gz_ros2_control'], 'cwd': '/workspaces/aprs/aprs_ws/build/gz_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/gz_ros2_control'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[12.988694] (gz_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.988853] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so\n'}
+[12.991107] (gz_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so" to ""\n'}
+[12.991217] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include\n'}
+[12.991311] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control\n'}
+[12.991394] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control/gz_ros2_control_plugin.hpp\n'}
+[12.991447] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control/gz_system.hpp\n'}
+[12.991516] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control/gz_system_interface.hpp\n'}
+[12.991568] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh\n'}
+[12.991636] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv\n'}
+[12.991727] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so\n'}
+[12.995473] (gz_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so" to ""\n'}
+[12.995561] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/gz_hardware_plugins.xml\n'}
+[12.995642] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/gz_ros2_control.dsv\n'}
+[12.995712] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/gz_ros2_control.sh\n'}
+[12.995784] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control\n'}
+[12.995888] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control\n'}
+[12.995998] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh\n'}
+[12.996111] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv\n'}
+[12.996211] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh\n'}
+[12.996314] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv\n'}
+[12.996413] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash\n'}
+[12.996498] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh\n'}
+[12.996596] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh\n'}
+[12.996702] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv\n'}
+[12.996797] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/package.dsv\n'}
+[12.996891] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control\n'}
+[12.996957] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control\n'}
+[12.997016] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.997064] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.997113] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake\n'}
+[12.997160] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake\n'}
+[12.997229] (gz_ros2_control) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/package.xml\n'}
+[12.998328] (gz_ros2_control) CommandEnded: {'returncode': 0}
+[13.029456] (gz_ros2_control) JobEnded: {'identifier': 'gz_ros2_control', 'rc': 0}
+[13.030233] (gz_ros2_control_demos) JobStarted: {'identifier': 'gz_ros2_control_demos'}
+[13.031922] (gz_ros2_control_tests) JobStarted: {'identifier': 'gz_ros2_control_tests'}
+[13.034568] (-) TimerEvent: {}
+[13.036201] (gz_ros2_control_demos) JobProgress: {'identifier': 'gz_ros2_control_demos', 'progress': 'cmake'}
+[13.036418] (gz_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/aprs/aprs_ws/src/gz_ros2_control_demos', '-DBUILD_TESTING=ON', '-DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/gz_ros2_control_demos'], 'cwd': '/workspaces/aprs/aprs_ws/build/gz_ros2_control_demos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/share'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_demos'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('GZ_SIM_PLUGIn_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling')]), 'shell': False}
+[13.037703] (gz_ros2_control_tests) JobProgress: {'identifier': 'gz_ros2_control_tests', 'progress': 'cmake'}
+[13.037885] (gz_ros2_control_tests) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/aprs/aprs_ws/src/gz_ros2_control_tests', '-DBUILD_TESTING=ON', '-DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/gz_ros2_control_tests'], 'cwd': '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/share'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('GZ_SIM_PLUGIn_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling')]), 'shell': False}
+[13.071188] (gz_ros2_control_demos) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[13.071384] (gz_ros2_control_tests) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[13.106857] (gz_ros2_control_demos) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[13.107056] (gz_ros2_control_tests) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[13.111427] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.111516] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.134689] (-) TimerEvent: {}
+[13.154569] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.154797] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.159535] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.159705] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.159834] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.159897] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.160083] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.160178] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.162481] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.162603] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.212589] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.212811] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.217642] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.217775] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.217863] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.217915] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.218131] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.218196] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.220221] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[13.220308] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[13.234765] (-) TimerEvent: {}
+[13.332870] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[13.333034] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[13.334838] (-) TimerEvent: {}
+[13.396026] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found control_msgs: 5.0.0 (/opt/ros/rolling/share/control_msgs/cmake)\n'}
+[13.396231] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.15.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[13.425190] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[13.434538] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[13.434901] (-) TimerEvent: {}
+[13.446723] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.455020] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found control_msgs: 5.0.0 (/opt/ros/rolling/share/control_msgs/cmake)\n'}
+[13.460658] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.484047] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[13.492970] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[13.505270] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.519672] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.535000] (-) TimerEvent: {}
+[13.635231] (-) TimerEvent: {}
+[13.735492] (-) TimerEvent: {}
+[13.835750] (-) TimerEvent: {}
+[13.927101] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp: 21.3.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[13.935827] (-) TimerEvent: {}
+[13.995145] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rclcpp: 21.3.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[14.004325] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.2.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[14.006255] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[14.035921] (-) TimerEvent: {}
+[14.074491] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.2.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[14.076464] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[14.078228] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[14.102909] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/rolling/include  \n'}
+[14.136019] (-) TimerEvent: {}
+[14.142103] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.149046] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[14.172921] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/rolling/include  \n'}
+[14.212644] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.236109] (-) TimerEvent: {}
+[14.265691] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp_action: 21.3.0 (/opt/ros/rolling/share/rclcpp_action/cmake)\n'}
+[14.296100] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)\n'}
+[14.297585] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.15.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[14.336195] (-) TimerEvent: {}
+[14.338657] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found rclcpp_action: 21.3.0 (/opt/ros/rolling/share/rclcpp_action/cmake)\n'}
+[14.360747] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.361812] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.361990] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.362145] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.363028] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.363133] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.363418] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.363490] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[14.363839] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.364152] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.365013] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.365062] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.365340] (gz_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.366085] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.369542] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 2.2.0 (/opt/ros/rolling/share/launch_testing_ament_cmake/cmake)\n'}
+[14.370890] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.0 (/opt/ros/rolling/share/python_cmake_module/cmake)\n'}
+[14.384455] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[14.384900] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Generating done\n'}
+[14.386243] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/aprs/aprs_ws/build/gz_ros2_control_demos\n'}
+[14.387703] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[14.387821] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.387867] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[14.387907] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[14.398680] (gz_ros2_control_demos) CommandEnded: {'returncode': 0}
+[14.399198] (gz_ros2_control_demos) JobProgress: {'identifier': 'gz_ros2_control_demos', 'progress': 'build'}
+[14.399494] (gz_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_demos', '--', '-j16', '-l16'], 'cwd': '/workspaces/aprs/aprs_ws/build/gz_ros2_control_demos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/share'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_demos'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('GZ_SIM_PLUGIn_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling')]), 'shell': False}
+[14.402512] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[14.404662] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.405431] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.405533] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.405581] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.406061] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.406142] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.406354] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.406408] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[14.406670] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.406955] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.407482] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.407539] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.407772] (gz_ros2_control_tests) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.408501] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.418844] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Generating done\n'}
+[14.420150] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/aprs/aprs_ws/build/gz_ros2_control_tests\n'}
+[14.436340] (-) TimerEvent: {}
+[14.436621] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o\x1b[0m\n'}
+[14.436869] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o\x1b[0m\n'}
+[14.436988] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o\x1b[0m\n'}
+[14.437072] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o\x1b[0m\n'}
+[14.437137] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o\x1b[0m\n'}
+[14.437199] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o\x1b[0m\n'}
+[14.437895] (gz_ros2_control_tests) CommandEnded: {'returncode': 0}
+[14.438393] (gz_ros2_control_tests) JobProgress: {'identifier': 'gz_ros2_control_tests', 'progress': 'build'}
+[14.438899] (gz_ros2_control_tests) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests', '--', '-j16', '-l16'], 'cwd': '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/share'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('GZ_SIM_PLUGIn_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling')]), 'shell': False}
+[14.478468] (gz_ros2_control_tests) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_position.dir/src/test_position.cpp.o\x1b[0m\n'}
+[14.536437] (-) TimerEvent: {}
+[14.636781] (-) TimerEvent: {}
+[14.737108] (-) TimerEvent: {}
+[14.837448] (-) TimerEvent: {}
+[14.937780] (-) TimerEvent: {}
+[15.038116] (-) TimerEvent: {}
+[15.138449] (-) TimerEvent: {}
+[15.238806] (-) TimerEvent: {}
+[15.339260] (-) TimerEvent: {}
+[15.439696] (-) TimerEvent: {}
+[15.540096] (-) TimerEvent: {}
+[15.640506] (-) TimerEvent: {}
+[15.741159] (-) TimerEvent: {}
+[15.841571] (-) TimerEvent: {}
+[15.941896] (-) TimerEvent: {}
+[16.042239] (-) TimerEvent: {}
+[16.142577] (-) TimerEvent: {}
+[16.242914] (-) TimerEvent: {}
+[16.343257] (-) TimerEvent: {}
+[16.443614] (-) TimerEvent: {}
+[16.543971] (-) TimerEvent: {}
+[16.644319] (-) TimerEvent: {}
+[16.744687] (-) TimerEvent: {}
+[16.845035] (-) TimerEvent: {}
+[16.945422] (-) TimerEvent: {}
+[17.045913] (-) TimerEvent: {}
+[17.146361] (-) TimerEvent: {}
+[17.246769] (-) TimerEvent: {}
+[17.347582] (-) TimerEvent: {}
+[17.447945] (-) TimerEvent: {}
+[17.548292] (-) TimerEvent: {}
+[17.648629] (-) TimerEvent: {}
+[17.748980] (-) TimerEvent: {}
+[17.849348] (-) TimerEvent: {}
+[17.949685] (-) TimerEvent: {}
+[18.050024] (-) TimerEvent: {}
+[18.150370] (-) TimerEvent: {}
+[18.250719] (-) TimerEvent: {}
+[18.351039] (-) TimerEvent: {}
+[18.451528] (-) TimerEvent: {}
+[18.551910] (-) TimerEvent: {}
+[18.652261] (-) TimerEvent: {}
+[18.752880] (-) TimerEvent: {}
+[18.762377] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable example_effort\x1b[0m\n'}
+[18.781803] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable example_diff_drive\x1b[0m\n'}
+[18.783063] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable example_tricycle_drive\x1b[0m\n'}
+[18.853045] (-) TimerEvent: {}
+[18.871608] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable example_velocity\x1b[0m\n'}
+[18.953167] (-) TimerEvent: {}
+[19.002747] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 83%] Built target example_effort\n'}
+[19.010433] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable example_gripper\x1b[0m\n'}
+[19.016398] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 91%] Built target example_tricycle_drive\n'}
+[19.016638] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 91%] Built target example_diff_drive\n'}
+[19.053295] (-) TimerEvent: {}
+[19.077255] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 91%] Built target example_velocity\n'}
+[19.153461] (-) TimerEvent: {}
+[19.167444] (gz_ros2_control_demos) StdoutLine: {'line': b'[ 91%] Built target example_gripper\n'}
+[19.253599] (-) TimerEvent: {}
+[19.354028] (-) TimerEvent: {}
+[19.454373] (-) TimerEvent: {}
+[19.554714] (-) TimerEvent: {}
+[19.655057] (-) TimerEvent: {}
+[19.755405] (-) TimerEvent: {}
+[19.825452] (gz_ros2_control_demos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_position\x1b[0m\n'}
+[19.855515] (-) TimerEvent: {}
+[19.868772] (gz_ros2_control_tests) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_position\x1b[0m\n'}
+[19.955624] (-) TimerEvent: {}
+[20.002763] (gz_ros2_control_demos) StdoutLine: {'line': b'[100%] Built target example_position\n'}
+[20.011880] (gz_ros2_control_demos) CommandEnded: {'returncode': 0}
+[20.032639] (gz_ros2_control_demos) JobProgress: {'identifier': 'gz_ros2_control_demos', 'progress': 'install'}
+[20.032984] (gz_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_demos'], 'cwd': '/workspaces/aprs/aprs_ws/build/gz_ros2_control_demos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/share'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_demos'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('GZ_SIM_PLUGIn_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling')]), 'shell': False}
+[20.038307] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.038437] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch\n'}
+[20.038520] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py\n'}
+[20.038597] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py\n'}
+[20.038649] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py\n'}
+[20.038715] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py\n'}
+[20.038777] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py\n'}
+[20.038826] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py\n'}
+[20.038893] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/urrobot.launch.py\n'}
+[20.038945] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config\n'}
+[20.038993] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cartpole_controller_velocity.yaml\n'}
+[20.039072] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cartpole_controller_position.yaml\n'}
+[20.039122] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller.yaml\n'}
+[20.039169] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cartpole_controller_effort.yaml\n'}
+[20.039214] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller_velocity.yaml\n'}
+[20.039281] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml\n'}
+[20.039330] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/ur_controller.yaml\n'}
+[20.039400] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf\n'}
+[20.039454] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf\n'}
+[20.039500] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf\n'}
+[20.039548] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf\n'}
+[20.039594] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf\n'}
+[20.039647] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf\n'}
+[20.039710] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf\n'}
+[20.039749] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position\n'}
+[20.041061] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position" to ""\n'}
+[20.041120] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity\n'}
+[20.041798] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity" to ""\n'}
+[20.041859] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort\n'}
+[20.042608] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort" to ""\n'}
+[20.042680] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive\n'}
+[20.043300] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive" to ""\n'}
+[20.043391] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive\n'}
+[20.044050] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive" to ""\n'}
+[20.044118] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper\n'}
+[20.044781] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper" to ""\n'}
+[20.044836] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/gz_ros2_control_demos.dsv\n'}
+[20.044906] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/gz_ros2_control_demos.sh\n'}
+[20.045026] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos\n'}
+[20.045119] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos\n'}
+[20.045208] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh\n'}
+[20.045290] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv\n'}
+[20.045364] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh\n'}
+[20.045435] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv\n'}
+[20.045502] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash\n'}
+[20.045569] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh\n'}
+[20.045650] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh\n'}
+[20.045760] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv\n'}
+[20.045851] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv\n'}
+[20.045966] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos\n'}
+[20.046055] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake\n'}
+[20.046125] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake\n'}
+[20.046194] (gz_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml\n'}
+[20.047078] (gz_ros2_control_tests) StdoutLine: {'line': b'[100%] Built target test_position\n'}
+[20.047626] (gz_ros2_control_demos) CommandEnded: {'returncode': 0}
+[20.054595] (gz_ros2_control_tests) CommandEnded: {'returncode': 0}
+[20.055673] (-) TimerEvent: {}
+[20.067915] (gz_ros2_control_tests) JobProgress: {'identifier': 'gz_ros2_control_tests', 'progress': 'install'}
+[20.068145] (gz_ros2_control_tests) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests'], 'cwd': '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/share'), ('HOSTNAME', 'saahu27'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/helpers/browser.sh'), ('HOME', '/home/saahu27'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-08c59655-4621-4860-bb2f-765d4916d31a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/opt/ros/rolling'), ('ROS_DISTRO', 'rolling'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/660393deaaa6d1996740ff4880f1bad43768c814/bin/remote-cli:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock","/tmp/.X11-unix/X11","/home/saahu27/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5af7acc0c6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cbdd8c12-dd08-4d08-afc6-33d1aa460b90.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X11'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('GZ_SIM_PLUGIn_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling')]), 'shell': False}
+[20.073046] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.073169] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/lib/gz_ros2_control_tests/test_position\n'}
+[20.075087] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/lib/gz_ros2_control_tests/test_position" to ""\n'}
+[20.075201] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//urdf\n'}
+[20.076662] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//urdf/test_cart_position.xacro.urdf\n'}
+[20.076759] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//config\n'}
+[20.076846] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//config/cartpole_controller_position.yaml\n'}
+[20.076933] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_tests\n'}
+[20.076993] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_tests\n'}
+[20.077057] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.sh\n'}
+[20.077153] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.dsv\n'}
+[20.077243] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.sh\n'}
+[20.077331] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.dsv\n'}
+[20.077419] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.bash\n'}
+[20.077547] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.sh\n'}
+[20.077675] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.zsh\n'}
+[20.077763] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.dsv\n'}
+[20.077853] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv\n'}
+[20.077945] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/packages/gz_ros2_control_tests\n'}
+[20.078031] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig.cmake\n'}
+[20.078110] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig-version.cmake\n'}
+[20.078183] (gz_ros2_control_tests) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.xml\n'}
+[20.082698] (gz_ros2_control_demos) JobEnded: {'identifier': 'gz_ros2_control_demos', 'rc': 0}
+[20.085200] (gz_ros2_control_tests) CommandEnded: {'returncode': 0}
+[20.111333] (gz_ros2_control_tests) JobEnded: {'identifier': 'gz_ros2_control_tests', 'rc': 0}
+[20.112391] (-) EventReactorShutdown: {}

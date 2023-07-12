@@ -287,12 +287,37 @@ FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/rolling/lib/libfastrtps.so
 // Undefined, Thread, Leak, 'Address;Undefined', CFI
 GZ_SANITIZER:STRING=
 
-//Compile with a sanitizer. Options are: Address, Memory, MemoryWithOrigins,
-// Undefined, Thread, Leak, 'Address;Undefined', CFI
+//Deprecated. Please use [GZ_SANITIZER]. Compile with a sanitizer.
+// Options are: Address, Memory, MemoryWithOrigins, Undefined,
+// Thread, Leak, 'Address;Undefined', CFI
 IGN_SANITIZER:STRING=
 
 //Path to a library.
 JSONCPP_LIBRARY_jsoncpp:FILEPATH=/usr/lib/x86_64-linux-gnu/libjsoncpp.so
+
+//Path to a file.
+OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a file.
+OPENGL_GLX_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a file.
+OPENGL_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+OPENGL_egl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libEGL.so
+
+//Path to a library.
+OPENGL_glu_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libGLU.so
+
+//Path to a library.
+OPENGL_glx_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libGLX.so
+
+//Path to a library.
+OPENGL_opengl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libOpenGL.so
+
+//Path to a file.
+OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
 OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
@@ -513,6 +538,9 @@ ament_uncrustify_BIN:FILEPATH=/opt/ros/rolling/bin/ament_uncrustify
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/rolling/bin/ament_xmllint
 
+//The directory containing a CMake configuration file for assimp.
+assimp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/assimp-5.2
+
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/rolling/share/builtin_interfaces/cmake
 
@@ -540,6 +568,9 @@ diagnostic_msgs_DIR:PATH=/opt/ros/rolling/share/diagnostic_msgs/cmake
 //The directory containing a CMake configuration file for diagnostic_updater.
 diagnostic_updater_DIR:PATH=/opt/ros/rolling/share/diagnostic_updater/cmake
 
+//The directory containing a CMake configuration file for draco.
+draco_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/draco
+
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/rolling/lib/cmake/fastcdr
 
@@ -554,6 +585,147 @@ foonathan_memory_DIR:PATH=/opt/ros/rolling/lib/foonathan_memory/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/rolling/share/geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for gz-cmake3.
+gz-cmake3_DIR:PATH=/usr/share/cmake/gz-cmake3
+
+//The directory containing a CMake configuration file for gz-common5-av.
+gz-common5-av_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-av
+
+//The directory containing a CMake configuration file for gz-common5-events.
+gz-common5-events_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-events
+
+//The directory containing a CMake configuration file for gz-common5-geospatial.
+gz-common5-geospatial_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-geospatial
+
+//The directory containing a CMake configuration file for gz-common5-graphics.
+gz-common5-graphics_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-graphics
+
+//The directory containing a CMake configuration file for gz-common5-io.
+gz-common5-io_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-io
+
+//The directory containing a CMake configuration file for gz-common5-profiler.
+gz-common5-profiler_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5-profiler
+
+//The directory containing a CMake configuration file for gz-common5.
+gz-common5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-common5
+
+//The directory containing a CMake configuration file for gz-fuel_tools8.
+gz-fuel_tools8_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-fuel_tools8
+
+//The directory containing a CMake configuration file for gz-gui7.
+gz-gui7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-gui7
+
+//The directory containing a CMake configuration file for gz-math7-eigen3.
+gz-math7-eigen3_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math7-eigen3
+
+//The directory containing a CMake configuration file for gz-math7.
+gz-math7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-math7
+
+//The directory containing a CMake configuration file for gz-msgs9.
+gz-msgs9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-msgs9
+
+//The directory containing a CMake configuration file for gz-physics6-heightmap.
+gz-physics6-heightmap_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics6-heightmap
+
+//The directory containing a CMake configuration file for gz-physics6-mesh.
+gz-physics6-mesh_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics6-mesh
+
+//The directory containing a CMake configuration file for gz-physics6-sdf.
+gz-physics6-sdf_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics6-sdf
+
+//The directory containing a CMake configuration file for gz-physics6.
+gz-physics6_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-physics6
+
+//The directory containing a CMake configuration file for gz-plugin2-all.
+gz-plugin2-all_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-all
+
+//The directory containing a CMake configuration file for gz-plugin2-loader.
+gz-plugin2-loader_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-loader
+
+//The directory containing a CMake configuration file for gz-plugin2-register.
+gz-plugin2-register_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-register
+
+//The directory containing a CMake configuration file for gz-plugin2.
+gz-plugin2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2
+
+//The directory containing a CMake configuration file for gz-rendering7.
+gz-rendering7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-rendering7
+
+//The directory containing a CMake configuration file for gz-sensors7-air_pressure.
+gz-sensors7-air_pressure_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-air_pressure
+
+//The directory containing a CMake configuration file for gz-sensors7-air_speed.
+gz-sensors7-air_speed_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-air_speed
+
+//The directory containing a CMake configuration file for gz-sensors7-altimeter.
+gz-sensors7-altimeter_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-altimeter
+
+//The directory containing a CMake configuration file for gz-sensors7-boundingbox_camera.
+gz-sensors7-boundingbox_camera_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-boundingbox_camera
+
+//The directory containing a CMake configuration file for gz-sensors7-camera.
+gz-sensors7-camera_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-camera
+
+//The directory containing a CMake configuration file for gz-sensors7-depth_camera.
+gz-sensors7-depth_camera_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-depth_camera
+
+//The directory containing a CMake configuration file for gz-sensors7-force_torque.
+gz-sensors7-force_torque_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-force_torque
+
+//The directory containing a CMake configuration file for gz-sensors7-gpu_lidar.
+gz-sensors7-gpu_lidar_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-gpu_lidar
+
+//The directory containing a CMake configuration file for gz-sensors7-imu.
+gz-sensors7-imu_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-imu
+
+//The directory containing a CMake configuration file for gz-sensors7-lidar.
+gz-sensors7-lidar_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-lidar
+
+//The directory containing a CMake configuration file for gz-sensors7-logical_camera.
+gz-sensors7-logical_camera_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-logical_camera
+
+//The directory containing a CMake configuration file for gz-sensors7-magnetometer.
+gz-sensors7-magnetometer_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-magnetometer
+
+//The directory containing a CMake configuration file for gz-sensors7-navsat.
+gz-sensors7-navsat_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-navsat
+
+//The directory containing a CMake configuration file for gz-sensors7-rendering.
+gz-sensors7-rendering_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-rendering
+
+//The directory containing a CMake configuration file for gz-sensors7-rgbd_camera.
+gz-sensors7-rgbd_camera_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-rgbd_camera
+
+//The directory containing a CMake configuration file for gz-sensors7-segmentation_camera.
+gz-sensors7-segmentation_camera_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-segmentation_camera
+
+//The directory containing a CMake configuration file for gz-sensors7-thermal_camera.
+gz-sensors7-thermal_camera_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-thermal_camera
+
+//The directory containing a CMake configuration file for gz-sensors7-wide_angle_camera.
+gz-sensors7-wide_angle_camera_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7-wide_angle_camera
+
+//The directory containing a CMake configuration file for gz-sensors7.
+gz-sensors7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7
+
+//The directory containing a CMake configuration file for gz-sim7.
+gz-sim7_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-sim7
+
+//The directory containing a CMake configuration file for gz-transport12-log.
+gz-transport12-log_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport12-log
+
+//The directory containing a CMake configuration file for gz-transport12-parameters.
+gz-transport12-parameters_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport12-parameters
+
+//The directory containing a CMake configuration file for gz-transport12.
+gz-transport12_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-transport12
+
+//The directory containing a CMake configuration file for gz-utils2-cli.
+gz-utils2-cli_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils2-cli
+
+//The directory containing a CMake configuration file for gz-utils2.
+gz-utils2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gz-utils2
 
 //Dependencies for the target
 gz_hardware_plugins_LIB_DEPENDS:STATIC=general;rclcpp_lifecycle::rclcpp_lifecycle;general;hardware_interface::fake_components;general;hardware_interface::mock_components;general;hardware_interface::hardware_interface;general;rclcpp::rclcpp;
@@ -866,6 +1038,9 @@ rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/rolling/share/rosidl_type
 
 //The directory containing a CMake configuration file for sdformat12.
 sdformat12_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/sdformat12
+
+//The directory containing a CMake configuration file for sdformat13.
+sdformat13_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/sdformat13
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/rolling/share/sensor_msgs/cmake
@@ -1230,8 +1405,12 @@ FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so
 FIND_PACKAGE_MESSAGE_DETAILS_DL:INTERNAL=[true][v()]
 //Details about finding FastRTPS
 FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/rolling/include][/opt/ros/rolling/lib/libfastrtps.so;/opt/ros/rolling/lib/libfastcdr.so][v()]
+//Details about finding GzAssimp
+FIND_PACKAGE_MESSAGE_DETAILS_GzAssimp:INTERNAL=[1][v5.2.0()]
 //Details about finding JSONCPP
 FIND_PACKAGE_MESSAGE_DETAILS_JSONCPP:INTERNAL=[TRUE][v()]
+//Details about finding OpenGL
+FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libOpenGL.so][/usr/lib/x86_64-linux-gnu/libGLX.so][/usr/include][cfound components: OpenGL ][v()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
 //Details about finding Protobuf
@@ -1282,6 +1461,22 @@ JSONCPP_jsoncpp_INCLUDEDIR:INTERNAL=
 JSONCPP_jsoncpp_LIBDIR:INTERNAL=
 JSONCPP_jsoncpp_PREFIX:INTERNAL=
 JSONCPP_jsoncpp_VERSION:INTERNAL=
+//ADVANCED property for variable: OPENGL_EGL_INCLUDE_DIR
+OPENGL_EGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_GLX_INCLUDE_DIR
+OPENGL_GLX_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_INCLUDE_DIR
+OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_egl_LIBRARY
+OPENGL_egl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_glu_LIBRARY
+OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_glx_LIBRARY
+OPENGL_glx_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_opengl_LIBRARY
+OPENGL_opengl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_xmesa_INCLUDE_DIR
+OPENGL_xmesa_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
 OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR

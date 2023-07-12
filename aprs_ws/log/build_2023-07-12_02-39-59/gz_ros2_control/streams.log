@@ -1,0 +1,256 @@
+[0.013s] Invoking command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/gz_ros2_control -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/gz_ros2_control
+[0.021s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.117s] -- Found ament_index_cpp: 1.6.0 (/opt/ros/rolling/share/ament_index_cpp/cmake)
+[0.118s] -- Found controller_manager: 3.15.0 (/opt/ros/rolling/share/controller_manager/cmake)
+[0.139s] -- Found rosidl_generator_c: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.145s] -- Found rosidl_generator_cpp: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.757s] -- Found rmw_implementation_cmake: 7.2.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.758s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.269s] -- Found yaml_cpp_vendor: 8.2.0 (/opt/ros/rolling/share/yaml_cpp_vendor/cmake)
+[1.272s] -- Looking for ignition-gazebo6 -- found version 6.14.0
+[1.277s] -- Searching for dependencies of ignition-gazebo6
+[1.279s] -- Looking for sdformat12 -- found version 12.7.1
+[1.279s] -- Searching for dependencies of sdformat12
+[1.285s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.285s] -- Searching for dependencies of ignition-math6
+[1.287s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.288s] -- Searching for dependencies of ignition-utils1
+[1.291s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.291s] -- Searching for dependencies of ignition-plugin1
+[1.291s] -- Searching for <ignition-plugin1> component [loader]
+[1.293s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[1.293s] -- Searching for dependencies of ignition-plugin1-loader
+[1.294s] -- Searching for <ignition-plugin1> component [register]
+[1.296s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[1.296s] -- Searching for dependencies of ignition-plugin1-register
+[1.298s] -- Looking for ignition-transport11 -- found version 11.4.0
+[1.299s] -- Searching for dependencies of ignition-transport11
+[1.327s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.331s] -- Checking for module 'libzmq >= 4'
+[1.338s] --   Found libzmq , version 4.3.4
+[1.360s] -- Checking for module 'uuid'
+[1.368s] --   Found uuid, version 2.37.2
+[1.387s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.387s] -- Searching for dependencies of ignition-utils1
+[1.387s] -- Searching for <ignition-utils1> component [cli]
+[1.389s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.389s] -- Searching for dependencies of ignition-utils1-cli
+[1.393s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.393s] -- Searching for dependencies of ignition-msgs8
+[1.413s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.419s] -- Searching for <ignition-transport11> component [log]
+[1.421s] -- Looking for ignition-transport11-log -- found version 11.4.0
+[1.421s] -- Searching for dependencies of ignition-transport11-log
+[1.421s] -- Searching for <ignition-transport11> component [parameters]
+[1.423s] -- Looking for ignition-transport11-parameters -- found version 11.4.0
+[1.424s] -- Searching for dependencies of ignition-transport11-parameters
+[1.424s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.426s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.427s] -- Searching for dependencies of ignition-common4
+[1.427s] -- Looking for dlfcn.h - found
+[1.427s] -- Looking for libdl - found
+[1.435s] -- Searching for <ignition-common4> component [profiler]
+[1.437s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.437s] -- Searching for dependencies of ignition-common4-profiler
+[1.438s] -- Searching for <ignition-common4> component [events]
+[1.440s] -- Looking for ignition-common4-events -- found version 4.7.0
+[1.440s] -- Searching for dependencies of ignition-common4-events
+[1.440s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.441s] -- Searching for <ignition-common4> component [av]
+[1.443s] -- Looking for ignition-common4-av -- found version 4.7.0
+[1.443s] -- Searching for dependencies of ignition-common4-av
+[1.446s] -- Checking for module 'libswscale'
+[1.453s] --   Found libswscale, version 5.9.100
+[1.473s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.480s] --   Found libavdevice , version 58.13.100
+[1.502s] -- Checking for module 'libavformat'
+[1.508s] --   Found libavformat, version 58.76.100
+[1.528s] -- Checking for module 'libavcodec'
+[1.536s] --   Found libavcodec, version 58.134.100
+[1.556s] -- Checking for module 'libavutil'
+[1.562s] --   Found libavutil, version 56.70.100
+[1.582s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[1.582s] -- Searching for dependencies of ignition-fuel_tools7
+[1.612s] -- Checking for module 'jsoncpp'
+[1.619s] --   Found jsoncpp, version 1.9.5
+[1.639s] -- Checking for module 'libzip'
+[1.646s] --   Found libzip, version 1.7.3
+[1.662s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.662s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.662s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.665s] -- Looking for ignition-gui6 -- found version 6.8.0
+[1.666s] -- Searching for dependencies of ignition-gui6
+[1.687s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.687s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.687s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.688s] -- Looking for ignition-transport11 -- found version 11.4.0
+[1.690s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[1.690s] -- Searching for dependencies of ignition-rendering6
+[1.690s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.691s] -- Searching for dependencies of ignition-math6
+[1.691s] -- Searching for <ignition-math6> component [eigen3]
+[1.693s] -- Looking for ignition-math6-eigen3 -- found version 6.14.0
+[1.693s] -- Searching for dependencies of ignition-math6-eigen3
+[1.695s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.695s] -- Searching for dependencies of ignition-common4
+[1.695s] -- Looking for dlfcn.h - found
+[1.695s] -- Looking for libdl - found
+[1.702s] -- Searching for <ignition-common4> component [graphics]
+[1.705s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[1.705s] -- Searching for dependencies of ignition-common4-graphics
+[1.705s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.705s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.706s] -- Searching for <ignition-common4> component [events]
+[1.706s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.707s] -- Searching for dependencies of ignition-plugin1
+[1.707s] -- Searching for <ignition-plugin1> component [all]
+[1.709s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[1.709s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.711s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.722s] -- Looking for ignition-physics5 -- found version 5.3.1
+[1.723s] -- Searching for dependencies of ignition-physics5
+[1.723s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.723s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.724s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.724s] -- Searching for <ignition-physics5> component [heightmap]
+[1.726s] -- Looking for ignition-physics5-heightmap -- found version 5.3.1
+[1.727s] -- Searching for dependencies of ignition-physics5-heightmap
+[1.727s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.727s] -- Searching for <ignition-physics5> component [mesh]
+[1.729s] -- Looking for ignition-physics5-mesh -- found version 5.3.1
+[1.729s] -- Searching for dependencies of ignition-physics5-mesh
+[1.730s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.730s] -- Searching for <ignition-physics5> component [sdf]
+[1.732s] -- Looking for ignition-physics5-sdf -- found version 5.3.1
+[1.732s] -- Searching for dependencies of ignition-physics5-sdf
+[1.733s] -- Looking for sdformat12 -- found version 12.7.1
+[1.735s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[1.735s] -- Searching for dependencies of ignition-sensors6
+[1.752s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.752s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.752s] -- Looking for ignition-transport11 -- found version 11.4.0
+[1.752s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[1.753s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.753s] -- Looking for sdformat12 -- found version 12.7.1
+[1.753s] -- Searching for <ignition-sensors6> component [air_pressure]
+[1.755s] -- Looking for ignition-sensors6-air_pressure -- found version 6.7.0
+[1.756s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[1.756s] -- Searching for <ignition-sensors6> component [altimeter]
+[1.758s] -- Looking for ignition-sensors6-altimeter -- found version 6.7.0
+[1.758s] -- Searching for dependencies of ignition-sensors6-altimeter
+[1.759s] -- Searching for <ignition-sensors6> component [imu]
+[1.761s] -- Looking for ignition-sensors6-imu -- found version 6.7.0
+[1.761s] -- Searching for dependencies of ignition-sensors6-imu
+[1.761s] -- Searching for <ignition-sensors6> component [force_torque]
+[1.763s] -- Looking for ignition-sensors6-force_torque -- found version 6.7.0
+[1.764s] -- Searching for dependencies of ignition-sensors6-force_torque
+[1.764s] -- Searching for <ignition-sensors6> component [logical_camera]
+[1.766s] -- Looking for ignition-sensors6-logical_camera -- found version 6.7.0
+[1.766s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[1.767s] -- Searching for <ignition-sensors6> component [magnetometer]
+[1.768s] -- Looking for ignition-sensors6-magnetometer -- found version 6.7.0
+[1.769s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[1.769s] -- Searching for <ignition-sensors6> component [navsat]
+[1.771s] -- Looking for ignition-sensors6-navsat -- found version 6.7.0
+[1.771s] -- Searching for dependencies of ignition-sensors6-navsat
+[1.772s] -- Searching for <ignition-sensors6> component [rendering]
+[1.774s] -- Looking for ignition-sensors6-rendering -- found version 6.7.0
+[1.774s] -- Searching for dependencies of ignition-sensors6-rendering
+[1.774s] -- Searching for <ignition-sensors6> component [lidar]
+[1.776s] -- Looking for ignition-sensors6-lidar -- found version 6.7.0
+[1.777s] -- Searching for dependencies of ignition-sensors6-lidar
+[1.777s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[1.777s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[1.779s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.7.0
+[1.780s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[1.780s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[1.780s] -- Searching for <ignition-sensors6> component [camera]
+[1.782s] -- Looking for ignition-sensors6-camera -- found version 6.7.0
+[1.782s] -- Searching for dependencies of ignition-sensors6-camera
+[1.783s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[1.783s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[1.785s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.7.0
+[1.785s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[1.786s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[1.788s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.7.0
+[1.788s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[1.788s] -- Searching for <ignition-sensors6> component [depth_camera]
+[1.790s] -- Looking for ignition-sensors6-depth_camera -- found version 6.7.0
+[1.790s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[1.791s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[1.791s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[1.793s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.7.0
+[1.794s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[1.794s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[1.794s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[1.796s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.7.0
+[1.797s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[1.797s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[1.798s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[1.798s] -- Looking for ignition-math6 -- found version 6.14.0
+[1.800s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.818s] -- Compiling against Gazebo Fortress
+[1.818s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.820s] -- Found ament_lint_auto: 0.15.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[1.875s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.876s] -- Configured cppcheck include dirs: /workspaces/aprs/aprs_ws/src/gz_ros2_control/include
+[1.876s] -- Configured cppcheck exclude dirs and/or files: 
+[1.877s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.877s] -- Configured cpplint exclude dirs and/or files: 
+[1.877s] -- Added test 'lint_cmake' to check CMake code style
+[1.878s] -- Added test 'uncrustify' to check C / C++ code style
+[1.878s] -- Configured uncrustify additional arguments: 
+[1.878s] -- Added test 'xmllint' to check XML markup files
+[1.879s] -- Configuring done
+[1.900s] -- Generating done
+[1.902s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/gz_ros2_control
+[1.912s] Invoked command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/gz_ros2_control -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/gz_ros2_control
+[1.913s] Invoking command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/gz_ros2_control -- -j16 -l16
+[1.942s] [35m[1mConsolidate compiler generated dependencies of target gz_hardware_plugins[0m
+[1.942s] [35m[1mConsolidate compiler generated dependencies of target gz_ros2_control-system[0m
+[1.960s] [ 50%] [32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o[0m
+[1.960s] [ 50%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[10.966s] [ 75%] [32m[1mLinking CXX shared library libgz_hardware_plugins.so[0m
+[11.371s] [ 75%] Built target gz_hardware_plugins
+[12.247s] [100%] [32m[1mLinking CXX shared library libgz_ros2_control-system.so[0m
+[12.615s] [100%] Built target gz_ros2_control-system
+[12.622s] Invoked command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/gz_ros2_control -- -j16 -l16
+[12.640s] Invoking command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/gz_ros2_control
+[12.645s] -- Install configuration: ""
+[12.645s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so
+[12.648s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so" to ""
+[12.648s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include
+[12.648s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control
+[12.648s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control/gz_ros2_control_plugin.hpp
+[12.648s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control/gz_system.hpp
+[12.648s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control/gz_system_interface.hpp
+[12.648s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh
+[12.648s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv
+[12.648s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so
+[12.651s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so" to ""
+[12.651s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/gz_hardware_plugins.xml
+[12.651s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/gz_ros2_control.dsv
+[12.651s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/gz_ros2_control.sh
+[12.651s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control
+[12.651s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv
+[12.652s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/package.dsv
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake
+[12.652s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/package.xml
+[12.655s] Invoked command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/gz_ros2_control

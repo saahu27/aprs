@@ -171,6 +171,6 @@ ARG WORKSPACE=/workspaces/aprs
 RUN sudo rosdep init && rosdep update
 
 RUN echo "source /opt/ros/rolling/setup.bash;" >> /home/$USERNAME/.bashrc && \
-    echo "if [ -f ${WORKSPACE}/install/setup.bash ]; then source ${WORKSPACE}/install/setup.bash; fi" >> /home/$USERNAME/.bashrc
+    echo "if [ -f ${WORKSPACE}/install/setup.bash ]; then source ${WORKSPACE}/aprs_ws/install/setup.bash; fi" >> /home/$USERNAME/.bashrc
 
 USER $USERNAME
