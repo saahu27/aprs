@@ -1,0 +1,9 @@
+/workspaces/trial__/build/ur_description/CMakeFiles/uninstall.dir
+/workspaces/trial__/build/ur_description/CMakeFiles/ur_description_uninstall.dir
+/workspaces/trial__/build/ur_description/CMakeFiles/test.dir
+/workspaces/trial__/build/ur_description/CMakeFiles/edit_cache.dir
+/workspaces/trial__/build/ur_description/CMakeFiles/rebuild_cache.dir
+/workspaces/trial__/build/ur_description/CMakeFiles/list_install_components.dir
+/workspaces/trial__/build/ur_description/CMakeFiles/install.dir
+/workspaces/trial__/build/ur_description/CMakeFiles/install/local.dir
+/workspaces/trial__/build/ur_description/CMakeFiles/install/strip.dir

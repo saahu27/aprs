@@ -1,0 +1,94 @@
+[0.010s] Invoking command in '/workspaces/trial__/build/gz_ros2_control_demos': CMAKE_PREFIX_PATH=/workspaces/trial__/install/gz_ros2_control:/workspaces/trial__/install/ur_description:/workspaces/trial__/install/gz_ros2_control_tests:/workspaces/trial__/install/gz_ros2_control_demos:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/trial__/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/trial__/install/gz_ros2_control/share:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake /workspaces/trial__/src/gz_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/workspaces/trial__/install/gz_ros2_control_demos
+[0.017s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.118s] -- Found control_msgs: 5.0.0 (/opt/ros/rolling/share/control_msgs/cmake)
+[0.138s] -- Found rosidl_generator_c: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.144s] -- Found rosidl_generator_cpp: 4.2.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rclcpp: 21.3.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.673s] -- Found rmw_implementation_cmake: 7.2.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.674s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.783s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.898s] -- Found rclcpp_action: 21.3.0 (/opt/ros/rolling/share/rclcpp_action/cmake)
+[0.926s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[0.926s] -- Found ament_lint_auto: 0.15.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[0.977s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.978s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.978s] -- Configured cppcheck include dirs: 
+[0.978s] -- Configured cppcheck exclude dirs and/or files: 
+[0.979s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.979s] -- Configured cpplint exclude dirs and/or files: 
+[0.979s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.979s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.979s] -- Added test 'lint_cmake' to check CMake code style
+[0.980s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.980s] -- Added test 'uncrustify' to check C / C++ code style
+[0.980s] -- Configured uncrustify additional arguments: 
+[0.981s] -- Added test 'xmllint' to check XML markup files
+[0.981s] -- Configuring done
+[1.001s] -- Generating done
+[1.002s] -- Build files have been written to: /workspaces/trial__/build/gz_ros2_control_demos
+[1.010s] Invoked command in '/workspaces/trial__/build/gz_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/workspaces/trial__/install/gz_ros2_control:/workspaces/trial__/install/ur_description:/workspaces/trial__/install/gz_ros2_control_tests:/workspaces/trial__/install/gz_ros2_control_demos:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/trial__/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/trial__/install/gz_ros2_control/share:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake /workspaces/trial__/src/gz_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/workspaces/trial__/install/gz_ros2_control_demos
+[1.011s] Invoking command in '/workspaces/trial__/build/gz_ros2_control_demos': CMAKE_PREFIX_PATH=/workspaces/trial__/install/gz_ros2_control:/workspaces/trial__/install/ur_description:/workspaces/trial__/install/gz_ros2_control_tests:/workspaces/trial__/install/gz_ros2_control_demos:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/trial__/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/trial__/install/gz_ros2_control/share:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /workspaces/trial__/build/gz_ros2_control_demos -- -j16 -l16
+[1.037s] [35m[1mConsolidate compiler generated dependencies of target example_effort[0m
+[1.037s] [35m[1mConsolidate compiler generated dependencies of target example_tricycle_drive[0m
+[1.037s] [35m[1mConsolidate compiler generated dependencies of target example_diff_drive[0m
+[1.038s] [35m[1mConsolidate compiler generated dependencies of target example_velocity[0m
+[1.038s] [35m[1mConsolidate compiler generated dependencies of target example_position[0m
+[1.038s] [35m[1mConsolidate compiler generated dependencies of target example_gripper[0m
+[1.054s] [ 66%] Built target example_gripper
+[1.054s] [ 66%] Built target example_velocity
+[1.055s] [ 66%] Built target example_tricycle_drive
+[1.055s] [ 66%] Built target example_effort
+[1.055s] [ 83%] Built target example_diff_drive
+[1.056s] [100%] Built target example_position
+[1.064s] Invoked command in '/workspaces/trial__/build/gz_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/workspaces/trial__/install/gz_ros2_control:/workspaces/trial__/install/ur_description:/workspaces/trial__/install/gz_ros2_control_tests:/workspaces/trial__/install/gz_ros2_control_demos:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/trial__/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/trial__/install/gz_ros2_control/share:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /workspaces/trial__/build/gz_ros2_control_demos -- -j16 -l16
+[1.087s] Invoking command in '/workspaces/trial__/build/gz_ros2_control_demos': CMAKE_PREFIX_PATH=/workspaces/trial__/install/gz_ros2_control:/workspaces/trial__/install/ur_description:/workspaces/trial__/install/gz_ros2_control_tests:/workspaces/trial__/install/gz_ros2_control_demos:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/trial__/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/trial__/install/gz_ros2_control/share:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /workspaces/trial__/build/gz_ros2_control_demos
+[1.090s] -- Install configuration: ""
+[1.090s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch
+[1.090s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/urrobot.launch.py
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cartpole_controller_velocity.yaml
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cartpole_controller_position.yaml
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller.yaml
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cartpole_controller_effort.yaml
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/ur_controller.yaml
+[1.091s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper
+[1.092s] -- Installing: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/gz_ros2_control_demos.dsv
+[1.092s] -- Installing: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/gz_ros2_control_demos.sh
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv
+[1.092s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh
+[1.093s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv
+[1.093s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash
+[1.093s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh
+[1.093s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh
+[1.093s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv
+[1.093s] -- Installing: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv
+[1.093s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos
+[1.093s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake
+[1.093s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake
+[1.093s] -- Up-to-date: /workspaces/trial__/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml
+[1.097s] Invoked command in '/workspaces/trial__/build/gz_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/workspaces/trial__/install/gz_ros2_control:/workspaces/trial__/install/ur_description:/workspaces/trial__/install/gz_ros2_control_tests:/workspaces/trial__/install/gz_ros2_control_demos:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/trial__/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/trial__/install/gz_ros2_control/share:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /workspaces/trial__/build/gz_ros2_control_demos

@@ -1,0 +1,201 @@
+[0.011s] Invoking command in '/workspaces/trial__/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /workspaces/trial__/src/Universal_Robots_ROS2_Description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/trial__/install/ur_description
+[0.077s] -- The C compiler identification is GNU 11.3.0
+[0.123s] -- The CXX compiler identification is GNU 11.3.0
+[0.132s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.180s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.237s] -- Detecting CXX compile features
+[0.237s] -- Detecting CXX compile features - done
+[0.241s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.358s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.433s] -- Found ament_cmake_pytest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_pytest/cmake)
+[0.928s] -- Configuring done
+[0.930s] -- Generating done
+[0.931s] -- Build files have been written to: /workspaces/trial__/build/ur_description
+[0.934s] Invoked command in '/workspaces/trial__/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /workspaces/trial__/src/Universal_Robots_ROS2_Description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/trial__/install/ur_description
+[0.936s] Invoking command in '/workspaces/trial__/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/trial__/build/ur_description -- -j16 -l16
+[0.957s] Invoked command in '/workspaces/trial__/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/trial__/build/ur_description -- -j16 -l16
+[0.974s] Invoking command in '/workspaces/trial__/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/trial__/build/ur_description
+[0.978s] -- Install configuration: ""
+[0.978s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config
+[0.978s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur16e
+[0.978s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[0.978s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[0.978s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[0.978s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[0.979s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3
+[0.979s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[0.979s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[0.979s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[0.979s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[0.979s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5
+[0.979s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[0.979s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[0.980s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[0.980s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[0.980s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5e
+[0.980s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[0.980s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[0.980s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[0.980s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[0.980s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10
+[0.981s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[0.981s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[0.981s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[0.981s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[0.981s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3e
+[0.981s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[0.981s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[0.981s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[0.982s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[0.982s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10e
+[0.982s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[0.982s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[0.982s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[0.982s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[0.982s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/config/initial_positions.yaml
+[0.982s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/launch
+[0.983s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[0.983s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes
+[0.983s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur16e
+[0.983s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur16e/collision
+[0.983s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[0.983s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[0.984s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur16e/visual
+[0.984s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[0.987s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[0.988s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3
+[0.988s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/collision
+[0.989s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[0.989s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[0.989s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[0.990s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[0.991s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[0.991s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[0.992s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[0.993s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/visual
+[0.993s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[0.994s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[0.995s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[0.997s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[0.999s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[1.000s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[1.001s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[1.002s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5
+[1.002s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/collision
+[1.002s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[1.002s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[1.003s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[1.003s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[1.003s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[1.004s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[1.004s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[1.004s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/visual
+[1.004s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[1.006s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[1.006s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[1.008s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[1.010s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[1.011s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[1.012s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[1.014s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e
+[1.014s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/collision
+[1.014s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[1.015s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[1.015s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[1.015s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[1.016s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[1.016s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[1.016s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[1.017s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/visual
+[1.017s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[1.019s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[1.019s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[1.021s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[1.026s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[1.026s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[1.028s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[1.030s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10
+[1.030s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/collision
+[1.030s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.031s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[1.031s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[1.031s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[1.032s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[1.032s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[1.032s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.032s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/visual
+[1.032s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.034s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.035s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.036s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.038s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.039s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.041s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.044s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e
+[1.044s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/collision
+[1.044s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[1.044s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[1.044s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[1.045s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[1.045s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[1.045s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[1.046s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[1.046s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/visual
+[1.046s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[1.047s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[1.048s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[1.057s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[1.063s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[1.064s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[1.067s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[1.070s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e
+[1.070s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/collision
+[1.070s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.071s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.071s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.073s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.073s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.073s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.074s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.074s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/visual
+[1.074s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.076s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.077s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.079s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.083s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.083s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.085s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.087s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/rviz
+[1.087s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[1.087s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/urdf
+[1.087s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[1.087s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/urdf/inc
+[1.088s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[1.088s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[1.088s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[1.088s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[1.088s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/test
+[1.088s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[1.088s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[1.088s] -- Installing: /workspaces/trial__/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[1.088s] -- Installing: /workspaces/trial__/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/environment/path.sh
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/environment/path.dsv
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/local_setup.bash
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/local_setup.sh
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/local_setup.zsh
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/local_setup.dsv
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/package.dsv
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[1.089s] -- Installing: /workspaces/trial__/install/ur_description/share/ur_description/package.xml
+[1.091s] Invoked command in '/workspaces/trial__/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/trial__/build/ur_description

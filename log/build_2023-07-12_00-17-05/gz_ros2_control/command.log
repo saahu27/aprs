@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/trial__/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /workspaces/trial__/src/gz_ros2_control -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/trial__/install/gz_ros2_control
+Invoked command in '/workspaces/trial__/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /workspaces/trial__/src/gz_ros2_control -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/trial__/install/gz_ros2_control
+Invoking command in '/workspaces/trial__/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/trial__/build/gz_ros2_control -- -j16 -l16
+Invoked command in '/workspaces/trial__/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/trial__/build/gz_ros2_control -- -j16 -l16
+Invoking command in '/workspaces/trial__/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/trial__/build/gz_ros2_control
+Invoked command in '/workspaces/trial__/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/trial__/build/gz_ros2_control
