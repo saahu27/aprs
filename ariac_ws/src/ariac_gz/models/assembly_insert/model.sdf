@@ -208,7 +208,7 @@
       </sensor>
     </link>  
 
-    <plugin filename="libassembly_lock_plugin.so" name="assembly_lock_pump">
+    <!-- <plugin filename="libassembly_lock_plugin.so" name="assembly_lock_pump">
       <assembly_part_type>pump</assembly_part_type>
     </plugin>
     <plugin filename="libassembly_lock_plugin.so" name="assembly_lock_regulator">
@@ -222,6 +222,6 @@
     </plugin>
     <plugin filename="libassembly_state_publisher.so" name="assembly_state_publisher">
       <ros></ros>
-    </plugin>
+    </plugin> -->
   </model>
 </sdf>

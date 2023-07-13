@@ -10,10 +10,10 @@
             <uri>model://floor/meshes/floor.dae</uri>
           </mesh>
         </geometry>
-        <plugin name="disable_shadows_plugin" filename="libdisable_shadows_plugin.so">
+        <!-- <plugin name="disable_shadows_plugin" filename="libdisable_shadows_plugin.so">
           <ros>
           </ros>
-        </plugin>
+        </plugin> -->
       </visual>
 
       <collision name="collision">
@@ -40,11 +40,11 @@
       </sensor>
     </link>
 
-    <plugin name="floor_part_disposal" filename="libObjectDisposalPlugin.so">
+    <!-- <plugin name="floor_part_disposal" filename="libObjectDisposalPlugin.so">
       <ros>
       </ros>
       <link_name>floor</link_name>
       <publish_penalty>true</publish_penalty>
-    </plugin>
+    </plugin> -->
   </model>
 </sdf>

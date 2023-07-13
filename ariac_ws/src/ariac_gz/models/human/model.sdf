@@ -99,14 +99,14 @@
             <stddev>0.01</stddev>
           </noise>
         </ray>
-        <plugin name="bottom_laserscan" filename="libgazebo_ros_ray_sensor.so">
+        <!-- <plugin name="bottom_laserscan" filename="libgazebo_ros_ray_sensor.so">
           <ros>
             <!-- <namespace>/human</namespace> -->
             <remapping>~/out:=scan</remapping>
           </ros>
           <output_type>sensor_msgs/LaserScan</output_type>
           <frame_name>bottom_scan</frame_name>
-        </plugin>
+        </plugin> -->
       </sensor>
     </link>
 

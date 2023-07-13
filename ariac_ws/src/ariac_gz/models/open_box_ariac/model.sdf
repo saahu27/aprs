@@ -149,10 +149,10 @@
             <uri>model://open_box_ariac/meshes/open_box.obj</uri>
           </mesh>
         </geometry>
-        <plugin name="toggle" filename="libToggleVisualPlugin.so">
+        <!-- <plugin name="toggle" filename="libToggleVisualPlugin.so">
           <initially_visible>true</initially_visible>
           <topic>~/shipping_box_visual_toggle</topic>
-        </plugin>
+        </plugin> -->
       </visual>
 
       <visual name="closed_box">
@@ -162,11 +162,11 @@
             <uri>model://closed_box_ariac/meshes/closed_box.obj</uri>
           </mesh>
         </geometry>
-        <plugin name="toggle" filename="libToggleVisualPlugin.so">
+        <!-- <plugin name="toggle" filename="libToggleVisualPlugin.so">
           <initially_visible>false</initially_visible>
           <topic>~/shipping_box_visual_toggle</topic>
         </plugin>
-      </visual>
+      </visual> -->
 
     </link>
   </model>

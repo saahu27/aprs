@@ -26,8 +26,8 @@
   </xacro:agv> -->
 
   <!-- AGV2 -->
-  <xacro:agv agv_number="agv2" y_position="1.2">
-  </xacro:agv>
+  <!-- <xacro:agv agv_number="agv2" y_position="1.2">
+  </xacro:agv> -->
 
   <!-- AGV3 -->
   <!-- <xacro:agv agv_number="agv3" y_position="-1.2">
