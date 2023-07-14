@@ -84,15 +84,17 @@
         "*.ipp": "cpp"
     },
     "python.analysis.extraPaths": [
-        "/opt/ros/rolling/lib/python3.8/site-packages"
+        "/opt/ros/rolling/lib/python3.8/site-packages",
+        "./aprs_ws/src/ur_moveit_config"
     ],
     "vscode-coverage-highlighter.files": [
         "build/*/coverage*.info"
     ],
     "vscode-coverage-highlighter.defaultState": "enable",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
+        "editor.defaultFormatter": "ms-python.python"
     },
-    "python.formatting.provider": "none"
+    "python.formatting.provider": "none",
+    "python.analysis.typeCheckingMode": "basic"
 
 }

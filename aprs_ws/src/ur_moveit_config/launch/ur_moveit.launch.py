@@ -38,7 +38,6 @@ def load_yaml(package_name, file_path):
 
 def launch_setup(context, *args, **kwargs):
 
-    # Initialize Arguments
     ur_type = "ur10e"
     safety_limits = "true"
     pkg_share_dir = get_package_share_directory('ur_description')
@@ -80,9 +79,10 @@ def launch_setup(context, *args, **kwargs):
             "start_state_max_bounds_error": 0.1,
         }
     }
+
     ompl_planning_yaml = load_yaml("ur_moveit_config", "config/ompl_planning.yaml")
 
-    ompl_planning_pipeline_config["move_group"].update(ompl_planning_yaml)
+    ompl_planning_pipeline_config["move_group"].update(ompl_planning_yaml) # type: ignore
     
     moveit_controllers = {
         "moveit_simple_controller_manager": load_yaml("ur_moveit_config", "config/controllers.yaml"),
@@ -120,6 +120,8 @@ def launch_setup(context, *args, **kwargs):
         ],
     )
 
+    
+
     # rviz with moveit configuration
     rviz_config_file = PathJoinSubstitution(
         [FindPackageShare("ur_moveit_config"), "rviz", "moveit.rviz"]
@@ -139,9 +141,10 @@ def launch_setup(context, *args, **kwargs):
         ],
     )
     
+
     nodes_to_start = [
         move_group_node,
-        rviz_node    
+        rviz_node
     ]
 
     return nodes_to_start
@@ -149,5 +152,5 @@ def launch_setup(context, *args, **kwargs):
 
 def generate_launch_description():
     declared_arguments = []
-
+    
     return LaunchDescription(declared_arguments + [OpaqueFunction(function=launch_setup)])

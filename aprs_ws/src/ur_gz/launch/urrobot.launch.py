@@ -66,8 +66,8 @@ def generate_launch_description():
     node_robot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
-        output='screen',
-        parameters=[robot_description]
+        output='both',
+        parameters=[{'use_sim_time': True},robot_description]
     )
     gz_spawn_entity = Node(
         package='ros_gz_sim',
@@ -117,14 +117,13 @@ def generate_launch_description():
         )
     )
 
-    ust = launch_ros.actions.SetParameter(name='use_sim_time', value=True)
+
     return LaunchDescription([
         gz,
         launch_gz,
         launch_controller,
         node_robot_state_publisher,
         gz_spawn_entity,
-        ust,
         # moveit,
         # Launch Arguments
         DeclareLaunchArgument(

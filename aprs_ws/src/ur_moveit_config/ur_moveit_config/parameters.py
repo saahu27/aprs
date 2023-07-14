@@ -28,12 +28,29 @@ def load_yaml(package_name, file_path):
 
 def generate_parameters():
     parameters = []
-
+     # Initialize Arguments
+    ur_type = "ur10e"
+    safety_limits = "true"
+    pkg_share_dir = get_package_share_directory('ur_description')
+    pkg_share_dir_control = get_package_share_directory('ur_gz')
+    control_path = pkg_share_dir_control + "/config"  + "/ur_controller.yaml"
     robot_description_content = Command(
         [
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
             PathJoinSubstitution([FindPackageShare("ur_description"), "urdf", "ur.urdf.xacro"]), 
+            " ",
+            "name:=",
+            "ur",
+            " ",
+            "ur_type:=",
+            "ur10e",
+            " ",
+            "sim_gz:=",
+            "true",
+            " ",
+            "simulation_controllers:=",
+            control_path,
             " "
         ]
     )
