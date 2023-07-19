@@ -20,10 +20,7 @@
       <background>0.5 0.5 0.5 1</background>
     </scene>
 
-    <physics name="1ms" type="ignored">
-      <max_step_size>0.001</max_step_size>
-      <real_time_factor>1.0</real_time_factor>
-    </physics>
+    
     <plugin
       filename="gz-sim-physics-system"
       name="gz::sim::systems::Physics">
@@ -36,6 +33,11 @@
       filename="gz-sim-scene-broadcaster-system"
       name="gz::sim::systems::SceneBroadcaster">
     </plugin>
+
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
 
     <!--light-->
     <light type="directional" name="sun">
@@ -167,16 +169,16 @@
       <uri>model://assembly_table</uri>
     </include>
 
-    <include>
+    <!-- <include>
       <name>assembly_insert_1</name>
       <pose>-7.7 3 1.011 0 0 0 </pose>
       <uri>model://assembly_insert</uri>
-    </include>
+    </include> -->
 
-    <joint name="assembly_insert_1_joint" type="fixed">
+    <!-- <joint name="assembly_insert_1_joint" type="fixed">
       <parent>assembly_table_1::assembly_table_link</parent>
       <child>assembly_insert_1::insert_link</child>
-    </joint>
+    </joint> -->
 
     <include>
       <name>assembly_table_2</name>
@@ -184,11 +186,11 @@
       <uri>model://assembly_table</uri>
     </include>
 
-    <include>
+    <!-- <include>
       <name>assembly_insert_2</name>
       <pose>-12.7 3 1.011 0 0 0 </pose>
       <uri>model://assembly_insert</uri>
-    </include>
+    </include> -->
 
     <include>
       <name>assembly_table_3</name>
@@ -196,11 +198,11 @@
       <uri>model://assembly_table</uri>
     </include>
 
-    <include>
+    <!-- <include>
       <name>assembly_insert_3</name>
       <pose>-7.7 -3 1.011 0 0 0 </pose>
       <uri>model://assembly_insert</uri>
-    </include>
+    </include> -->
 
     <include>
       <name>assembly_table_4</name>
@@ -208,11 +210,11 @@
       <uri>model://assembly_table</uri>
     </include>
 
-    <include>
+    <!-- <include>
       <name>assembly_insert_4</name>
       <pose>-12.7 -3 1.011 0 0 0 </pose>
       <uri>model://assembly_insert</uri>
-    </include>
+    </include> -->
 
     <!-- Insert tray tables -->
     <include>

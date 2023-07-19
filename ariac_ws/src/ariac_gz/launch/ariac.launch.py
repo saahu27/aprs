@@ -13,13 +13,15 @@
 # limitations under the License.
 
 import os
+import yaml
+import rclpy.logging
 from launch.actions import (
     DeclareLaunchArgument,
     IncludeLaunchDescription,
     OpaqueFunction,
 )
 
-from ament_index_python.packages import get_package_share_directory
+from ament_index_python.packages import get_package_share_directory, PackageNotFoundError
 
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
@@ -58,6 +60,40 @@ def launch_setup(context, *args, **kwargs):
             " "
         ]
     )
+
+    # Set the path to this package.
+    pkg_share = FindPackageShare(package='ariac_gz').find('ariac_gz')
+    trial_name = LaunchConfiguration("trial_name").perform(context)
+    trial_config_path = os.path.join(pkg_share, 'config', 'trials', trial_name + ".yaml")
+
+    if not os.path.exists(trial_config_path):
+        rclpy.logging.get_logger('Launch File').fatal(f"Trial configuration '{trial_name}' not found in {pkg_share}/config/trials/")
+        exit()
+
+    try:
+        competitor_pkg_share = get_package_share_directory(LaunchConfiguration("competitor_pkg").perform(context))
+    except PackageNotFoundError:
+        rclpy.logging.get_logger('Launch File').fatal("Competitor package not found")
+        exit()
+
+    # sensor_config = LaunchConfiguration("sensor_config").perform(context)
+    # user_config_path = os.path.join(competitor_pkg_share, 'config', sensor_config + ".yaml")
+
+    # if not os.path.exists(user_config_path):
+    #     rclpy.logging.get_logger('Launch File').fatal(f"Sensor configuration '{sensor_config}.yaml' not found in {competitor_pkg_share}/config/")
+    #     exit()
+
+    # Sensor TF
+    # sensor_tf_broadcaster = Node(
+    #     package='ariac_gazebo',
+    #     executable='sensor_tf_broadcaster.py',
+    #     output='screen',
+    #     arguments=[user_config_path],
+    #     parameters=[
+    #         {"use_sim_time": True},
+    #     ]
+    # )
+
 
     with open(xacro_file, 'r') as infp:
         robot_desc = infp.read()

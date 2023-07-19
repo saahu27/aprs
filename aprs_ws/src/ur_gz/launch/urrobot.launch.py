@@ -109,6 +109,7 @@ def generate_launch_description():
                 on_exit=[load_joint_trajectory_controller],
             )
         )
+        
     
     # MoveIt node
     moveit = IncludeLaunchDescription(
@@ -117,6 +118,49 @@ def generate_launch_description():
         )
     )
 
+    # Static TF
+    static_tf = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        name="static_transform_publisher",
+        output="log",
+        arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "base_link"],
+    )
+
+    # ros2_control using FakeSystem as hardware
+    # ros2_controllers_path = os.path.join(
+    #     get_package_share_directory("ur_gz"),
+    #     "config",
+    #     "ur_controller.yaml",
+    # )
+
+    # ros2_control_node = Node(
+    #     package="controller_manager",
+    #     executable="ros2_control_node",
+    #     parameters=[robot_description, ros2_controllers_path],
+    #     output="both",
+    # )
+
+    # joint_state_broadcaster_spawner = Node(
+    #     package="controller_manager",
+    #     executable="spawner",
+    #     arguments=[
+    #         "joint_state_broadcaster",
+    #         "--controller-manager",
+    #         "/controller_manager",
+    #     ],
+    # )
+
+    # ur_controller_spawner = Node(
+    #     package="controller_manager",
+    #     executable="spawner",
+    #     arguments=[
+    #         "ur_controller",
+    #         "--controller-manager",
+    #         "/controller_manager",
+    #     ],
+    # )
+
 
     return LaunchDescription([
         gz,
@@ -124,6 +168,10 @@ def generate_launch_description():
         launch_controller,
         node_robot_state_publisher,
         gz_spawn_entity,
+        # ur_controller_spawner,
+        # joint_state_broadcaster_spawner,
+        # ros2_control_node,
+        static_tf,
         # moveit,
         # Launch Arguments
         DeclareLaunchArgument(

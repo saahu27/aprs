@@ -28,9 +28,7 @@ def launch_gz(context, *args, **kwargs):
            'IGN_GAZEBO_SYSTEM_PLUGIN_PATH':  # TODO(CH3): To support pre-garden. Deprecated.
                       ':'.join([environ.get('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', default=''),
                                 environ.get('LD_LIBRARY_PATH', default='/home/developer/ariac_ws/install/ign_ros2_control/lib')]
-            ),
-            'IGN_GAZEBO_RESOURCE_PATH': ":".join([
-                '/home/developer/ariac_ws/src/ariac_gz/models'])
+            )
     }
 
     gz_args = LaunchConfiguration('gz_args').perform(context)
