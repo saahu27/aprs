@@ -1,9 +1,12 @@
-cmake_minimum_required(VERSION 3.10.2)
-project(moveit_resources_panda_moveit_config)
+cmake_minimum_required(VERSION 3.5)
+project(panda_moveit_config)
+
+# Find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(panda_description REQUIRED)
 
+# Install directories
+install(DIRECTORY config launch rviz srdf DESTINATION share/${PROJECT_NAME})
+
+# Setup the project
 ament_package()
-
-install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
-install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
-install(FILES .setup_assistant DESTINATION share/${PROJECT_NAME})
