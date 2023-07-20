@@ -140,7 +140,8 @@ RUN /bin/sh -c 'wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share
     ros-rolling-moveit \
     ros-rolling-rmw-cyclonedds-cpp \
     ros-rolling-ros2-control \
-    ros-rolling-rviz-visual-tools \
+    ros-rolling-ros2-controllers \
+    ros-rolling-rviz-visual-tools \ 
     ros-rolling-xacro \
     gz-garden \
  && apt-get clean

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+  <xacro:macro name="ur" params="">
+
+    <!-- Inclue ur robot macro -->
+    <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+
+    <!-- Run ur macro -->
+    <xacro:ur
+      name="ur"
+      prefix=""
+      ur_type="ur10e"
+      parent="robot_base"
+      sim_gz="true">
+      <origin xyz="0 0 0.05" rpy="0 0 0" />
+    </xacro:ur>
+  </xacro:macro>
+</robot>
