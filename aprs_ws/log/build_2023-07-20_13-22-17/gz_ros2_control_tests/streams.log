@@ -1,0 +1,82 @@
+[0.013s] Invoking command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/gz_ros2_control_tests -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/gz_ros2_control_tests
+[0.049s] -- The C compiler identification is GNU 11.3.0
+[0.095s] -- The CXX compiler identification is GNU 11.3.0
+[0.101s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.230s] -- Detecting CXX compiler ABI info - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.236s] -- Detecting CXX compile features
+[0.237s] -- Detecting CXX compile features - done
+[0.243s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.478s] -- Found ament_lint_auto: 0.15.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[0.564s] -- Found control_msgs: 5.0.0 (/opt/ros/rolling/share/control_msgs/cmake)
+[0.607s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.623s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.196s] -- Found rclcpp: 22.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[1.295s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.299s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.394s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.423s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.616s] -- Found rclcpp_action: 22.0.0 (/opt/ros/rolling/share/rclcpp_action/cmake)
+[1.655s] -- Found launch_testing_ament_cmake: 2.2.1 (/opt/ros/rolling/share/launch_testing_ament_cmake/cmake)
+[1.661s] -- Found python_cmake_module: 0.11.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[1.679s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.684s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.684s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.684s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.684s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.707s] -- Found PythonExtra: .so  
+[1.710s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.712s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.716s] -- Configured cppcheck include dirs: 
+[1.716s] -- Configured cppcheck exclude dirs and/or files: 
+[1.716s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.716s] -- Configured cpplint exclude dirs and/or files: 
+[1.716s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.717s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.717s] -- Added test 'lint_cmake' to check CMake code style
+[1.717s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.717s] -- Added test 'uncrustify' to check C / C++ code style
+[1.717s] -- Configured uncrustify additional arguments: 
+[1.717s] -- Added test 'xmllint' to check XML markup files
+[1.717s] -- Configuring done
+[1.733s] -- Generating done
+[1.735s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/gz_ros2_control_tests
+[1.753s] Invoked command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/gz_ros2_control_tests -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/gz_ros2_control_tests
+[1.754s] Invoking command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/gz_ros2_control_tests -- -j16 -l16
+[1.803s] [ 50%] [32mBuilding CXX object CMakeFiles/test_position.dir/src/test_position.cpp.o[0m
+[8.052s] [100%] [32m[1mLinking CXX executable test_position[0m
+[8.209s] [100%] Built target test_position
+[8.215s] Invoked command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/gz_ros2_control_tests -- -j16 -l16
+[8.231s] Invoking command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/gz_ros2_control_tests
+[8.234s] -- Install configuration: ""
+[8.234s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/lib/gz_ros2_control_tests/test_position
+[8.236s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/lib/gz_ros2_control_tests/test_position" to ""
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//urdf
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//urdf/test_cart_position.xacro.urdf
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//config
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests//config/cartpole_controller_position.yaml
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_tests
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_tests
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.sh
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.dsv
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.sh
+[8.236s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.dsv
+[8.237s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.bash
+[8.237s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.sh
+[8.237s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.zsh
+[8.237s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.dsv
+[8.237s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv
+[8.237s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/packages/gz_ros2_control_tests
+[8.237s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig.cmake
+[8.237s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig-version.cmake
+[8.237s] -- Installing: /workspaces/aprs/aprs_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.xml
+[8.240s] Invoked command in '/workspaces/aprs/aprs_ws/build/gz_ros2_control_tests' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control:/opt/ros/rolling GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib/gz_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/gz_ros2_control_tests
