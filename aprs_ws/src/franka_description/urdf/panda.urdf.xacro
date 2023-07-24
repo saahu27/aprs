@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="panda_xacro">
+  <!-- <xacro:arg name="camera" default="true"/> -->
+
+  <!-- Inclue macros -->
+  <xacro:include filename="$(find franka_description)/robots/panda_arm.xacro"/>
+  <xacro:include filename="$(find franka_description)/robots/hand.xacro"/>
+  <xacro:include filename="$(find franka_description)/robots/panda_arm.ros2_control.xacro"/>
+
+  <material name="Black">
+    <color rgba="${50/255} ${50/255} ${50/255} 1.0"/>
+  </material>
+
+  <material name="Gray">
+    <color rgba="${200/255} ${200/255} ${200/255} 1.0"/>
+  </material>
+
+
+  <link name="world" />
+
+  <!-- Run panda macro -->
+  <xacro:panda_arm
+    arm_id="panda"
+    safety_distance="0.0"
+    connected_to="world"
+    xyz="0.05 0 0"/>
+  
+  <!-- Run hand macro -->
+  <xacro:hand 
+    ns="panda"
+    rpy="0 0 ${-pi/4}"
+    connected_to="panda_link8"
+    safety_distance="0.0"/>
+
+
+  <!-- Run ROS2 control macro -->
+  <xacro:panda_arm_ros2_control 
+    ns="panda"
+    robot_ip="172.16.0.2"
+    use_fake_hardware="false"
+    fake_sensor_commands="false"
+    sim_gz="true"
+    real_hardware="false"/>
+  
+  <xacro:if value="$(arg sim_gz)">
+    <!-- Gazebo plugins -->
+    <gazebo reference="world">
+    </gazebo>
+    <gazebo>
+      <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+        <parameters>$(arg simulation_controllers)</parameters>
+        <controller_manager_node_name>controller_manager</controller_manager_node_name>
+      </plugin>
+    </gazebo>
+  </xacro:if>
+
+</robot>

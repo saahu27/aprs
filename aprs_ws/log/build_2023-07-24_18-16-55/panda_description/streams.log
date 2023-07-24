@@ -1,0 +1,113 @@
+[0.020s] Invoking command in '/workspaces/aprs/aprs_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/panda_description -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/panda_description
+[0.099s] -- The C compiler identification is GNU 11.3.0
+[0.133s] -- The CXX compiler identification is GNU 11.3.0
+[0.137s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.272s] -- Detecting CXX compiler ABI info - done
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.288s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.493s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.635s] -- Configuring done
+[0.637s] -- Generating done
+[0.638s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/panda_description
+[0.648s] Invoked command in '/workspaces/aprs/aprs_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/panda_description -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/panda_description
+[0.649s] Invoking command in '/workspaces/aprs/aprs_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/panda_description -- -j16 -l16
+[0.672s] Invoked command in '/workspaces/aprs/aprs_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/panda_description -- -j16 -l16
+[0.687s] Invoking command in '/workspaces/aprs/aprs_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/panda_description
+[0.691s] -- Install configuration: ""
+[0.691s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/environment/ign_gazebo_resource_path.bash
+[0.691s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/environment/sdf_path.bash
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/lib/panda_description/xacro2sdf_direct.bash
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/lib/panda_description/xacro2sdf.bash
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/lib/panda_description/xacro2urdf.bash
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/config
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/config/initial_joint_positions.yaml
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/launch
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/launch/view_ign.launch.py
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/launch/view.launch.py
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/launch/view_gz.launch.py
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision
+[0.692s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/link3.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/link1.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/finger.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/link5.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/link0.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/link7.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/link6.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/link2.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/link4.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/collision/hand.stl
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual
+[0.693s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/link2.dae
+[0.694s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/link0.dae
+[0.696s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/hand.dae
+[0.696s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/link4.dae
+[0.697s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/link6.dae
+[0.698s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/link5.dae
+[0.700s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/link1.dae
+[0.701s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/finger.dae
+[0.701s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/link7.dae
+[0.701s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/meshes/visual/link3.dae
+[0.702s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/model.config
+[0.702s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/thumbnails
+[0.702s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/thumbnails/2.png
+[0.703s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/thumbnails/1.png
+[0.703s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/panda/model.sdf
+[0.703s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes
+[0.703s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision
+[0.703s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/link3.stl
+[0.703s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/link1.stl
+[0.703s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/finger.stl
+[0.703s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/link5.stl
+[0.704s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/link0.stl
+[0.704s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/link7.stl
+[0.704s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/link6.stl
+[0.704s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/link2.stl
+[0.704s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/link4.stl
+[0.704s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/collision/hand.stl
+[0.704s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual
+[0.704s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/link2.dae
+[0.705s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/link0.dae
+[0.706s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/hand.dae
+[0.707s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/link4.dae
+[0.708s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/link6.dae
+[0.709s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/link5.dae
+[0.710s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/link1.dae
+[0.711s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/finger.dae
+[0.711s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/link7.dae
+[0.712s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/meshes/visual/link3.dae
+[0.713s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/rviz
+[0.713s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/rviz/view.rviz
+[0.713s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/urdf
+[0.713s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/urdf/panda.gazebo
+[0.713s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/urdf/panda_gripper.xacro
+[0.713s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/urdf/panda.ros2_control
+[0.713s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/urdf/panda_inertial.xacro
+[0.713s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/urdf/panda.urdf
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/urdf/panda_arm.xacro
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/urdf/panda.urdf.xacro
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/urdf/panda_utils.xacro
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/ament_index/resource_index/package_run_dependencies/panda_description
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/ament_index/resource_index/parent_prefix_path/panda_description
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/environment/ament_prefix_path.sh
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/environment/ament_prefix_path.dsv
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/environment/path.sh
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/environment/path.dsv
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/local_setup.bash
+[0.714s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/local_setup.sh
+[0.715s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/local_setup.zsh
+[0.715s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/local_setup.dsv
+[0.715s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/package.dsv
+[0.715s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/ament_index/resource_index/packages/panda_description
+[0.715s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/cmake/panda_descriptionConfig.cmake
+[0.715s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/cmake/panda_descriptionConfig-version.cmake
+[0.715s] -- Installing: /workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/package.xml
+[0.717s] Invoked command in '/workspaces/aprs/aprs_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/panda_description
