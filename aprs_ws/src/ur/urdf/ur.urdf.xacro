@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="gmcs_panda">
+  <xacro:arg name="camera" default="true"/>
+
+  <!-- Inclue macros -->
+  <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/>
+  <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro" />
+
+  <material name="Black">
+    <color rgba="${50/255} ${50/255} ${50/255} 1.0"/>
+  </material>
+
+  <material name="Gray">
+    <color rgba="${200/255} ${200/255} ${200/255} 1.0"/>
+  </material>
+
+  
+  <xacro:if value="$(arg camera)">
+      <!-- Camera Mount Link -->
+    <link name="camera_mount">
+      <visual>
+        <origin xyz="-0.012 0 -0.038" rpy="0 0 ${-pi/2}"/>
+        <geometry>
+          <mesh
+            filename="package://gmcs_panda_description/meshes/camera_mount.stl"
+            scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Black"/>
+      </visual>
+    </link>
+
+    <joint name="camera_mount_to_flange_joint" type="fixed">
+      <origin xyz="0.03 0 .045" rpy="0 0 0"/>
+      <parent link="tool0"/>
+      <child link="camera_mount" />
+    </joint>
+
+    <joint name="camera_mount_joint" type="fixed">
+      <origin xyz="0 -0.0175 0.0208" rpy="0 ${-pi/2} ${-pi}"/>
+      <parent link="camera_mount"/>
+      <child link="camera_link" />
+    </joint>
+
+    <!-- Run camera macro -->
+    <xacro:sensor_d435 
+      parent="camera_mount" 
+      use_nominal_extrinsics="false" 
+      add_plug="false" 
+      use_mesh="true">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:sensor_d435>
+  </xacro:if>
+
+</robot>

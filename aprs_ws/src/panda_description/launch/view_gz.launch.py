@@ -15,6 +15,7 @@ from launch.substitutions import (
 )
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+from launch.actions import DeclareLaunchArgument, ExecuteProcess, IncludeLaunchDescription
 
 
 def generate_launch_description() -> LaunchDescription:
@@ -62,6 +63,18 @@ def generate_launch_description() -> LaunchDescription:
         ),
     ]
 
+    load_joint_trajectory_controller = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+             'panda_controller'],
+        output='screen'
+    )
+
+    load_joint_state_broadcaster = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+             'joint_state_broadcaster'],
+        output='screen'
+    )
+
     # List of nodes to be launched
     nodes = [
         # robot_state_publisher
@@ -87,6 +100,9 @@ def generate_launch_description() -> LaunchDescription:
             arguments=["-file", model, "--ros-args", "--log-level", log_level],
             parameters=[{"use_sim_time": use_sim_time}],
         ),
+
+        load_joint_trajectory_controller,
+        load_joint_state_broadcaster,
     ]
 
     return LaunchDescription(declared_arguments + launch_descriptions + nodes)
