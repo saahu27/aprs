@@ -30,19 +30,26 @@ from launch.launch_context import LaunchContext
 def generate_launch_description():
 
     # Initialize Arguments
-    ur_type = "ur10e"
+    ur_type = "ur5e"
     safety_limits = "true"
     pkg_share_dir = get_package_share_directory('ur_description')
     pkg_share_dir_control = get_package_share_directory('ur_gz')
     control_path = pkg_share_dir_control + "/config"  + "/ur_controller.yaml"
-    # models_path = pkg_share_dir + "/meshes"
-    # os.environ['GZ_SIM_RESOURCE_PATH'] = models_path
+    robot_ip = "192.168.0.1"
+
+    real = "false"
     
     robot_description_content = Command(
         [
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
             PathJoinSubstitution([FindPackageShare("ur_description"), "urdf", "ur.urdf.xacro"]),
+            " ",
+            "robot_ip:=",
+            robot_ip,
+            " ",
+            "real:=",
+            real,
             " ",
             "name:=",
             "ur",

@@ -43,6 +43,7 @@
    <xacro:arg name="fake_sensor_commands" default="false" />
    <xacro:arg name="sim_gazebo" default="false" />
    <xacro:arg name="sim_gz" default="false" />
+   <xacro:arg name="real" default="false" />
    <xacro:arg name="simulation_controllers" default="" />
 
    <!-- initial position for simulations (Fake Hardware, Gazebo, Ignition) -->
@@ -71,6 +72,7 @@
      fake_sensor_commands="$(arg fake_sensor_commands)"
      sim_gazebo="$(arg sim_gazebo)"
      sim_gz="$(arg sim_gz)"
+     real="$(arg real)"
      headless_mode="$(arg headless_mode)"
      initial_positions="${xacro.load_yaml(initial_positions_file)}"
      use_tool_communication="$(arg use_tool_communication)"

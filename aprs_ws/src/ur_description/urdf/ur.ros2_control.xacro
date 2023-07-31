@@ -7,6 +7,7 @@
     use_fake_hardware:=false fake_sensor_commands:=false
     sim_gazebo:=false
     sim_gz:=false
+    real:=false
     headless_mode:=false
     initial_positions:=${dict(shoulder_pan_joint=0.0,shoulder_lift_joint=-1.57,elbow_joint=0.0,wrist_1_joint=-1.57,wrist_2_joint=0.0,wrist_3_joint=0.0)}
     use_tool_communication:=false
@@ -33,7 +34,7 @@
           <param name="fake_sensor_commands">${fake_sensor_commands}</param>
           <param name="state_following_offset">0.0</param>
         </xacro:if>
-        <xacro:unless value="${use_fake_hardware or sim_gazebo or sim_gz}">
+        <xacro:if value="${real}">
           <plugin>ur_robot_driver/URPositionHardwareInterface</plugin>
           <param name="robot_ip">${robot_ip}</param>
           <param name="script_filename">${script_filename}</param>
@@ -58,7 +59,7 @@
           <param name="tool_tx_idle_chars">${tool_tx_idle_chars}</param>
           <param name="tool_device_name">${tool_device_name}</param>
           <param name="tool_tcp_port">${tool_tcp_port}</param>
-        </xacro:unless>
+        </xacro:if>
       </hardware>
       <joint name="${prefix}shoulder_pan_joint">
         <command_interface name="position">
@@ -157,7 +158,7 @@
         <state_interface name="effort"/>
       </joint>
 
-      <xacro:unless value="${sim_gazebo or sim_gz}">
+      <xacro:if value="${real}">
         <sensor name="tcp_fts_sensor">
           <state_interface name="force.x"/>
           <state_interface name="force.y"/>
@@ -306,7 +307,7 @@
           <state_interface name="initialized"/>
         </gpio>
 
-      </xacro:unless>
+      </xacro:if>
 
     </ros2_control>
 

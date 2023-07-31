@@ -70,6 +70,7 @@
     fake_sensor_commands:=false
     sim_gazebo:=false
     sim_gz:=false
+    real:=false
     headless_mode:=false
     initial_positions:=${dict(shoulder_pan_joint=0.0,shoulder_lift_joint=-1.57,elbow_joint=0.0,wrist_1_joint=-1.57,wrist_2_joint=0.0,wrist_3_joint=0.0)}
     use_tool_communication:=false
@@ -110,6 +111,7 @@
       headless_mode="${headless_mode}"
       sim_gazebo="${sim_gazebo}"
       sim_gz="${sim_gz}"
+      real="${real}"
       script_filename="${script_filename}"
       output_recipe_filename="${output_recipe_filename}"
       input_recipe_filename="${input_recipe_filename}"
