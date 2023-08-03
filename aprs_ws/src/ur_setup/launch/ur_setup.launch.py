@@ -4,7 +4,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.actions import IncludeLaunchDescription
 from launch_ros.substitutions import FindPackageShare
 
-from ur_moveit_config.parameters import generate_parameters
+from ur5e_moveit_config.parameters import generate_parameters
 
 def generate_launch_description():
 

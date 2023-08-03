@@ -26,6 +26,7 @@ from launch_ros.actions import Node
 from launch.substitutions import Command, FindExecutable, LaunchConfiguration, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
 from launch.launch_context import LaunchContext
+from launch_ros.descriptions import ParameterValue  # Need master or Galactic branch for this feature
 
 def generate_launch_description():
 
@@ -33,6 +34,7 @@ def generate_launch_description():
     ur_type = "ur5e"
     safety_limits = "true"
     pkg_share_dir = get_package_share_directory('ur_description')
+    os.environ['GZ_SIM_RESOURCE_PATH'] = pkg_share_dir + "/meshes"
     pkg_share_dir_control = get_package_share_directory('ur_gz')
     control_path = pkg_share_dir_control + "/config"  + "/ur_controller.yaml"
     robot_ip = "192.168.0.1"
@@ -43,7 +45,7 @@ def generate_launch_description():
         [
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
-            PathJoinSubstitution([FindPackageShare("ur_description"), "urdf", "ur.urdf.xacro"]),
+            PathJoinSubstitution([FindPackageShare("ur"), "urdf", "ur.urdf.xacro"]),
             " ",
             "robot_ip:=",
             robot_ip,
@@ -66,6 +68,9 @@ def generate_launch_description():
         ]
     )
     robot_description = {"robot_description": robot_description_content}
+    # cc = (ParameterValue(Command(['cat ',robot_description_content]), value_type=str))
+    # robot_description = {"robot_description": cc}
+
     # Launch Arguments
     use_sim_time = LaunchConfiguration('use_sim_time', default=True)
 
@@ -121,7 +126,7 @@ def generate_launch_description():
     # MoveIt node
     moveit = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            [FindPackageShare("ur_moveit_config"), "/launch", "/ur_moveit.launch.py"]
+            [FindPackageShare("ur5e_moveit_config"), "/launch", "/ur_moveit.launch.py"]
         )
     )
 
@@ -179,7 +184,7 @@ def generate_launch_description():
         # joint_state_broadcaster_spawner,
         # ros2_control_node,
         static_tf,
-        # moveit,
+        moveit,
         # Launch Arguments
         DeclareLaunchArgument(
             'use_sim_time',

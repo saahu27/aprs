@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="https://ros.org/wiki/xacro">
+  <!-- Here we define the 2 parameters of the macro -->
+  <xacro:macro name="vaccum_tool">
+    <link name="vaccum_gripper">
+      <visual>
+        <geometry>
+          <!-- The path to the visual meshes in the package. -->
+          <mesh filename="package://ur/meshes/vaccum_gripper.stl"
+                scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Black"/>
+      </visual>
+    </link>
+
+    <joint name="vaccum_gripper_to_flange_joint" type="fixed">
+      <origin xyz="0.03 0 .045" rpy="0 0 0"/>
+      <parent link="tool0"/>
+      <child link="vaccum_gripper" />
+    </joint>
+
+  </xacro:macro>
+</robot>
+
+
+<material name="Black">
+    <color rgba="${50/255} ${50/255} ${50/255} 1.0"/>
+   </material>
+
+   <material name="Gray">
+    <color rgba="${200/255} ${200/255} ${200/255} 1.0"/>
+   </material>
+
+   
+ <xacro:if value="$(arg camera)">
+      <!-- Camera Mount Link -->
+  <link name="camera_mount">
+    <visual>
+      <origin xyz="-0.012 0 -0.038" rpy="0 0 ${-pi/2}"/>
+      <geometry>
+        <mesh
+          filename="package://ur/meshes/camera_mount.stl"
+          scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="Black"/>
+    </visual>
+  </link>
+
+  <joint name="camera_mount_to_flange_joint" type="fixed">
+    <origin xyz="0.03 0 .045" rpy="0 0 0"/>
+    <parent link="tool0"/>
+    <child link="camera_mount" />
+  </joint>
+
+  <joint name="camera_mount_joint" type="fixed">
+    <origin xyz="0 -0.0175 0.0208" rpy="0 ${-pi/2} ${-pi}"/>
+    <parent link="camera_mount"/>
+    <child link="camera_link" />
+  </joint>
+
+    <!-- Run camera macro -->
+    <xacro:sensor_d435 
+      parent="camera_mount" 
+      use_nominal_extrinsics="true" 
+      add_plug="false" 
+      use_mesh="true">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:sensor_d435>
+  </xacro:if>
+
+
+  <?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="vaccum_gripper" params="prefix parent *origin">
+   
+        <joint name="${prefix}gripper_base_joint" type="fixed">
+            <parent link="${parent}"/>
+            <child link="wrist_fixture"/>
+            <xacro:insert_block name="origin"/>
+        </joint>
+
+       <xacro:arg name="limited" default="true"/>
+
+       <!-- LOAD IN VACUUM FIXTURE -->
+    <link name="wrist_fixture">
+        <inertial>
+          <origin xyz="-0.0217515165915374 -9.97842315909634E-12 0.00161452700025897" rpy="0 0 0" />
+          <mass value="0.159581379421063" />
+          <inertia
+            ixx="2.89607613104341E-06"
+            ixy="-4.62033398488708E-14"
+            ixz="-1.53914118337679E-05"
+            iyy="0.000132250835361537"
+            iyz="3.97755040354793E-14"
+            izz="0.000129661489903914" />
+        </inertial>
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="$(find single_suction_description)/meshes/wrist_fixture.STL" />
+          </geometry>
+          <material name="">
+            <color rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+          </material>
+        </visual>
+        <collision>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file://$(find single_suction_description)/meshes/wrist_fixture.STL" />
+          </geometry>
+        </collision>
+      </link>
+
+      <link name="suction_cup_link">
+        <origin xyz= "-0.22836 0.053 0"/>
+      </link>
+
+      <joint name="virtual_ee_joint" type="fixed">
+        <origin xyz="-0.22836 0.053 0" rpy="0 ${pi/2} 0" />
+        <parent link="wrist_fixture" />
+        <child link="suction_cup_link" />
+        <axis xyz="0 0 0" />
+      </joint>
+  <!-- <xacro:macro name="vaccum_gripper" params="prefix parent *origin">
+
+    <joint name="${prefix}vaccum_gripper_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${prefix}vaccum_e_link"/>
+      <xacro:insert_block name="origin"/>
+    </joint>
+
+    <link name="${prefix}vaccum_e_link">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find ur)/meshes/vaccum_gripper.stl" scale="0.0001 0.0001 0.0001"/>
+        </geometry>
+        <material name="Dark">
+          <color rgba=".1 0.1 0.1 1.0"/>
+        </material>
+      </visual>
+      <collision>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find ur)/meshes/vaccum_gripper.stl" scale="0.0001 0.0001 0.0001"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <gazebo reference="${prefix}vaccum_e_link">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo> -->
+
+
+
+  </xacro:macro>
+</robot>
