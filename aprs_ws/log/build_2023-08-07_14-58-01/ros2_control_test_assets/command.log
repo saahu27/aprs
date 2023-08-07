@@ -1,0 +1,6 @@
+Invoking command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets
+Invoked command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets
+Invoking command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets -- -j16 -l16
+Invoked command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets -- -j16 -l16
+Invoking command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets
+Invoked command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets

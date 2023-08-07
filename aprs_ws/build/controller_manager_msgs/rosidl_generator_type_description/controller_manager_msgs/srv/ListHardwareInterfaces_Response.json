@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "controller_manager_msgs/srv/ListHardwareInterfaces_Response",
+      "fields": [
+        {
+          "name": "command_interfaces",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "controller_manager_msgs/msg/HardwareInterface"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "state_interfaces",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "controller_manager_msgs/msg/HardwareInterface"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "controller_manager_msgs/msg/HardwareInterface",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "is_available",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "is_claimed",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "controller_manager_msgs/srv/ListHardwareInterfaces_Response",
+      "hash_string": "RIHS01_755061d6c273304c2508db653294aca09e66da79f1b5dd981e8141b111d4e19d"
+    },
+    {
+      "type_name": "controller_manager_msgs/msg/HardwareInterface",
+      "hash_string": "RIHS01_c24ddd0364686a74c1cedc2d015b58a9b7eb107b8644c14a63cd5ed67818145f"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+[0.038s] Invoking command in '/home/aprs/aprs/aprs_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_controllers/joint_trajectory_controller -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/joint_trajectory_controller
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.202s] -- Detecting CXX compiler ABI info
+[0.202s] -- Detecting CXX compiler ABI info - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.202s] -- Detecting CXX compile features
+[0.202s] -- Detecting CXX compile features - done
+[0.202s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.295s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.382s] -- Found backward_ros: 1.0.2 (/opt/ros/rolling/share/backward_ros/cmake)
+[0.392s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.396s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.396s] -- BACKWARD_HAS_UNWIND=1
+[0.396s] -- BACKWARD_HAS_BACKTRACE=0
+[0.397s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.397s] -- BACKWARD_HAS_DW=1
+[0.397s] -- BACKWARD_HAS_BFD=0
+[0.397s] -- Found Backward: /opt/ros/rolling/share/backward_ros/cmake  
+[0.398s] -- Found angles: 1.16.0 (/opt/ros/rolling/share/angles/cmake)
+[0.400s] -- Found control_msgs: 5.0.0 (/home/aprs/aprs/aprs_ws/install/control_msgs/share/control_msgs/cmake)
+[0.427s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.437s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.041s] -- Found control_toolbox: 3.1.0 (/opt/ros/rolling/share/control_toolbox/cmake)
+[1.158s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.161s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.282s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.307s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.690s] -- Found controller_interface: 3.17.0 (/home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/cmake)
+[1.829s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/rolling/share/generate_parameter_library/cmake)
+[1.832s] -- Found parameter_traits: 0.3.3 (/opt/ros/rolling/share/parameter_traits/cmake)
+[1.854s] -- Found ament_cmake_gmock: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+[1.854s] -- Found controller_manager: 3.17.0 (/home/aprs/aprs/aprs_ws/install/controller_manager/share/controller_manager/cmake)
+[2.060s] -- Found ros2_control_test_assets: 3.17.0 (/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.062s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.102s] -- The C compiler identification is GNU 11.4.0
+[2.117s] -- Detecting C compiler ABI info
+[2.233s] -- Detecting C compiler ABI info - done
+[2.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.245s] -- Detecting C compile features
+[2.245s] -- Detecting C compile features - done
+[2.251s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[2.252s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.327s] -- Configuring done
+[2.370s] -- Generating done
+[2.372s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/joint_trajectory_controller
+[2.399s] Invoked command in '/home/aprs/aprs/aprs_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_controllers/joint_trajectory_controller -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/joint_trajectory_controller
+[2.399s] Invoking command in '/home/aprs/aprs/aprs_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/joint_trajectory_controller -- -j16 -l16
+[2.479s] [  5%] [34m[1mRunning `/usr/bin/cmake -E copy /home/aprs/aprs/aprs_ws/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/aprs/aprs/aprs_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp`[0m
+[2.487s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.493s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.496s] [ 22%] [34m[1mRunning `/opt/ros/rolling/bin/generate_parameter_library_py /home/aprs/aprs/aprs_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/aprs/aprs/aprs_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp`[0m
+[2.496s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.247s] [ 27%] Built target joint_trajectory_controller_parameters
+[3.291s] [ 33%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[3.323s] [ 38%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[4.591s] [ 44%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.775s] [ 44%] Built target gmock_main
+[9.276s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[9.376s] [ 50%] Built target gmock
+[22.723s] [ 55%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[24.566s] [ 55%] Built target joint_trajectory_controller
+[24.594s] [ 61%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[28.810s] [ 66%] [32m[1mLinking CXX executable test_trajectory[0m
+[29.138s] [ 66%] Built target test_trajectory
+[29.151s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[29.156s] [ 77%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[34.781s] [ 83%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[35.413s] [ 83%] Built target test_load_joint_trajectory_controller
+[39.398s] [ 88%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[39.966s] [ 88%] Built target test_trajectory_actions
+[39.980s] [ 94%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[43.039s] [01m[K/home/aprs/aprs/aprs_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:[m[K In member function ‘[01m[Kvirtual void TrajectoryControllerTestParameterized_test_hw_states_has_offset_later_controller_start_Test::TestBody()[m[K’:
+[43.039s] [01m[K/home/aprs/aprs/aprs_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1502:27:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[43.039s]  1502 |     joint_pos_[i] = 3.1 + [01;35m[Ki[m[K;
+[43.039s]       |                           [01;35m[K^[m[K
+[43.039s] [01m[K/home/aprs/aprs/aprs_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1503:28:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[43.039s]  1503 |     joint_vel_[i] = 0.25 + [01;35m[Ki[m[K;
+[43.039s]       |                            [01;35m[K^[m[K
+[43.039s] [01m[K/home/aprs/aprs/aprs_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1504:28:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[43.039s]  1504 |     joint_acc_[i] = 0.02 + [01;35m[Ki[m[K / 10.0;
+[43.039s]       |                            [01;35m[K^[m[K
+[51.459s] [100%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[52.244s] [100%] Built target test_trajectory_controller
+[52.254s] Invoked command in '/home/aprs/aprs/aprs_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/joint_trajectory_controller -- -j16 -l16
+[52.274s] Invoking command in '/home/aprs/aprs/aprs_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/joint_trajectory_controller
+[52.278s] -- Install configuration: ""
+[52.278s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/joint_trajectory_controller_parameters.hpp
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/validate_jtc_parameters.hpp
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/joint_trajectory_plugin.xml
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+[52.279s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[52.285s] -- Set runtime path of "/home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+[52.285s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[52.285s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[52.285s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[52.285s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[52.285s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[52.285s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[52.285s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[52.285s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-noconfig.cmake
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[52.286s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[52.289s] Invoked command in '/home/aprs/aprs/aprs_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/joint_trajectory_controller

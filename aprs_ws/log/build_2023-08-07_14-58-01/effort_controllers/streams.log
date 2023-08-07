@@ -1,0 +1,95 @@
+[0.030s] Invoking command in '/home/aprs/aprs/aprs_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_controllers/effort_controllers -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/effort_controllers
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting CXX compiler ABI info
+[0.157s] -- Detecting CXX compiler ABI info - done
+[0.169s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.169s] -- Detecting CXX compile features
+[0.169s] -- Detecting CXX compile features - done
+[0.172s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.337s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Found backward_ros: 1.0.2 (/opt/ros/rolling/share/backward_ros/cmake)
+[0.421s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.427s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.427s] -- BACKWARD_HAS_UNWIND=1
+[0.427s] -- BACKWARD_HAS_BACKTRACE=0
+[0.427s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.427s] -- BACKWARD_HAS_DW=1
+[0.427s] -- BACKWARD_HAS_BFD=0
+[0.428s] -- Found Backward: /opt/ros/rolling/share/backward_ros/cmake  
+[0.429s] -- Found forward_command_controller: 3.13.0 (/home/aprs/aprs/aprs_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[0.472s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.487s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.397s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.401s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.485s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.513s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.834s] -- Found parameter_traits: 0.3.3 (/opt/ros/rolling/share/parameter_traits/cmake)
+[2.143s] -- Found ament_cmake_gmock: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+[2.144s] -- Found controller_manager: 3.17.0 (/home/aprs/aprs/aprs_ws/install/controller_manager/share/controller_manager/cmake)
+[2.438s] -- Found ros2_control_test_assets: 3.17.0 (/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.441s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.485s] -- The C compiler identification is GNU 11.4.0
+[2.492s] -- Detecting C compiler ABI info
+[2.604s] -- Detecting C compiler ABI info - done
+[2.615s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.616s] -- Detecting C compile features
+[2.616s] -- Detecting C compile features - done
+[2.622s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[2.623s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.701s] -- Configuring done
+[2.743s] -- Generating done
+[2.745s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/effort_controllers
+[2.762s] Invoked command in '/home/aprs/aprs/aprs_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_controllers/effort_controllers -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/effort_controllers
+[2.763s] Invoking command in '/home/aprs/aprs/aprs_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/effort_controllers -- -j16 -l16
+[2.817s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.822s] [ 18%] [32mBuilding CXX object CMakeFiles/effort_controllers.dir/src/joint_group_effort_controller.cpp.o[0m
+[3.842s] [ 27%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.883s] [ 27%] Built target gmock_main
+[6.985s] [ 36%] [32m[1mLinking CXX shared library libeffort_controllers.so[0m
+[7.213s] [ 36%] Built target effort_controllers
+[7.232s] [ 45%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[10.460s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[11.762s] [ 63%] [32m[1mLinking CXX static library libgmock.a[0m
+[11.814s] [ 63%] Built target gmock
+[11.829s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_effort_controller.dir/test/test_load_joint_group_effort_controller.cpp.o[0m
+[16.768s] [ 81%] [32m[1mLinking CXX executable test_load_joint_group_effort_controller[0m
+[17.941s] [ 81%] Built target test_load_joint_group_effort_controller
+[17.962s] [ 90%] [32mBuilding CXX object CMakeFiles/test_joint_group_effort_controller.dir/test/test_joint_group_effort_controller.cpp.o[0m
+[24.241s] [100%] [32m[1mLinking CXX executable test_joint_group_effort_controller[0m
+[24.685s] [100%] Built target test_joint_group_effort_controller
+[24.696s] Invoked command in '/home/aprs/aprs/aprs_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/effort_controllers -- -j16 -l16
+[24.719s] Invoking command in '/home/aprs/aprs/aprs_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/effort_controllers
+[24.720s] -- Install configuration: ""
+[24.720s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/effort_controllers_plugins.xml
+[24.720s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/include/effort_controllers
+[24.720s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/include/effort_controllers/effort_controllers
+[24.720s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/include/effort_controllers/effort_controllers/joint_group_effort_controller.hpp
+[24.720s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/include/effort_controllers/effort_controllers/visibility_control.h
+[24.720s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/lib/libeffort_controllers.so
+[24.721s] -- Set runtime path of "/home/aprs/aprs/aprs_ws/install/effort_controllers/lib/libeffort_controllers.so" to ""
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/environment/library_path.sh
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/environment/library_path.dsv
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/ament_index/resource_index/package_run_dependencies/effort_controllers
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/ament_index/resource_index/parent_prefix_path/effort_controllers
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.sh
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.dsv
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/environment/path.sh
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/environment/path.dsv
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/local_setup.bash
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/local_setup.sh
+[24.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/local_setup.zsh
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/local_setup.dsv
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/package.dsv
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/ament_index/resource_index/packages/effort_controllers
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/effort_controllers
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport.cmake
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport-noconfig.cmake
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig.cmake
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig-version.cmake
+[24.722s] -- Installing: /home/aprs/aprs/aprs_ws/install/effort_controllers/share/effort_controllers/package.xml
+[24.725s] Invoked command in '/home/aprs/aprs/aprs_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/forward_command_controller/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/effort_controllers

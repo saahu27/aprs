@@ -1,0 +1,11 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/aprs/aprs/aprs_ws/install/control_msgs/share/control_msgs/package.sh"
+. "/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.sh"
+. "/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.sh"
+. "/home/aprs/aprs/aprs_ws/install/hardware_interface/share/hardware_interface/package.sh"
+. "/home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/package.sh"
+. "/home/aprs/aprs/aprs_ws/install/controller_manager/share/controller_manager/package.sh"
+. "/home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/package.sh"
+. "/home/aprs/aprs/aprs_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.sh"
+. "/home/aprs/aprs/aprs_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.sh"
+. "/home/aprs/aprs/aprs_ws/install/ros2controlcli/share/ros2controlcli/package.sh"

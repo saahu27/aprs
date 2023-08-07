@@ -1,0 +1,78 @@
+[0.179s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_setup': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ur_setup -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ur_setup
+[0.224s] -- The C compiler identification is GNU 11.4.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.287s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.343s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.346s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.423s] -- Detecting CXX compile features
+[0.424s] -- Detecting CXX compile features - done
+[0.427s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.577s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.635s] -- Found moveit_ros_planning_interface: 2.7.4 (/opt/ros/rolling/share/moveit_ros_planning_interface/cmake)
+[0.900s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.984s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.013s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.053s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.756s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.806s] -- Found parameter_traits: 0.3.3 (/opt/ros/rolling/share/parameter_traits/cmake)
+[2.921s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[2.923s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[3.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.088s] -- Found FastRTPS: /opt/ros/rolling/include  
+[3.147s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.368s] -- Found rclcpp_lifecycle: 22.0.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+[3.486s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.625s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.909s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.909s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.557s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.111s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.357s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.841s] -- Found ament_lint_auto: 0.15.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[6.008s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.008s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/aprs/aprs/aprs_ws/src/ur_setup/include>
+[6.008s] -- Configured cppcheck exclude dirs and/or files: 
+[6.008s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.009s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.009s] -- Added test 'lint_cmake' to check CMake code style
+[6.010s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.011s] -- Added test 'uncrustify' to check C / C++ code style
+[6.011s] -- Configured uncrustify additional arguments: 
+[6.011s] -- Added test 'xmllint' to check XML markup files
+[6.012s] -- Configuring done
+[6.045s] -- Generating done
+[6.050s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/ur_setup
+[6.069s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ur_setup -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ur_setup
+[6.086s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_setup': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ur_setup -- -j16 -l16
+[6.244s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_setup.dir/src/ur_setup.cpp.o[0m
+[20.248s] [100%] [32m[1mLinking CXX executable ur_setup[0m
+[20.761s] [100%] Built target ur_setup
+[20.771s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ur_setup -- -j16 -l16
+[20.788s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_setup': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ur_setup
+[20.797s] -- Install configuration: ""
+[20.797s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup//launch
+[20.797s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup//launch/ur_setup.launch.py
+[20.798s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/lib/ur_setup/ur_setup
+[20.798s] -- Set runtime path of "/home/aprs/aprs/aprs_ws/install/ur_setup/lib/ur_setup/ur_setup" to ""
+[20.799s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/package_run_dependencies/ur_setup
+[20.799s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/parent_prefix_path/ur_setup
+[20.799s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/ament_prefix_path.sh
+[20.799s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/ament_prefix_path.dsv
+[20.799s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/path.sh
+[20.799s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/path.dsv
+[20.799s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.bash
+[20.799s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.sh
+[20.800s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.zsh
+[20.800s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.dsv
+[20.800s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/package.dsv
+[20.800s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/packages/ur_setup
+[20.800s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/cmake/ur_setupConfig.cmake
+[20.800s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/cmake/ur_setupConfig-version.cmake
+[20.800s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/package.xml
+[20.811s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ur_setup

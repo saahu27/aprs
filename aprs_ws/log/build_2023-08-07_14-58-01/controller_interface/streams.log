@@ -1,0 +1,106 @@
+[0.007s] Invoking command in '/home/aprs/aprs/aprs_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_control/controller_interface -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/controller_interface
+[0.042s] -- The CXX compiler identification is GNU 11.4.0
+[0.047s] -- Detecting CXX compiler ABI info
+[0.090s] -- Detecting CXX compiler ABI info - done
+[0.094s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.095s] -- Detecting CXX compile features
+[0.095s] -- Detecting CXX compile features - done
+[0.097s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.191s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.241s] -- Found hardware_interface: 3.17.0 (/home/aprs/aprs/aprs_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.264s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.271s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.761s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.763s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.821s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.839s] -- Found FastRTPS: /opt/ros/rolling/include  
+[0.867s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.996s] -- Found ament_cmake_gmock: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+[0.998s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.021s] -- The C compiler identification is GNU 11.4.0
+[1.025s] -- Detecting C compiler ABI info
+[1.061s] -- Detecting C compiler ABI info - done
+[1.065s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.066s] -- Detecting C compile features
+[1.066s] -- Detecting C compile features - done
+[1.068s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[1.069s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.108s] -- Configuring done
+[1.137s] -- Generating done
+[1.139s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/controller_interface
+[1.146s] Invoked command in '/home/aprs/aprs/aprs_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_control/controller_interface -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/controller_interface
+[1.147s] Invoking command in '/home/aprs/aprs/aprs_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/controller_interface -- -j16 -l16
+[1.179s] [  4%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface_base.cpp.o[0m
+[1.179s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.179s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.179s] [ 19%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[1.179s] [ 23%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/chainable_controller_interface.cpp.o[0m
+[1.182s] [ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.172s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.199s] [ 33%] Built target gmock_main
+[3.473s] [01m[K/home/aprs/aprs/aprs_ws/src/ros2_control/controller_interface/src/controller_interface_base.cpp:[m[K In member function ‘[01m[Kconst rclcpp_lifecycle::State& controller_interface::ControllerInterfaceBase::configure()[m[K’:
+[3.473s] [01m[K/home/aprs/aprs/aprs_ws/src/ros2_control/controller_interface/src/controller_interface_base.cpp:87:67:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kunsigned int[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[3.473s]    87 |     update_rate_ = [01;35m[Kget_node()->get_parameter("update_rate").as_int()[m[K;
+[3.473s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.330s] [ 38%] [32m[1mLinking CXX static library libgmock.a[0m
+[4.372s] [ 38%] Built target gmock
+[4.405s] [ 42%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[4.498s] [ 42%] Built target controller_interface
+[4.510s] [ 57%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[4.510s] [ 57%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[4.510s] [ 57%] [32mBuilding CXX object CMakeFiles/test_controller_interface.dir/test/test_controller_interface.cpp.o[0m
+[4.510s] [ 61%] [32mBuilding CXX object CMakeFiles/test_chainable_controller_interface.dir/test/test_chainable_controller_interface.cpp.o[0m
+[4.515s] [ 71%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[4.515s] [ 71%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[5.813s] [ 76%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[5.835s] [ 80%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[6.063s] [ 85%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[6.225s] [ 85%] Built target test_force_torque_sensor
+[6.250s] [ 85%] Built target test_semantic_component_interface
+[6.481s] [ 85%] Built target test_imu_sensor
+[8.091s] [ 90%] [32m[1mLinking CXX executable test_chainable_controller_interface[0m
+[8.247s] [ 95%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[8.287s] [ 95%] Built target test_chainable_controller_interface
+[8.447s] [ 95%] Built target test_controller_with_options
+[8.589s] [100%] [32m[1mLinking CXX executable test_controller_interface[0m
+[8.770s] [100%] Built target test_controller_interface
+[8.780s] Invoked command in '/home/aprs/aprs/aprs_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/controller_interface -- -j16 -l16
+[8.804s] Invoking command in '/home/aprs/aprs/aprs_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/controller_interface
+[8.808s] -- Install configuration: ""
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/semantic_components
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/semantic_components/imu_sensor.hpp
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/semantic_components/semantic_component_interface.hpp
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/semantic_components/force_torque_sensor.hpp
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/controller_interface
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/controller_interface/visibility_control.h
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/controller_interface/helpers.hpp
+[8.808s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/controller_interface/controller_interface.hpp
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/lib/libcontroller_interface.so
+[8.809s] -- Set runtime path of "/home/aprs/aprs/aprs_ws/install/controller_interface/lib/libcontroller_interface.so" to ""
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[8.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/package.dsv
+[8.810s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[8.810s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport.cmake
+[8.810s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport-noconfig.cmake
+[8.810s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_targets-extras.cmake
+[8.810s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.810s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[8.810s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[8.810s] -- Installing: /home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/package.xml
+[8.812s] Invoked command in '/home/aprs/aprs/aprs_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/controller_interface

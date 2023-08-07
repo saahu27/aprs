@@ -1,0 +1,28 @@
+[0.045s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller:/home/aprs/aprs/aprs_ws/install/rqt_controller_manager:/home/aprs/aprs/aprs_ws/install/ros2controlcli:/home/aprs/aprs/aprs_ws/install/ros2_controllers_test_nodes:/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets -- -j16 -l16
+[0.292s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller:/home/aprs/aprs/aprs_ws/install/rqt_controller_manager:/home/aprs/aprs/aprs_ws/install/ros2controlcli:/home/aprs/aprs/aprs_ws/install/ros2_controllers_test_nodes:/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets -- -j16 -l16
+[0.327s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller:/home/aprs/aprs/aprs_ws/install/rqt_controller_manager:/home/aprs/aprs/aprs_ws/install/ros2controlcli:/home/aprs/aprs/aprs_ws/install/ros2_controllers_test_nodes:/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets
+[0.373s] -- Install configuration: ""
+[0.387s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/include/ros2_control_test_assets
+[0.387s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets
+[0.387s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/components_urdfs.hpp
+[0.387s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/descriptions.hpp
+[0.387s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.sh
+[0.388s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.dsv
+[0.388s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[0.388s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[0.388s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[0.388s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake
+[0.389s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake
+[0.390s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[0.390s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[0.390s] -- Up-to-date: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[0.415s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller:/home/aprs/aprs/aprs_ws/install/rqt_controller_manager:/home/aprs/aprs/aprs_ws/install/ros2controlcli:/home/aprs/aprs/aprs_ws/install/ros2_controllers_test_nodes:/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets

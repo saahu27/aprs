@@ -1,0 +1,41 @@
+[0.028s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets
+[0.204s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting CXX compiler ABI info
+[0.204s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.204s] -- Detecting CXX compile features
+[0.204s] -- Detecting CXX compile features - done
+[0.204s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.249s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.370s] -- Configuring done
+[0.372s] -- Generating done
+[0.373s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets
+[0.376s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets
+[0.377s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets -- -j16 -l16
+[0.408s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets -- -j16 -l16
+[0.435s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets
+[0.441s] -- Install configuration: ""
+[0.442s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/include/ros2_control_test_assets
+[0.442s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets
+[0.442s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/components_urdfs.hpp
+[0.442s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/descriptions.hpp
+[0.442s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.sh
+[0.442s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.dsv
+[0.442s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[0.442s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[0.443s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[0.443s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[0.443s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[0.443s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[0.443s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[0.443s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[0.443s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[0.443s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[0.443s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[0.444s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[0.444s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake
+[0.444s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake
+[0.444s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[0.444s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[0.444s] -- Installing: /home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[0.447s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ros2_control_test_assets

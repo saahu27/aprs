@@ -1,0 +1,86 @@
+[0.179s] Invoking command in '/home/aprs/aprs/aprs_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_control/joint_limits -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/joint_limits
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.246s] -- Detecting CXX compiler ABI info
+[0.306s] -- Detecting CXX compiler ABI info - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.313s] -- Detecting CXX compile features
+[0.314s] -- Detecting CXX compile features - done
+[0.320s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.450s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.509s] -- Found rclcpp: 22.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.544s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.687s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.690s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.796s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.829s] -- Found FastRTPS: /opt/ros/rolling/include  
+[0.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.090s] -- Found rclcpp_lifecycle: 22.0.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+[1.207s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[1.216s] -- Found launch_testing_ament_cmake: 2.2.1 (/opt/ros/rolling/share/launch_testing_ament_cmake/cmake)
+[1.220s] -- Found python_cmake_module: 0.11.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[1.260s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.268s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.268s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.268s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.268s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.301s] -- Found PythonExtra: .so  
+[1.301s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.346s] -- The C compiler identification is GNU 11.4.0
+[1.356s] -- Detecting C compiler ABI info
+[1.464s] -- Detecting C compiler ABI info - done
+[1.476s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.476s] -- Detecting C compile features
+[1.476s] -- Detecting C compile features - done
+[1.476s] -- Looking for C++ include pthread.h
+[1.737s] -- Looking for C++ include pthread.h - found
+[1.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.906s] -- Found Threads: TRUE  
+[2.060s] -- Configuring done
+[2.086s] -- Generating done
+[2.092s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/joint_limits
+[2.100s] Invoked command in '/home/aprs/aprs/aprs_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_control/joint_limits -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/joint_limits
+[2.104s] Invoking command in '/home/aprs/aprs/aprs_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/joint_limits -- -j16 -l16
+[2.236s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.276s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.272s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.299s] [ 50%] Built target gtest_main
+[5.922s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.171s] [ 66%] Built target gtest
+[6.228s] [ 83%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[14.443s] [100%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[15.168s] [100%] Built target joint_limits_rosparam_test
+[15.321s] Invoked command in '/home/aprs/aprs/aprs_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/joint_limits -- -j16 -l16
+[15.632s] Invoking command in '/home/aprs/aprs/aprs_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/joint_limits
+[15.632s] -- Install configuration: ""
+[15.641s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[15.644s] -- Set runtime path of "/home/aprs/aprs/aprs_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test" to ""
+[15.644s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[15.644s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/include/joint_limits
+[15.644s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/include/joint_limits/joint_limits
+[15.644s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+[15.644s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+[15.644s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/environment/library_path.sh
+[15.644s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/environment/library_path.dsv
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/environment/path.sh
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/local_setup.bash
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/local_setup.sh
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/package.dsv
+[15.648s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[15.649s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+[15.649s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+[15.649s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.649s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[15.649s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[15.649s] -- Installing: /home/aprs/aprs/aprs_ws/install/joint_limits/share/joint_limits/package.xml
+[15.652s] Invoked command in '/home/aprs/aprs/aprs_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/joint_limits

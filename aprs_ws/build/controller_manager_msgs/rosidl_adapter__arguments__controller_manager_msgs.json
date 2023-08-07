@@ -1,0 +1,19 @@
+{
+  "package_name": "controller_manager_msgs",
+  "non_idl_tuples": [
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:msg/ControllerState.msg",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:msg/ChainConnection.msg",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:msg/HardwareComponentState.msg",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:msg/HardwareInterface.msg",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/ConfigureController.srv",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/ListControllers.srv",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/ListControllerTypes.srv",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/ListHardwareComponents.srv",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/ListHardwareInterfaces.srv",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/LoadController.srv",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/ReloadControllerLibraries.srv",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/SetHardwareComponentState.srv",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/SwitchController.srv",
+    "/home/aprs/aprs/aprs_ws/src/ros2_control/controller_manager_msgs:srv/UnloadController.srv"
+  ]
+}

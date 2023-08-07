@@ -1,0 +1,6 @@
+Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/Universal_Robots_Client_Library -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ur_client_library
+Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/Universal_Robots_Client_Library -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ur_client_library
+Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ur_client_library -- -j16 -l16
+Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ur_client_library -- -j16 -l16
+Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ur_client_library
+Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ur_client_library

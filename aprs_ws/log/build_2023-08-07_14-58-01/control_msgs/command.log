@@ -1,0 +1,6 @@
+Invoking command in '/home/aprs/aprs/aprs_ws/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/control_msgs
+Invoked command in '/home/aprs/aprs/aprs_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/control_msgs
+Invoking command in '/home/aprs/aprs/aprs_ws/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/control_msgs -- -j16 -l16
+Invoked command in '/home/aprs/aprs/aprs_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/control_msgs -- -j16 -l16
+Invoking command in '/home/aprs/aprs/aprs_ws/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/control_msgs
+Invoked command in '/home/aprs/aprs/aprs_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/control_msgs

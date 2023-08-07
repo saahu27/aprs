@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_msgs/srv/SetPayload_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_msgs/srv/SetPayload_Response",
+      "hash_string": "RIHS01_02c9adcac08bc107423c2e69b9a7635b864b927354361b8a2beb95eb8f234972"
+    }
+  ]
+}

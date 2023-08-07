@@ -1,0 +1,26 @@
+{
+  "package_name": "ur_dashboard_msgs",
+  "output_dir": "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_generator_type_description/ur_dashboard_msgs",
+  "idl_tuples": [
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/ProgramState.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/RobotMode.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/SafetyMode.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/AddToLog.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetLoadedProgram.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetProgramState.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetRobotMode.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetSafetyMode.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramRunning.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramSaved.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Load.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Popup.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/RawRequest.idl",
+    "/home/aprs/aprs/aprs_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:action/SetMode.idl"
+  ],
+  "include_paths": [
+    "action_msgs:/opt/ros/rolling/share/action_msgs",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/rolling/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/rolling/share/service_msgs"
+  ]
+}

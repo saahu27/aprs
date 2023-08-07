@@ -1,0 +1,62 @@
+[0.318s] Invoking command in '/home/aprs/aprs/aprs_ws/src/ros2_controllers/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/prefix_override:/home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build install --record /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed
+[0.430s] running egg_info
+[0.431s] creating ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info
+[0.431s] writing ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[0.431s] writing dependency_links to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[0.431s] writing entry points to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[0.431s] writing requirements to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/requires.txt
+[0.431s] writing top-level names to ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/top_level.txt
+[0.431s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.432s] reading manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.432s] writing manifest file '../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.432s] running build
+[0.432s] running build_py
+[0.432s] creating /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build
+[0.432s] creating /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib
+[0.432s] creating /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.432s] copying rqt_joint_trajectory_controller/__init__.py -> /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.432s] copying rqt_joint_trajectory_controller/update_combo.py -> /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.433s] copying rqt_joint_trajectory_controller/utils.py -> /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.433s] copying rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.433s] copying rqt_joint_trajectory_controller/double_editor.py -> /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.433s] copying rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.433s] copying rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller
+[0.433s] running install
+[0.433s] running install_lib
+[0.433s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.433s]   warnings.warn(
+[0.433s] creating /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.433s] copying /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/__init__.py -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.433s] copying /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/update_combo.py -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.433s] copying /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/utils.py -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.433s] copying /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_trajectory_controller.py -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.433s] copying /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/double_editor.py -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.434s] copying /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/joint_limits_urdf.py -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.434s] copying /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build/lib/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller
+[0.434s] byte-compiling /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/__init__.py to __init__.cpython-310.pyc
+[0.434s] byte-compiling /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/update_combo.py to update_combo.cpython-310.pyc
+[0.434s] byte-compiling /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/utils.py to utils.cpython-310.pyc
+[0.435s] byte-compiling /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_trajectory_controller.py to joint_trajectory_controller.cpython-310.pyc
+[0.436s] byte-compiling /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/double_editor.py to double_editor.cpython-310.pyc
+[0.436s] byte-compiling /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/joint_limits_urdf.py to joint_limits_urdf.cpython-310.pyc
+[0.437s] byte-compiling /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.py to rqt_joint_trajectory_controller.cpython-310.pyc
+[0.437s] running install_data
+[0.437s] creating /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/ament_index
+[0.437s] creating /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index
+[0.437s] creating /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[0.437s] copying resource/rqt_joint_trajectory_controller -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+[0.437s] copying package.xml -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[0.437s] creating /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.437s] copying resource/joint_trajectory_controller.ui -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.437s] copying resource/on.svg -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.437s] copying resource/scope.png -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.437s] copying resource/scope.svg -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.438s] copying resource/double_editor.ui -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.438s] copying resource/off.svg -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+[0.438s] copying plugin.xml -> /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+[0.438s] running install_egg_info
+[0.439s] Copying ../../../build/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller.egg-info to /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt_joint_trajectory_controller-3.13.0-py3.10.egg-info
+[0.439s] running install_scripts
+[0.450s] Installing rqt_joint_trajectory_controller script to /home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[0.450s] writing list of installed files to '/home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/install.log'
+[0.463s] Invoked command in '/home/aprs/aprs/aprs_ws/src/ros2_controllers/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/prefix_override:/home/aprs/aprs/aprs_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_joint_trajectory_controller build --build-base /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/build install --record /home/aprs/aprs/aprs_ws/build/rqt_joint_trajectory_controller/install.log --single-version-externally-managed

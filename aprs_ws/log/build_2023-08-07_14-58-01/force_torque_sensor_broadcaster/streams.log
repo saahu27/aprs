@@ -1,0 +1,101 @@
+[0.037s] Invoking command in '/home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster
+[0.197s] -- The CXX compiler identification is GNU 11.4.0
+[0.197s] -- Detecting CXX compiler ABI info
+[0.197s] -- Detecting CXX compiler ABI info - done
+[0.197s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.197s] -- Detecting CXX compile features
+[0.197s] -- Detecting CXX compile features - done
+[0.197s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.273s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.361s] -- Found backward_ros: 1.0.2 (/opt/ros/rolling/share/backward_ros/cmake)
+[0.370s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.375s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.375s] -- BACKWARD_HAS_UNWIND=1
+[0.375s] -- BACKWARD_HAS_BACKTRACE=0
+[0.375s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.375s] -- BACKWARD_HAS_DW=1
+[0.375s] -- BACKWARD_HAS_BFD=0
+[0.375s] -- Found Backward: /opt/ros/rolling/share/backward_ros/cmake  
+[0.375s] -- Found controller_interface: 3.17.0 (/home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/cmake)
+[0.406s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.420s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.046s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.048s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.114s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.131s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.163s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.323s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/rolling/share/generate_parameter_library/cmake)
+[1.327s] -- Found parameter_traits: 0.3.3 (/opt/ros/rolling/share/parameter_traits/cmake)
+[1.354s] -- Found realtime_tools: 2.5.0 (/opt/ros/rolling/share/realtime_tools/cmake)
+[1.559s] -- Found ament_cmake_gmock: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+[1.559s] -- Found controller_manager: 3.17.0 (/home/aprs/aprs/aprs_ws/install/controller_manager/share/controller_manager/cmake)
+[1.843s] -- Found ros2_control_test_assets: 3.17.0 (/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.846s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.892s] -- The C compiler identification is GNU 11.4.0
+[1.902s] -- Detecting C compiler ABI info
+[1.976s] -- Detecting C compiler ABI info - done
+[1.987s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.987s] -- Detecting C compile features
+[1.988s] -- Detecting C compile features - done
+[1.993s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[1.993s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.998s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.998s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[1.999s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.063s] -- Configuring done
+[2.088s] -- Generating done
+[2.090s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster
+[2.106s] Invoked command in '/home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster
+[2.112s] Invoking command in '/home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster -- -j16 -l16
+[2.144s] [ 10%] [34m[1mRunning `/opt/ros/rolling/bin/generate_parameter_library_py /home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster_parameters/include//force_torque_sensor_broadcaster_parameters.hpp /home/aprs/aprs/aprs_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster_parameters.yaml `[0m
+[2.147s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.147s] [ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.405s] [ 30%] Built target force_torque_sensor_broadcaster_parameters
+[2.432s] [ 40%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[8.810s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.901s] [ 50%] Built target gmock
+[12.306s] [ 60%] [32m[1mLinking CXX shared library libforce_torque_sensor_broadcaster.so[0m
+[12.581s] [ 60%] Built target force_torque_sensor_broadcaster
+[12.603s] [ 80%] [32mBuilding CXX object CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/test/test_load_force_torque_sensor_broadcaster.cpp.o[0m
+[12.603s] [ 80%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor_broadcaster.dir/test/test_force_torque_sensor_broadcaster.cpp.o[0m
+[20.829s] [ 90%] [32m[1mLinking CXX executable test_load_force_torque_sensor_broadcaster[0m
+[24.042s] [ 90%] Built target test_load_force_torque_sensor_broadcaster
+[26.603s] [100%] [32m[1mLinking CXX executable test_force_torque_sensor_broadcaster[0m
+[27.190s] [100%] Built target test_force_torque_sensor_broadcaster
+[27.212s] Invoked command in '/home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster -- -j16 -l16
+[27.242s] Invoking command in '/home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster
+[27.249s] -- Install configuration: ""
+[27.249s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster_parameters
+[27.249s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster_parameters/force_torque_sensor_broadcaster_parameters.hpp
+[27.250s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.xml
+[27.250s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster
+[27.250s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster
+[27.250s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster/visibility_control.h
+[27.250s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp
+[27.250s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/lib/libforce_torque_sensor_broadcaster.so
+[27.252s] -- Set runtime path of "/home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/lib/libforce_torque_sensor_broadcaster.so" to ""
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/library_path.sh
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/library_path.dsv
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/force_torque_sensor_broadcaster
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/force_torque_sensor_broadcaster
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/ament_prefix_path.sh
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/ament_prefix_path.dsv
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/path.sh
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/path.dsv
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.bash
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.sh
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.zsh
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.dsv
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.dsv
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/packages/force_torque_sensor_broadcaster
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/force_torque_sensor_broadcaster
+[27.253s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/export_force_torque_sensor_broadcasterExport.cmake
+[27.254s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/export_force_torque_sensor_broadcasterExport-noconfig.cmake
+[27.254s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[27.254s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.254s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/force_torque_sensor_broadcasterConfig.cmake
+[27.254s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/force_torque_sensor_broadcasterConfig-version.cmake
+[27.254s] -- Installing: /home/aprs/aprs/aprs_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.xml
+[27.257s] Invoked command in '/home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/force_torque_sensor_broadcaster

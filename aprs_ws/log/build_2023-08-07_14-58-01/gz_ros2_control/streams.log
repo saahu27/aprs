@@ -1,0 +1,287 @@
+[0.179s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gz_ros2_control': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/gz_ros2_control -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/gz_ros2_control
+[0.218s] -- The C compiler identification is GNU 11.4.0
+[0.258s] -- The CXX compiler identification is GNU 11.4.0
+[0.265s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.323s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.323s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.326s] -- Detecting CXX compiler ABI info
+[0.389s] -- Detecting CXX compiler ABI info - done
+[0.397s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.397s] -- Detecting CXX compile features
+[0.397s] -- Detecting CXX compile features - done
+[0.400s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.551s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.649s] -- Found ament_index_cpp: 1.6.0 (/opt/ros/rolling/share/ament_index_cpp/cmake)
+[0.650s] -- Found controller_manager: 3.17.0 (/home/aprs/aprs/aprs_ws/install/controller_manager/share/controller_manager/cmake)
+[0.692s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.701s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.243s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.245s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.319s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.352s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.012s] -- Found yaml_cpp_vendor: 8.3.0 (/opt/ros/rolling/share/yaml_cpp_vendor/cmake)
+[2.012s] -- Setting yaml-cpp_DIR to: '/opt/ros/rolling/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.016s] -- Looking for ignition-gazebo6 -- found version 6.14.0
+[2.020s] -- Searching for dependencies of ignition-gazebo6
+[2.022s] -- Looking for sdformat12 -- found version 12.7.1
+[2.022s] -- Searching for dependencies of sdformat12
+[2.026s] -- Checking for module 'tinyxml2'
+[2.034s] --   Found tinyxml2, version 9.0.0
+[2.058s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.058s] -- Searching for dependencies of ignition-math6
+[2.062s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.062s] -- Searching for dependencies of ignition-utils1
+[2.066s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.066s] -- Searching for dependencies of ignition-plugin1
+[2.066s] -- Searching for <ignition-plugin1> component [loader]
+[2.069s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[2.070s] -- Searching for dependencies of ignition-plugin1-loader
+[2.070s] -- Searching for <ignition-plugin1> component [register]
+[2.073s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[2.073s] -- Searching for dependencies of ignition-plugin1-register
+[2.076s] -- Looking for ignition-transport11 -- found version 11.4.0
+[2.077s] -- Searching for dependencies of ignition-transport11
+[2.102s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.116s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.120s] -- Checking for module 'libzmq >= 4'
+[2.133s] --   Found libzmq , version 4.3.4
+[2.172s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.178s] -- Checking for module 'uuid'
+[2.192s] --   Found uuid, version 2.37.2
+[2.226s] -- Found UUID: TRUE  
+[2.226s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.226s] -- Searching for dependencies of ignition-utils1
+[2.227s] -- Searching for <ignition-utils1> component [cli]
+[2.229s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[2.230s] -- Searching for dependencies of ignition-utils1-cli
+[2.233s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.233s] -- Searching for dependencies of ignition-msgs8
+[2.251s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.260s] -- Searching for <ignition-transport11> component [log]
+[2.263s] -- Looking for ignition-transport11-log -- found version 11.4.0
+[2.263s] -- Searching for dependencies of ignition-transport11-log
+[2.264s] -- Searching for <ignition-transport11> component [parameters]
+[2.267s] -- Looking for ignition-transport11-parameters -- found version 11.4.0
+[2.267s] -- Searching for dependencies of ignition-transport11-parameters
+[2.268s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.270s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.271s] -- Searching for dependencies of ignition-common4
+[2.271s] -- Looking for dlfcn.h - found
+[2.272s] -- Looking for libdl - found
+[2.274s] -- Found DL: TRUE  
+[2.283s] -- Searching for <ignition-common4> component [profiler]
+[2.286s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[2.286s] -- Searching for dependencies of ignition-common4-profiler
+[2.287s] -- Searching for <ignition-common4> component [events]
+[2.292s] -- Looking for ignition-common4-events -- found version 4.7.0
+[2.292s] -- Searching for dependencies of ignition-common4-events
+[2.292s] -- Looking for ignition-math6 -- found version 6.14.0
+[2.293s] -- Searching for <ignition-common4> component [av]
+[2.293s] -- Looking for ignition-common4-av -- found version 4.7.0
+[2.293s] -- Searching for dependencies of ignition-common4-av
+[2.298s] -- Checking for module 'libswscale'
+[2.312s] --   Found libswscale, version 5.9.100
+[2.361s] -- Found SWSCALE: TRUE  
+[2.367s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.386s] --   Found libavdevice , version 58.13.100
+[2.460s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.468s] -- Checking for module 'libavformat'
+[2.513s] --   Found libavformat, version 58.76.100
+[2.712s] -- Found AVFORMAT: TRUE  
+[2.716s] -- Checking for module 'libavcodec'
+[2.760s] --   Found libavcodec, version 58.134.100
+[2.927s] -- Found AVCODEC: TRUE  
+[2.927s] -- Checking for module 'libavutil'
+[2.960s] --   Found libavutil, version 56.70.100
+[3.131s] -- Found AVUTIL: TRUE  
+[3.135s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[3.136s] -- Searching for dependencies of ignition-fuel_tools7
+[3.476s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.484s] -- Checking for module 'jsoncpp'
+[3.501s] --   Found jsoncpp, version 1.9.5
+[3.681s] -- Found JSONCPP: TRUE  
+[3.707s] -- Checking for module 'yaml-0.1'
+[3.774s] --   Found yaml-0.1, version 0.2.2
+[3.864s] -- Found YAML: TRUE  
+[3.872s] -- Checking for module 'libzip'
+[3.977s] --   Found libzip, version 1.7.3
+[4.284s] -- Found ZIP: TRUE  
+[4.285s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.285s] -- Looking for ignition-math6 -- found version 6.14.0
+[4.285s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[4.312s] -- Looking for ignition-gui6 -- found version 6.8.0
+[4.312s] -- Searching for dependencies of ignition-gui6
+[4.424s] -- Looking for ignition-math6 -- found version 6.14.0
+[4.424s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.424s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.437s] -- Looking for ignition-transport11 -- found version 11.4.0
+[4.439s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[4.440s] -- Searching for dependencies of ignition-rendering6
+[4.440s] -- Looking for ignition-math6 -- found version 6.14.0
+[4.440s] -- Searching for dependencies of ignition-math6
+[4.440s] -- Searching for <ignition-math6> component [eigen3]
+[4.448s] -- Looking for ignition-math6-eigen3 -- found version 6.14.0
+[4.449s] -- Searching for dependencies of ignition-math6-eigen3
+[4.466s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.466s] -- Searching for dependencies of ignition-common4
+[4.468s] -- Looking for dlfcn.h - found
+[4.468s] -- Looking for libdl - found
+[4.508s] -- Searching for <ignition-common4> component [graphics]
+[4.512s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[4.512s] -- Searching for dependencies of ignition-common4-graphics
+[4.512s] -- Looking for ignition-math6 -- found version 6.14.0
+[4.512s] -- Looking for ignition-utils1 -- found version 1.5.1
+[4.512s] -- Searching for <ignition-common4> component [events]
+[4.520s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.520s] -- Searching for dependencies of ignition-plugin1
+[4.520s] -- Searching for <ignition-plugin1> component [all]
+[4.528s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[4.528s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.528s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[4.638s] -- Looking for ignition-physics5 -- found version 5.3.1
+[4.638s] -- Searching for dependencies of ignition-physics5
+[4.638s] -- Looking for ignition-math6 -- found version 6.14.0
+[4.639s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[4.639s] -- Looking for ignition-utils1 -- found version 1.5.1
+[4.661s] -- Searching for <ignition-physics5> component [heightmap]
+[4.664s] -- Looking for ignition-physics5-heightmap -- found version 5.3.1
+[4.664s] -- Searching for dependencies of ignition-physics5-heightmap
+[4.665s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.665s] -- Searching for <ignition-physics5> component [mesh]
+[4.667s] -- Looking for ignition-physics5-mesh -- found version 5.3.1
+[4.667s] -- Searching for dependencies of ignition-physics5-mesh
+[4.667s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.668s] -- Searching for <ignition-physics5> component [sdf]
+[4.671s] -- Looking for ignition-physics5-sdf -- found version 5.3.1
+[4.672s] -- Searching for dependencies of ignition-physics5-sdf
+[4.672s] -- Looking for sdformat12 -- found version 12.7.1
+[4.676s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[4.678s] -- Searching for dependencies of ignition-sensors6
+[4.743s] -- Looking for ignition-math6 -- found version 6.14.0
+[4.743s] -- Looking for ignition-common4 -- found version 4.7.0
+[4.748s] -- Looking for ignition-transport11 -- found version 11.4.0
+[4.748s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[4.753s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[4.753s] -- Looking for sdformat12 -- found version 12.7.1
+[4.754s] -- Searching for <ignition-sensors6> component [air_pressure]
+[4.765s] -- Looking for ignition-sensors6-air_pressure -- found version 6.7.0
+[4.766s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[4.766s] -- Searching for <ignition-sensors6> component [altimeter]
+[4.792s] -- Looking for ignition-sensors6-altimeter -- found version 6.7.0
+[4.792s] -- Searching for dependencies of ignition-sensors6-altimeter
+[4.792s] -- Searching for <ignition-sensors6> component [imu]
+[4.800s] -- Looking for ignition-sensors6-imu -- found version 6.7.0
+[4.800s] -- Searching for dependencies of ignition-sensors6-imu
+[4.800s] -- Searching for <ignition-sensors6> component [force_torque]
+[4.822s] -- Looking for ignition-sensors6-force_torque -- found version 6.7.0
+[4.823s] -- Searching for dependencies of ignition-sensors6-force_torque
+[4.823s] -- Searching for <ignition-sensors6> component [logical_camera]
+[4.831s] -- Looking for ignition-sensors6-logical_camera -- found version 6.7.0
+[4.831s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[4.865s] -- Searching for <ignition-sensors6> component [magnetometer]
+[4.868s] -- Looking for ignition-sensors6-magnetometer -- found version 6.7.0
+[4.885s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[4.885s] -- Searching for <ignition-sensors6> component [navsat]
+[4.904s] -- Looking for ignition-sensors6-navsat -- found version 6.7.0
+[4.905s] -- Searching for dependencies of ignition-sensors6-navsat
+[4.905s] -- Searching for <ignition-sensors6> component [rendering]
+[4.921s] -- Looking for ignition-sensors6-rendering -- found version 6.7.0
+[4.921s] -- Searching for dependencies of ignition-sensors6-rendering
+[4.922s] -- Searching for <ignition-sensors6> component [lidar]
+[4.939s] -- Looking for ignition-sensors6-lidar -- found version 6.7.0
+[4.939s] -- Searching for dependencies of ignition-sensors6-lidar
+[4.940s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[4.985s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[4.987s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.7.0
+[5.006s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[5.025s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[5.025s] -- Searching for <ignition-sensors6> component [camera]
+[5.048s] -- Looking for ignition-sensors6-camera -- found version 6.7.0
+[5.049s] -- Searching for dependencies of ignition-sensors6-camera
+[5.049s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[5.050s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[5.077s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.7.0
+[5.078s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[5.078s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[5.101s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.7.0
+[5.102s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[5.102s] -- Searching for <ignition-sensors6> component [depth_camera]
+[5.118s] -- Looking for ignition-sensors6-depth_camera -- found version 6.7.0
+[5.119s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[5.119s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[5.119s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[5.130s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.7.0
+[5.131s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[5.131s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[5.132s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[5.135s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.7.0
+[5.135s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[5.136s] -- Looking for ignition-sensors6 -- found version 6.7.0
+[5.150s] -- Looking for ignition-rendering6 -- found version 6.6.0
+[5.150s] -- Looking for ignition-math6 -- found version 6.14.0
+[5.162s] -- Looking for ignition-utils1 -- found version 1.5.1
+[5.255s] -- Compiling against Gazebo Fortress
+[5.256s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[5.266s] -- Found ament_lint_auto: 0.15.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[5.431s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.438s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.439s] -- Configured cppcheck include dirs: /home/aprs/aprs/aprs_ws/src/gz_ros2_control/include
+[5.440s] -- Configured cppcheck exclude dirs and/or files: 
+[5.445s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.445s] -- Configured cpplint exclude dirs and/or files: 
+[5.448s] -- Added test 'lint_cmake' to check CMake code style
+[5.448s] -- Added test 'uncrustify' to check C / C++ code style
+[5.448s] -- Configured uncrustify additional arguments: 
+[5.458s] -- Added test 'xmllint' to check XML markup files
+[5.462s] -- Configuring done
+[5.584s] -- Generating done
+[5.604s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/gz_ros2_control
+[5.693s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gz_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/gz_ros2_control -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/gz_ros2_control
+[5.698s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gz_ros2_control': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gz_ros2_control -- -j16 -l16
+[5.832s] [ 25%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[5.932s] [ 50%] [32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o[0m
+[22.701s] [ 75%] [32m[1mLinking CXX shared library libgz_hardware_plugins.so[0m
+[24.214s] [ 75%] Built target gz_hardware_plugins
+[24.744s] [100%] [32m[1mLinking CXX shared library libgz_ros2_control-system.so[0m
+[27.113s] [100%] Built target gz_ros2_control-system
+[27.124s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gz_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gz_ros2_control -- -j16 -l16
+[27.142s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gz_ros2_control': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/gz_ros2_control
+[27.147s] -- Install configuration: ""
+[27.147s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so
+[27.150s] -- Set runtime path of "/home/aprs/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so" to ""
+[27.150s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/include/include
+[27.150s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control
+[27.150s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control/gz_system_interface.hpp
+[27.150s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control/gz_system.hpp
+[27.150s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/include/include/gz_ros2_control/gz_ros2_control_plugin.hpp
+[27.151s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh
+[27.151s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv
+[27.151s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so
+[27.154s] -- Set runtime path of "/home/aprs/aprs/aprs_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so" to ""
+[27.154s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/gz_hardware_plugins.xml
+[27.154s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/gz_ros2_control.dsv
+[27.154s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/gz_ros2_control.sh
+[27.154s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control
+[27.154s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control
+[27.154s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh
+[27.155s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv
+[27.155s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh
+[27.155s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/package.dsv
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake
+[27.156s] -- Installing: /home/aprs/aprs/aprs_ws/install/gz_ros2_control/share/gz_ros2_control/package.xml
+[27.158s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gz_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/gz_ros2_control

@@ -1,0 +1,112 @@
+[0.026s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ackermann_steering_controller': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_controllers/ackermann_steering_controller -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ackermann_steering_controller
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.199s] -- Detecting CXX compile features - done
+[0.202s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.485s] -- Found backward_ros: 1.0.2 (/opt/ros/rolling/share/backward_ros/cmake)
+[0.495s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.502s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.502s] -- BACKWARD_HAS_UNWIND=1
+[0.502s] -- BACKWARD_HAS_BACKTRACE=0
+[0.502s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.502s] -- BACKWARD_HAS_DW=1
+[0.502s] -- BACKWARD_HAS_BFD=0
+[0.502s] -- Found Backward: /opt/ros/rolling/share/backward_ros/cmake  
+[0.503s] -- Found controller_interface: 3.17.0 (/home/aprs/aprs/aprs_ws/install/controller_interface/share/controller_interface/cmake)
+[0.545s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.560s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.602s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.481s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.484s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.591s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.616s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.671s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.930s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/rolling/share/generate_parameter_library/cmake)
+[1.936s] -- Found parameter_traits: 0.3.3 (/opt/ros/rolling/share/parameter_traits/cmake)
+[1.969s] -- Found realtime_tools: 2.5.0 (/opt/ros/rolling/share/realtime_tools/cmake)
+[2.262s] -- Found std_srvs: 5.2.0 (/opt/ros/rolling/share/std_srvs/cmake)
+[2.309s] -- Found steering_controllers_library: 3.13.0 (/home/aprs/aprs/aprs_ws/install/steering_controllers_library/share/steering_controllers_library/cmake)
+[2.699s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)
+[2.700s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.701s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.931s] -- Found ament_cmake_gmock: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+[2.931s] -- Found controller_manager: 3.17.0 (/home/aprs/aprs/aprs_ws/install/controller_manager/share/controller_manager/cmake)
+[3.129s] -- Found ros2_control_test_assets: 3.17.0 (/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[3.131s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.169s] -- The C compiler identification is GNU 11.4.0
+[3.175s] -- Detecting C compiler ABI info
+[3.279s] -- Detecting C compiler ABI info - done
+[3.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.291s] -- Detecting C compile features
+[3.291s] -- Detecting C compile features - done
+[3.297s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[3.298s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.305s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.305s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[3.306s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.307s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.307s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[3.308s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.390s] -- Configuring done
+[3.459s] -- Generating done
+[3.462s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/ackermann_steering_controller
+[3.485s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ackermann_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/ros2_controllers/ackermann_steering_controller -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ackermann_steering_controller
+[3.486s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ackermann_steering_controller': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ackermann_steering_controller -- -j16 -l16
+[3.541s] [  8%] [34m[1mRunning `/opt/ros/rolling/bin/generate_parameter_library_py /home/aprs/aprs/aprs_ws/build/ackermann_steering_controller/ackermann_steering_controller_parameters/include//ackermann_steering_controller_parameters.hpp /home/aprs/aprs/aprs_ws/src/ros2_controllers/ackermann_steering_controller/src/ackermann_steering_controller.yaml `[0m
+[3.766s] [  8%] Built target ackermann_steering_controller_parameters
+[3.789s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[5.963s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[7.231s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.279s] [ 33%] Built target gmock
+[7.293s] [ 41%] [32mBuilding CXX object CMakeFiles/ackermann_steering_controller.dir/src/ackermann_steering_controller.cpp.o[0m
+[10.210s] [ 50%] [32m[1mLinking CXX shared library libackermann_steering_controller.so[0m
+[10.460s] [ 50%] Built target ackermann_steering_controller
+[10.474s] [ 58%] [32mBuilding CXX object CMakeFiles/test_load_ackermann_steering_controller.dir/test/test_load_ackermann_steering_controller.cpp.o[0m
+[10.480s] [ 66%] [32mBuilding CXX object CMakeFiles/test_ackermann_steering_controller.dir/test/test_ackermann_steering_controller.cpp.o[0m
+[10.482s] [ 75%] [32mBuilding CXX object CMakeFiles/test_ackermann_steering_controller_preceeding.dir/test/test_ackermann_steering_controller_preceeding.cpp.o[0m
+[17.109s] [ 83%] [32m[1mLinking CXX executable test_ackermann_steering_controller_preceeding[0m
+[17.232s] [ 91%] [32m[1mLinking CXX executable test_load_ackermann_steering_controller[0m
+[18.149s] [ 91%] Built target test_ackermann_steering_controller_preceeding
+[18.627s] [ 91%] Built target test_load_ackermann_steering_controller
+[21.290s] [100%] [32m[1mLinking CXX executable test_ackermann_steering_controller[0m
+[21.851s] [100%] Built target test_ackermann_steering_controller
+[21.862s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ackermann_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ackermann_steering_controller -- -j16 -l16
+[21.882s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ackermann_steering_controller': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ackermann_steering_controller
+[21.886s] -- Install configuration: ""
+[21.886s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/include/ackermann_steering_controller_parameters
+[21.886s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/include/ackermann_steering_controller_parameters/ackermann_steering_controller_parameters.hpp
+[21.886s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/ackermann_steering_controller.xml
+[21.887s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/include/ackermann_steering_controller
+[21.887s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller
+[21.887s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller/visibility_control.h
+[21.887s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/include/ackermann_steering_controller/ackermann_steering_controller/ackermann_steering_controller.hpp
+[21.887s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/lib/libackermann_steering_controller.so
+[21.887s] -- Set runtime path of "/home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/lib/libackermann_steering_controller.so" to ""
+[21.887s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/library_path.sh
+[21.887s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/library_path.dsv
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ament_index/resource_index/package_run_dependencies/ackermann_steering_controller
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ament_index/resource_index/parent_prefix_path/ackermann_steering_controller
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/ament_prefix_path.sh
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/ament_prefix_path.dsv
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/path.sh
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/environment/path.dsv
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.bash
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.sh
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.zsh
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/local_setup.dsv
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/package.dsv
+[21.888s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ament_index/resource_index/packages/ackermann_steering_controller
+[21.889s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ackermann_steering_controller
+[21.889s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport.cmake
+[21.889s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/export_ackermann_steering_controllerExport-noconfig.cmake
+[21.889s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ament_cmake_export_targets-extras.cmake
+[21.889s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.889s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig.cmake
+[21.889s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig-version.cmake
+[21.889s] -- Installing: /home/aprs/aprs/aprs_ws/install/ackermann_steering_controller/share/ackermann_steering_controller/package.xml
+[21.891s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ackermann_steering_controller' returned '0': AMENT_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library:/home/aprs/aprs/aprs_ws/install/controller_manager:/home/aprs/aprs/aprs_ws/install/controller_interface:/home/aprs/aprs/aprs_ws/install/hardware_interface:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs:/home/aprs/aprs/aprs_ws/install/control_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/home/aprs/aprs/aprs_ws/install/steering_controllers_library/lib:/home/aprs/aprs/aprs_ws/install/controller_manager/lib:/home/aprs/aprs/aprs_ws/install/controller_interface/lib:/home/aprs/aprs/aprs_ws/install/hardware_interface/lib:/home/aprs/aprs/aprs_ws/install/ros2_control_test_assets/lib:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib:/home/aprs/aprs/aprs_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aprs/aprs/aprs_ws/install/controller_manager/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/controller_manager_msgs/lib/python3.10/site-packages:/home/aprs/aprs/aprs_ws/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ackermann_steering_controller
