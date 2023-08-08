@@ -41,6 +41,7 @@ from launch.substitutions import Command, FindExecutable, LaunchConfiguration, P
 
 def launch_setup(context, *args, **kwargs):
     # Initialize Arguments
+    real = LaunchConfiguration("real")
     ur_type = LaunchConfiguration("ur_type")
     robot_ip = LaunchConfiguration("robot_ip")
     safety_limits = LaunchConfiguration("safety_limits")
@@ -99,6 +100,9 @@ def launch_setup(context, *args, **kwargs):
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
             PathJoinSubstitution([FindPackageShare(description_package), "urdf", description_file]),
+            " ",
+            "real:=",
+            "true",
             " ",
             "robot_ip:=",
             robot_ip,
