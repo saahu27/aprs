@@ -1,4 +1,0 @@
-[01m[K/home/aprs/aprs/aprs_ws/src/ros2_control/controller_interface/src/controller_interface_base.cpp:[m[K In member function ‘[01m[Kconst rclcpp_lifecycle::State& controller_interface::ControllerInterfaceBase::configure()[m[K’:
-[01m[K/home/aprs/aprs/aprs_ws/src/ros2_control/controller_interface/src/controller_interface_base.cpp:87:67:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kunsigned int[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
-   87 |     update_rate_ = [01;35m[Kget_node()->get_parameter("update_rate").as_int()[m[K;
-      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K

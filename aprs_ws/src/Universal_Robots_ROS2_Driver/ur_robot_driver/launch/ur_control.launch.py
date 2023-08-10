@@ -32,12 +32,24 @@
 from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterFile
 from launch_ros.substitutions import FindPackageShare
-
+from launch.actions import DeclareLaunchArgument, ExecuteProcess, IncludeLaunchDescription
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, OpaqueFunction
 from launch.conditions import IfCondition, UnlessCondition
 from launch.substitutions import Command, FindExecutable, LaunchConfiguration, PathJoinSubstitution
-
+from ament_index_python.packages import get_package_share_directory
+import os
+import launch_ros
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, ExecuteProcess, IncludeLaunchDescription
+from launch.actions import RegisterEventHandler
+from launch.event_handlers import OnProcessExit
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.actions import Node
+from launch.substitutions import Command, FindExecutable, LaunchConfiguration, PathJoinSubstitution
+from launch_ros.substitutions import FindPackageShare
+from launch.launch_context import LaunchContext
+from launch_ros.descriptions import ParameterValue      
 
 def launch_setup(context, *args, **kwargs):
     # Initialize Arguments
@@ -354,6 +366,53 @@ def launch_setup(context, *args, **kwargs):
         condition=UnlessCondition(activate_joint_controller),
     )
 
+    ur_type = "ur5e"
+    safety_limits = "true"
+    pkg_share_dir = get_package_share_directory('ur_description')
+    os.environ['GZ_SIM_RESOURCE_PATH'] = pkg_share_dir + "/meshes"
+    pkg_share_dir_control = get_package_share_directory('ur_robot_driver')
+    control_path = pkg_share_dir_control + "/config"  + "/ur_controllers.yaml"
+    robot_ip = "192.168.0.1"
+    
+    robot_description_content = Command(
+        [
+            PathJoinSubstitution([FindExecutable(name="xacro")]),
+            " ",
+            PathJoinSubstitution([FindPackageShare("ur_description"), "urdf", "ur.urdf.xacro"]),
+            " ",
+            "robot_ip:=",
+            robot_ip,
+            " ",
+            "name:=",
+            "ur",
+            " ",
+            "ur_type:=",
+            ur_type,
+            " ",
+            "sim_ignition:=",
+            "true",
+            " ",
+            "simulation_controllers:=",
+            control_path,
+            " "
+        ]
+    )
+    gz = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                [os.path.join(get_package_share_directory('ros_gz_sim'),
+                              'launch', 'gz_sim.launch.py')]),
+            launch_arguments=[('gz_args', [' -r -v 4 empty.sdf'])])
+
+    gz_spawn_entity = Node(
+        package='ros_gz_sim',
+        executable='create',
+        parameters=[
+            {'robot_description': robot_description_content}],
+        output='screen',
+        arguments=['-name', 'ur',
+                   '-param', 'robot_description'],
+    )
+
     nodes_to_start = [
         control_node,
         ur_control_node,
@@ -365,6 +424,8 @@ def launch_setup(context, *args, **kwargs):
         rviz_node,
         initial_joint_controller_spawner_stopped,
         initial_joint_controller_spawner_started,
+        gz,
+        gz_spawn_entity,
     ] + controller_spawners
 
     return nodes_to_start

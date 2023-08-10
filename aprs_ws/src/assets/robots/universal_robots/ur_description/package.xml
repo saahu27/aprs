@@ -2,14 +2,27 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>ur_description</name>
-  <version>2.0.1</version>
+  <version>2.1.0</version>
   <description>
     URDF description for Universal Robots
   </description>
 
-  <author>Sahruday Patti</author>
+  <author>Nadia Hammoudeh Garcia</author>
+  <author>Kelsey Hawkins</author>
+  <author>G.A. vd. Hoorn</author>
+  <author>Lovro Ivanov</author>
+  <author>Mathias Ludtke</author>
+  <author>Wim Meeussen</author>
+  <author>Felix Messmer</author>
+  <author>Miguel Prada Sarasola</author>
+  <author>Denis Stogl</author>
+  <author>Andy Zelenak</author>
+  <author>Marvin Grosse Besselmann</author>
 
-  <maintainer email="sahruday.patti@nist.gov">sahruday patti</maintainer>
+  <maintainer email="exner@fzi.de">Felix Exner</maintainer>
+  <maintainer email="schnell@fzi.de">Tristan Schnell</maintainer>
+  <maintainer email="lovro.ivanov@gmail.com">Lovro Ivanov</maintainer>
+  <maintainer email="denis@stoglrobotics.de">Denis Stogl</maintainer>
 
   <license>BSD-3-Clause</license>
 
