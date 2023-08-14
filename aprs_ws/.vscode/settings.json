@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/saahu27/aprs/aprs_ws/install/ur_robot_driver/lib/python3.10/site-packages",
+        "/home/saahu27/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages",
+        "/home/saahu27/aprs/aprs_ws/install/ur5e_moveit_config/lib/python3.10/site-packages",
+        "/home/saahu27/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/saahu27/aprs/aprs_ws/install/ur_robot_driver/lib/python3.10/site-packages",
+        "/home/saahu27/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages",
+        "/home/saahu27/aprs/aprs_ws/install/ur5e_moveit_config/lib/python3.10/site-packages",
+        "/home/saahu27/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

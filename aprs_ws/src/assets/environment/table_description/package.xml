@@ -4,7 +4,7 @@
   <name>table_description</name>
   <version>2.0.0</version>
   <description>table_description description</description>
-  <maintainer email="glenn_tan@artc.a-star.edu.sg">Tan Jing Peng GLenn</maintainer>
+  <maintainer email="sahruday.patti@niat.gov">sahruday patti</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

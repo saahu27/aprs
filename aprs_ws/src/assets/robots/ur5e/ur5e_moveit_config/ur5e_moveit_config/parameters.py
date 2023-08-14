@@ -44,7 +44,7 @@ def generate_parameters():
             "ur",
             " ",
             "ur_type:=",
-            "ur10e",
+            "ur5e",
             " ",
             "sim_gz:=",
             "true",

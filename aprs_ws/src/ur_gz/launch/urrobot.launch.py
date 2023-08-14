@@ -33,8 +33,8 @@ def generate_launch_description():
     # Initialize Arguments
     ur_type = "ur5e"
     safety_limits = "true"
-    pkg_share_dir = get_package_share_directory('ur_description')
-    os.environ['GZ_SIM_RESOURCE_PATH'] = pkg_share_dir + "/meshes"
+    # pkg_share_dir = get_package_share_directory('ur_description')
+    # os.environ['GZ_SIM_RESOURCE_PATH'] = pkg_share_dir + "/meshes"
     pkg_share_dir_control = get_package_share_directory('ur_gz')
     control_path = pkg_share_dir_control + "/config"  + "/ur_controller.yaml"
     robot_ip = "192.168.0.1"
@@ -45,7 +45,7 @@ def generate_launch_description():
         [
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
-            PathJoinSubstitution([FindPackageShare("ur_gz"), "urdf", "ur_gz.xacro"]),
+            PathJoinSubstitution([FindPackageShare("ur_description"), "urdf", "ur.urdf.xacro"]),
             " ",
             "robot_ip:=",
             robot_ip,

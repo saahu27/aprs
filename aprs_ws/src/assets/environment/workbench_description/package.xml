@@ -4,7 +4,7 @@
   <name>workbench_description</name>
   <version>2.0.0</version>
   <description>table_description description</description>
-  <maintainer email="example@gmail.com">name</maintainer>
+  <maintainer email="sahruday.patti@nist.gov">Sahruday Patti</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
