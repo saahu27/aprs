@@ -24,7 +24,10 @@ def generate_launch_description():
             " ",
             PathJoinSubstitution([FindPackageShare("panda_description"), "urdf", "panda.urdf.xacro"]),
             " ",
-            "simulation_controllers:=",
+            "name:=",
+            "panda",
+            " ",
+            "ros2_controller_parameters:=",
             control_path,
             " "
         ]
@@ -63,11 +66,24 @@ def generate_launch_description():
         output='screen'
     )
 
+    load_gripper_trajectory_controller = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+             'gripper_trajectory_controller'],
+        output='screen'
+    )
+
     gz = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 [os.path.join(get_package_share_directory('ros_gz_sim'),
                               'launch', 'gz_sim.launch.py')]),
             launch_arguments=[('gz_args', [' -r -v 4 empty.sdf'])])
+    
+    # MoveIt node
+    moveit = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            [FindPackageShare("panda_moveit_config"), "/launch", "/franka_moveit.launch.py"]
+        )
+    )
     
     launch_gz = RegisterEventHandler(
             event_handler=OnProcessExit(
@@ -82,13 +98,22 @@ def generate_launch_description():
             )
         )
 
+    # launch_gripper_controller = RegisterEventHandler(
+    #     event_handler=OnProcessExit(
+    #         target_action=load_gripper_trajectory_controller,
+    #         on_exit=[moveit]
+    #     )
+    # )
 
     return LaunchDescription([
         gz,
-        launch_gz,
-        launch_controller,
-        node_robot_state_publisher,
         gz_spawn_entity,
+        launch_gz,
+        node_robot_state_publisher,
+        launch_controller,
+        # launch_gripper_controller,
+        load_gripper_trajectory_controller,
+        # moveit,
         DeclareLaunchArgument(
             'use_sim_time',
             default_value=use_sim_time,

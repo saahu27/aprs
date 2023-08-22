@@ -122,6 +122,8 @@
     </gazebo>
   </xacro:if>
 
+  
+
   <gazebo reference="shoulder_link">
       <selfCollide>true</selfCollide>
   </gazebo>
