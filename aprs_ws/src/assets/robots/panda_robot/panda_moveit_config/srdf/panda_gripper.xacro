@@ -6,7 +6,7 @@
   <!-- Macro -->
   <!--       -->
   <xacro:macro name="panda_gripper" params="
-    prefix:=franka_
+    prefix:=panda_
   ">
     <group name="gripper">
       <link name="${prefix}hand_tcp"/>

@@ -43,7 +43,11 @@ int main(int argc, char * argv[])
   } else {
     RCLCPP_ERROR(logger, "Planning failed!");
   }
+  RCLCPP_INFO(logger, "Available Planning Groups:");
+  std::copy(move_group_interface.getJointModelGroupNames().begin(), move_group_interface.getJointModelGroupNames().end(),
+            std::ostream_iterator<std::string>(std::cout, ", "));
 
+  RCLCPP_INFO(logger, "End effector link: %s", move_group_interface.getEndEffectorLink().c_str());
   // Shutdown ROS
   rclcpp::shutdown();
   return 0;

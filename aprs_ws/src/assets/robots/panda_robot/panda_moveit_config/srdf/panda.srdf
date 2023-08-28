@@ -5,9 +5,16 @@
 <!-- =================================================================================== -->
 <!-- SRDF for Franka Emika Panda -->
 <robot name="panda">
+
+  <group name="franka_arm_gripper">
+      <group name="franka_arm"/>
+      <group name="gripper"/>
+  </group>
+
   <group name="franka_arm">
     <chain base_link="panda_link0" tip_link="panda_hand_tcp"/>
   </group>
+  
   <group_state group="franka_arm" name="ready">
     <joint name="panda_joint1" value="0"/>
     <joint name="panda_joint2" value="-0.7853981633974483"/>
@@ -60,7 +67,7 @@
   <disable_collisions link1="panda_link6" link2="panda_link7" reason="Adjacent"/>
 
   <group name="gripper">
-    <link name="panda_hand_tcp" />
+    <!-- <link name="panda_hand_tcp" /> -->
     <link name="panda_hand"/>
     <link name="panda_leftfinger"/>
     <link name="panda_rightfinger"/>
@@ -93,4 +100,6 @@
   <disable_collisions link1="panda_link4" link2="panda_rightfinger" reason="Never"/>
   <disable_collisions link1="panda_link6" link2="panda_rightfinger" reason="Never"/>
   <disable_collisions link1="panda_link7" link2="panda_rightfinger" reason="Never"/>
+
+  
 </robot>

@@ -113,7 +113,7 @@ def generate_launch_description():
         launch_controller,
         # launch_gripper_controller,
         load_gripper_trajectory_controller,
-        # moveit,
+        moveit,
         DeclareLaunchArgument(
             'use_sim_time',
             default_value=use_sim_time,

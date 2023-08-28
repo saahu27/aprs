@@ -90,7 +90,7 @@
   <xacro:property name="joint6_name" value="joint6"/>
   <xacro:property name="joint6_type" value="revolute"/>
   <xacro:property name="joint6_origin_xyz" value="0 0 0"/>
-  <xacro:property name="joint6_origin_rpy" value="${pi/2} 0 0"/>
+  <xacro:property name="joint6_origin_rpy" value="${-pi/2} 0 0"/>
   <xacro:property name="joint6_axis_xyz" value="0 0 1"/>
   <xacro:property name="joint6_lower_limit" value="${-1/180*pi}"/>
   <xacro:property name="joint6_upper_limit" value="${215/180*pi}"/>
@@ -137,7 +137,7 @@
     safety_k_velocity:=40.0
     ros2_control:=true
     ros2_control_plugin:=ign
-    ros2_control_command_interface:=effort
+    ros2_control_command_interface:=position
     gazebo_preserve_fixed_joint:=false
   ">
     
