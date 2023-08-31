@@ -50,6 +50,8 @@ ros2 launch gz_ros2_control_demos urrobot.launch.py
 3. ```./bridge.sh```
 4. ```. install/setup.bash```
 
+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
+
 # Launch simulation
 
 ```
