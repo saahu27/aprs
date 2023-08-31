@@ -161,8 +161,7 @@ RUN apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-
 # compile librealsense SDK
 
 RUN cd $REALSENSE_DIR/build \
-  && cmake ../ -DBUILD_EXAMPLES=true \
-  && make uninstall && make clean && make && make install
+  && cmake ../ -DBUILD_EXAMPLES=true \ &&
 
 
 ARG USERNAME=saahu27
@@ -184,10 +183,7 @@ RUN apt-get update \
    && apt-get autoremove -y \
    && apt-get clean -y \
    && rm -rf /var/lib/apt/lists/*
-
-ARG USERNAME=saahu27
-RUN sudo usermod -a -G video $USERNAME
-
+   
 ENV DEBIAN_FRONTEND=dialog
 
 ARG WORKSPACE=/workspaces/aprs
@@ -199,4 +195,3 @@ RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash;" >> /home/$USERNAME/.bashrc 
     echo "if [ -f ${WORKSPACE}/install/setup.bash ]; then source ${WORKSPACE}/aprs_ws/install/setup.bash; fi" >> /home/$USERNAME/.bashrc
 
 USER $USERNAME
-

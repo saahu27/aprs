@@ -13,7 +13,7 @@
 # limitations under the License.
 
 cmake_minimum_required(VERSION 3.5)
-project(realsense2_description)
+project(realsense2_description_)
 
 find_package(ament_cmake REQUIRED)
 

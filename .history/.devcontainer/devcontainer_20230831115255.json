@@ -44,7 +44,5 @@
 				]
 			}
 		},
-
-		"mounts": ["type=bind,source=/dev/bus/usb,target=/dev/bus/usb"]
-
+		
 }

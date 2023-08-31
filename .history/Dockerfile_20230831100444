@@ -146,25 +146,6 @@ RUN /bin/sh -c 'wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share
     gz-garden \
  && apt-get clean
 
-ENV REALSENSE_BASE=/root
-
-ENV REALSENSE_DIR=$REALSENSE_BASE/librealsense
-
-# clone librealsense SKD
-
-RUN git clone https://github.com/IntelRealSense/librealsense.git $REALSENSE_DIR \
-    && cd $REALSENSE_DIR \
-    && mkdir build
-
-RUN apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev cmake -y
-
-# compile librealsense SDK
-
-RUN cd $REALSENSE_DIR/build \
-  && cmake ../ -DBUILD_EXAMPLES=true \
-  && make uninstall && make clean && make && make install
-
-
 ARG USERNAME=saahu27
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
@@ -184,10 +165,7 @@ RUN apt-get update \
    && apt-get autoremove -y \
    && apt-get clean -y \
    && rm -rf /var/lib/apt/lists/*
-
-ARG USERNAME=saahu27
-RUN sudo usermod -a -G video $USERNAME
-
+   
 ENV DEBIAN_FRONTEND=dialog
 
 ARG WORKSPACE=/workspaces/aprs
@@ -195,7 +173,7 @@ ARG WORKSPACE=/workspaces/aprs
 # Initialize rosdep
 RUN sudo rosdep init && rosdep update
 
-RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash;" >> /home/$USERNAME/.bashrc && \
+RUN echo "source /opt/ros/rolling/setup.bash;" >> /home/$USERNAME/.bashrc && \
     echo "if [ -f ${WORKSPACE}/install/setup.bash ]; then source ${WORKSPACE}/aprs_ws/install/setup.bash; fi" >> /home/$USERNAME/.bashrc
 
 USER $USERNAME
