@@ -1,0 +1,87 @@
+[0.013s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_controllers': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur_controllers
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.289s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.443s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.551s] -- Found angles: 1.16.0 (/opt/ros/rolling/share/angles/cmake)
+[0.555s] -- Found controller_interface: 3.16.0 (/opt/ros/rolling/share/controller_interface/cmake)
+[0.620s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.632s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.009s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[2.015s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[2.682s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.831s] -- Found FastRTPS: /opt/ros/rolling/include  
+[3.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.899s] -- Found joint_trajectory_controller: 3.12.0 (/opt/ros/rolling/share/joint_trajectory_controller/cmake)
+[5.192s] -- Found parameter_traits: 0.3.3 (/opt/ros/rolling/share/parameter_traits/cmake)
+[5.506s] -- Found std_srvs: 5.2.0 (/opt/ros/rolling/share/std_srvs/cmake)
+[5.655s] -- Found ur_dashboard_msgs: 2.3.2 (/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[5.926s] -- Found ur_msgs: 2.0.0 (/workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake)
+[6.571s] -- Configuring done
+[6.683s] -- Generating done
+[6.693s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/ur_controllers
+[6.776s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur_controllers
+[6.777s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_controllers': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_controllers -- -j16 -l16
+[7.139s] [ 14%] [34m[1mRunning `/opt/ros/rolling/bin/generate_parameter_library_py /workspaces/aprs/aprs_ws/build/ur_controllers/speed_scaling_state_broadcaster_parameters/include//speed_scaling_state_broadcaster_parameters.hpp /workspaces/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[7.167s] [ 42%] [34m[1mRunning `/opt/ros/rolling/bin/generate_parameter_library_py /workspaces/aprs/aprs_ws/build/ur_controllers/scaled_joint_trajectory_controller_parameters/include//scaled_joint_trajectory_controller_parameters.hpp /workspaces/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[7.174s] [ 42%] [34m[1mRunning `/opt/ros/rolling/bin/generate_parameter_library_py /workspaces/aprs/aprs_ws/build/ur_controllers/gpio_controller_parameters/include//gpio_controller_parameters.hpp /workspaces/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[7.741s] [ 42%] Built target speed_scaling_state_broadcaster_parameters
+[7.787s] [ 42%] Built target gpio_controller_parameters
+[7.809s] [ 42%] Built target scaled_joint_trajectory_controller_parameters
+[7.975s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[7.983s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[7.993s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[31.167s] [100%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[31.869s] [100%] Built target ur_controllers
+[31.884s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_controllers -- -j16 -l16
+[31.911s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_controllers': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_controllers
+[31.919s] -- Install configuration: ""
+[31.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/gpio_controller_parameters
+[31.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[31.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters
+[31.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[31.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters
+[31.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[31.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[31.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/lib/libur_controllers.so
+[31.929s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_controllers/lib/libur_controllers.so" to ""
+[31.929s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_controllers/include
+[31.929s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/ur_controllers
+[31.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[31.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[31.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[31.930s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[31.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[31.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[31.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[31.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[31.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[31.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[31.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[31.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[31.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[31.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[31.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[31.932s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[31.932s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[31.932s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[31.932s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[31.932s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[31.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[31.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[31.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_controllers/share/ur_controllers/package.xml
+[31.939s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_controllers

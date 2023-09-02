@@ -1,0 +1,33 @@
+[0.063s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur -- -j16 -l16
+[0.153s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur -- -j16 -l16
+[0.307s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur
+[0.340s] -- Install configuration: ""
+[0.341s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//meshes
+[0.345s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//meshes/vaccum_gripper.stl
+[0.346s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//meshes/camera_mount.STL
+[0.346s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//urdf
+[0.346s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//urdf/ur.gazebo.xacro
+[0.346s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//urdf/ur5e.urdf.xacro
+[0.346s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//urdf/vaccum.urdf.xacro
+[0.346s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//urdf/ur5e_robot.urdf.xacro
+[0.346s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//urdf/camera.urdf.xacro
+[0.346s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//urdf/common_gazebo.xacro
+[0.346s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur//urdf/ur.urdf.xacro
+[0.347s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/environment/ur.dsv
+[0.347s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/environment/ur.sh
+[0.347s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+[0.347s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+[0.347s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+[0.347s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+[0.347s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/environment/path.sh
+[0.348s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/environment/path.dsv
+[0.348s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/local_setup.bash
+[0.348s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/local_setup.sh
+[0.348s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/local_setup.zsh
+[0.348s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/local_setup.dsv
+[0.348s] -- Installing: /workspaces/aprs/aprs_ws/install/ur/share/ur/package.dsv
+[0.348s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ament_index/resource_index/packages/ur
+[0.348s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/cmake/urConfig.cmake
+[0.349s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+[0.349s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur/share/ur/package.xml
+[0.422s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur

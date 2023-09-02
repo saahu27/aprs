@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_dashboard_msgs/action/SetMode_Feedback",
+      "fields": [
+        {
+          "name": "current_robot_mode",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "current_safety_mode",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_dashboard_msgs/action/SetMode_Feedback",
+      "hash_string": "RIHS01_297e167455db54b26e4f01d06215c02ef5b590b71347bf4e5a8ff55bda0d632d"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[0.055s] Invoking command in '/workspaces/aprs/aprs_ws/build/camera_mount': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/sensors/camera_mount -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/camera_mount
+[0.168s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.357s] -- Found rosidl_default_runtime: 1.6.0 (/opt/ros/rolling/share/rosidl_default_runtime/cmake)
+[0.392s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.575s] -- Configuring done
+[0.582s] -- Generating done
+[0.583s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/camera_mount
+[0.606s] Invoked command in '/workspaces/aprs/aprs_ws/build/camera_mount' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/sensors/camera_mount -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/camera_mount
+[0.607s] Invoking command in '/workspaces/aprs/aprs_ws/build/camera_mount': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/camera_mount -- -j16 -l16
+[0.694s] Invoked command in '/workspaces/aprs/aprs_ws/build/camera_mount' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/camera_mount -- -j16 -l16
+[0.777s] Invoking command in '/workspaces/aprs/aprs_ws/build/camera_mount': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/camera_mount
+[0.827s] -- Install configuration: ""
+[0.827s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/meshes
+[0.827s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/meshes/camera_mount.STL
+[0.827s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/urdf
+[0.827s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/urdf/camera_mount.urdf.xacro
+[0.827s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/urdf
+[0.827s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/urdf/camera_mount.urdf.xacro
+[0.827s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/environment/camera_mount.dsv
+[0.827s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/environment/camera_mount.sh
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/ament_index/resource_index/package_run_dependencies/camera_mount
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/ament_index/resource_index/parent_prefix_path/camera_mount
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/environment/ament_prefix_path.sh
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/environment/ament_prefix_path.dsv
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/environment/path.sh
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/environment/path.dsv
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/local_setup.bash
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/local_setup.sh
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/local_setup.zsh
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/local_setup.dsv
+[0.828s] -- Installing: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/package.dsv
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/ament_index/resource_index/packages/camera_mount
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/cmake/camera_mountConfig.cmake
+[0.828s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/cmake/camera_mountConfig-version.cmake
+[0.829s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/camera_mount/share/camera_mount/package.xml
+[0.878s] Invoked command in '/workspaces/aprs/aprs_ws/build/camera_mount' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/camera_mount

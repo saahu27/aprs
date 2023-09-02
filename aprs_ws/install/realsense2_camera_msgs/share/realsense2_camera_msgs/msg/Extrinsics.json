@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "realsense2_camera_msgs/msg/Extrinsics",
+      "fields": [
+        {
+          "name": "rotation",
+          "type": {
+            "type_id": 59,
+            "capacity": 9,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "translation",
+          "type": {
+            "type_id": 59,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "realsense2_camera_msgs/msg/Extrinsics",
+      "hash_string": "RIHS01_5b651f221fc70fae909dda72e6c0470805a1860616ab829d88858482343dc65a"
+    }
+  ]
+}

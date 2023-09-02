@@ -1,0 +1,92 @@
+[0.010s] Invoking command in '/workspaces/aprs/aprs_ws/build/point_cloud': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera/lib:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/point_cloud -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/point_cloud
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.106s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.169s] -- Detecting C compile features
+[0.169s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.471s] -- Found rclcpp: 22.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.514s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.526s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.708s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.711s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.805s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.837s] -- Found FastRTPS: /opt/ros/rolling/include  
+[0.891s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.042s] -- Found rclpy: 5.0.0 (/opt/ros/rolling/share/rclpy/cmake)
+[1.045s] -- Found tf2_kdl: 0.32.2 (/opt/ros/rolling/share/tf2_kdl/cmake)
+[1.156s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)
+[1.157s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.157s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.621s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.623s] -- Found cv_bridge: 3.4.0 (/opt/ros/rolling/share/cv_bridge/cmake)
+[1.751s] -- Found kdl_parser: 2.10.0 (/opt/ros/rolling/share/kdl_parser/cmake)
+[1.847s] -- Found ament_lint_auto: 0.15.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[1.947s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.947s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.948s] -- Added test 'lint_cmake' to check CMake code style
+[1.948s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.949s] -- Added test 'xmllint' to check XML markup files
+[1.950s] -- Configuring done
+[1.957s] -- Generating done
+[1.959s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/point_cloud
+[1.973s] Invoked command in '/workspaces/aprs/aprs_ws/build/point_cloud' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera/lib:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/point_cloud -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/point_cloud
+[1.975s] Invoking command in '/workspaces/aprs/aprs_ws/build/point_cloud': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera/lib:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/point_cloud -- -j16 -l16
+[2.037s] Built target ament_cmake_python_copy_point_cloud
+[2.384s] running egg_info
+[2.385s] creating point_cloud.egg-info
+[2.385s] writing point_cloud.egg-info/PKG-INFO
+[2.385s] writing dependency_links to point_cloud.egg-info/dependency_links.txt
+[2.386s] writing top-level names to point_cloud.egg-info/top_level.txt
+[2.386s] writing manifest file 'point_cloud.egg-info/SOURCES.txt'
+[2.388s] reading manifest file 'point_cloud.egg-info/SOURCES.txt'
+[2.389s] writing manifest file 'point_cloud.egg-info/SOURCES.txt'
+[2.425s] Built target ament_cmake_python_build_point_cloud_egg
+[2.437s] Invoked command in '/workspaces/aprs/aprs_ws/build/point_cloud' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera/lib:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/point_cloud -- -j16 -l16
+[2.459s] Invoking command in '/workspaces/aprs/aprs_ws/build/point_cloud': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera/lib:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/point_cloud
+[2.467s] -- Install configuration: ""
+[2.467s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/environment/pythonpath.sh
+[2.467s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/environment/pythonpath.dsv
+[2.467s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud-0.0.0-py3.10.egg-info
+[2.467s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.467s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud-0.0.0-py3.10.egg-info/PKG-INFO
+[2.467s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.467s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud-0.0.0-py3.10.egg-info/top_level.txt
+[2.467s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud
+[2.468s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/__init__.py
+[2.500s] Listing '/workspaces/aprs/aprs_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud'...
+[2.500s] Compiling '/workspaces/aprs/aprs_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/__init__.py'...
+[2.508s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/lib/point_cloud/point_cloud.py
+[2.508s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/include
+[2.509s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/include/point_cloud
+[2.509s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/environment/library_path.sh
+[2.509s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/environment/library_path.dsv
+[2.509s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/ament_index/resource_index/package_run_dependencies/point_cloud
+[2.509s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/ament_index/resource_index/parent_prefix_path/point_cloud
+[2.509s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/environment/ament_prefix_path.sh
+[2.509s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/environment/ament_prefix_path.dsv
+[2.509s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/environment/path.sh
+[2.510s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/environment/path.dsv
+[2.510s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/local_setup.bash
+[2.510s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/local_setup.sh
+[2.510s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/local_setup.zsh
+[2.510s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/local_setup.dsv
+[2.510s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/package.dsv
+[2.511s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/ament_index/resource_index/packages/point_cloud
+[2.511s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/cmake/ament_cmake_export_libraries-extras.cmake
+[2.511s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.511s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.511s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/cmake/point_cloudConfig.cmake
+[2.511s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/cmake/point_cloudConfig-version.cmake
+[2.511s] -- Installing: /workspaces/aprs/aprs_ws/install/point_cloud/share/point_cloud/package.xml
+[2.517s] Invoked command in '/workspaces/aprs/aprs_ws/build/point_cloud' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_description:/workspaces/aprs/aprs_ws/install/realsense2_camera:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera/lib:/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/point_cloud

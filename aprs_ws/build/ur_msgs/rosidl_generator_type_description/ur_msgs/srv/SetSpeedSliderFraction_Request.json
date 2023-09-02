@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_msgs/srv/SetSpeedSliderFraction_Request",
+      "fields": [
+        {
+          "name": "speed_slider_fraction",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_msgs/srv/SetSpeedSliderFraction_Request",
+      "hash_string": "RIHS01_a13ca002a59a7e4fc84d068d02201e466693047b542dd0e01651315083acfe80"
+    }
+  ]
+}

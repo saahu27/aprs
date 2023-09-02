@@ -1,0 +1,120 @@
+[0.134s] Invoking command in '/workspaces/aprs/aprs_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/realsense-ros/realsense2_camera -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/realsense2_camera
+[0.317s] -- The C compiler identification is GNU 11.4.0
+[0.503s] -- The CXX compiler identification is GNU 11.4.0
+[0.519s] -- Detecting C compiler ABI info
+[0.669s] -- Detecting C compiler ABI info - done
+[0.680s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.681s] -- Detecting C compile features
+[0.681s] -- Detecting C compile features - done
+[0.685s] -- Detecting CXX compiler ABI info
+[0.902s] -- Detecting CXX compiler ABI info - done
+[0.914s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.916s] -- Detecting CXX compile features
+[0.916s] -- Detecting CXX compile features - done
+[0.918s] -- Create Release Build.
+[0.921s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.141s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.272s] -- Found builtin_interfaces: 1.7.0 (/opt/ros/rolling/share/builtin_interfaces/cmake)
+[1.328s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.346s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.434s] -- Found cv_bridge: 3.4.0 (/opt/ros/rolling/share/cv_bridge/cmake)
+[1.938s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.941s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[2.067s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.122s] -- Found FastRTPS: /opt/ros/rolling/include  
+[2.200s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.371s] -- Found image_transport: 4.3.0 (/opt/ros/rolling/share/image_transport/cmake)
+[2.427s] -- Found rclcpp_components: 22.0.0 (/opt/ros/rolling/share/rclcpp_components/cmake)
+[2.509s] -- Found realsense2_camera_msgs: 4.54.1 (/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[2.626s] -- Found nav_msgs: 5.2.0 (/opt/ros/rolling/share/nav_msgs/cmake)
+[2.735s] -- Found tf2_ros: 0.32.2 (/opt/ros/rolling/share/tf2_ros/cmake)
+[3.035s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/rolling/share/diagnostic_updater/cmake)
+[3.121s] -- Build for ROS2 Rolling
+[3.127s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[3.130s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.133s] -- Looking for pthread.h
+[3.199s] -- Looking for pthread.h - found
+[3.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.264s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.266s] -- Found Threads: TRUE  
+[3.269s] -- Found ament_cmake_pytest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_pytest/cmake)
+[6.736s] -- Configuring done
+[6.774s] -- Generating done
+[6.777s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/realsense2_camera
+[6.794s] Invoked command in '/workspaces/aprs/aprs_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/realsense-ros/realsense2_camera -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/realsense2_camera
+[6.796s] Invoking command in '/workspaces/aprs/aprs_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/realsense2_camera -- -j16 -l16
+[6.853s] [ 22%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[6.853s] [ 22%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[6.853s] [ 22%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[6.854s] [ 22%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[6.855s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.859s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[6.859s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.860s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[6.860s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[6.862s] [ 45%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[6.863s] [ 54%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[6.864s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[6.866s] [ 59%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[6.869s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[6.873s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_rolling.cpp.o[0m
+[6.875s] [ 72%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[9.192s] [ 77%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[9.430s] [ 77%] Built target gtest_main
+[19.208s] [ 81%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[20.010s] [ 81%] Built target realsense2_camera_node
+[26.594s] [ 86%] [32m[1mLinking CXX static library libgtest.a[0m
+[26.696s] [ 86%] Built target gtest
+[26.784s] [ 90%] [32mBuilding CXX object CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o[0m
+[29.148s] [ 95%] [32m[1mLinking CXX executable gtest_template[0m
+[29.445s] [ 95%] Built target gtest_template
+[40.170s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[43.517s] [100%] Built target realsense2_camera
+[43.526s] Invoked command in '/workspaces/aprs/aprs_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/realsense2_camera -- -j16 -l16
+[43.563s] Invoking command in '/workspaces/aprs/aprs_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/realsense2_camera
+[43.569s] -- Install configuration: "Release"
+[43.569s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[43.569s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[43.569s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[43.571s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[43.572s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include
+[43.572s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/image_publisher.h
+[43.572s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/ros_param_backend.h
+[43.572s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/constants.h
+[43.572s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/base_realsense_node.h
+[43.572s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/ros_sensor.h
+[43.573s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/realsense_node_factory.h
+[43.573s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/dynamic_params.h
+[43.573s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/profile_manager.h
+[43.573s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/ros_utils.h
+[43.573s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/named_filter.h
+[43.573s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/include/sensor_params.h
+[43.574s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/launch
+[43.574s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[43.574s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[43.574s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[43.574s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[43.574s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[43.575s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[43.575s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[43.575s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[43.575s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[43.575s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[43.576s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[43.576s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[43.576s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[43.576s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[43.576s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[43.577s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[43.577s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[43.577s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[43.577s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[43.577s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.578s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[43.578s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.578s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[43.578s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[43.578s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[43.582s] Invoked command in '/workspaces/aprs/aprs_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/realsense2_camera

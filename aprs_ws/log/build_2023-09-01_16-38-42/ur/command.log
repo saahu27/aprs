@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/aprs/aprs_ws/build/ur': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/ur -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur
+Invoked command in '/workspaces/aprs/aprs_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/ur -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur
+Invoking command in '/workspaces/aprs/aprs_ws/build/ur': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur -- -j16 -l16
+Invoked command in '/workspaces/aprs/aprs_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur -- -j16 -l16
+Invoking command in '/workspaces/aprs/aprs_ws/build/ur': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur
+Invoked command in '/workspaces/aprs/aprs_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur

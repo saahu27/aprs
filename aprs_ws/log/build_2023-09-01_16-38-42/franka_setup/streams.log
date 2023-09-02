@@ -1,0 +1,60 @@
+[0.055s] Invoking command in '/workspaces/aprs/aprs_ws/build/franka_setup': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/franka_setup -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/franka_setup
+[0.191s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.338s] -- Found moveit_ros_planning_interface: 2.7.4 (/opt/ros/rolling/share/moveit_ros_planning_interface/cmake)
+[0.364s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.414s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.967s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.008s] -- Found parameter_traits: 0.3.3 (/opt/ros/rolling/share/parameter_traits/cmake)
+[2.175s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[2.178s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[2.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.552s] -- Found rclcpp_lifecycle: 22.0.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+[2.649s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.691s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.921s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.498s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.068s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.330s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.856s] -- Found ament_lint_auto: 0.15.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[4.932s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.932s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspaces/aprs/aprs_ws/src/franka_setup/include>
+[4.933s] -- Configured cppcheck exclude dirs and/or files: 
+[4.933s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.933s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.933s] -- Added test 'lint_cmake' to check CMake code style
+[4.933s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.933s] -- Added test 'uncrustify' to check C / C++ code style
+[4.933s] -- Configured uncrustify additional arguments: 
+[4.934s] -- Added test 'xmllint' to check XML markup files
+[4.935s] -- Configuring done
+[4.965s] -- Generating done
+[4.966s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/franka_setup
+[4.979s] Invoked command in '/workspaces/aprs/aprs_ws/build/franka_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /workspaces/aprs/aprs_ws/src/franka_setup -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/franka_setup
+[4.980s] Invoking command in '/workspaces/aprs/aprs_ws/build/franka_setup': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/franka_setup -- -j16 -l16
+[5.018s] [35m[1mConsolidate compiler generated dependencies of target franka_setup[0m
+[5.045s] [100%] Built target franka_setup
+[5.053s] Invoked command in '/workspaces/aprs/aprs_ws/build/franka_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/franka_setup -- -j16 -l16
+[5.080s] Invoking command in '/workspaces/aprs/aprs_ws/build/franka_setup': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/franka_setup
+[5.085s] -- Install configuration: ""
+[5.085s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup//launch
+[5.085s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup//launch/franka_setup.launch.py
+[5.085s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/lib/franka_setup/franka_setup
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/ament_index/resource_index/package_run_dependencies/franka_setup
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/ament_index/resource_index/parent_prefix_path/franka_setup
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/environment/ament_prefix_path.sh
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/environment/ament_prefix_path.dsv
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/environment/path.sh
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/environment/path.dsv
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/local_setup.bash
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/local_setup.sh
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/local_setup.zsh
+[5.086s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/local_setup.dsv
+[5.087s] -- Installing: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/package.dsv
+[5.087s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/ament_index/resource_index/packages/franka_setup
+[5.087s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/cmake/franka_setupConfig.cmake
+[5.087s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/cmake/franka_setupConfig-version.cmake
+[5.087s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_setup/share/franka_setup/package.xml
+[5.089s] Invoked command in '/workspaces/aprs/aprs_ws/build/franka_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/franka_setup

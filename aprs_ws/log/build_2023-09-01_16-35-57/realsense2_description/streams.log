@@ -1,0 +1,70 @@
+[0.115s] Invoking command in '/workspaces/aprs/aprs_ws/build/realsense2_description': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/realsense-ros/realsense2_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/realsense2_description
+[0.326s] -- The C compiler identification is GNU 11.4.0
+[0.466s] -- The CXX compiler identification is GNU 11.4.0
+[0.475s] -- Detecting C compiler ABI info
+[0.679s] -- Detecting C compiler ABI info - done
+[0.700s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.700s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.713s] -- Detecting CXX compiler ABI info
+[0.947s] -- Detecting CXX compiler ABI info - done
+[0.957s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.957s] -- Detecting CXX compile features
+[0.958s] -- Detecting CXX compile features - done
+[0.962s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.196s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.419s] -- Configuring done
+[1.421s] -- Generating done
+[1.426s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/realsense2_description
+[1.489s] Invoked command in '/workspaces/aprs/aprs_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/realsense-ros/realsense2_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/realsense2_description
+[1.491s] Invoking command in '/workspaces/aprs/aprs_ws/build/realsense2_description': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/realsense2_description -- -j16 -l16
+[1.641s] Invoked command in '/workspaces/aprs/aprs_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/realsense2_description -- -j16 -l16
+[1.688s] Invoking command in '/workspaces/aprs/aprs_ws/build/realsense2_description': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/realsense2_description
+[1.702s] -- Install configuration: ""
+[1.702s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/launch
+[1.702s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/launch/view_model.launch.py
+[1.702s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/launch/launch_utils.py
+[1.702s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/meshes
+[1.702s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/meshes/plug.stl
+[1.703s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/meshes/d415.stl
+[1.744s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/meshes/l515.dae
+[1.800s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/meshes/d455.stl
+[1.805s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/meshes/d435.dae
+[1.832s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/meshes/plug_collision.stl
+[1.832s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/rviz
+[1.832s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/rviz/urdf.rviz
+[1.832s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf
+[1.832s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_camera.urdf.xacro
+[1.832s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i.urdf.xacro
+[1.833s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435i_camera.urdf.xacro
+[1.833s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro
+[1.833s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/test_d455_camera.urdf.xacro
+[1.833s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/test_r430_camera.urdf.xacro
+[1.833s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_r410.urdf.xacro
+[1.833s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_r430.urdf.xacro
+[1.834s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/test_r410_camera.urdf.xacro
+[1.834s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/test_l515_camera.urdf.xacro
+[1.834s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_d415.urdf.xacro
+[1.834s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.urdf.xacro
+[1.834s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_materials.urdf.xacro
+[1.835s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_d455.urdf.xacro
+[1.835s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/test_d415_camera.urdf.xacro
+[1.835s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_multiple_cameras.urdf.xacro
+[1.835s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_usb_plug.urdf.xacro
+[1.836s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/urdf/_l515.urdf.xacro
+[1.836s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/ament_index/resource_index/package_run_dependencies/realsense2_description
+[1.836s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/ament_index/resource_index/parent_prefix_path/realsense2_description
+[1.836s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.sh
+[1.837s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.dsv
+[1.837s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/environment/path.sh
+[1.837s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/environment/path.dsv
+[1.837s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/local_setup.bash
+[1.837s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/local_setup.sh
+[1.837s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/local_setup.zsh
+[1.837s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/local_setup.dsv
+[1.838s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/package.dsv
+[1.838s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/ament_index/resource_index/packages/realsense2_description
+[1.838s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake
+[1.838s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake
+[1.838s] -- Installing: /workspaces/aprs/aprs_ws/install/realsense2_description/share/realsense2_description/package.xml
+[1.843s] Invoked command in '/workspaces/aprs/aprs_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs/aprs_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/realsense2_description

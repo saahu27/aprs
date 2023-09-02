@@ -1,0 +1,4 @@
+source;share/ur/environment/ament_prefix_path.sh
+source;share/ur/environment/path.sh
+source;share/ur/environment/ur.sh
+source;share/ur/environment/ur.dsv

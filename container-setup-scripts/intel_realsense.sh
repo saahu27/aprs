@@ -4,21 +4,21 @@ sudo apt-get update \
     && sudo apt-get upgrade \
     && sudo apt-get dist-upgrade
 
-mkdir sensordep
+# mkdir sensordep
 
-cd sensordep
+# cd sensordep
 
-git clone https://github.com/IntelRealSense/librealsense.git
+# git clone https://github.com/IntelRealSense/librealsense.git
 
-sudo apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev cmake
+# sudo apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev cmake
 
-cd librealsense
+# cd librealsense
 
-mkdir build && cd build
+# mkdir build && cd build
 
-cmake ../ -DBUILD_EXAMPLES=true
+# cmake ../ -DBUILD_EXAMPLES=true
 
-sudo make uninstall && make clean && make && sudo make install
+# sudo make uninstall && make clean && make && sudo make install
 
 cd aprs_ws/src
 

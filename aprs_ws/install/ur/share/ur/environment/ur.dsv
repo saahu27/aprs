@@ -1,0 +1,3 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs/aprs_ws/install/ur/share/ur/meshes
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs/aprs_ws/install/ur/share
+prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib/ur/

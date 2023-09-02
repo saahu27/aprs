@@ -1,0 +1,85 @@
+[0.019s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_calibration': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs/aprs_ws/install/ur_client_library:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs/aprs_ws/install/ur_controllers/lib:/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_client_library/lib:${LD_LIBRARY_PATH} PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/bin:${PATH} PKG_CONFIG_PATH=/workspaces/aprs/aprs_ws/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/workspaces/aprs/aprs_ws/install/ur_client_library/lib/pkgconfig PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur_calibration
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.138s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.220s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.310s] [0mur_calibration: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.313s] -- Found ament_cmake: 2.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.591s] -- Found rclcpp: 22.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.638s] -- Found rosidl_generator_c: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.651s] -- Found rosidl_generator_cpp: 4.3.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.668s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.826s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.829s] -- Found rmw_fastrtps_cpp: 7.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.917s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.943s] -- Found FastRTPS: /opt/ros/rolling/include  
+[0.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.144s] -- Found ur_robot_driver: 2.3.2 (/workspaces/aprs/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/cmake)
+[2.350s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)
+[2.352s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.352s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.460s] -- Found ament_cmake_gmock: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+[3.464s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.472s] -- Found ament_cmake_gtest: 2.2.1 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[3.473s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.535s] -- Configuring done
+[3.610s] -- Generating done
+[3.612s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/ur_calibration
+[3.629s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs/aprs_ws/install/ur_client_library:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs/aprs_ws/install/ur_controllers/lib:/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_client_library/lib:${LD_LIBRARY_PATH} PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/bin:${PATH} PKG_CONFIG_PATH=/workspaces/aprs/aprs_ws/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/workspaces/aprs/aprs_ws/install/ur_client_library/lib/pkgconfig PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur_calibration
+[3.630s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_calibration': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs/aprs_ws/install/ur_client_library:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs/aprs_ws/install/ur_controllers/lib:/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_client_library/lib:${LD_LIBRARY_PATH} PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/bin:${PATH} PKG_CONFIG_PATH=/workspaces/aprs/aprs_ws/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/workspaces/aprs/aprs_ws/install/ur_client_library/lib/pkgconfig PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_calibration -- -j16 -l16
+[3.680s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.680s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.680s] [ 41%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration_consumer.cpp.o[0m
+[3.680s] [ 41%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration.cpp.o[0m
+[3.680s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[5.068s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[5.111s] [ 50%] Built target gmock_main
+[13.186s] [ 58%] [32m[1mLinking CXX static library libcalibration.a[0m
+[13.267s] [ 58%] Built target calibration
+[13.286s] [ 66%] [32mBuilding CXX object CMakeFiles/calibration_correction.dir/src/calibration_correction.cpp.o[0m
+[13.572s] [ 75%] [32m[1mLinking CXX static library libgmock.a[0m
+[13.653s] [ 75%] Built target gmock
+[13.670s] [ 83%] [32mBuilding CXX object CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o[0m
+[19.001s] [ 91%] [32m[1mLinking CXX executable calibration_test[0m
+[19.056s] [100%] [32m[1mLinking CXX executable calibration_correction[0m
+[19.325s] [100%] Built target calibration_test
+[19.340s] [100%] Built target calibration_correction
+[19.348s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs/aprs_ws/install/ur_client_library:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs/aprs_ws/install/ur_controllers/lib:/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_client_library/lib:${LD_LIBRARY_PATH} PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/bin:${PATH} PKG_CONFIG_PATH=/workspaces/aprs/aprs_ws/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/workspaces/aprs/aprs_ws/install/ur_client_library/lib/pkgconfig PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_calibration -- -j16 -l16
+[19.376s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_calibration': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs/aprs_ws/install/ur_client_library:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs/aprs_ws/install/ur_controllers/lib:/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_client_library/lib:${LD_LIBRARY_PATH} PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/bin:${PATH} PKG_CONFIG_PATH=/workspaces/aprs/aprs_ws/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/workspaces/aprs/aprs_ws/install/ur_client_library/lib/pkgconfig PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_calibration
+[19.382s] -- Install configuration: "RelWithDebInfo"
+[19.382s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/lib/ur_calibration/calibration_correction
+[19.388s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_calibration/lib/ur_calibration/calibration_correction" to ""
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/include
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/include/ur_calibration
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/include/ur_calibration/calibration.hpp
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/launch
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/environment/path.sh
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[19.388s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/local_setup.bash
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/local_setup.sh
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/package.dsv
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[19.389s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_calibration/share/ur_calibration/package.xml
+[19.392s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver:/workspaces/aprs/aprs_ws/install/ur_controllers:/workspaces/aprs/aprs_ws/install/ur_msgs:/workspaces/aprs/aprs_ws/install/ur_description:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs/aprs_ws/install/ur_client_library:/opt/ros/rolling LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs/aprs_ws/install/ur_controllers/lib:/workspaces/aprs/aprs_ws/install/ur_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs/aprs_ws/install/ur_client_library/lib:${LD_LIBRARY_PATH} PATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/bin:${PATH} PKG_CONFIG_PATH=/workspaces/aprs/aprs_ws/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/workspaces/aprs/aprs_ws/install/ur_client_library/lib/pkgconfig PYTHONPATH=/workspaces/aprs/aprs_ws/install/ur_robot_driver/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_msgs/lib/python3.10/site-packages:/workspaces/aprs/aprs_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_calibration
