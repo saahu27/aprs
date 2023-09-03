@@ -1,6 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /workspaces/aprs/aprs_ws/src/realsense-ros/realsense2_description
-# Build directory: /workspaces/aprs/aprs_ws/build/realsense2_description
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.

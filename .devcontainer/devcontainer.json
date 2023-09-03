@@ -1,5 +1,6 @@
 {
-	"dockerFile": "../Dockerfile",
+	"dockerFile": "Dockerfile",
+	"context": "..",
 	"build": {
 		"args": {
 			"WORKSPACE": "${containerWorkspaceFolder}",

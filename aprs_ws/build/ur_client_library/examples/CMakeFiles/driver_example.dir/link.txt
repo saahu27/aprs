@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -pedantic -Wall -pedantic -O2 -g -DNDEBUG -rdynamic CMakeFiles/driver_example.dir/full_driver.cpp.o -o driver_example  -Wl,-rpath,/workspaces/aprs/aprs_ws/build/ur_client_library ../liburcl.so 
