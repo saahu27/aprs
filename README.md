@@ -11,6 +11,7 @@ PreRequisites :
 
     [2.2 Remote-Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
+[DevContainer Reference](https://containers.dev/implementors/json_reference/#remoteUser)
 Running a DevContainer in VScode :
 Press ` Ctrl + Shft + P ' choose rebuild and reopen containers
 
