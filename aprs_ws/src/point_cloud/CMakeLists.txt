@@ -27,7 +27,7 @@ foreach(Dependency IN ITEMS ${THIS_PACKAGE_INCLUDE_DEPENDS})
 endforeach()
 
 # Include Cpp "include" directory
-include_directories(include)
+# include_directories(include)
 
 # # Create Cpp executable
 # add_executable(cpp_executable src/cpp_node.cpp)
@@ -52,16 +52,16 @@ install(PROGRAMS
 #   ARCHIVE DESTINATION lib
 # )
 
-install(DIRECTORY include/
-  DESTINATION include
-)
+# install(DIRECTORY include/
+#   DESTINATION include
+# )
 
 ament_export_libraries(
   ${PROJECT_NAME}
 )
-ament_export_include_directories(
-  include
-)
+# ament_export_include_directories(
+#   include
+# )
 ament_export_dependencies(
   ${THIS_PACKAGE_INCLUDE_DEPENDS}
 )

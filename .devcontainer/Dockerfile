@@ -1,4 +1,3 @@
-# FROM --platform=linux/amd64 nvidia_opengl_ubuntu22:latest AS base
 FROM ubuntu:jammy as dev
 #####
 # Following lines are copied from
@@ -164,7 +163,7 @@ RUN cd $REALSENSE_DIR/build \
   && make uninstall && make clean && make && make install
 
 
-ARG USERNAME=saahu27
+ARG USERNAME=SahuGf
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
@@ -190,7 +189,7 @@ RUN apt-get update \
    && apt-get clean -y \
    && rm -rf /var/lib/apt/lists/*
 
-ARG USERNAME=saahu27
+ARG USERNAME=SahuGf
 RUN sudo usermod -a -G video $USERNAME
 
 ENV DEBIAN_FRONTEND=dialog

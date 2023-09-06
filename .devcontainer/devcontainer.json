@@ -1,6 +1,6 @@
 {
 	"dockerFile": "Dockerfile",
-	"context": "..",
+	"context": "../",
 	"build": {
 		"args": {
 			"WORKSPACE": "${containerWorkspaceFolder}",
@@ -27,6 +27,17 @@
 		"LIBGL_ALWAYS_SOFTWARE": "1", // Needed for software rendering of opengl
 		"QT_X11_NO_MITSHM": "1"
     },
+
+	// "features": {
+		
+	// 	"ghcr.io/devcontainers/features/docker-from-docker:1": {
+	// 		"version": "latest",
+	// 		"enableNonRootDocker": "true",
+	// 		"moby": "true"
+	// 	},
+	// 	"ghcr.io/devcontainers/features/python:1": {}
+	// },
+	
 	// Set *default* container specific settings.json values on container create.
 	"customizations": {
 		"vscode": {
@@ -48,4 +59,5 @@
 
 		"mounts": ["type=bind,source=/dev/bus/usb,target=/dev/bus/usb"]
 
+		// "remoteUser": "SahuGf"
 }

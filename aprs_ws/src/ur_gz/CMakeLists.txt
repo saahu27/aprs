@@ -24,7 +24,7 @@ find_package(geometry_msgs REQUIRED)
 install(DIRECTORY
   launch
   config
-  meshes
+  # meshes
   urdf
   DESTINATION share/${PROJECT_NAME}/
 )
