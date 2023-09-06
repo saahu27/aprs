@@ -1,9 +1,9 @@
 
 PreRequisites :
 
-1. Install NVIDIA Docker 2
+1. Install NVIDIA Container Development toolkit
             following the instructions
- [here](https://github.com/osrf/subt/wiki/Docker%20Install#install-nvidia-docker).
+ [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
 
 2. Install following extensions on your VSCode: 
 
