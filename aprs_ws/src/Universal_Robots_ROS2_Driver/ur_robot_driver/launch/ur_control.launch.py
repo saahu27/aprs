@@ -89,7 +89,7 @@ def launch_setup(context, *args, **kwargs):
         [FindPackageShare(description_package), "config", ur_type, "joint_limits.yaml"]
     )
     kinematics_params = PathJoinSubstitution(
-        [FindPackageShare(description_package), "config", ur_type, "default_kinematics.yaml"]
+        [FindPackageShare(description_package), "config", ur_type, "ur5e_calibration.yaml"]
     )
     physical_params = PathJoinSubstitution(
         [FindPackageShare(description_package), "config", ur_type, "physical_parameters.yaml"]
@@ -371,29 +371,29 @@ def launch_setup(context, *args, **kwargs):
     control_path = pkg_share_dir_control + "/config"  + "/ur_controllers.yaml"
     robot_ip = "192.168.0.1"
     
-    robot_description_content = Command(
-        [
-            PathJoinSubstitution([FindExecutable(name="xacro")]),
-            " ",
-            PathJoinSubstitution([FindPackageShare("ur_description"), "urdf", "ur.urdf.xacro"]),
-            " ",
-            "robot_ip:=",
-            robot_ip,
-            " ",
-            "name:=",
-            "ur",
-            " ",
-            "ur_type:=",
-            ur_type,
-            " ",
-            "sim_ignition:=",
-            "true",
-            " ",
-            "simulation_controllers:=",
-            control_path,
-            " "
-        ]
-    )
+    # robot_description_content = Command(
+    #     [
+    #         PathJoinSubstitution([FindExecutable(name="xacro")]),
+    #         " ",
+    #         PathJoinSubstitution([FindPackageShare("ur_description"), "urdf", "ur.urdf.xacro"]),
+    #         " ",
+    #         "robot_ip:=",
+    #         robot_ip,
+    #         " ",
+    #         "name:=",
+    #         "ur",
+    #         " ",
+    #         "ur_type:=",
+    #         ur_type,
+    #         " ",
+    #         "sim_ignition:=",
+    #         "true",
+    #         " ",
+    #         "simulation_controllers:=",
+    #         control_path,
+    #         " "
+    #     ]
+    # )
     gz = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 [os.path.join(get_package_share_directory('ros_gz_sim'),
@@ -421,8 +421,8 @@ def launch_setup(context, *args, **kwargs):
         rviz_node,
         initial_joint_controller_spawner_stopped,
         initial_joint_controller_spawner_started,
-        gz,
-        gz_spawn_entity,
+        # gz,
+        # gz_spawn_entity,
     ] + controller_spawners
 
     return nodes_to_start

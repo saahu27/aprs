@@ -45,7 +45,7 @@ def generate_launch_description():
         [
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
-            PathJoinSubstitution([FindPackageShare("ur"), "urdf", "ur.urdf.xacro"]),
+            PathJoinSubstitution([FindPackageShare("ur_description"), "urdf", "ur.urdf.xacro"]),
             " ",
             "robot_ip:=",
             robot_ip,
@@ -59,7 +59,7 @@ def generate_launch_description():
             "ur_type:=",
             ur_type,
             " ",
-            "sim_gz:=",
+            "ignition:=",
             "true",
             " ",
             "simulation_controllers:=",
