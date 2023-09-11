@@ -7,17 +7,20 @@
 #include <boost/ref.hpp>
 #include <boost/interprocess/sync/scoped_lock.hpp>
 
-#include <soem/ethercattype.h>
-#include <soem/nicdrv.h>
-#include <soem/ethercatbase.h>
-#include <soem/ethercatmain.h>
-#include <soem/ethercatdc.h>
-#include <soem/ethercatcoe.h>
-#include <soem/ethercatfoe.h>
-#include <soem/ethercatconfig.h>
-#include <soem/ethercatprint.h>
+// #include <soem/ethercattype.h>
+// #include <soem/nicdrv.h>
+// #include <soem/ethercatbase.h>
+// #include <soem/ethercatmain.h>
+// #include <soem/ethercatdc.h>
+// #include <soem/ethercatcoe.h>
+// #include <soem/ethercatfoe.h>
+// #include <soem/ethercatconfig.h>
+// #include <soem/ethercatprint.h>
 
-#include <ros/ros.h>
+#include "soem_ros2/soem.h"
+
+// #include <ros/ros.h>
+#include <rclcpp/rclcpp.hpp>
 
 namespace 
 {
@@ -36,13 +39,13 @@ namespace
         ec_group[0].docheckstate = TRUE;
         if (ec_slave[slave].state == (EC_STATE_SAFE_OP + EC_STATE_ERROR))
         {
-          ROS_ERROR("ERROR : slave %d is in SAFE_OP + ERROR, attempting ack.\n", slave);
+          RCLCPP_ERROR(this->get_logger(),"ERROR : slave %d is in SAFE_OP + ERROR, attempting ack.\n", slave);
           ec_slave[slave].state = (EC_STATE_SAFE_OP + EC_STATE_ACK);
           ec_writestate(slave);
         }
         else if(ec_slave[slave].state == EC_STATE_SAFE_OP)
         {
-          ROS_WARN("WARNING : slave %d is in SAFE_OP, change to OPERATIONAL.\n", slave);
+          RCLCPP_WARN(this->get_logger(),"WARNING : slave %d is in SAFE_OP, change to OPERATIONAL.\n", slave);
           ec_slave[slave].state = EC_STATE_OPERATIONAL;
           ec_writestate(slave);
         }
@@ -51,7 +54,7 @@ namespace
           if (ec_reconfig_slave(slave, EC_TIMEOUTMON))
           {
             ec_slave[slave].islost = FALSE;
-            ROS_INFO("MESSAGE : slave %d reconfigured\n",slave);
+            RCLCPP_INFO(this->get_logger(),"MESSAGE : slave %d reconfigured\n",slave);
           }
         }
         else if(!ec_slave[slave].islost)
@@ -61,7 +64,7 @@ namespace
           if (!ec_slave[slave].state)
           {
             ec_slave[slave].islost = TRUE;
-            ROS_ERROR("ERROR : slave %d lost\n",slave);
+            RCLCPP_ERROR(this->get_logger(),"ERROR : slave %d lost\n",slave);
           }
         }
       }
@@ -72,13 +75,13 @@ namespace
           if (ec_recover_slave(slave, EC_TIMEOUTMON))
           {
             ec_slave[slave].islost = FALSE;
-            ROS_INFO("MESSAGE : slave %d recovered\n",slave);
+            RCLCPP_INFO(this->get_logger(),"MESSAGE : slave %d recovered\n",slave);
           }
         }
         else
         {
           ec_slave[slave].islost = FALSE;
-          ROS_INFO("MESSAGE : slave %d found\n",slave);
+          RCLCPP_INFO(this->get_logger(),"MESSAGE : slave %d found\n",slave);
         }
       }
     }
@@ -159,33 +162,33 @@ bool robotiq_ethercat::EtherCatManager::initSoem(const std::string& ifname)
     size_t name_size = ifname_.size();
     if (name_size > sizeof(buffer) - 1) 
     {
-      ROS_ERROR("Ifname %s exceeds maximum size of %u bytes", ifname.c_str(), MAX_BUFF_SIZE);
+      RCLCPP_ERROR(this->get_logger(),"Ifname %s exceeds maximum size of %u bytes", ifname.c_str(), MAX_BUFF_SIZE);
       return false;
     }
     std::strncpy(buffer, ifname_.c_str(), MAX_BUFF_SIZE);
 
-    ROS_INFO("Initializing etherCAT master");
+    RCLCPP_INFO(this->get_logger(),"Initializing etherCAT master");
 
     if (!ec_init(buffer))
     {
-      ROS_ERROR("Could not initialize ethercat driver");
+      RCLCPP_ERROR(this->get_logger(),"Could not initialize ethercat driver");
       return false;
     }
 
     /* find and auto-config slaves */
     if (ec_config_init(FALSE) <= 0)
     {
-      ROS_WARN("No slaves found on %s", ifname_.c_str());
+      RCLCPP_WARN(this->get_logger(),"No slaves found on %s", ifname_.c_str());
       return false;
     }
 
-    ROS_INFO("SOEM found and configured %d slaves", ec_slavecount);
+    RCLCPP_INFO(this->get_logger(),"SOEM found and configured %d slaves", ec_slavecount);
 
     unsigned map_size = ec_slave[0].Obytes + ec_slave[0].Ibytes;
     iomap_.reset(new uint8_t[map_size]);
 
     int iomap_size = ec_config_map(iomap_.get());
-    ROS_INFO("SOEM IOMap size: %d", iomap_size);
+    RCLCPP_INFO(this->get_logger(),"SOEM IOMap size: %d", iomap_size);
 
     // locates dc slaves - ???
     ec_configdc();
@@ -193,7 +196,7 @@ bool robotiq_ethercat::EtherCatManager::initSoem(const std::string& ifname)
     // '0' here addresses all slaves
     if (ec_statecheck(0, EC_STATE_SAFE_OP, EC_TIMEOUTSTATE*4) != EC_STATE_SAFE_OP)
     {
-      ROS_ERROR("Could not set EC_STATE_SAFE_OP");
+      RCLCPP_ERROR(this->get_logger(),"Could not set EC_STATE_SAFE_OP");
       return false;
     }
 
@@ -217,10 +220,10 @@ bool robotiq_ethercat::EtherCatManager::initSoem(const std::string& ifname)
 
     if(ec_statecheck(0,EC_STATE_OPERATIONAL, EC_TIMEOUTSTATE) != EC_STATE_OPERATIONAL)
     {
-      ROS_ERROR_STREAM("OPERATIONAL state not set, exiting");
+      RCLCPP_ERROR_STREAM(this->get_logger(),"OPERATIONAL state not set, exiting");
       return false;
     }
 
-    ROS_INFO("Finished configuration successfully");
+    RCLCPP_INFO(this->get_logger(),"Finished configuration successfully");
     return true;
 }

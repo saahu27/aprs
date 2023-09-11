@@ -101,6 +101,7 @@ def launch_setup(context, *args, **kwargs):
         "publish_geometry_updates": True,
         "publish_state_updates": True,
         "publish_transforms_updates": True,
+        "use_sim_time": True,
     }
 
     joint_limits = {"robot_description_planning": load_yaml(

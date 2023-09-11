@@ -9,6 +9,7 @@
 #include <boost/scoped_array.hpp>
 #include <boost/thread.hpp>
 #include <boost/thread/mutex.hpp>
+#include <rclcpp/rclcpp.hpp>
 
 namespace robotiq_ethercat
 {
@@ -17,11 +18,11 @@ namespace robotiq_ethercat
  * \brief EtherCAT exception. Currently this is only thrown in the event
  *        of a failure to construct an EtherCat manager.
  */
-class EtherCatError : public std::runtime_error
+class EtherCatError : public rclcpp::Node
 {
 public:
   explicit EtherCatError(const std::string& what)
-    : std::runtime_error(what)
+    : Node("EthercatNode")
   {}
 };
 

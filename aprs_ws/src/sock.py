@@ -10,6 +10,5 @@ i_sec = socket.create_connection((HOST, SEC_PORT), timeout=0.5)
 
 with open("gripper_close.txt","r") as f:
     close_program = f.read()
-
     i_sec.send(str.encode(close_program))
     print("sent")

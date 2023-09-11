@@ -24,10 +24,10 @@ include_directories(include/robotiq_ethercat)
 
 install(DIRECTORY include DESTINATION share/${PROJECT_NAME}/)
 
-add_library(robotiq_ethercat
- include/robotiq_ethercat/ethercat_manager.h
- src/ethercat_manager.cpp
-)
+# add_library(robotiq_ethercat
+#  include/robotiq_ethercat/ethercat_manager.h
+#  src/ethercat_manager.cpp
+# )
 
 add_executable(ethercat_manager src/ethercat_manager.cpp)
 ament_target_dependencies(ethercat_manager soem_ros2 rclcpp std_msgs)
@@ -49,4 +49,5 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+ament_export_dependencies(std_msgs soem_ros2)
 ament_package()
