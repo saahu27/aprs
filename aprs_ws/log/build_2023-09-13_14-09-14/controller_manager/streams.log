@@ -1,0 +1,196 @@
+[0.015s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/controller_manager': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/ros2_control/controller_manager -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/controller_manager
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.220s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.220s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.444s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.548s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[0.557s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.566s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.567s] -- BACKWARD_HAS_UNWIND=1
+[0.567s] -- BACKWARD_HAS_BACKTRACE=0
+[0.567s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.567s] -- BACKWARD_HAS_DW=1
+[0.567s] -- BACKWARD_HAS_BFD=0
+[0.567s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.571s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.572s] -- Found controller_interface: 2.31.0 (/workspaces/aprs_humble/aprs_ws/install/controller_interface/share/controller_interface/cmake)
+[0.621s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.629s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.639s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.656s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.682s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.443s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.448s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.602s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.668s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.691s] -- Looking for pthread.h
+[1.808s] -- Looking for pthread.h - found
+[1.808s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.913s] -- Found Threads: TRUE  
+[2.167s] -- Found controller_manager_msgs: 2.31.0 (/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[2.216s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.655s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.656s] -- Found ros2_control_test_assets: 2.31.0 (/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.661s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.670s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.671s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.811s] -- Configuring done
+[3.036s] -- Generating done
+[3.039s] -- Build files have been written to: /workspaces/aprs_humble/aprs_ws/build/controller_manager
+[3.058s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/ros2_control/controller_manager -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/controller_manager
+[3.060s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/controller_manager': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/controller_manager -- -j16 -l16
+[3.110s] [  3%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.112s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.112s] [ 12%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[3.112s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.122s] [ 12%] Built target ament_cmake_python_copy_controller_manager_setup
+[3.122s] [ 12%] Built target ament_cmake_python_copy_controller_manager
+[3.404s] running egg_info
+[3.405s] creating controller_manager.egg-info
+[3.406s] writing controller_manager.egg-info/PKG-INFO
+[3.406s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[3.407s] writing entry points to controller_manager.egg-info/entry_points.txt
+[3.407s] writing top-level names to controller_manager.egg-info/top_level.txt
+[3.407s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[3.410s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[3.411s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[3.455s] [ 12%] Built target ament_cmake_python_build_controller_manager_egg
+[3.544s] running install_scripts
+[3.548s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.548s]   warnings.warn(
+[3.597s] running egg_info
+[3.597s] writing controller_manager.egg-info/PKG-INFO
+[3.597s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[3.597s] writing entry points to controller_manager.egg-info/entry_points.txt
+[3.597s] writing top-level names to controller_manager.egg-info/top_level.txt
+[3.600s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[3.601s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[3.604s] Installing spawner script to scripts
+[3.604s] Installing unspawner script to scripts
+[3.695s] [ 12%] Built target ament_cmake_python_build_controller_manager_scripts
+[4.605s] [ 15%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.639s] [ 15%] Built target gmock_main
+[6.595s] [ 18%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.657s] [ 18%] Built target gmock
+[15.853s] [ 21%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[16.557s] [ 21%] Built target controller_manager
+[16.574s] [ 36%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[16.574s] [ 36%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[16.574s] [ 36%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[16.574s] [ 36%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[16.574s] [ 36%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[19.992s] [ 39%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[20.162s] [ 39%] Built target test_controller
+[20.186s] [ 42%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[20.187s] [ 48%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.cpp.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[20.187s] [ 48%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[20.187s] [ 51%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[20.949s] [ 54%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[21.005s] [ 57%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[21.145s] [ 60%] [32m[1mLinking CXX executable ros2_control_node[0m
+[21.165s] [ 60%] Built target test_controller_with_interfaces
+[21.192s] [ 63%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[21.222s] [ 63%] Built target test_controller_failed_init
+[21.247s] [ 66%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[21.978s] [ 66%] Built target ros2_control_node
+[26.394s] [ 69%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[27.092s] [ 69%] Built target test_chainable_controller
+[27.115s] [ 72%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[27.118s] [ 75%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[28.507s] [ 78%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[29.034s] [ 81%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[29.682s] [ 84%] [32m[1mLinking CXX executable test_controller_manager[0m
+[30.236s] [ 87%] [32m[1mLinking CXX executable test_controller_manager_with_namespace.cpp[0m
+[30.759s] [ 90%] [32m[1mLinking CXX executable test_load_controller[0m
+[31.783s] [ 93%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[31.852s] [ 93%] Built target test_release_interfaces
+[32.165s] [ 93%] Built target test_spawner_unspawner
+[33.150s] [ 93%] Built target test_controller_manager
+[33.333s] [ 93%] Built target test_controller_manager_with_namespace.cpp
+[33.756s] [ 93%] Built target test_load_controller
+[33.978s] [ 93%] Built target test_hardware_management_srvs
+[36.033s] [ 96%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[37.280s] [ 96%] Built target test_controllers_chaining_with_controller_manager
+[40.482s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[41.789s] [100%] Built target test_controller_manager_srvs
+[41.799s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/controller_manager -- -j16 -l16
+[41.841s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/controller_manager': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/controller_manager
+[41.847s] -- Install configuration: ""
+[41.847s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libcontroller_manager.so
+[41.855s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libcontroller_manager.so" to ""
+[41.855s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[41.855s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/controller_manager/ros2_control_node" to ""
+[41.855s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/include
+[41.855s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/include/controller_manager
+[41.855s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[41.855s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[41.855s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[41.855s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[41.856s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libtest_controller.so
+[41.857s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libtest_controller.so" to ""
+[41.857s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[41.857s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[41.857s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libtest_controller_failed_init.so" to ""
+[41.857s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[41.858s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[41.862s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libtest_chainable_controller.so" to ""
+[41.862s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[41.862s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[41.862s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so" to ""
+[41.862s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[41.862s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.31.0-py3.10.egg-info
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.31.0-py3.10.egg-info/dependency_links.txt
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.31.0-py3.10.egg-info/entry_points.txt
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.31.0-py3.10.egg-info/top_level.txt
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.31.0-py3.10.egg-info/PKG-INFO
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.31.0-py3.10.egg-info/SOURCES.txt
+[41.863s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/controller_manager/
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/controller_manager//unspawner
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/lib/controller_manager//spawner
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+[41.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+[41.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+[41.892s] Listing '/workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+[41.893s] Compiling '/workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py'...
+[41.893s] Compiling '/workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py'...
+[41.893s] Compiling '/workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py'...
+[41.893s] Compiling '/workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py'...
+[41.893s] Compiling '/workspaces/aprs_humble/aprs_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py'...
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[41.898s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/package.dsv
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[41.899s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/package.xml
+[41.901s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/controller_manager

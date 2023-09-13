@@ -1,0 +1,70 @@
+[0.083s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/realsense2_description_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/assets/sensors/realsense2_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/realsense2_description_
+[1.635s] -- The C compiler identification is GNU 11.4.0
+[1.635s] -- The CXX compiler identification is GNU 11.4.0
+[1.635s] -- Detecting C compiler ABI info
+[1.636s] -- Detecting C compiler ABI info - done
+[1.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.636s] -- Detecting C compile features
+[1.636s] -- Detecting C compile features - done
+[1.636s] -- Detecting CXX compiler ABI info
+[1.636s] -- Detecting CXX compiler ABI info - done
+[1.636s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.636s] -- Detecting CXX compile features
+[1.636s] -- Detecting CXX compile features - done
+[1.636s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.636s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.636s] -- Configuring done
+[1.636s] -- Generating done
+[1.637s] -- Build files have been written to: /workspaces/aprs_humble/aprs_ws/build/realsense2_description_
+[1.643s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/realsense2_description_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/assets/sensors/realsense2_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/realsense2_description_
+[1.643s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/realsense2_description_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/realsense2_description_ -- -j16 -l16
+[2.329s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/realsense2_description_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/realsense2_description_ -- -j16 -l16
+[2.641s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/realsense2_description_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/realsense2_description_
+[2.829s] -- Install configuration: ""
+[2.829s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/launch
+[2.829s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/launch/view_model.launch.py
+[2.829s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/launch/launch_utils.py
+[2.829s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/meshes
+[2.829s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/meshes/plug.stl
+[2.829s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/meshes/d435.dae
+[2.830s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/meshes/d455.stl
+[2.830s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/meshes/plug_collision.stl
+[2.830s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/meshes/d415.stl
+[2.830s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/meshes/l515.dae
+[2.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/rviz
+[2.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/rviz/urdf.rviz
+[2.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf
+[2.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/test_d415_camera.urdf.xacro
+[2.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_materials.urdf.xacro
+[2.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_d435.urdf.xacro
+[2.863s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/test_d435i_camera.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/test_d435_multiple_cameras.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_usb_plug.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/test_r430_camera.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_d435i_imu_modules.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_r410.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_d415.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/test_d435_camera.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/test_l515_camera.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_d455.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_r430.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/test_r410_camera.urdf.xacro
+[2.864s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/test_d455_camera.urdf.xacro
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_d435i.urdf.xacro
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/urdf/_l515.urdf.xacro
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/ament_index/resource_index/package_run_dependencies/realsense2_description_
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/ament_index/resource_index/parent_prefix_path/realsense2_description_
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/environment/ament_prefix_path.sh
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/environment/ament_prefix_path.dsv
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/environment/path.sh
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/environment/path.dsv
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/local_setup.bash
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/local_setup.sh
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/local_setup.zsh
+[2.865s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/local_setup.dsv
+[2.866s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/package.dsv
+[2.866s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/ament_index/resource_index/packages/realsense2_description_
+[2.866s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/cmake/realsense2_description_Config.cmake
+[2.866s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/cmake/realsense2_description_Config-version.cmake
+[2.866s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/realsense2_description_/share/realsense2_description_/package.xml
+[3.149s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/realsense2_description_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/realsense2_description_

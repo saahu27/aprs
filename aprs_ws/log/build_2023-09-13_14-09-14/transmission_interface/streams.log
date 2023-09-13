@@ -1,0 +1,116 @@
+[0.011s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/transmission_interface': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/ros2_control/transmission_interface -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/transmission_interface
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Found hardware_interface: 2.31.0 (/workspaces/aprs_humble/aprs_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.584s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.593s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.605s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.620s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.271s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.275s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.368s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.401s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.456s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.469s] -- Looking for pthread.h
+[1.529s] -- Looking for pthread.h - found
+[1.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.585s] -- Found Threads: TRUE  
+[1.780s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.783s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.790s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.791s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.179s] -- Configuring done
+[2.336s] -- Generating done
+[2.339s] -- Build files have been written to: /workspaces/aprs_humble/aprs_ws/build/transmission_interface
+[2.362s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/ros2_control/transmission_interface -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/transmission_interface
+[2.364s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/transmission_interface': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/transmission_interface -- -j16 -l16
+[2.419s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.419s] [ 13%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o[0m
+[2.419s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.420s] [ 17%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o[0m
+[2.420s] [ 21%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o[0m
+[2.442s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.733s] [ 30%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.792s] [ 30%] Built target gmock_main
+[7.669s] [ 34%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.744s] [ 34%] Built target gmock
+[7.775s] [ 43%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils_test.cpp.o[0m
+[7.775s] [ 43%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[7.775s] [ 52%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission_loader.dir/test/four_bar_linkage_transmission_loader_test.cpp.o[0m
+[7.776s] [ 52%] [32mBuilding CXX object CMakeFiles/test_simple_transmission_loader.dir/test/simple_transmission_loader_test.cpp.o[0m
+[7.791s] [ 56%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[7.792s] [ 60%] [32mBuilding CXX object CMakeFiles/test_differential_transmission_loader.dir/test/differential_transmission_loader_test.cpp.o[0m
+[7.806s] [ 65%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[8.037s] [ 69%] [32m[1mLinking CXX shared library libtransmission_interface.so[0m
+[8.517s] [ 69%] Built target transmission_interface
+[10.963s] [ 73%] [32m[1mLinking CXX executable test_utils[0m
+[11.636s] [ 73%] Built target test_utils
+[11.785s] [ 78%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[11.915s] [ 82%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[12.055s] [ 86%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[12.467s] [ 86%] Built target test_simple_transmission
+[12.547s] [ 86%] Built target test_differential_transmission
+[12.648s] [ 86%] Built target test_four_bar_linkage_transmission
+[14.707s] [ 91%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission_loader[0m
+[14.793s] [ 95%] [32m[1mLinking CXX executable test_differential_transmission_loader[0m
+[14.825s] [100%] [32m[1mLinking CXX executable test_simple_transmission_loader[0m
+[15.302s] [100%] Built target test_four_bar_linkage_transmission_loader
+[15.352s] [100%] Built target test_differential_transmission_loader
+[15.435s] [100%] Built target test_simple_transmission_loader
+[15.445s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/transmission_interface -- -j16 -l16
+[15.482s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/transmission_interface': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/transmission_interface
+[15.486s] -- Install configuration: ""
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[15.487s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[15.488s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[15.488s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[15.488s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[15.488s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/ros2_control_plugins.xml
+[15.488s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/lib/libtransmission_interface.so
+[15.489s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/transmission_interface/lib/libtransmission_interface.so" to ""
+[15.489s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[15.489s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[15.489s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[15.490s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[15.490s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[15.490s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[15.490s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[15.490s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[15.490s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[15.490s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[15.490s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[15.491s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[15.491s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[15.491s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[15.491s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[15.491s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.491s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.491s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[15.492s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[15.492s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[15.492s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/transmission_interface/share/transmission_interface/package.xml
+[15.496s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/transmission_interface

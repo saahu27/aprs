@@ -1,0 +1,163 @@
+#!/usr/bin/env -S ros2 launch
+"""Configure and setup move group for planning with MoveIt 2"""
+
+from os import path
+from typing import List
+import yaml
+import os
+from ament_index_python.packages import get_package_share_directory
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument
+from launch.conditions import IfCondition
+from launch.substitutions import (
+    Command,
+    FindExecutable,
+    LaunchConfiguration,
+    PathJoinSubstitution,
+    PythonExpression,
+)
+from launch_ros.actions import Node
+from launch_ros.substitutions import FindPackageShare
+
+from launch.actions import (
+    DeclareLaunchArgument,
+    IncludeLaunchDescription,
+    OpaqueFunction,
+)
+
+
+def load_file(package_name, file_path):
+    package_path = get_package_share_directory(package_name)
+    absolute_file_path = os.path.join(package_path, file_path)
+
+    try:
+        with open(absolute_file_path, "r") as file:
+            return file.read()
+    except EnvironmentError:  # parent of IOError, OSError *and* WindowsError where available
+        return None
+
+def load_yaml(package_name, file_path):
+    package_path = get_package_share_directory(package_name)
+    absolute_file_path = os.path.join(package_path, file_path)
+
+    try:
+        with open(absolute_file_path, "r") as file:
+            return yaml.safe_load(file)
+    except EnvironmentError:  # parent of IOError, OSError *and* WindowsError where available
+        return None
+
+def launch_setup(context, *args, **kwargs):
+
+     # Initialize Arguments
+    pkg_share_dir_control = get_package_share_directory('franka_gz')
+    control_path = pkg_share_dir_control + "/config"  + "/franka_controller.yaml"
+    
+    robot_description_content = Command(
+        [
+            PathJoinSubstitution([FindExecutable(name="xacro")]),
+            " ",
+            PathJoinSubstitution([FindPackageShare("panda_description"), "urdf", "panda.urdf.xacro"]),
+            " ",
+            "name:=",
+            "panda",
+            " ",
+            "ros2_controller_parameters:=",
+            control_path,
+            " "
+        ]
+    )
+    robot_description = {"robot_description": robot_description_content}
+
+    ## Moveit Parameters
+    robot_description_semantic = {"robot_description_semantic": load_file("panda_moveit_config", "srdf/panda.srdf")}
+
+    robot_description_kinematics = {"robot_description_kinematics": load_yaml("panda_moveit_config", "config/kinematics.yaml")}
+
+    ompl_planning_pipeline_config = {
+        "move_group": {
+            "planning_plugin": "ompl_interface/OMPLPlanner",
+            "request_adapters": "default_planner_request_adapters/AddTimeOptimalParameterization default_planner_request_adapters/ResolveConstraintFrames default_planner_request_adapters/FixWorkspaceBounds default_planner_request_adapters/FixStartStateBounds default_planner_request_adapters/FixStartStateCollision default_planner_request_adapters/FixStartStatePathConstraints",
+            "start_state_max_bounds_error": 0.31416,
+        }
+    }
+
+    ompl_planning_yaml = load_yaml("panda_moveit_config", "config/ompl_planning.yaml")
+
+    ompl_planning_pipeline_config["move_group"].update(ompl_planning_yaml) # type: ignore
+    
+    moveit_controllers = {
+        "moveit_simple_controller_manager": load_yaml("panda_moveit_config", "config/controllers.yaml"),
+        "moveit_controller_manager": "moveit_simple_controller_manager/MoveItSimpleControllerManager",
+    }
+
+    trajectory_execution = {
+        "moveit_manage_controllers": False,
+        "trajectory_execution.allowed_execution_duration_scaling": 1.2,
+        "trajectory_execution.allowed_goal_duration_margin": 0.5,
+        "trajectory_execution.allowed_start_tolerance": 0.01,
+    }
+
+    planning_scene_monitor_parameters = {
+        "publish_planning_scene": True,
+        "publish_geometry_updates": True,
+        "publish_state_updates": True,
+        "publish_transforms_updates": True,
+    }
+
+    joint_limits = {"robot_description_planning": load_yaml(
+        "panda_moveit_config", "config/joint_limits.yaml"
+    )}
+
+    # Move group node
+    move_group_node = Node(
+        package="moveit_ros_move_group",
+        executable="move_group",
+        output="screen",
+        parameters=[
+            robot_description,
+            robot_description_semantic,
+            robot_description_kinematics,
+            ompl_planning_pipeline_config,
+            trajectory_execution,
+            moveit_controllers,
+            planning_scene_monitor_parameters,
+            joint_limits,
+            {"use_sim_time": True},
+        ],
+    )
+
+    
+
+    # rviz with moveit configuration
+    rviz_config_file = PathJoinSubstitution(
+        [FindPackageShare("panda_moveit_config"), "rviz", "moveit.rviz"]
+    )
+
+    rviz_node = Node(
+        package="rviz2",
+        executable="rviz2",
+        name="rviz2_moveit",
+        output="log",
+        arguments=["-d", rviz_config_file],
+        parameters=[
+            robot_description,
+            robot_description_semantic,
+            robot_description_kinematics,
+            joint_limits,
+            {"use_sim_time": True}
+        ],
+    )
+    
+
+    nodes_to_start = [
+        move_group_node,
+        rviz_node
+    ]
+
+    return nodes_to_start
+
+
+def generate_launch_description():
+    declared_arguments = []
+    
+    return LaunchDescription(declared_arguments + [OpaqueFunction(function=launch_setup)])

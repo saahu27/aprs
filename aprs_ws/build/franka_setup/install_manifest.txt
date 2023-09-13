@@ -1,0 +1,17 @@
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup//launch/franka_setup.launch.py
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/lib/franka_setup/franka_setup
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/ament_index/resource_index/package_run_dependencies/franka_setup
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/ament_index/resource_index/parent_prefix_path/franka_setup
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/environment/ament_prefix_path.sh
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/environment/ament_prefix_path.dsv
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/environment/path.sh
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/environment/path.dsv
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/local_setup.bash
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/local_setup.sh
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/local_setup.zsh
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/local_setup.dsv
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/package.dsv
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/ament_index/resource_index/packages/franka_setup
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/cmake/franka_setupConfig.cmake
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/cmake/franka_setupConfig-version.cmake
+/workspaces/aprs_humble/aprs_ws/install/franka_setup/share/franka_setup/package.xml

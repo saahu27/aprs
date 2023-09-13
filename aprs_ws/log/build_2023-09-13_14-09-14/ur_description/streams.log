@@ -1,0 +1,202 @@
+[0.100s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/assets/robots/ur5e/ur_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/ur_description
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.392s] -- The CXX compiler identification is GNU 11.4.0
+[0.412s] -- Detecting C compiler ABI info
+[0.559s] -- Detecting C compiler ABI info - done
+[0.570s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.572s] -- Detecting C compile features
+[0.580s] -- Detecting C compile features - done
+[0.584s] -- Detecting CXX compiler ABI info
+[0.762s] -- Detecting CXX compiler ABI info - done
+[0.782s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.782s] -- Detecting CXX compile features
+[0.783s] -- Detecting CXX compile features - done
+[0.802s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.228s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.520s] -- Found ament_cmake_pytest: 1.3.5 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[3.913s] -- Configuring done
+[3.937s] -- Generating done
+[3.937s] -- Build files have been written to: /workspaces/aprs_humble/aprs_ws/build/ur_description
+[4.067s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/assets/robots/ur5e/ur_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/ur_description
+[4.068s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/ur_description -- -j16 -l16
+[6.255s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/ur_description -- -j16 -l16
+[6.351s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/ur_description
+[6.774s] -- Install configuration: ""
+[6.774s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config
+[6.774s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3e
+[6.774s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[6.774s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[6.775s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[6.775s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[6.775s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3
+[6.775s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[6.790s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[6.790s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[6.790s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[6.790s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[6.790s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10e
+[6.790s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[6.790s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[6.790s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5e
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[6.791s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur16e
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/launch
+[6.792s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[6.793s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[6.794s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision
+[6.794s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[6.794s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[6.794s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[6.794s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[6.794s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[6.794s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[6.794s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[6.795s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision
+[6.796s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[6.796s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[6.796s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[6.796s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[6.796s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[6.796s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision
+[6.797s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[6.798s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[6.799s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[6.800s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[6.801s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/visual
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[6.802s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/collision
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/rviz
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/urdf
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/urdf/ur.urdf
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/urdf/inc
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[6.803s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[6.804s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[6.804s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[6.804s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/test
+[6.804s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[6.804s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[6.804s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[6.804s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[6.804s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[6.804s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[6.805s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/environment/path.sh
+[6.805s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/environment/path.dsv
+[6.811s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/local_setup.bash
+[6.845s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/local_setup.sh
+[6.846s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/local_setup.zsh
+[6.846s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/local_setup.dsv
+[6.846s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/package.dsv
+[6.846s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[6.846s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[6.846s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[6.846s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/package.xml
+[6.847s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/ur_description

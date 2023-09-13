@@ -1,0 +1,17 @@
+[33mCMake Warning at CMakeLists.txt:57 (add_library):
+  Cannot generate a safe runtime search path for target ur_controllers
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/humble/lib]
+      dir 3 must precede it due to runtime library [libfake_components.so]
+      dir 4 must precede it due to runtime library [libcontroller_interface.so]
+    dir 1 is [/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib]
+    dir 2 is [/workspaces/aprs_humble/aprs_ws/install/ur_msgs/lib]
+    dir 3 is [/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib]
+      dir 0 must precede it due to runtime library [libfake_components.so]
+    dir 4 is [/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib]
+      dir 0 must precede it due to runtime library [libcontroller_interface.so]
+
+  Some of these libraries may not be found correctly.
+
+[0m

@@ -1,0 +1,94 @@
+[0.080s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/point_cloud': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/point_cloud -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/point_cloud
+[1.609s] -- The C compiler identification is GNU 11.4.0
+[1.609s] -- The CXX compiler identification is GNU 11.4.0
+[1.609s] -- Detecting C compiler ABI info
+[1.609s] -- Detecting C compiler ABI info - done
+[1.609s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.609s] -- Detecting C compile features
+[1.609s] -- Detecting C compile features - done
+[1.610s] -- Detecting CXX compiler ABI info
+[1.610s] -- Detecting CXX compiler ABI info - done
+[1.610s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.610s] -- Detecting CXX compile features
+[1.610s] -- Detecting CXX compile features - done
+[1.610s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.610s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.626s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[1.850s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.873s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.932s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.036s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.709s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.745s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.719s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.975s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.028s] -- Looking for pthread.h
+[4.567s] -- Looking for pthread.h - found
+[4.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.011s] -- Found Threads: TRUE  
+[5.613s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[5.631s] -- Found tf2_kdl: 0.25.3 (/opt/ros/humble/share/tf2_kdl/cmake)
+[5.820s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.823s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.824s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.073s] -- Found OpenCV: /usr (found version "4.5.4") 
+[7.094s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[7.502s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[7.776s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.085s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.104s] -- Added test 'lint_cmake' to check CMake code style
+[8.104s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.106s] -- Added test 'xmllint' to check XML markup files
+[8.130s] -- Configuring done
+[8.137s] -- Generating done
+[8.147s] -- Build files have been written to: /workspaces/aprs_humble/aprs_ws/build/point_cloud
+[8.189s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/point_cloud' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/point_cloud -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/point_cloud
+[8.189s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/point_cloud': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/point_cloud -- -j16 -l16
+[10.097s] Built target ament_cmake_python_copy_point_cloud
+[10.097s] running egg_info
+[10.098s] creating point_cloud.egg-info
+[10.098s] writing point_cloud.egg-info/PKG-INFO
+[10.098s] writing dependency_links to point_cloud.egg-info/dependency_links.txt
+[10.098s] writing top-level names to point_cloud.egg-info/top_level.txt
+[10.098s] writing manifest file 'point_cloud.egg-info/SOURCES.txt'
+[10.098s] reading manifest file 'point_cloud.egg-info/SOURCES.txt'
+[10.098s] writing manifest file 'point_cloud.egg-info/SOURCES.txt'
+[10.098s] Built target ament_cmake_python_build_point_cloud_egg
+[10.143s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/point_cloud' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/point_cloud -- -j16 -l16
+[10.353s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/point_cloud': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/point_cloud
+[11.502s] -- Install configuration: ""
+[11.502s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/environment/pythonpath.sh
+[11.502s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/environment/pythonpath.dsv
+[11.503s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages/point_cloud-0.0.0-py3.10.egg-info
+[11.503s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages/point_cloud-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.503s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages/point_cloud-0.0.0-py3.10.egg-info/top_level.txt
+[11.503s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages/point_cloud-0.0.0-py3.10.egg-info/PKG-INFO
+[11.503s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages/point_cloud-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.503s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages/point_cloud
+[11.503s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages/point_cloud/__init__.py
+[11.503s] Listing '/workspaces/aprs_humble/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages/point_cloud'...
+[11.504s] Compiling '/workspaces/aprs_humble/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages/point_cloud/__init__.py'...
+[11.504s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/lib/point_cloud/point_cloud.py
+[11.504s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/environment/library_path.sh
+[11.504s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/environment/library_path.dsv
+[11.504s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/ament_index/resource_index/package_run_dependencies/point_cloud
+[11.504s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/ament_index/resource_index/parent_prefix_path/point_cloud
+[11.504s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/environment/ament_prefix_path.sh
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/environment/ament_prefix_path.dsv
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/environment/path.sh
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/environment/path.dsv
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/local_setup.bash
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/local_setup.sh
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/local_setup.zsh
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/local_setup.dsv
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/package.dsv
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/ament_index/resource_index/packages/point_cloud
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/cmake/ament_cmake_export_libraries-extras.cmake
+[11.505s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.506s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/cmake/point_cloudConfig.cmake
+[11.506s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/cmake/point_cloudConfig-version.cmake
+[11.506s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/point_cloud/share/point_cloud/package.xml
+[11.533s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/point_cloud' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/point_cloud

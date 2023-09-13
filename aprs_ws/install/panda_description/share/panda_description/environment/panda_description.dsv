@@ -1,0 +1,3 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs_humble/aprs_ws/install/panda_description/share/panda_description
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs_humble/aprs_ws/install/panda_description/share/panda_description/meshes
+prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib/panda_description/

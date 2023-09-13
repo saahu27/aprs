@@ -43,12 +43,12 @@ RUN apt-get update \
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-ENV ROS_DISTRO=rolling
-ENV AMENT_PREFIX_PATH=/opt/ros/rolling
-ENV COLCON_PREFIX_PATH=/opt/ros/rolling
-ENV LD_LIBRARY_PATH=/opt/ros/rolling/lib
-ENV PATH=/opt/ros/rolling/bin:$PATH
-ENV PYTHONPATH=/opt/ros/rolling/lib/python3.8/site-packages
+ENV ROS_DISTRO=humble
+ENV AMENT_PREFIX_PATH=/opt/ros/humble
+ENV COLCON_PREFIX_PATH=/opt/ros/humble
+ENV LD_LIBRARY_PATH=/opt/ros/humble/lib
+ENV PATH=/opt/ros/humble/bin:$PATH
+ENV PYTHONPATH=/opt/ros/humble/lib/python3.8/site-packages
 ENV ROS_PYTHON_VERSION=3
 ENV ROS_VERSION=2
 
@@ -59,36 +59,36 @@ COPY container-setup-scripts/ /container-setup-scripts/
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
- && apt-get install -y \
-        build-essential \
-        cmake \
-        cppcheck \
-        curl \
-        doxygen \
-        gdb \
-        git \
-        gnupg2 \
-        libbluetooth-dev \
-        libcwiid-dev \
-        libgoogle-glog-dev \
-        libspnav-dev \
-        libusb-dev \
-        locales \
-        lsb-release \
-        mercurial \
-        python3-dbg \
-        python3-empy \
-        python3-numpy \
-        python3-pip \
-        python3-psutil \
-        python3-venv \
-        software-properties-common \
-        sudo \
-        tzdata \
-        vim \
-        wget \
-        curl \
- && apt-get clean
+  && apt-get install -y \
+  build-essential \
+  cmake \
+  cppcheck \
+  curl \
+  doxygen \
+  gdb \
+  git \
+  gnupg2 \
+  libbluetooth-dev \
+  libcwiid-dev \
+  libgoogle-glog-dev \
+  libspnav-dev \
+  libusb-dev \
+  locales \
+  lsb-release \
+  mercurial \
+  python3-dbg \
+  python3-empy \
+  python3-numpy \
+  python3-pip \
+  python3-psutil \
+  python3-venv \
+  software-properties-common \
+  sudo \
+  tzdata \
+  vim \
+  wget \
+  curl \
+  && apt-get clean
 
 # Set Locale for ROS 2
 RUN locale-gen en_US en_US.UTF-8 && \
@@ -106,43 +106,42 @@ RUN export DEBIAN_FRONTEND=noninteractive
 # Install ROS 2, Gazebo, and build tools
 # https://colcon.readthedocs.io/en/released/user/installation.html
 RUN /bin/sh -c 'wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg' \
- && /bin/sh -c 'echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null' \
- && apt-get update \
- && apt-get install -y \
-    python3-rosdep \
-    python3-vcstool \
-    python3-colcon-common-extensions \
-    python3-colcon-mixin \
-    ros-rolling-control-msgs \
-    ros-rolling-controller-manager \
-    ros-rolling-desktop \
-    ros-rolling-generate-parameter-library \
-    ros-rolling-geometric-shapes \
-    ros-rolling-gripper-controllers \
-    ros-rolling-joint-state-broadcaster \
-    ros-rolling-joint-state-publisher \
-    ros-rolling-joint-trajectory-controller \
-    ros-rolling-moveit-common \
-    ros-rolling-moveit-configs-utils \
-    ros-rolling-moveit-core \
-    ros-rolling-moveit-hybrid-planning \
-    ros-rolling-moveit-msgs \
-    ros-rolling-moveit-resources-panda-moveit-config \
-    ros-rolling-moveit-ros-move-group \
-    ros-rolling-moveit-ros-perception \
-    ros-rolling-moveit-ros-planning \
-    ros-rolling-moveit-ros-planning-interface \
-    ros-rolling-moveit-ros-visualization \
-    ros-rolling-moveit-servo \
-    ros-rolling-moveit-visual-tools \
-    ros-rolling-moveit \
-    ros-rolling-rmw-cyclonedds-cpp \
-    ros-rolling-ros2-control \
-    ros-rolling-ros2-controllers \
-    ros-rolling-rviz-visual-tools \ 
-    ros-rolling-xacro \
-    gz-garden \
- && apt-get clean
+  && /bin/sh -c 'echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null' \
+  && apt-get update \
+  && apt-get install -y \
+  python3-rosdep \
+  python3-vcstool \
+  python3-colcon-common-extensions \
+  python3-colcon-mixin \
+  ros-humble-control-msgs \
+  ros-humble-controller-manager \
+  ros-humble-desktop \
+  ros-humble-generate-parameter-library \
+  ros-humble-geometric-shapes \
+  ros-humble-gripper-controllers \
+  ros-humble-joint-state-broadcaster \
+  ros-humble-joint-state-publisher \
+  ros-humble-joint-trajectory-controller \
+  ros-humble-moveit-common \
+  ros-humble-moveit-configs-utils \
+  ros-humble-moveit-core \
+  ros-humble-moveit-hybrid-planning \
+  ros-humble-moveit-msgs \
+  ros-humble-moveit-resources-panda-moveit-config \
+  ros-humble-moveit-ros-move-group \
+  ros-humble-moveit-ros-perception \
+  ros-humble-moveit-ros-planning \
+  ros-humble-moveit-ros-planning-interface \
+  ros-humble-moveit-ros-visualization \
+  ros-humble-moveit-servo \
+  ros-humble-moveit-visual-tools \
+  ros-humble-moveit \
+  ros-humble-rmw-cyclonedds-cpp \
+  ros-humble-ros2-control \
+  ros-humble-rviz-visual-tools \
+  ros-humble-xacro \
+  gz-garden \
+  && apt-get clean
 
 ENV REALSENSE_BASE=/root
 

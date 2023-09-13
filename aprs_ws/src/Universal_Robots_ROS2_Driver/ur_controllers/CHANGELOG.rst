@@ -2,30 +2,28 @@
 Changelog for package ur_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.3.2 (2023-06-02)
+2.2.8 (2023-06-26)
 ------------------
-* added missing command interfaces into gpio controller (`#693 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/693>`_)
-* Fixed formatting (`#685 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/685>`_)
-  * Removed empty lines from python files
-  * Fixed typo in changelogs
-* Adding maximum retry counter in gpio controller (Multiarm part 3) - v2 (`#672 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/672>`_)
-* Ported controllers to generate_parameters library and added prefix for controllers (Multiarm part 2) (`#594 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/594>`_)
-* Switched out a deprecated header to avoid buildfarm warnings.
-* Introduce hand back control service (`#528 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/528>`_)
-* Contributors: Felix Exner, Felix Exner (fexner), Lennart Nachtigall, livanov93
 
-2.3.1 (2023-03-16)
+2.2.7 (2023-06-02)
 ------------------
-* Adjust scaled jtc to new publish_state interface
-  Until next sync we need to build against upstream ros2_controllers, as
-  this is an API-breaking change
-* Contributors: Robert Wilbrandt
+* added missing command interfaces into gpio controller (`#693 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/693>`_) (`#702 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/702>`_)
+* Adding maximum retry counter in gpio controller (Multiarm part 3) - v2 (`#672 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/672>`_) (`#696 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/696>`_)
+* Ported controllers to generate_parameters library and added prefix for controllers (Multiarm part 2) (`#594 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/594>`_) (`#695 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/695>`_)
+* Introduce hand back control service (`#528 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/528>`_) (`#670 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/670>`_)
+* Added services to set tool voltage and zero force torque sensor (`#466 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/466>`_) (`#582 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/582>`_)
+* Contributors: mergify[bot], Mads Holm Peters, Lennart Nachtigall, livanov93
 
-2.3.0 (2023-03-02)
+2.2.6 (2022-11-28)
 ------------------
-* Added services to set tool voltage and zero force torque sensor (`#466 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/466>`_)
-  Added launch arguments for reverse ip and script command interface port.
-* Contributors: Mads Holm Peters
+* Ros2 controllers 2.14 (`#547 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/547>`_)
+* Contributors: Felix Exner
+
+2.2.5 (2022-11-19)
+------------------
+* Revert "Adapt jtc controller params to new param api"
+  This reverts commit 65ac3679004fb0a622b00d334fa57056607dd23f.
+* Contributors: Felix Exner
 
 2.2.4 (2022-10-07)
 ------------------
@@ -37,7 +35,7 @@ Changelog for package ur_controllers
 * Adapt ros control api (`#448 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/448>`_)
   * scaled jtc: Use get_interface_name instead of get_name
   * Migrate from stopped controllers to inactive controllers
-  stopped controllers has been deprecated upstream
+  stopped controllers has been depreated upstream
 * Contributors: Felix Exner
 
 2.2.2 (2022-07-19)

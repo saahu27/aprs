@@ -1,0 +1,146 @@
+[0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found controller_manager: 2.31.0 (/workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ur_dashboard_msgs: 2.2.8 (/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+-- Found ur_controllers: 2.2.8 (/workspaces/aprs_humble/aprs_ws/install/ur_controllers/share/ur_controllers/cmake)
+-- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found ur_description: 2.0.1 (/workspaces/aprs_humble/aprs_ws/install/ur_description/share/ur_description/cmake)
+-- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/aprs_humble/aprs_ws/build/ur_robot_driver
+[35m[1mConsolidate compiler generated dependencies of target ur_ros2_control_node[0m
+[35m[1mConsolidate compiler generated dependencies of target urscript_interface[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_stopper_node[0m
+[35m[1mConsolidate compiler generated dependencies of target dashboard_client[0m
+[35m[1mConsolidate compiler generated dependencies of target ur_robot_driver_plugin[0m
+[  6%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[ 20%] Built target ament_cmake_python_copy_ur_robot_driver
+[ 26%] Built target ur_ros2_control_node
+[ 33%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+running egg_info
+writing ur_robot_driver.egg-info/PKG-INFO
+writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+writing top-level names to ur_robot_driver.egg-info/top_level.txt
+reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[ 73%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[ 80%] [32m[1mLinking CXX executable urscript_interface[0m
+[ 80%] Built target urscript_interface
+[ 86%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[ 86%] Built target controller_stopper_node
+[ 93%] [32m[1mLinking CXX executable dashboard_client[0m
+[ 93%] Built target dashboard_client
+[100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[100%] Built target ur_robot_driver_plugin
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+-- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client" to ""
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+-- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node" to ""
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+-- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface" to ""
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+-- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so" to ""
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info/dependency_links.txt
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info/top_level.txt
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info/PKG-INFO
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.8-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+Listing '/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+-- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+-- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml

@@ -1,0 +1,9 @@
+/workspaces/aprs_humble/aprs_ws/build/camera_mount/CMakeFiles/uninstall.dir
+/workspaces/aprs_humble/aprs_ws/build/camera_mount/CMakeFiles/camera_mount_uninstall.dir
+/workspaces/aprs_humble/aprs_ws/build/camera_mount/CMakeFiles/test.dir
+/workspaces/aprs_humble/aprs_ws/build/camera_mount/CMakeFiles/edit_cache.dir
+/workspaces/aprs_humble/aprs_ws/build/camera_mount/CMakeFiles/rebuild_cache.dir
+/workspaces/aprs_humble/aprs_ws/build/camera_mount/CMakeFiles/list_install_components.dir
+/workspaces/aprs_humble/aprs_ws/build/camera_mount/CMakeFiles/install.dir
+/workspaces/aprs_humble/aprs_ws/build/camera_mount/CMakeFiles/install/local.dir
+/workspaces/aprs_humble/aprs_ws/build/camera_mount/CMakeFiles/install/strip.dir

@@ -3,6 +3,8 @@ Overview
 
 This driver collaborates closely with other ROS packages:
 
+``ur_bringup``
+  Package to launch the driver, simulated robot and test scripts.
 ``ur_calibration``
   Package containing the calibration extraction program that will extract parameters for correctly
   parametrizing the URDF with calibration data from the specific robot.

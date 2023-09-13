@@ -1,0 +1,641 @@
+[0.097s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs
+[0.236s] -- The C compiler identification is GNU 11.4.0
+[0.383s] -- The CXX compiler identification is GNU 11.4.0
+[0.396s] -- Detecting C compiler ABI info
+[0.585s] -- Detecting C compiler ABI info - done
+[0.596s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.597s] -- Detecting C compile features
+[0.597s] -- Detecting C compile features - done
+[0.601s] -- Detecting CXX compiler ABI info
+[0.760s] -- Detecting CXX compiler ABI info - done
+[0.771s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.772s] -- Detecting CXX compile features - done
+[0.801s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.255s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.523s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.541s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.588s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.084s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[3.968s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.623s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.630s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.758s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.758s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.758s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.758s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.832s] -- Found PythonExtra: .so  
+[5.939s] -- Configuring done
+[6.125s] -- Generating done
+[6.132s] -- Build files have been written to: /workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs
+[6.167s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs
+[6.168s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs -- -j16 -l16
+[6.301s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.337s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.346s] [  1%] Built target ament_cmake_python_copy_ur_dashboard_msgs
+[6.982s] running egg_info
+[6.984s] creating ur_dashboard_msgs.egg-info
+[6.985s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[6.985s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[6.986s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[6.986s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[6.995s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[6.996s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[7.132s] [  1%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[10.830s] [  1%] Built target ur_dashboard_msgs__cpp
+[10.872s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.908s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.924s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.220s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[11.236s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[11.270s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[11.277s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[11.326s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[11.479s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[11.486s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[11.504s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[11.520s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[11.529s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[11.633s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[11.653s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[11.667s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[11.700s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[12.192s] [ 14%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[12.418s] [ 14%] Built target ur_dashboard_msgs__rosidl_generator_c
+[12.535s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.535s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.535s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.537s] [ 18%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[15.542s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[15.555s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[15.600s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[15.659s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[15.659s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[15.660s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[15.666s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[15.691s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[15.736s] [ 24%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[15.864s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[15.900s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[15.902s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[15.934s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[16.153s] [ 28%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[16.454s] [ 28%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[17.094s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[17.133s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[17.146s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[17.152s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[17.160s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[17.163s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[17.171s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[17.197s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[17.220s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[17.254s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[17.258s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[17.261s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[17.276s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[18.135s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[18.866s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[19.050s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[19.066s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[19.259s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[19.360s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[19.759s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[19.965s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[19.988s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[20.208s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[20.231s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[20.664s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[20.872s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[20.908s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[21.016s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[21.281s] [ 49%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[21.294s] [ 50%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[21.418s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[21.429s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[21.437s] [ 53%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[21.649s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[21.673s] [ 55%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[21.721s] [ 55%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[21.984s] [ 55%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[22.036s] [ 56%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[22.231s] [ 57%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[22.348s] [ 58%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[22.470s] [ 58%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[22.573s] [ 59%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[22.587s] [ 60%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[22.669s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[22.726s] [ 61%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[22.905s] [ 61%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[23.236s] [ 62%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[23.521s] [ 62%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[23.728s] [ 64%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.752s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[23.786s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[24.044s] [ 66%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[24.208s] [ 66%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[24.263s] [ 66%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[25.117s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[25.186s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[25.824s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[26.267s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[26.552s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[26.939s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[27.138s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[27.483s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[27.651s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[28.018s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[28.498s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[28.501s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[29.119s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[29.163s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[29.620s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[29.858s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[30.269s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[30.550s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[30.835s] [ 81%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[31.012s] [ 81%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[31.106s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[31.762s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[32.459s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[33.043s] [ 84%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[33.531s] [ 84%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.656s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[33.682s] [ 84%] Built target ur_dashboard_msgs
+[33.706s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.624s] [ 85%] Built target ur_dashboard_msgs__py
+[37.641s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[37.733s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[37.872s] [ 87%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[37.975s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[38.076s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[38.188s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[38.303s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[38.414s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[38.523s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[38.625s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[38.729s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[38.840s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[38.939s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[39.041s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[39.128s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so[0m
+[39.167s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[39.186s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[39.350s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.390s] [ 97%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[39.411s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.582s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.627s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[39.648s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.826s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.862s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[39.875s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs -- -j16 -l16
+[40.057s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs
+[40.065s] -- Install configuration: ""
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.c
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[40.066s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[40.067s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[40.067s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[40.067s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[40.067s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[40.067s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.c
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.c
+[40.068s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.c
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.c
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[40.069s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.c
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[40.070s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.c
+[40.071s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[40.071s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[40.071s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[40.071s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.071s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[40.071s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.071s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[40.071s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.c
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.c
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.c
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[40.072s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[40.073s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[40.073s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[40.073s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[40.073s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.073s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.073s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.073s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[40.073s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[40.073s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[40.073s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[40.073s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[40.073s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[40.073s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[40.074s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[40.074s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[40.074s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[40.074s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.074s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.074s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[40.074s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.074s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.074s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[40.074s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[40.074s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[40.074s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[40.074s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[40.075s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[40.075s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.075s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.075s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[40.075s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[40.076s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.076s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[40.076s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.076s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[40.077s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.077s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[40.077s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[40.077s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[40.077s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[40.077s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[40.077s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[40.077s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[40.077s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[40.077s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[40.078s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[40.078s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.078s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.078s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.078s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[40.078s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[40.078s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[40.078s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[40.078s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[40.078s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[40.078s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[40.078s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[40.078s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[40.079s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[40.080s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[40.081s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.081s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[40.081s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[40.081s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[40.081s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[40.082s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[40.082s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[40.082s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[40.082s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[40.082s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[40.082s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[40.082s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[40.082s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[40.083s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.083s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.083s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.083s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/dds_fastrtps
+[40.083s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[40.083s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[40.083s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.084s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[40.084s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[40.084s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.084s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[40.084s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[40.084s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[40.084s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[40.084s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.084s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.084s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/dds_fastrtps
+[40.085s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.085s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.085s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.085s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.085s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/dds_fastrtps
+[40.085s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[40.085s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[40.085s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[40.085s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[40.086s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[40.086s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[40.086s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[40.086s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.cpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp
+[40.086s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.cpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp
+[40.087s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[40.087s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.087s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp
+[40.087s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[40.088s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[40.088s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp
+[40.088s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp
+[40.088s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.088s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp
+[40.088s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[40.088s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[40.088s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[40.089s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[40.089s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[40.089s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[40.089s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[40.089s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[40.089s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.8-py3.10.egg-info
+[40.089s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.8-py3.10.egg-info/dependency_links.txt
+[40.089s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.8-py3.10.egg-info/top_level.txt
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.8-py3.10.egg-info/PKG-INFO
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.8-py3.10.egg-info/SOURCES.txt
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[40.090s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[40.091s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[40.092s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[40.092s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action
+[40.092s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[40.092s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py
+[40.092s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py
+[40.092s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[40.092s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[40.092s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so
+[40.093s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[40.093s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py
+[40.093s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[40.093s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[40.093s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[40.094s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg
+[40.094s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[40.094s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py
+[40.094s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[40.094s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[40.094s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[40.094s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py
+[40.094s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[40.143s] Listing '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...
+[40.143s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py'...
+[40.143s] Listing '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...
+[40.143s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py'...
+[40.143s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[40.143s] Listing '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...
+[40.143s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py'...
+[40.143s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[40.144s] Listing '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py'...
+[40.144s] Compiling '/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[40.148s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[40.148s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[40.148s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[40.149s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[40.149s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[40.149s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[40.149s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[40.150s] -- Set runtime path of "/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[40.150s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[40.150s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[40.150s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[40.150s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[40.150s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[40.150s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[40.150s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[40.150s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[40.151s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[40.151s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[40.151s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[40.151s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[40.151s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[40.151s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[40.151s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[40.151s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[40.152s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[40.152s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[40.152s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[40.152s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[40.152s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[40.152s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[40.152s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[40.152s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[40.153s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[40.153s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[40.153s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[40.153s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[40.153s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[40.153s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[40.153s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[40.153s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[40.154s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[40.154s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[40.154s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[40.154s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[40.154s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[40.154s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[40.154s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[40.155s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[40.155s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[40.155s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[40.155s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[40.155s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[40.155s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[40.156s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[40.156s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[40.156s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[40.156s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[40.157s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[40.157s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[40.157s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[40.157s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[40.157s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[40.157s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[40.157s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[40.158s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[40.158s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[40.158s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[40.158s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[40.158s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[40.158s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[40.158s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[40.158s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[40.159s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[40.159s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[40.159s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[40.159s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[40.159s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[40.159s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[40.159s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[40.160s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[40.160s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[40.160s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[40.160s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[40.160s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[40.160s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[40.160s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[40.161s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.161s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.161s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[40.161s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[40.161s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[40.162s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[40.162s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[40.162s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[40.162s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[40.167s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/ur_dashboard_msgs

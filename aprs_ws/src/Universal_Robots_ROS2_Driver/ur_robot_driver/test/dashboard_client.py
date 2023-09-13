@@ -89,9 +89,9 @@ def generate_test_description():
         cmd=[
             PathJoinSubstitution(
                 [
-                    FindPackagePrefix("ur_robot_driver"),
+                    FindPackagePrefix("ur_client_library"),
                     "lib",
-                    "ur_robot_driver",
+                    "ur_client_library",
                     "start_ursim.sh",
                 ]
             ),
@@ -121,6 +121,7 @@ class DashboardClientTest(unittest.TestCase):
         rclpy.shutdown()
 
     def init_robot(self):
+
         # We wait longer for the first client, as the robot is still starting up
         power_on_client = waitForService(
             self.node, "/dashboard_client/power_on", Trigger, timeout=TIMEOUT_WAIT_SERVICE_INITIAL

@@ -1,0 +1,253 @@
+[0.250s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager:/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/workspaces/aprs_humble/aprs_ws/install/worlds:/workspaces/aprs_humble/aprs_ws/install/workbench_description:/workspaces/aprs_humble/aprs_ws/install/vaccum_description:/workspaces/aprs_humble/aprs_ws/install/ur_setup:/workspaces/aprs_humble/aprs_ws/install/ur_calibration:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver:/workspaces/aprs_humble/aprs_ws/install/ur_bringup:/workspaces/aprs_humble/aprs_ws/install/ur_controllers:/workspaces/aprs_humble/aprs_ws/install/ur_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_gz:/workspaces/aprs_humble/aprs_ws/install/ur5e_moveit_config:/workspaces/aprs_humble/aprs_ws/install/panda_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_description:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_client_library:/workspaces/aprs_humble/aprs_ws/install/ros2_control:/workspaces/aprs_humble/aprs_ws/install/transmission_interface:/workspaces/aprs_humble/aprs_ws/install/table_description:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control_demos:/workspaces/aprs_humble/aprs_ws/install/gz_ros2_control_tests:/workspaces/aprs_humble/aprs_ws/install/franka_gz:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control:/workspaces/aprs_humble/aprs_ws/install/realsense2_description_:/workspaces/aprs_humble/aprs_ws/install/point_cloud:/workspaces/aprs_humble/aprs_ws/install/panda_description:/workspaces/aprs_humble/aprs_ws/install/joint_limits:/workspaces/aprs_humble/aprs_ws/install/franka_setup:/workspaces/aprs_humble/aprs_ws/install/fanuc_moveit_config:/workspaces/aprs_humble/aprs_ws/install/fanuc_description:/workspaces/aprs_humble/aprs_ws/install/camera_mount:/workspaces/aprs_humble/aprs_ws/install/rqt_controller_manager:/workspaces/aprs_humble/aprs_ws/install/ros2controlcli:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib:/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs_humble/aprs_ws/install/ur_controllers/lib:/workspaces/aprs_humble/aprs_ws/install/ur_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_client_library/lib:/workspaces/aprs_humble/aprs_ws/install/transmission_interface/lib:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/lib:/workspaces/aprs_humble/aprs_ws/install/point_cloud/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/gz_ros2_control/ign_ros2_control -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control
+[0.259s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.397s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.397s] -- Found controller_manager: 2.31.0 (/workspaces/aprs_humble/aprs_ws/install/controller_manager/share/controller_manager/cmake)
+[0.425s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.426s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.431s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.049s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.051s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.697s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.698s] -- Looking for ignition-gazebo6 -- found version 6.15.0
+[1.703s] -- Searching for dependencies of ignition-gazebo6
+[1.703s] -- Looking for sdformat12 -- found version 12.7.2
+[1.703s] -- Searching for dependencies of sdformat12
+[1.708s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.708s] -- Searching for dependencies of ignition-math6
+[1.709s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.709s] -- Searching for dependencies of ignition-utils1
+[1.711s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.711s] -- Searching for dependencies of ignition-plugin1
+[1.712s] -- Searching for <ignition-plugin1> component [loader]
+[1.712s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[1.712s] -- Searching for dependencies of ignition-plugin1-loader
+[1.713s] -- Searching for <ignition-plugin1> component [register]
+[1.713s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[1.713s] -- Searching for dependencies of ignition-plugin1-register
+[1.714s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.715s] -- Searching for dependencies of ignition-transport11
+[1.755s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.760s] -- Checking for module 'libzmq >= 4'
+[1.774s] --   Found libzmq , version 4.3.4
+[1.809s] -- Checking for module 'uuid'
+[1.820s] --   Found uuid, version 2.37.2
+[1.842s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.842s] -- Searching for dependencies of ignition-utils1
+[1.842s] -- Searching for <ignition-utils1> component [cli]
+[1.843s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.843s] -- Searching for dependencies of ignition-utils1-cli
+[1.844s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.844s] -- Searching for dependencies of ignition-msgs8
+[1.870s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.871s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.880s] -- Searching for <ignition-transport11> component [log]
+[1.880s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[1.881s] -- Searching for dependencies of ignition-transport11-log
+[1.881s] -- Searching for <ignition-transport11> component [parameters]
+[1.882s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[1.882s] -- Searching for dependencies of ignition-transport11-parameters
+[1.884s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.885s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.885s] -- Searching for dependencies of ignition-common4
+[1.885s] -- Looking for dlfcn.h - found
+[1.885s] -- Looking for libdl - found
+[1.894s] -- Searching for <ignition-common4> component [profiler]
+[1.895s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.895s] -- Searching for dependencies of ignition-common4-profiler
+[1.896s] -- Searching for <ignition-common4> component [events]
+[1.896s] -- Looking for ignition-common4-events -- found version 4.7.0
+[1.896s] -- Searching for dependencies of ignition-common4-events
+[1.897s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.897s] -- Searching for <ignition-common4> component [av]
+[1.898s] -- Looking for ignition-common4-av -- found version 4.7.0
+[1.898s] -- Searching for dependencies of ignition-common4-av
+[1.902s] -- Checking for module 'libswscale'
+[1.915s] --   Found libswscale, version 5.9.100
+[1.941s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.954s] --   Found libavdevice , version 58.13.100
+[1.990s] -- Checking for module 'libavformat'
+[2.003s] --   Found libavformat, version 58.76.100
+[2.043s] -- Checking for module 'libavcodec'
+[2.064s] --   Found libavcodec, version 58.134.100
+[2.178s] -- Checking for module 'libavutil'
+[2.229s] --   Found libavutil, version 56.70.100
+[2.229s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[2.229s] -- Searching for dependencies of ignition-fuel_tools7
+[2.229s] -- Checking for module 'jsoncpp'
+[2.229s] --   Found jsoncpp, version 1.9.5
+[2.252s] -- Checking for module 'libzip'
+[2.264s] --   Found libzip, version 1.7.3
+[2.300s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.300s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.300s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.302s] -- Looking for ignition-gui6 -- found version 6.8.0
+[2.303s] -- Searching for dependencies of ignition-gui6
+[2.335s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.336s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.336s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.336s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.337s] -- Looking for ignition-rendering6 -- found version 6.6.1
+[2.337s] -- Searching for dependencies of ignition-rendering6
+[2.338s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.338s] -- Searching for dependencies of ignition-math6
+[2.338s] -- Searching for <ignition-math6> component [eigen3]
+[2.338s] -- Looking for ignition-math6-eigen3 -- found version 6.15.0
+[2.339s] -- Searching for dependencies of ignition-math6-eigen3
+[2.340s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.340s] -- Searching for dependencies of ignition-common4
+[2.340s] -- Looking for dlfcn.h - found
+[2.340s] -- Looking for libdl - found
+[2.347s] -- Searching for <ignition-common4> component [graphics]
+[2.348s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[2.348s] -- Searching for dependencies of ignition-common4-graphics
+[2.348s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.349s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.349s] -- Searching for <ignition-common4> component [events]
+[2.350s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.350s] -- Searching for dependencies of ignition-plugin1
+[2.350s] -- Searching for <ignition-plugin1> component [all]
+[2.351s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[2.351s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.353s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.366s] -- Looking for ignition-physics5 -- found version 5.3.2
+[2.366s] -- Searching for dependencies of ignition-physics5
+[2.366s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.366s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.367s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.368s] -- Searching for <ignition-physics5> component [heightmap]
+[2.368s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[2.368s] -- Searching for dependencies of ignition-physics5-heightmap
+[2.369s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.369s] -- Searching for <ignition-physics5> component [mesh]
+[2.369s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[2.369s] -- Searching for dependencies of ignition-physics5-mesh
+[2.370s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.370s] -- Searching for <ignition-physics5> component [sdf]
+[2.370s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[2.371s] -- Searching for dependencies of ignition-physics5-sdf
+[2.371s] -- Looking for sdformat12 -- found version 12.7.2
+[2.372s] -- Looking for ignition-sensors6 -- found version 6.7.1
+[2.372s] -- Searching for dependencies of ignition-sensors6
+[2.394s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.395s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.395s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.395s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.396s] -- Looking for ignition-rendering6 -- found version 6.6.1
+[2.396s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.396s] -- Looking for sdformat12 -- found version 12.7.2
+[2.397s] -- Searching for <ignition-sensors6> component [air_pressure]
+[2.397s] -- Looking for ignition-sensors6-air_pressure -- found version 6.7.1
+[2.397s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[2.398s] -- Searching for <ignition-sensors6> component [altimeter]
+[2.398s] -- Looking for ignition-sensors6-altimeter -- found version 6.7.1
+[2.398s] -- Searching for dependencies of ignition-sensors6-altimeter
+[2.399s] -- Searching for <ignition-sensors6> component [imu]
+[2.399s] -- Looking for ignition-sensors6-imu -- found version 6.7.1
+[2.399s] -- Searching for dependencies of ignition-sensors6-imu
+[2.400s] -- Searching for <ignition-sensors6> component [force_torque]
+[2.400s] -- Looking for ignition-sensors6-force_torque -- found version 6.7.1
+[2.400s] -- Searching for dependencies of ignition-sensors6-force_torque
+[2.400s] -- Searching for <ignition-sensors6> component [logical_camera]
+[2.401s] -- Looking for ignition-sensors6-logical_camera -- found version 6.7.1
+[2.401s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[2.401s] -- Searching for <ignition-sensors6> component [magnetometer]
+[2.402s] -- Looking for ignition-sensors6-magnetometer -- found version 6.7.1
+[2.402s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[2.402s] -- Searching for <ignition-sensors6> component [navsat]
+[2.403s] -- Looking for ignition-sensors6-navsat -- found version 6.7.1
+[2.403s] -- Searching for dependencies of ignition-sensors6-navsat
+[2.403s] -- Searching for <ignition-sensors6> component [rendering]
+[2.403s] -- Looking for ignition-sensors6-rendering -- found version 6.7.1
+[2.404s] -- Searching for dependencies of ignition-sensors6-rendering
+[2.404s] -- Searching for <ignition-sensors6> component [lidar]
+[2.404s] -- Looking for ignition-sensors6-lidar -- found version 6.7.1
+[2.405s] -- Searching for dependencies of ignition-sensors6-lidar
+[2.405s] -- Looking for ignition-sensors6 -- found version 6.7.1
+[2.405s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[2.406s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.7.1
+[2.406s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[2.406s] -- Looking for ignition-sensors6 -- found version 6.7.1
+[2.407s] -- Searching for <ignition-sensors6> component [camera]
+[2.407s] -- Looking for ignition-sensors6-camera -- found version 6.7.1
+[2.407s] -- Searching for dependencies of ignition-sensors6-camera
+[2.407s] -- Looking for ignition-sensors6 -- found version 6.7.1
+[2.408s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[2.408s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.7.1
+[2.408s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[2.409s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[2.409s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.7.1
+[2.409s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[2.410s] -- Searching for <ignition-sensors6> component [depth_camera]
+[2.410s] -- Looking for ignition-sensors6-depth_camera -- found version 6.7.1
+[2.410s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[2.411s] -- Looking for ignition-sensors6 -- found version 6.7.1
+[2.411s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[2.411s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.7.1
+[2.412s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[2.412s] -- Looking for ignition-sensors6 -- found version 6.7.1
+[2.412s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[2.413s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.7.1
+[2.413s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[2.413s] -- Looking for ignition-sensors6 -- found version 6.7.1
+[2.414s] -- Looking for ignition-rendering6 -- found version 6.6.1
+[2.414s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.415s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.436s] -- Compiling against Ignition Fortress
+[2.437s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.808s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.866s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.867s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.867s] -- Configured cppcheck include dirs: /workspaces/aprs_humble/aprs_ws/src/gz_ros2_control/ign_ros2_control/include
+[2.867s] -- Configured cppcheck exclude dirs and/or files: 
+[2.868s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.868s] -- Configured cpplint exclude dirs and/or files: 
+[2.868s] -- Added test 'lint_cmake' to check CMake code style
+[2.869s] -- Added test 'uncrustify' to check C / C++ code style
+[2.869s] -- Configured uncrustify additional arguments: 
+[2.869s] -- Added test 'xmllint' to check XML markup files
+[2.870s] -- Configuring done
+[2.908s] -- Generating done
+[2.910s] -- Build files have been written to: /workspaces/aprs_humble/aprs_ws/build/ign_ros2_control
+[2.919s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager:/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/workspaces/aprs_humble/aprs_ws/install/worlds:/workspaces/aprs_humble/aprs_ws/install/workbench_description:/workspaces/aprs_humble/aprs_ws/install/vaccum_description:/workspaces/aprs_humble/aprs_ws/install/ur_setup:/workspaces/aprs_humble/aprs_ws/install/ur_calibration:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver:/workspaces/aprs_humble/aprs_ws/install/ur_bringup:/workspaces/aprs_humble/aprs_ws/install/ur_controllers:/workspaces/aprs_humble/aprs_ws/install/ur_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_gz:/workspaces/aprs_humble/aprs_ws/install/ur5e_moveit_config:/workspaces/aprs_humble/aprs_ws/install/panda_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_description:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_client_library:/workspaces/aprs_humble/aprs_ws/install/ros2_control:/workspaces/aprs_humble/aprs_ws/install/transmission_interface:/workspaces/aprs_humble/aprs_ws/install/table_description:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control_demos:/workspaces/aprs_humble/aprs_ws/install/gz_ros2_control_tests:/workspaces/aprs_humble/aprs_ws/install/franka_gz:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control:/workspaces/aprs_humble/aprs_ws/install/realsense2_description_:/workspaces/aprs_humble/aprs_ws/install/point_cloud:/workspaces/aprs_humble/aprs_ws/install/panda_description:/workspaces/aprs_humble/aprs_ws/install/joint_limits:/workspaces/aprs_humble/aprs_ws/install/franka_setup:/workspaces/aprs_humble/aprs_ws/install/fanuc_moveit_config:/workspaces/aprs_humble/aprs_ws/install/fanuc_description:/workspaces/aprs_humble/aprs_ws/install/camera_mount:/workspaces/aprs_humble/aprs_ws/install/rqt_controller_manager:/workspaces/aprs_humble/aprs_ws/install/ros2controlcli:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib:/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs_humble/aprs_ws/install/ur_controllers/lib:/workspaces/aprs_humble/aprs_ws/install/ur_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_client_library/lib:/workspaces/aprs_humble/aprs_ws/install/transmission_interface/lib:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/lib:/workspaces/aprs_humble/aprs_ws/install/point_cloud/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/gz_ros2_control/ign_ros2_control -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control
+[2.920s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager:/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/workspaces/aprs_humble/aprs_ws/install/worlds:/workspaces/aprs_humble/aprs_ws/install/workbench_description:/workspaces/aprs_humble/aprs_ws/install/vaccum_description:/workspaces/aprs_humble/aprs_ws/install/ur_setup:/workspaces/aprs_humble/aprs_ws/install/ur_calibration:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver:/workspaces/aprs_humble/aprs_ws/install/ur_bringup:/workspaces/aprs_humble/aprs_ws/install/ur_controllers:/workspaces/aprs_humble/aprs_ws/install/ur_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_gz:/workspaces/aprs_humble/aprs_ws/install/ur5e_moveit_config:/workspaces/aprs_humble/aprs_ws/install/panda_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_description:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_client_library:/workspaces/aprs_humble/aprs_ws/install/ros2_control:/workspaces/aprs_humble/aprs_ws/install/transmission_interface:/workspaces/aprs_humble/aprs_ws/install/table_description:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control_demos:/workspaces/aprs_humble/aprs_ws/install/gz_ros2_control_tests:/workspaces/aprs_humble/aprs_ws/install/franka_gz:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control:/workspaces/aprs_humble/aprs_ws/install/realsense2_description_:/workspaces/aprs_humble/aprs_ws/install/point_cloud:/workspaces/aprs_humble/aprs_ws/install/panda_description:/workspaces/aprs_humble/aprs_ws/install/joint_limits:/workspaces/aprs_humble/aprs_ws/install/franka_setup:/workspaces/aprs_humble/aprs_ws/install/fanuc_moveit_config:/workspaces/aprs_humble/aprs_ws/install/fanuc_description:/workspaces/aprs_humble/aprs_ws/install/camera_mount:/workspaces/aprs_humble/aprs_ws/install/rqt_controller_manager:/workspaces/aprs_humble/aprs_ws/install/ros2controlcli:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib:/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs_humble/aprs_ws/install/ur_controllers/lib:/workspaces/aprs_humble/aprs_ws/install/ur_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_client_library/lib:/workspaces/aprs_humble/aprs_ws/install/transmission_interface/lib:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/lib:/workspaces/aprs_humble/aprs_ws/install/point_cloud/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/ign_ros2_control -- -j16 -l16
+[2.954s] [35m[1mConsolidate compiler generated dependencies of target ign_hardware_plugins[0m
+[2.954s] [35m[1mConsolidate compiler generated dependencies of target ign_ros2_control-system[0m
+[2.976s] [100%] Built target ign_ros2_control-system
+[2.976s] [100%] Built target ign_hardware_plugins
+[2.986s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager:/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/workspaces/aprs_humble/aprs_ws/install/worlds:/workspaces/aprs_humble/aprs_ws/install/workbench_description:/workspaces/aprs_humble/aprs_ws/install/vaccum_description:/workspaces/aprs_humble/aprs_ws/install/ur_setup:/workspaces/aprs_humble/aprs_ws/install/ur_calibration:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver:/workspaces/aprs_humble/aprs_ws/install/ur_bringup:/workspaces/aprs_humble/aprs_ws/install/ur_controllers:/workspaces/aprs_humble/aprs_ws/install/ur_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_gz:/workspaces/aprs_humble/aprs_ws/install/ur5e_moveit_config:/workspaces/aprs_humble/aprs_ws/install/panda_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_description:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_client_library:/workspaces/aprs_humble/aprs_ws/install/ros2_control:/workspaces/aprs_humble/aprs_ws/install/transmission_interface:/workspaces/aprs_humble/aprs_ws/install/table_description:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control_demos:/workspaces/aprs_humble/aprs_ws/install/gz_ros2_control_tests:/workspaces/aprs_humble/aprs_ws/install/franka_gz:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control:/workspaces/aprs_humble/aprs_ws/install/realsense2_description_:/workspaces/aprs_humble/aprs_ws/install/point_cloud:/workspaces/aprs_humble/aprs_ws/install/panda_description:/workspaces/aprs_humble/aprs_ws/install/joint_limits:/workspaces/aprs_humble/aprs_ws/install/franka_setup:/workspaces/aprs_humble/aprs_ws/install/fanuc_moveit_config:/workspaces/aprs_humble/aprs_ws/install/fanuc_description:/workspaces/aprs_humble/aprs_ws/install/camera_mount:/workspaces/aprs_humble/aprs_ws/install/rqt_controller_manager:/workspaces/aprs_humble/aprs_ws/install/ros2controlcli:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib:/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs_humble/aprs_ws/install/ur_controllers/lib:/workspaces/aprs_humble/aprs_ws/install/ur_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_client_library/lib:/workspaces/aprs_humble/aprs_ws/install/transmission_interface/lib:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/lib:/workspaces/aprs_humble/aprs_ws/install/point_cloud/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/ign_ros2_control -- -j16 -l16
+[3.011s] Invoking command in '/workspaces/aprs_humble/aprs_ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager:/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/workspaces/aprs_humble/aprs_ws/install/worlds:/workspaces/aprs_humble/aprs_ws/install/workbench_description:/workspaces/aprs_humble/aprs_ws/install/vaccum_description:/workspaces/aprs_humble/aprs_ws/install/ur_setup:/workspaces/aprs_humble/aprs_ws/install/ur_calibration:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver:/workspaces/aprs_humble/aprs_ws/install/ur_bringup:/workspaces/aprs_humble/aprs_ws/install/ur_controllers:/workspaces/aprs_humble/aprs_ws/install/ur_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_gz:/workspaces/aprs_humble/aprs_ws/install/ur5e_moveit_config:/workspaces/aprs_humble/aprs_ws/install/panda_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_description:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_client_library:/workspaces/aprs_humble/aprs_ws/install/ros2_control:/workspaces/aprs_humble/aprs_ws/install/transmission_interface:/workspaces/aprs_humble/aprs_ws/install/table_description:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control_demos:/workspaces/aprs_humble/aprs_ws/install/gz_ros2_control_tests:/workspaces/aprs_humble/aprs_ws/install/franka_gz:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control:/workspaces/aprs_humble/aprs_ws/install/realsense2_description_:/workspaces/aprs_humble/aprs_ws/install/point_cloud:/workspaces/aprs_humble/aprs_ws/install/panda_description:/workspaces/aprs_humble/aprs_ws/install/joint_limits:/workspaces/aprs_humble/aprs_ws/install/franka_setup:/workspaces/aprs_humble/aprs_ws/install/fanuc_moveit_config:/workspaces/aprs_humble/aprs_ws/install/fanuc_description:/workspaces/aprs_humble/aprs_ws/install/camera_mount:/workspaces/aprs_humble/aprs_ws/install/rqt_controller_manager:/workspaces/aprs_humble/aprs_ws/install/ros2controlcli:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib:/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs_humble/aprs_ws/install/ur_controllers/lib:/workspaces/aprs_humble/aprs_ws/install/ur_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_client_library/lib:/workspaces/aprs_humble/aprs_ws/install/transmission_interface/lib:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/lib:/workspaces/aprs_humble/aprs_ws/install/point_cloud/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/ign_ros2_control
+[3.016s] -- Install configuration: ""
+[3.016s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/lib/libign_hardware_plugins.so
+[3.016s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/include
+[3.016s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/include/ign_ros2_control
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/include/ign_ros2_control/ign_system.hpp
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/include/ign_ros2_control/ign_ros2_control_plugin.hpp
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.sh
+[3.017s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.dsv
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/lib/libign_ros2_control-system.so
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/ign_hardware_plugins.xml
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/environment/ign_ros2_control.dsv
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/environment/ign_ros2_control.sh
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control
+[3.017s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.sh
+[3.017s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.dsv
+[3.017s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/environment/path.sh
+[3.018s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/environment/path.dsv
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.bash
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.sh
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.zsh
+[3.018s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.dsv
+[3.018s] -- Installing: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/package.dsv
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ament_index/resource_index/packages/ign_ros2_control
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ament_index/resource_index/ign_ros2_control__pluginlib__plugin/ign_ros2_control
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig.cmake
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig-version.cmake
+[3.018s] -- Up-to-date: /workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/package.xml
+[3.020s] Invoked command in '/workspaces/aprs_humble/aprs_ws/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager:/workspaces/aprs_humble/aprs_ws/install/controller_interface:/workspaces/aprs_humble/aprs_ws/install/hardware_interface:/workspaces/aprs_humble/aprs_ws/install/ros2_control_test_assets:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs:/workspaces/aprs_humble/aprs_ws/install/worlds:/workspaces/aprs_humble/aprs_ws/install/workbench_description:/workspaces/aprs_humble/aprs_ws/install/vaccum_description:/workspaces/aprs_humble/aprs_ws/install/ur_setup:/workspaces/aprs_humble/aprs_ws/install/ur_calibration:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver:/workspaces/aprs_humble/aprs_ws/install/ur_bringup:/workspaces/aprs_humble/aprs_ws/install/ur_controllers:/workspaces/aprs_humble/aprs_ws/install/ur_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_gz:/workspaces/aprs_humble/aprs_ws/install/ur5e_moveit_config:/workspaces/aprs_humble/aprs_ws/install/panda_moveit_config:/workspaces/aprs_humble/aprs_ws/install/ur_description:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs:/workspaces/aprs_humble/aprs_ws/install/ur_client_library:/workspaces/aprs_humble/aprs_ws/install/ros2_control:/workspaces/aprs_humble/aprs_ws/install/transmission_interface:/workspaces/aprs_humble/aprs_ws/install/table_description:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control_demos:/workspaces/aprs_humble/aprs_ws/install/gz_ros2_control_tests:/workspaces/aprs_humble/aprs_ws/install/franka_gz:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control:/workspaces/aprs_humble/aprs_ws/install/realsense2_description_:/workspaces/aprs_humble/aprs_ws/install/point_cloud:/workspaces/aprs_humble/aprs_ws/install/panda_description:/workspaces/aprs_humble/aprs_ws/install/joint_limits:/workspaces/aprs_humble/aprs_ws/install/franka_setup:/workspaces/aprs_humble/aprs_ws/install/fanuc_moveit_config:/workspaces/aprs_humble/aprs_ws/install/fanuc_description:/workspaces/aprs_humble/aprs_ws/install/camera_mount:/workspaces/aprs_humble/aprs_ws/install/rqt_controller_manager:/workspaces/aprs_humble/aprs_ws/install/ros2controlcli:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/aprs_humble/aprs_ws/install/controller_manager/lib:/workspaces/aprs_humble/aprs_ws/install/controller_interface/lib:/workspaces/aprs_humble/aprs_ws/install/hardware_interface/lib:/workspaces/aprs_humble/aprs_ws/install/controller_manager_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_robot_driver/lib:/workspaces/aprs_humble/aprs_ws/install/ur_controllers/lib:/workspaces/aprs_humble/aprs_ws/install/ur_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_dashboard_msgs/lib:/workspaces/aprs_humble/aprs_ws/install/ur_client_library/lib:/workspaces/aprs_humble/aprs_ws/install/transmission_interface/lib:/workspaces/aprs_humble/aprs_ws/install/ign_ros2_control/lib:/workspaces/aprs_humble/aprs_ws/install/point_cloud/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/ign_ros2_control

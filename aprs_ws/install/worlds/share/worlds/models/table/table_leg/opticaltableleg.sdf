@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.5">
+   <model name="optical_table_leg">
+      <static>true</static>
+      <static>true</static>
+      <link name="link1">
+         <visual name="visual1">
+            <pose> 0 0 0.75 0 0 0 </pose>
+           <geometry>
+               <mesh>
+                   <scale>0.001 0.001 0.001</scale>
+                 <uri>model://table/table_leg/opticaltableleg.stl</uri>
+               </mesh>
+            </geometry>
+         </visual>
+         <collision name="collision1">
+            <pose> 0 0 0.75 0 0 0 </pose>
+          <geometry>
+               <mesh>
+                   <scale>0.001 0.001 0.001</scale>
+                 <uri>model://table/table_leg/opticaltableleg.stl</uri>
+               </mesh>
+            </geometry>
+         </collision>
+   </model>
+</sdf>
+
+
