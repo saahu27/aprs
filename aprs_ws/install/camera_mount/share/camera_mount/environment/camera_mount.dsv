@@ -1,3 +1,0 @@
-prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs_humble/aprs_ws/install/camera_mount/share/camera_mount/meshes
-prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs_humble/aprs_ws/install/camera_mount/share
-prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib/camera_mount/

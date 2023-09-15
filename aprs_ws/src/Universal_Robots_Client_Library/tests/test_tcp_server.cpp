@@ -74,12 +74,6 @@ protected:
       }
       return result.str();
     }
-
-  protected:
-    virtual bool open(int socket_fd, struct sockaddr* address, size_t address_len)
-    {
-      return ::connect(socket_fd, address, address_len) == 0;
-    }
   };
 
   // callback functions
@@ -176,7 +170,7 @@ TEST_F(TCPServerTest, socket_creation)
   comm::TCPServer server(port_);
 
   // Shouldn't be able to create antoher server on same port
-  EXPECT_THROW(comm::TCPServer server2(port_), std::system_error);
+  EXPECT_THROW(comm::TCPServer server2(port_, 1, std::chrono::milliseconds(1)), std::system_error);
 
   server.start();
 
@@ -331,6 +325,12 @@ TEST_F(TCPServerTest, client_connections)
   EXPECT_FALSE(server.write(client1_fd, data, len, written));
   EXPECT_FALSE(server.write(client2_fd, data, len, written));
   EXPECT_FALSE(server.write(client3_fd, data, len, written));
+}
+TEST_F(TCPServerTest, check_address_already_in_use)
+{
+  comm::TCPServer blocking_server(12321);
+
+  EXPECT_THROW(comm::TCPServer test_server(12321, 2, std::chrono::milliseconds(500)), std::system_error);
 }
 
 int main(int argc, char* argv[])

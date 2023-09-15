@@ -1,9 +1,0 @@
-/workspaces/aprs_humble/aprs_ws/build/worlds/CMakeFiles/uninstall.dir
-/workspaces/aprs_humble/aprs_ws/build/worlds/CMakeFiles/worlds_uninstall.dir
-/workspaces/aprs_humble/aprs_ws/build/worlds/CMakeFiles/test.dir
-/workspaces/aprs_humble/aprs_ws/build/worlds/CMakeFiles/edit_cache.dir
-/workspaces/aprs_humble/aprs_ws/build/worlds/CMakeFiles/rebuild_cache.dir
-/workspaces/aprs_humble/aprs_ws/build/worlds/CMakeFiles/list_install_components.dir
-/workspaces/aprs_humble/aprs_ws/build/worlds/CMakeFiles/install.dir
-/workspaces/aprs_humble/aprs_ws/build/worlds/CMakeFiles/install/local.dir
-/workspaces/aprs_humble/aprs_ws/build/worlds/CMakeFiles/install/strip.dir

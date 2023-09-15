@@ -1,9 +1,0 @@
-/workspaces/aprs_humble/aprs_ws/build/vaccum_description/CMakeFiles/uninstall.dir
-/workspaces/aprs_humble/aprs_ws/build/vaccum_description/CMakeFiles/vaccum_description_uninstall.dir
-/workspaces/aprs_humble/aprs_ws/build/vaccum_description/CMakeFiles/test.dir
-/workspaces/aprs_humble/aprs_ws/build/vaccum_description/CMakeFiles/edit_cache.dir
-/workspaces/aprs_humble/aprs_ws/build/vaccum_description/CMakeFiles/rebuild_cache.dir
-/workspaces/aprs_humble/aprs_ws/build/vaccum_description/CMakeFiles/list_install_components.dir
-/workspaces/aprs_humble/aprs_ws/build/vaccum_description/CMakeFiles/install.dir
-/workspaces/aprs_humble/aprs_ws/build/vaccum_description/CMakeFiles/install/local.dir
-/workspaces/aprs_humble/aprs_ws/build/vaccum_description/CMakeFiles/install/strip.dir

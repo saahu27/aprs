@@ -1,6 +1,0 @@
-Invoking command in '/workspaces/aprs_humble/aprs_ws/build/franka_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/franka_setup -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/franka_setup
-Invoked command in '/workspaces/aprs_humble/aprs_ws/build/franka_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs_humble/aprs_ws/src/franka_setup -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs_humble/aprs_ws/install/franka_setup
-Invoking command in '/workspaces/aprs_humble/aprs_ws/build/franka_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/franka_setup -- -j16 -l16
-Invoked command in '/workspaces/aprs_humble/aprs_ws/build/franka_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs_humble/aprs_ws/build/franka_setup -- -j16 -l16
-Invoking command in '/workspaces/aprs_humble/aprs_ws/build/franka_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/franka_setup
-Invoked command in '/workspaces/aprs_humble/aprs_ws/build/franka_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs_humble/aprs_ws/build/franka_setup
