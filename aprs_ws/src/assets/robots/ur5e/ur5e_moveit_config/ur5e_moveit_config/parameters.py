@@ -46,7 +46,7 @@ def generate_parameters():
             "ur_type:=",
             "ur5e",
             " ",
-            "sim_gz:=",
+            "sim_ignition:=",
             "true",
             " ",
             "simulation_controllers:=",

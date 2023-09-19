@@ -56,7 +56,7 @@ def generate_launch_description():
             "ur_type:=",
             ur_type,
             " ",
-            "sim_gz:=",
+            "sim_ignition:=",
             "true",
             " ",
             "simulation_controllers:=",

@@ -57,7 +57,7 @@ def launch_setup(context, *args, **kwargs):
             "ur_type:=",
             ur_type,
             " ",
-            "sim_gz:=",
+            "sim_ignition:=",
             "true",
             " ",
             "simulation_controllers:=",

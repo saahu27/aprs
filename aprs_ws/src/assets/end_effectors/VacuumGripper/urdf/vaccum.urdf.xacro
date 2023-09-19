@@ -4,7 +4,7 @@
 
     <link name="${prefix}vaccum_e_link">
       <visual>
-        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <origin rpy="0 -1.5708 0" xyz="0 0 0"/>
         <geometry>
           <mesh filename="file://$(find vaccum_description)/meshes/VacuumGripper.stl" scale="1 1 1"/>
         </geometry>
