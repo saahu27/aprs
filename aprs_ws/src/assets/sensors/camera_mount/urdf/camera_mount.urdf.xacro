@@ -23,8 +23,8 @@
     </link>
 
     <joint name="camera_mount_to_flange_joint" type="fixed">
-      <origin xyz="0.03 0 .045" rpy="0 0 0"/>
-      <parent link="vaccum_e_link"/>
+      <origin xyz="0 0 0" rpy="${pi/2.0} ${pi/2.0} ${pi}"/>
+      <parent link="flange"/>
       <child link="camera_mount" />
     </joint>
 
@@ -35,13 +35,13 @@
     </joint> -->
 
     <!-- Run camera macro -->
-    <!-- <xacro:sensor_d435 
+    <xacro:sensor_d435 
       parent="camera_mount" 
       use_nominal_extrinsics="false" 
       add_plug="false" 
       use_mesh="true">
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-    </xacro:sensor_d435> -->
+      <origin xyz="0 0 0" rpy="${pi/2.0} 0 ${-pi/2.0}"/>
+    </xacro:sensor_d435>
 
   </xacro:macro>
 </robot>
