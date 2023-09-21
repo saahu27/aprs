@@ -97,9 +97,9 @@
      <origin xyz="0.0 0 -0.02" rpy="${pi/2.0} 0 ${pi}"/>
    </xacro:vaccum_gripper>
 
-   <xacro:camera_mount prefix="" parent="vaccum_e_link" >
+   <!-- <xacro:camera_mount prefix="" parent="vaccum_e_link" >
      <origin xyz="0.0 0 -0.02" rpy="${pi/2.0} 0 ${pi}"/>
-   </xacro:camera_mount>
+   </xacro:camera_mount> -->
 
    <xacro:if value="$(arg sim_gazebo)">
     <!-- Gazebo plugins -->
