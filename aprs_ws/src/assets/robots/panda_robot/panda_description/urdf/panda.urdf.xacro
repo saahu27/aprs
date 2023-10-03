@@ -58,7 +58,7 @@
 
   <!-- Origin of arm in the world -->
   <xacro:property name="world_name" value="world"/>
-  <xacro:property name="origin_xyz" value="0 0 0"/>
+  <xacro:property name="origin_xyz" value="2 0 0"/>
   <xacro:property name="origin_rpy" value="0 0 0"/>
 
   <!-- Offset of gripper with respect to wrist flange -->

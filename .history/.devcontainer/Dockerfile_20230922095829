@@ -162,7 +162,6 @@ RUN cd $REALSENSE_DIR/build \
   && make uninstall && make clean && make && make install
 
 
-
 ARG USERNAME=SahuGf
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID

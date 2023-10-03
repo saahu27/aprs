@@ -83,11 +83,12 @@
     <joint name="panda_finger_joint2" value="0.0"/>
   </group_state>
   
-  <end_effector group="gripper" name="gripper_moveit" parent_group="franka_arm" parent_link="panda_hand_tcp"/>
+  
 
   <disable_collisions link1="panda_hand" link2="panda_leftfinger" reason="Adjacent"/>
   <disable_collisions link1="panda_hand" link2="panda_rightfinger" reason="Adjacent"/>
   <disable_collisions link1="panda_leftfinger" link2="panda_rightfinger" reason="Default"/>
+  <end_effector group="gripper" name="gripper" parent_group="franka_arm" parent_link="panda_hand_tcp"/>
   <disable_collisions link1="panda_hand" link2="panda_link3" reason="Never"/>
   <disable_collisions link1="panda_hand" link2="panda_link4" reason="Never"/>
   <disable_collisions link1="panda_hand" link2="panda_link6" reason="Never"/>
