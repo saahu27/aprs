@@ -17,7 +17,7 @@ import xacro
 def generate_launch_description():
 
     pkg_share_dir_control = get_package_share_directory('franka_gz')
-    control_path = pkg_share_dir_control + "/config"  + "/franka_controller.yaml"
+    control_path = pkg_share_dir_control + "/config"  + "/controllers.yaml"
     robot_description_content = Command(
         [
             PathJoinSubstitution([FindExecutable(name="xacro")]),
@@ -42,7 +42,8 @@ def generate_launch_description():
         package='robot_state_publisher',
         executable='robot_state_publisher',
         output='both',
-        parameters=[{'use_sim_time': True},robot_description]
+        parameters=[{'use_sim_time': True},robot_description, {'frame_prefix' : ''}],
+        arguments=[robot_description],
     )
     gz_spawn_entity = Node(
         package='ros_gz_sim',
@@ -109,8 +110,8 @@ def generate_launch_description():
     safety_limits = "true"
     # pkg_share_dir = get_package_share_directory('ur_description')
     # os.environ['GZ_SIM_RESOURCE_PATH'] = pkg_share_dir + "/meshes"
-    ur_pkg_share_dir_control = get_package_share_directory('ur_gz')
-    ur_control_path = ur_pkg_share_dir_control + "/config"  + "/ur_controller.yaml"
+    ur_pkg_share_dir_control = get_package_share_directory('franka_gz')
+    ur_control_path = ur_pkg_share_dir_control + "/config"  + "/controllers.yaml"
     robot_ip = "192.168.0.1"
 
     real = "false"
@@ -126,6 +127,9 @@ def generate_launch_description():
             " ",
             "name:=",
             "ur",
+            " ",
+            "prefix:=",
+            "frame_",
             " ",
             "ur_type:=",
             ur_type,
@@ -150,23 +154,28 @@ def generate_launch_description():
         package='robot_state_publisher',
         executable='robot_state_publisher',
         output='both',
-        parameters=[{'use_sim_time': True},robot_description]
+        # namespace=['ur'],
+        parameters=[{'use_sim_time': True},ur_robot_description, {'frame_prefix' : ''}],
+        arguments=[ur_robot_description]
     )
+
     ur_gz_spawn_entity = Node(
         package='ros_gz_sim',
         executable='create',
         parameters=[
             {'robot_description': ur_robot_description_content}],
         output='screen',
-        arguments=['-name', 'ur',
-                   '-param', 'robot_description'],
+        arguments=['-name', 'ur5e',
+                   '-param', 'robot_description'
+                   ]
     )
+# '-tf_prefix', 'robot2'
 
-    ur_load_joint_state_broadcaster = ExecuteProcess(
-        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
-             'joint_state_broadcaster'],
-        output='screen'
-    )
+    # ur_load_joint_state_broadcaster = ExecuteProcess(
+    #     cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+    #          'joint_state_broadcaster'],
+    #     output='screen'
+    # )
 
     ur_load_joint_trajectory_controller = ExecuteProcess(
         cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
@@ -202,37 +211,37 @@ def generate_launch_description():
     )
 
     # Static TF
-    ur_static_tf = Node(
-        package="tf2_ros",
-        executable="static_transform_publisher",
-        name="static_transform_publisher",
-        output="log",
-        arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "base_link"],
-    )
+    # ur_static_tf = Node(
+    #     package="tf2_ros",
+    #     executable="static_transform_publisher",
+    #     name="static_transform_publisher",
+    #     output="log",
+    #     arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "base_link"],
+    # )
 
-    # ros2_control using FakeSystem as hardware
-    ur_ros2_controllers_path = os.path.join(
-        get_package_share_directory("ur_gz"),
-        "config",
-        "ur_controller.yaml",
-    )
+    # # ros2_control using FakeSystem as hardware
+    # ur_ros2_controllers_path = os.path.join(
+    #     get_package_share_directory("ur_gz"),
+    #     "config",
+    #     "ur_controller.yaml",
+    # )
 
-    ur_ros2_control_node = Node(
-        package="controller_manager",
-        executable="ros2_control_node",
-        parameters=[robot_description, ur_ros2_controllers_path],
-        output="both",
-    )
+    # ur_ros2_control_node = Node(
+    #     package="controller_manager",
+    #     executable="ros2_control_node",
+    #     parameters=[ur_robot_description, ur_ros2_controllers_path],
+    #     output="both",
+    # )
 
-    ur_joint_state_broadcaster_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=[
-            "joint_state_broadcaster",
-            "--controller-manager",
-            "/controller_manager",
-        ],
-    )
+    # ur_joint_state_broadcaster_spawner = Node(
+    #     package="controller_manager",
+    #     executable="spawner",
+    #     arguments=[
+    #         "joint_state_broadcaster",
+    #         "--controller-manager",
+    #         "/controller_manager",
+    #     ],
+    # )
 
     ur_controller_spawner = Node(
         package="controller_manager",
@@ -243,23 +252,35 @@ def generate_launch_description():
             "/controller_manager",
         ],
     )
+    
+
+    # launch_ur_controller = RegisterEventHandler(
+    #         event_handler=OnProcessExit(
+    #             target_action=ur_gz_spawn_entity,
+    #             on_exit=[ur_ros2_control_node],
+    #         )
+    #     )
+    # launch_ur_moveit = RegisterEventHandler(
+    #         event_handler=OnProcessExit(
+    #             target_action=ur_ros2_control_node,
+    #             on_exit=[ur_moveit],
+    #         )
+    # )
     return LaunchDescription([
         gz,
-        gz_spawn_entity,
-        launch_gz,
-        node_robot_state_publisher,
-        launch_controller,
+        # gz_spawn_entity,
+        # # launch_gz,
+        # node_robot_state_publisher,
+        # launch_controller,
         # launch_gripper_controller,
-        load_gripper_trajectory_controller,
-        moveit,
-        ur_node_robot_state_publisher,
+        # load_gripper_trajectory_controller,
+        # moveit,
         ur_gz_spawn_entity,
-        ur_controller_spawner,
-        ur_joint_state_broadcaster_spawner,
-        ur_ros2_control_node,
-        ur_static_tf,
-        ur_moveit,
+        # # ur_controller_spawner,
+        ur_node_robot_state_publisher,
         ur_load_joint_trajectory_controller,
+        # ur_ros2_control_node,
+        # ur_moveit,
         DeclareLaunchArgument(
             'use_sim_time',
             default_value=use_sim_time,
