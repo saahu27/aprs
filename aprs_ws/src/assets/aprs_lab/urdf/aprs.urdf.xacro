@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="aprs_robots">
     <!-- Root link -->
-  <link name="world"/>
+  <!-- <link name="world"/> -->
 
   <!-- Material for RVIZ -->
   <material name="Grey">
@@ -10,9 +10,14 @@
 
   <!-- Locate Robot Macros -->
   <xacro:include filename="$(find aprs_lab)/urdf/ur_robot_macro.xacro"/>
+  
 
   <!-- ur Robot -->
   <xacro:aprs_ur_robot/>
+
+  <xacro:include filename="$(find aprs_lab)/urdf/franka_robot_macro.xacro"/>
+  
+  <xacro:aprs_franka_robot/>
 
   <gazebo 
     reference="world">
@@ -27,7 +32,7 @@
     <gazebo>
       <plugin filename="libign_ros2_control-system.so" name="ign_ros2_control::IgnitionROS2ControlPlugin">
         <parameters>$(arg controllers)</parameters>
-        <!-- <controller_manager_node_name>controller_manager</controller_manager_node_name> -->
+         <controller_manager_node_name>controller_manager</controller_manager_node_name>
       </plugin>
     </gazebo>
 

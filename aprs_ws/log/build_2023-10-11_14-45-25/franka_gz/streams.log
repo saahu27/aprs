@@ -1,0 +1,27 @@
+[0.299s] Invoking command in '/workspaces/aprs/aprs_ws/build/franka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/franka_gz -- -j16 -l16
+[0.468s] Invoked command in '/workspaces/aprs/aprs_ws/build/franka_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/franka_gz -- -j16 -l16
+[0.617s] Invoking command in '/workspaces/aprs/aprs_ws/build/franka_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/franka_gz
+[0.618s] -- Install configuration: ""
+[0.618s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz//launch
+[0.619s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz//launch/frankarobot.launch.py
+[0.619s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz//launch/multi.launch.py
+[0.619s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz//launch/frur.launch.py
+[0.619s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz//config
+[0.619s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz//config/franka_controller.yaml
+[0.619s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz//config/controllers.yaml
+[0.620s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/ament_index/resource_index/package_run_dependencies/franka_gz
+[0.620s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/ament_index/resource_index/parent_prefix_path/franka_gz
+[0.620s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/environment/ament_prefix_path.sh
+[0.620s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/environment/ament_prefix_path.dsv
+[0.620s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/environment/path.sh
+[0.620s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/environment/path.dsv
+[0.620s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/local_setup.bash
+[0.625s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/local_setup.sh
+[0.625s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/local_setup.zsh
+[0.625s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/local_setup.dsv
+[0.625s] -- Installing: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/package.dsv
+[0.625s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/ament_index/resource_index/packages/franka_gz
+[0.625s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/cmake/franka_gzConfig.cmake
+[0.625s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/cmake/franka_gzConfig-version.cmake
+[0.625s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/franka_gz/share/franka_gz/package.xml
+[0.939s] Invoked command in '/workspaces/aprs/aprs_ws/build/franka_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/franka_gz

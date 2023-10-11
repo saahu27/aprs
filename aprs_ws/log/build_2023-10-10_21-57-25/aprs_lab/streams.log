@@ -1,0 +1,44 @@
+[0.399s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/aprs_lab -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/aprs_lab
+[0.526s] -- The C compiler identification is GNU 11.4.0
+[0.689s] -- The CXX compiler identification is GNU 11.4.0
+[0.718s] -- Detecting C compiler ABI info
+[0.948s] -- Detecting C compiler ABI info - done
+[0.958s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.959s] -- Detecting C compile features
+[0.973s] -- Detecting C compile features - done
+[0.979s] -- Detecting CXX compiler ABI info
+[1.229s] -- Detecting CXX compiler ABI info - done
+[1.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.248s] -- Detecting CXX compile features
+[1.248s] -- Detecting CXX compile features - done
+[1.267s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.967s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.507s] -- Configuring done
+[2.520s] -- Generating done
+[2.529s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/aprs_lab
+[2.571s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_lab' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/aprs_lab -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/aprs_lab
+[2.572s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_lab -- -j16 -l16
+[6.428s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_lab' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_lab -- -j16 -l16
+[6.870s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_lab
+[7.003s] -- Install configuration: ""
+[7.004s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/config
+[7.004s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/config/robot_controllers.yaml
+[7.004s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/urdf
+[7.004s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/urdf/aprs.urdf.xacro
+[7.004s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/urdf/ur_robot_macro.xacro
+[7.004s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/ament_index/resource_index/package_run_dependencies/aprs_lab
+[7.004s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/ament_index/resource_index/parent_prefix_path/aprs_lab
+[7.005s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/environment/ament_prefix_path.sh
+[7.005s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/environment/ament_prefix_path.dsv
+[7.005s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/environment/path.sh
+[7.005s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/environment/path.dsv
+[7.005s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/local_setup.bash
+[7.005s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/local_setup.sh
+[7.005s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/local_setup.zsh
+[7.005s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/local_setup.dsv
+[7.005s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/package.dsv
+[7.006s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/ament_index/resource_index/packages/aprs_lab
+[7.006s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/cmake/aprs_labConfig.cmake
+[7.006s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/cmake/aprs_labConfig-version.cmake
+[7.006s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/package.xml
+[7.348s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_lab' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_lab

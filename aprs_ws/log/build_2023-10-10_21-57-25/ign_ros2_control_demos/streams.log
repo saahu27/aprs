@@ -1,0 +1,122 @@
+[0.101s] Invoking command in '/workspaces/aprs/aprs_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:/opt/ros/humble GZ_MODEL_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/meshes GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib/ign_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/gz_ros2_control/ign_ros2_control_demos -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ign_ros2_control_demos
+[0.317s] -- The C compiler identification is GNU 11.4.0
+[0.450s] -- The CXX compiler identification is GNU 11.4.0
+[0.461s] -- Detecting C compiler ABI info
+[0.662s] -- Detecting C compiler ABI info - done
+[0.675s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.675s] -- Detecting C compile features
+[0.675s] -- Detecting C compile features - done
+[0.684s] -- Detecting CXX compiler ABI info
+[0.857s] -- Detecting CXX compiler ABI info - done
+[0.877s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.877s] -- Detecting CXX compile features
+[0.878s] -- Detecting CXX compile features - done
+[0.905s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.361s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.632s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.741s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.761s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.783s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.353s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.468s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.476s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.658s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.716s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.837s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.875s] -- Looking for pthread.h
+[2.993s] -- Looking for pthread.h - found
+[2.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.114s] -- Found Threads: TRUE  
+[3.336s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.402s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.414s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.607s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.610s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.610s] -- Configured cppcheck include dirs: 
+[3.611s] -- Configured cppcheck exclude dirs and/or files: 
+[3.613s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.614s] -- Configured cpplint exclude dirs and/or files: 
+[3.614s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.616s] -- Added test 'lint_cmake' to check CMake code style
+[3.616s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.619s] -- Added test 'uncrustify' to check C / C++ code style
+[3.619s] -- Configured uncrustify additional arguments: 
+[3.620s] -- Added test 'xmllint' to check XML markup files
+[3.625s] -- Configuring done
+[3.678s] -- Generating done
+[3.682s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/ign_ros2_control_demos
+[3.722s] Invoked command in '/workspaces/aprs/aprs_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:/opt/ros/humble GZ_MODEL_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/meshes GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib/ign_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /workspaces/aprs/aprs_ws/src/gz_ros2_control/ign_ros2_control_demos -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ign_ros2_control_demos
+[3.723s] Invoking command in '/workspaces/aprs/aprs_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:/opt/ros/humble GZ_MODEL_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/meshes GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib/ign_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ign_ros2_control_demos -- -j16 -l16
+[3.821s] [ 25%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[3.821s] [ 25%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[3.821s] [ 25%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[3.822s] [ 33%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[8.979s] [ 41%] [32m[1mLinking CXX executable example_velocity[0m
+[9.099s] [ 50%] [32m[1mLinking CXX executable example_position[0m
+[9.162s] [ 58%] [32m[1mLinking CXX executable example_diff_drive[0m
+[9.253s] [ 58%] Built target example_velocity
+[9.282s] [ 66%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[9.286s] [ 75%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[9.332s] [ 83%] [32m[1mLinking CXX executable example_effort[0m
+[9.408s] [ 83%] Built target example_diff_drive
+[9.520s] [ 83%] Built target example_position
+[9.565s] [ 83%] Built target example_effort
+[14.926s] [ 91%] [32m[1mLinking CXX executable example_gripper[0m
+[15.052s] [100%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[15.262s] [100%] Built target example_gripper
+[15.405s] [100%] Built target example_tricycle_drive
+[15.420s] Invoked command in '/workspaces/aprs/aprs_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:/opt/ros/humble GZ_MODEL_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/meshes GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib/ign_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ign_ros2_control_demos -- -j16 -l16
+[15.476s] Invoking command in '/workspaces/aprs/aprs_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:/opt/ros/humble GZ_MODEL_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/meshes GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib/ign_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ign_ros2_control_demos
+[15.486s] -- Install configuration: ""
+[15.486s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch
+[15.486s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_position.launch.py
+[15.486s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[15.487s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[15.487s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_effort.launch.py
+[15.487s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_velocity.launch.py
+[15.487s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example.launch.py
+[15.487s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config
+[15.487s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cartpole_controller_effort.yaml
+[15.488s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cartpole_controller_velocity.yaml
+[15.489s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/tricycle_drive_controller.yaml
+[15.489s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cartpole_controller_position.yaml
+[15.489s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+[15.489s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/gripper_controller.yaml
+[15.491s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf
+[15.491s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[15.491s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[15.491s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[15.491s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[15.492s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[15.492s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[15.492s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position
+[15.495s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position" to ""
+[15.495s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity
+[15.497s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity" to ""
+[15.497s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort
+[15.499s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort" to ""
+[15.499s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive
+[15.501s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive" to ""
+[15.502s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive
+[15.504s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive" to ""
+[15.504s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper
+[15.506s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper" to ""
+[15.507s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos
+[15.507s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos
+[15.507s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.sh
+[15.507s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.dsv
+[15.508s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.sh
+[15.508s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.dsv
+[15.508s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.bash
+[15.508s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.sh
+[15.508s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.zsh
+[15.509s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.dsv
+[15.509s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv
+[15.509s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/packages/ign_ros2_control_demos
+[15.509s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig.cmake
+[15.509s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig-version.cmake
+[15.510s] -- Installing: /workspaces/aprs/aprs_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.xml
+[15.513s] Invoked command in '/workspaces/aprs/aprs_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control:/opt/ros/humble GZ_MODEL_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/meshes GZ_SIM_PLUGIn_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib/ign_ros2_control GZ_SIM_RESOURCE_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/share LD_LIBRARY_PATH=/workspaces/aprs/aprs_ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ign_ros2_control_demos

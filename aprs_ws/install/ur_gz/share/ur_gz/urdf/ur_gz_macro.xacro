@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Definition of the main macro -->
+  <xacro:macro name="ur_robot_gz" params="
+    name
+    prefix
+    use_fake_hardware:=false fake_sensor_commands:=false
+    sim_gazebo:=false
+    sim_gz:=false
+    real:=false
+    headless_mode:=false
+    initial_positions:=${dict(shoulder_pan_joint=0.0,shoulder_lift_joint=-1.57,elbow_joint=0.0,wrist_1_joint=-1.57,wrist_2_joint=0.0,wrist_3_joint=0.0)}
+    use_tool_communication:=false
+    script_filename output_recipe_filename
+    input_recipe_filename tf_prefix
+    hash_kinematics robot_ip
+    tool_voltage:=0 tool_parity:=0 tool_baud_rate:=115200 tool_stop_bits:=1
+    tool_rx_idle_chars:=1.5 tool_tx_idle_chars:=3.5 tool_device_name:=/tmp/ttyUR tool_tcp_port:=54321
+    reverse_port:=50001
+    script_sender_port:=50002
+    reverse_ip:=0.0.0.0
+    script_command_port:=50004"
+  >
+
+    <xacro:include filename="$(find ur_description)/urdf/inc/ur_macro.xacro"/>
+
+    <!-- arm -->
+    <xacro:ur_robot
+      name="$(arg name)"
+      prefix="$(arg prefix)"
+      parent="world"
+      joint_limits_parameters_file="$(arg joint_limit_params)"
+      kinematics_parameters_file="$(arg kinematics_params)"
+      physical_parameters_file="$(arg physical_params)"
+      visual_parameters_file="$(arg visual_params)"
+      transmission_hw_interface="$(arg transmission_hw_interface)"
+      safety_limits="$(arg safety_limits)"
+      safety_pos_margin="$(arg safety_pos_margin)"
+      safety_k_position="$(arg safety_k_position)"
+      use_fake_hardware="$(arg use_fake_hardware)"
+      fake_sensor_commands="$(arg fake_sensor_commands)"
+      sim_gazebo="$(arg sim_gazebo)"
+      sim_gz="$(arg sim_gz)"
+      real="$(arg real)"
+      headless_mode="$(arg headless_mode)"
+      initial_positions="${xacro.load_yaml(initial_positions_file)}"
+      use_tool_communication="$(arg use_tool_communication)"
+      tool_voltage="$(arg tool_voltage)"
+      tool_parity="$(arg tool_parity)"
+      tool_baud_rate="$(arg tool_baud_rate)"
+      tool_stop_bits="$(arg tool_stop_bits)"
+      tool_rx_idle_chars="$(arg tool_rx_idle_chars)"
+      tool_tx_idle_chars="$(arg tool_tx_idle_chars)"
+      tool_device_name="$(arg tool_device_name)"
+      tool_tcp_port="$(arg tool_tcp_port)"
+      robot_ip="$(arg robot_ip)"
+      script_filename="$(arg script_filename)"
+      output_recipe_filename="$(arg output_recipe_filename)"
+      input_recipe_filename="$(arg input_recipe_filename)"
+      reverse_ip="$(arg reverse_ip)"
+      script_command_port="$(arg script_command_port)"
+      />
+
+   <!-- ros2 control include -->
+    <xacro:include filename="$(find ur_description)/urdf/ur.ros2_control.xacro" />
+
+    <!-- ros2 control instance -->
+      <xacro:ur_ros2_control
+        name="${name}"
+        prefix="${prefix}"
+        use_fake_hardware="${use_fake_hardware}"
+        initial_positions="${initial_positions}"
+        fake_sensor_commands="${fake_sensor_commands}"
+        headless_mode="${headless_mode}"
+        sim_gazebo="${sim_gazebo}"
+        sim_gz="${sim_gz}"
+        real="${real}"
+        script_filename="${script_filename}"
+        output_recipe_filename="${output_recipe_filename}"
+        input_recipe_filename="${input_recipe_filename}"
+        tf_prefix=""
+        hash_kinematics="${kinematics_hash}"
+        robot_ip="${robot_ip}"
+        use_tool_communication="${use_tool_communication}"
+        tool_voltage="${tool_voltage}"
+        tool_parity="${tool_parity}"
+        tool_baud_rate="${tool_baud_rate}"
+        tool_stop_bits="${tool_stop_bits}"
+        tool_rx_idle_chars="${tool_rx_idle_chars}"
+        tool_tx_idle_chars="${tool_tx_idle_chars}"
+        tool_device_name="${tool_device_name}"
+        tool_tcp_port="${tool_tcp_port}"
+        reverse_port="${reverse_port}"
+        script_sender_port="${script_sender_port}"
+        reverse_ip="${reverse_ip}"
+        script_command_port="${script_command_port}"
+        />
+
+   <!-- Configure self collision properties per link -->
+      <gazebo reference="${prefix}shoulder_link">
+        <selfCollide>true</selfCollide>
+      </gazebo>
+      <gazebo reference="${prefix}upper_arm_link">
+        <selfCollide>true</selfCollide>
+      </gazebo>
+      <gazebo reference="${prefix}forearm_link">
+        <selfCollide>true</selfCollide>
+      </gazebo>
+      <gazebo reference="${prefix}wrist_1_link">
+        <selfCollide>true</selfCollide>
+      </gazebo>
+      <gazebo reference="${prefix}wrist_3_link">
+        <selfCollide>true</selfCollide>
+      </gazebo>
+      <gazebo reference="${prefix}wrist_2_link">
+        <selfCollide>true</selfCollide>
+      </gazebo>
+      <gazebo reference="${prefix}ee_link">
+        <selfCollide>true</selfCollide>
+      </gazebo>
+
+      <!-- Gazebo plugins -->
+      <gazebo reference="world">
+      </gazebo>
+      <gazebo>
+        <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+          <parameters>$(arg simulation_controllers)</parameters>
+          <controller_manager_node_name>controller_manager</controller_manager_node_name>
+        </plugin>
+      </gazebo>
+
+    </xacro:macro>
+
+</robot>

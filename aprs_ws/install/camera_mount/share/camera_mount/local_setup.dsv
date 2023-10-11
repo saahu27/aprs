@@ -1,0 +1,4 @@
+source;share/camera_mount/environment/ament_prefix_path.sh
+source;share/camera_mount/environment/camera_mount.sh
+source;share/camera_mount/environment/path.sh
+source;share/camera_mount/environment/camera_mount.dsv

@@ -1,0 +1,25 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/aprs/aprs_ws/build/aprs_lab
+-- Install configuration: ""
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/config
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/config/robot_controllers.yaml
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/urdf
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/urdf/aprs.urdf.xacro
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/urdf/ur_robot_macro.xacro
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/ament_index/resource_index/package_run_dependencies/aprs_lab
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/ament_index/resource_index/parent_prefix_path/aprs_lab
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/environment/ament_prefix_path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/environment/path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/environment/path.dsv
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/local_setup.bash
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/local_setup.sh
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/local_setup.zsh
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/local_setup.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/package.dsv
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/ament_index/resource_index/packages/aprs_lab
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/cmake/aprs_labConfig.cmake
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/cmake/aprs_labConfig-version.cmake
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_lab/share/aprs_lab/package.xml

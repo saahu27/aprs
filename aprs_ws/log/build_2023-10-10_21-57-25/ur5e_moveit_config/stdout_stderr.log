@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/aprs/aprs_ws/build/ur5e_moveit_config
+Built target ament_cmake_python_copy_ur5e_moveit_config
+running install_scripts
+running egg_info
+creating ur5e_moveit_config.egg-info
+writing ur5e_moveit_config.egg-info/PKG-INFO
+writing dependency_links to ur5e_moveit_config.egg-info/dependency_links.txt
+writing top-level names to ur5e_moveit_config.egg-info/top_level.txt
+writing manifest file 'ur5e_moveit_config.egg-info/SOURCES.txt'
+reading manifest file 'ur5e_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'ur5e_moveit_config.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ur5e_moveit_config_scripts
+running egg_info
+writing ur5e_moveit_config.egg-info/PKG-INFO
+writing dependency_links to ur5e_moveit_config.egg-info/dependency_links.txt
+writing top-level names to ur5e_moveit_config.egg-info/top_level.txt
+reading manifest file 'ur5e_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'ur5e_moveit_config.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ur5e_moveit_config_egg
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+-- Install configuration: ""
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/ompl_planning.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/joint_limits.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/ur_servo.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/kinematics.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/controllers.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/launch
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/launch/ur_moveit.launch.py
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/srdf
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/srdf/ur.srdf
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/rviz
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/rviz/moveit.rviz
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/pythonpath.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/pythonpath.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/lib/ur5e_moveit_config/
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config/parameters.py
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config/__init__.py
+Listing '/workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config'...
+Compiling '/workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config/__init__.py'...
+Compiling '/workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config/parameters.py'...
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_config
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_config
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/path.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/local_setup.bash
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/local_setup.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/local_setup.zsh
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/local_setup.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/package.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ament_index/resource_index/packages/ur5e_moveit_config
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/cmake/ur5e_moveit_configConfig.cmake
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/cmake/ur5e_moveit_configConfig-version.cmake
+-- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/package.xml

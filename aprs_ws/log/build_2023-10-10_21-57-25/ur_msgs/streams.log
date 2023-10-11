@@ -1,0 +1,505 @@
+[0.670s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/ur_msgs -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur_msgs
+[0.795s] -- The C compiler identification is GNU 11.4.0
+[0.990s] -- The CXX compiler identification is GNU 11.4.0
+[1.003s] -- Detecting C compiler ABI info
+[1.209s] -- Detecting C compiler ABI info - done
+[1.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.238s] -- Detecting C compile features
+[1.238s] -- Detecting C compile features - done
+[1.238s] -- Detecting CXX compiler ABI info
+[1.486s] -- Detecting CXX compiler ABI info - done
+[1.496s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.497s] -- Detecting CXX compile features
+[1.497s] -- Detecting CXX compile features - done
+[1.510s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.205s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.638s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.739s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.760s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.802s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.893s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.276s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.412s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.054s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.541s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.237s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[9.238s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.293s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[9.293s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.293s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.293s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[9.366s] -- Found PythonExtra: .so  
+[9.455s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.460s] -- Added test 'lint_cmake' to check CMake code style
+[9.463s] -- Added test 'xmllint' to check XML markup files
+[9.487s] -- Configuring done
+[9.583s] -- Generating done
+[9.587s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/ur_msgs
+[10.012s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/ur_msgs -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur_msgs
+[10.013s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_msgs -- -j16 -l16
+[10.343s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.343s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.343s] [  1%] Built target ament_cmake_python_copy_ur_msgs
+[10.991s] running egg_info
+[10.991s] creating ur_msgs.egg-info
+[10.991s] writing ur_msgs.egg-info/PKG-INFO
+[10.991s] writing dependency_links to ur_msgs.egg-info/dependency_links.txt
+[10.991s] writing top-level names to ur_msgs.egg-info/top_level.txt
+[10.991s] writing manifest file 'ur_msgs.egg-info/SOURCES.txt'
+[10.991s] reading manifest file 'ur_msgs.egg-info/SOURCES.txt'
+[10.991s] writing manifest file 'ur_msgs.egg-info/SOURCES.txt'
+[11.179s] [  1%] Built target ament_cmake_python_build_ur_msgs_egg
+[14.153s] [  1%] Built target ur_msgs__cpp
+[14.220s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.220s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.237s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.633s] [  5%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/analog__functions.c.o[0m
+[14.682s] [  6%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/digital__functions.c.o[0m
+[14.684s] [  7%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/io_states__functions.c.o[0m
+[14.686s] [  8%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/robot_state_rt_msg__functions.c.o[0m
+[14.702s] [  9%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/masterboard_data_msg__functions.c.o[0m
+[14.756s] [ 10%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/robot_mode_data_msg__functions.c.o[0m
+[14.786s] [ 11%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/srv/detail/set_payload__functions.c.o[0m
+[14.791s] [ 12%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/msg/detail/tool_data_msg__functions.c.o[0m
+[14.922s] [ 13%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/srv/detail/set_speed_slider_fraction__functions.c.o[0m
+[14.983s] [ 14%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_msgs/srv/detail/set_io__functions.c.o[0m
+[15.658s] [ 15%] [32m[1mLinking C shared library libur_msgs__rosidl_generator_c.so[0m
+[16.324s] [ 15%] Built target ur_msgs__rosidl_generator_c
+[16.406s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.481s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.551s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.518s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/analog__type_support.cpp.o[0m
+[19.542s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/digital__type_support.cpp.o[0m
+[19.600s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/io_states__type_support.cpp.o[0m
+[19.604s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/robot_state_rt_msg__type_support.cpp.o[0m
+[19.640s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/robot_mode_data_msg__type_support.cpp.o[0m
+[19.690s] [ 24%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/masterboard_data_msg__type_support.cpp.o[0m
+[19.721s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/msg/tool_data_msg__type_support.cpp.o[0m
+[19.738s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/srv/set_payload__type_support.cpp.o[0m
+[19.758s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/srv/set_speed_slider_fraction__type_support.cpp.o[0m
+[19.809s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_msgs/srv/set_io__type_support.cpp.o[0m
+[20.671s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/analog__type_support_c.cpp.o[0m
+[20.702s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/digital__type_support_c.cpp.o[0m
+[20.746s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/analog__type_support.cpp.o[0m
+[20.788s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/io_states__type_support_c.cpp.o[0m
+[20.798s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/digital__type_support.cpp.o[0m
+[20.843s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/io_states__type_support.cpp.o[0m
+[20.930s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/robot_state_rt_msg__type_support.cpp.o[0m
+[20.981s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/analog__type_support.cpp.o[0m
+[21.085s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/digital__type_support.cpp.o[0m
+[21.433s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/masterboard_data_msg__type_support.cpp.o[0m
+[21.545s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/robot_mode_data_msg__type_support.cpp.o[0m
+[21.554s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/msg/detail/dds_fastrtps/tool_data_msg__type_support.cpp.o[0m
+[21.738s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/srv/detail/dds_fastrtps/set_payload__type_support.cpp.o[0m
+[21.779s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/analog__type_support.cpp.o[0m
+[21.784s] [ 42%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_cpp.so[0m
+[21.948s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/srv/detail/dds_fastrtps/set_speed_slider_fraction__type_support.cpp.o[0m
+[22.043s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/digital__type_support.cpp.o[0m
+[22.058s] [ 45%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/analog__type_support.c.o[0m
+[22.064s] [ 46%] Built target ur_msgs__rosidl_typesupport_cpp
+[22.082s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_msgs/srv/detail/dds_fastrtps/set_io__type_support.cpp.o[0m
+[22.162s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/robot_state_rt_msg__type_support_c.cpp.o[0m
+[22.242s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/masterboard_data_msg__type_support_c.cpp.o[0m
+[22.256s] [ 49%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/io_states__type_support.cpp.o[0m
+[22.382s] [ 50%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/digital__type_support.c.o[0m
+[22.477s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/robot_state_rt_msg__type_support.cpp.o[0m
+[22.677s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/masterboard_data_msg__type_support.cpp.o[0m
+[22.686s] [ 53%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/io_states__type_support.c.o[0m
+[22.924s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/robot_mode_data_msg__type_support.cpp.o[0m
+[23.013s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/msg/tool_data_msg__type_support.cpp.o[0m
+[23.038s] [ 56%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/robot_state_rt_msg__type_support.c.o[0m
+[23.160s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/robot_state_rt_msg__type_support.cpp.o[0m
+[23.196s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/srv/set_payload__type_support.cpp.o[0m
+[23.364s] [ 59%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/masterboard_data_msg__type_support.c.o[0m
+[23.368s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/srv/set_speed_slider_fraction__type_support.cpp.o[0m
+[23.544s] [ 60%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/robot_mode_data_msg__type_support.c.o[0m
+[23.614s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_msgs/srv/set_io__type_support.cpp.o[0m
+[23.766s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/srv/detail/set_io__type_support_c.cpp.o[0m
+[23.806s] [ 63%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_c.so[0m
+[23.833s] [ 64%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.c.o[0m
+[24.110s] [ 65%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/srv/detail/set_payload__type_support.c.o[0m
+[24.144s] [ 65%] Built target ur_msgs__rosidl_typesupport_c
+[24.278s] [ 66%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/srv/detail/set_io__type_support.c.o[0m
+[24.474s] [ 67%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_msgs/msg/detail/tool_data_msg__type_support.c.o[0m
+[24.710s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_io__type_support.cpp.o[0m
+[24.724s] [ 69%] [32m[1mLinking C shared library libur_msgs__rosidl_typesupport_introspection_c.so[0m
+[24.772s] [ 70%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[25.010s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/srv/detail/set_speed_slider_fraction__type_support_c.cpp.o[0m
+[25.010s] [ 71%] Built target ur_msgs__rosidl_typesupport_introspection_c
+[25.297s] [ 71%] Built target ur_msgs__rosidl_typesupport_fastrtps_cpp
+[25.767s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.cpp.o[0m
+[25.935s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/srv/detail/set_payload__type_support_c.cpp.o[0m
+[26.862s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/srv/detail/set_payload__type_support.cpp.o[0m
+[27.009s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/tool_data_msg__type_support_c.cpp.o[0m
+[27.829s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/tool_data_msg__type_support.cpp.o[0m
+[28.035s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_msgs/msg/detail/robot_mode_data_msg__type_support_c.cpp.o[0m
+[28.800s] [ 78%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[28.800s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/robot_mode_data_msg__type_support.cpp.o[0m
+[29.022s] [ 79%] Built target ur_msgs__rosidl_typesupport_fastrtps_c
+[29.402s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/masterboard_data_msg__type_support.cpp.o[0m
+[30.046s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_msgs/msg/detail/io_states__type_support.cpp.o[0m
+[30.886s] [ 82%] [32m[1mLinking CXX shared library libur_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[31.152s] [ 82%] Built target ur_msgs__rosidl_typesupport_introspection_cpp
+[31.196s] [ 82%] Built target ur_msgs
+[31.249s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[34.490s] [ 83%] Built target ur_msgs__py
+[34.543s] [ 84%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/msg/_analog_s.c.o[0m
+[34.749s] [ 85%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/srv/_set_io_s.c.o[0m
+[35.008s] [ 86%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/srv/_set_speed_slider_fraction_s.c.o[0m
+[35.250s] [ 87%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/srv/_set_payload_s.c.o[0m
+[35.507s] [ 88%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/msg/_tool_data_msg_s.c.o[0m
+[35.720s] [ 89%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/msg/_robot_mode_data_msg_s.c.o[0m
+[35.918s] [ 90%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/msg/_masterboard_data_msg_s.c.o[0m
+[36.132s] [ 91%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/msg/_robot_state_rt_msg_s.c.o[0m
+[36.578s] [ 92%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/msg/_io_states_s.c.o[0m
+[36.841s] [ 93%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_msgs/msg/_digital_s.c.o[0m
+[37.041s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/ur_msgs/libur_msgs__rosidl_generator_py.so[0m
+[37.178s] [ 94%] Built target ur_msgs__rosidl_generator_py
+[37.241s] [ 95%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_msgs/_ur_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[37.527s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_msgs/ur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.642s] [ 96%] Built target ur_msgs__rosidl_typesupport_fastrtps_c__pyext
+[37.693s] [ 97%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_msgs/_ur_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[37.987s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ur_msgs/ur_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.078s] [ 98%] Built target ur_msgs__rosidl_typesupport_c__pyext
+[38.119s] [ 99%] [32mBuilding C object CMakeFiles/ur_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_msgs/_ur_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.351s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_msgs/ur_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.448s] [100%] Built target ur_msgs__rosidl_typesupport_introspection_c__pyext
+[38.478s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_msgs -- -j16 -l16
+[38.886s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_msgs
+[38.899s] -- Install configuration: ""
+[38.900s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_msgs
+[38.900s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs
+[38.900s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv
+[38.900s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/set_speed_slider_fraction.h
+[38.901s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/set_io.h
+[38.901s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail
+[38.901s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__struct.h
+[38.901s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__functions.h
+[38.901s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__functions.c
+[38.902s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.h
+[38.902s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__functions.c
+[38.902s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__struct.h
+[38.903s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__functions.c
+[38.903s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__type_support.h
+[38.903s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__struct.h
+[38.903s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__type_support.h
+[38.903s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__functions.h
+[38.904s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__functions.h
+[38.905s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/set_payload.h
+[38.905s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg
+[38.905s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail
+[38.905s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__functions.c
+[38.906s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__functions.h
+[38.906s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__type_support.h
+[38.906s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__functions.h
+[38.906s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__functions.h
+[38.906s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__type_support.h
+[38.906s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__struct.h
+[38.907s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__functions.c
+[38.907s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__functions.h
+[38.907s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__struct.h
+[38.907s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__functions.h
+[38.907s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__functions.c
+[38.908s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__type_support.h
+[38.908s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__struct.h
+[38.908s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__struct.h
+[38.908s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__functions.c
+[38.908s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__type_support.h
+[38.909s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__type_support.h
+[38.909s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__functions.c
+[38.909s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__functions.c
+[38.910s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__functions.h
+[38.910s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__type_support.h
+[38.910s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__functions.h
+[38.910s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__struct.h
+[38.910s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__functions.c
+[38.911s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__struct.h
+[38.911s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__struct.h
+[38.911s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__type_support.h
+[38.911s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/tool_data_msg.h
+[38.911s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/digital.h
+[38.911s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/robot_mode_data_msg.h
+[38.912s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/rosidl_generator_c__visibility_control.h
+[38.912s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/analog.h
+[38.912s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/robot_state_rt_msg.h
+[38.912s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/io_states.h
+[38.912s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/masterboard_data_msg.h
+[38.913s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/environment/library_path.sh
+[38.913s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/environment/library_path.dsv
+[38.913s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_generator_c.so
+[38.914s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_generator_c.so" to ""
+[38.914s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs
+[38.914s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv
+[38.914s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail
+[38.915s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__rosidl_typesupport_fastrtps_c.h
+[38.915s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__rosidl_typesupport_fastrtps_c.h
+[38.915s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__rosidl_typesupport_fastrtps_c.h
+[38.915s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg
+[38.915s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail
+[38.915s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__rosidl_typesupport_fastrtps_c.h
+[38.915s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__rosidl_typesupport_fastrtps_c.h
+[38.915s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__rosidl_typesupport_fastrtps_c.h
+[38.916s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__rosidl_typesupport_fastrtps_c.h
+[38.916s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__rosidl_typesupport_fastrtps_c.h
+[38.916s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__rosidl_typesupport_fastrtps_c.h
+[38.916s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__rosidl_typesupport_fastrtps_c.h
+[38.918s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[38.918s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_fastrtps_c.so
+[38.918s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[38.918s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs
+[38.918s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv
+[38.919s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail
+[38.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__traits.hpp
+[38.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__builder.hpp
+[38.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__struct.hpp
+[38.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__builder.hpp
+[38.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__struct.hpp
+[38.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__builder.hpp
+[38.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__struct.hpp
+[38.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__traits.hpp
+[38.919s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__traits.hpp
+[38.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/set_payload.hpp
+[38.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/set_io.hpp
+[38.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/set_speed_slider_fraction.hpp
+[38.920s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg
+[38.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/robot_state_rt_msg.hpp
+[38.920s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail
+[38.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__builder.hpp
+[38.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__struct.hpp
+[38.920s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__struct.hpp
+[38.921s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__struct.hpp
+[38.921s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__traits.hpp
+[38.921s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__builder.hpp
+[38.921s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__traits.hpp
+[38.921s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__struct.hpp
+[38.922s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__traits.hpp
+[38.922s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__traits.hpp
+[38.923s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__struct.hpp
+[38.923s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__struct.hpp
+[38.925s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__traits.hpp
+[38.925s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__builder.hpp
+[38.926s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__struct.hpp
+[38.926s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__builder.hpp
+[38.926s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__traits.hpp
+[38.926s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__builder.hpp
+[38.926s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__builder.hpp
+[38.927s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__traits.hpp
+[38.927s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__builder.hpp
+[38.927s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/io_states.hpp
+[38.927s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/tool_data_msg.hpp
+[38.927s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/digital.hpp
+[38.928s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/masterboard_data_msg.hpp
+[38.928s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/robot_mode_data_msg.hpp
+[38.928s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/analog.hpp
+[38.928s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs
+[38.928s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv
+[38.928s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail
+[38.929s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/dds_fastrtps
+[38.929s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__rosidl_typesupport_fastrtps_cpp.hpp
+[38.929s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__rosidl_typesupport_fastrtps_cpp.hpp
+[38.929s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__rosidl_typesupport_fastrtps_cpp.hpp
+[38.929s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg
+[38.929s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail
+[38.929s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/dds_fastrtps
+[38.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[38.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__rosidl_typesupport_fastrtps_cpp.hpp
+[38.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__rosidl_typesupport_fastrtps_cpp.hpp
+[38.930s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[38.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[38.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[38.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__rosidl_typesupport_fastrtps_cpp.hpp
+[38.931s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[38.932s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_fastrtps_cpp.so
+[38.932s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[38.933s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs
+[38.933s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv
+[38.933s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail
+[38.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__type_support.c
+[38.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__type_support.c
+[38.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__rosidl_typesupport_introspection_c.h
+[38.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.c
+[38.933s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__rosidl_typesupport_introspection_c.h
+[38.934s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__rosidl_typesupport_introspection_c.h
+[38.934s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg
+[38.934s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[38.934s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail
+[38.934s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__rosidl_typesupport_introspection_c.h
+[38.934s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__rosidl_typesupport_introspection_c.h
+[38.935s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__type_support.c
+[38.935s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__type_support.c
+[38.935s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__type_support.c
+[38.935s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__rosidl_typesupport_introspection_c.h
+[38.935s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__type_support.c
+[38.935s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__type_support.c
+[38.935s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__rosidl_typesupport_introspection_c.h
+[38.936s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__rosidl_typesupport_introspection_c.h
+[38.936s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__rosidl_typesupport_introspection_c.h
+[38.936s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__type_support.c
+[38.936s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__rosidl_typesupport_introspection_c.h
+[38.936s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__type_support.c
+[38.937s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_introspection_c.so
+[38.938s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_introspection_c.so" to ""
+[38.938s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_c.so
+[38.939s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_c.so" to ""
+[38.939s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs
+[38.939s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv
+[38.939s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail
+[38.939s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__type_support.cpp
+[38.939s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_speed_slider_fraction__rosidl_typesupport_introspection_cpp.hpp
+[38.939s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__rosidl_typesupport_introspection_cpp.hpp
+[38.940s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__rosidl_typesupport_introspection_cpp.hpp
+[38.940s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_io__type_support.cpp
+[38.940s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/srv/detail/set_payload__type_support.cpp
+[38.940s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg
+[38.940s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail
+[38.940s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__rosidl_typesupport_introspection_cpp.hpp
+[38.940s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__rosidl_typesupport_introspection_cpp.hpp
+[38.940s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/digital__type_support.cpp
+[38.940s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__rosidl_typesupport_introspection_cpp.hpp
+[38.941s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/masterboard_data_msg__type_support.cpp
+[38.941s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__type_support.cpp
+[38.941s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__type_support.cpp
+[38.942s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/analog__rosidl_typesupport_introspection_cpp.hpp
+[38.942s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__rosidl_typesupport_introspection_cpp.hpp
+[38.942s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__type_support.cpp
+[38.942s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/tool_data_msg__rosidl_typesupport_introspection_cpp.hpp
+[38.942s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/io_states__type_support.cpp
+[38.943s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_mode_data_msg__type_support.cpp
+[38.943s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/include/ur_msgs/ur_msgs/msg/detail/robot_state_rt_msg__rosidl_typesupport_introspection_cpp.hpp
+[38.943s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_introspection_cpp.so
+[38.944s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[38.944s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_cpp.so
+[38.944s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_typesupport_cpp.so" to ""
+[38.944s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/environment/pythonpath.sh
+[38.945s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/environment/pythonpath.dsv
+[38.945s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs-2.0.0-py3.10.egg-info
+[38.945s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs-2.0.0-py3.10.egg-info/dependency_links.txt
+[38.945s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs-2.0.0-py3.10.egg-info/top_level.txt
+[38.945s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs-2.0.0-py3.10.egg-info/PKG-INFO
+[38.946s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs-2.0.0-py3.10.egg-info/SOURCES.txt
+[38.946s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs
+[38.946s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv
+[38.946s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/_set_io.py
+[38.946s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/_set_speed_slider_fraction.py
+[38.946s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/_set_payload_s.c
+[38.947s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/_set_speed_slider_fraction_s.c
+[38.947s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/_set_io_s.c
+[38.947s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/__init__.py
+[38.947s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/_set_payload.py
+[38.947s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[38.947s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/_ur_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[38.948s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/_ur_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[38.948s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/_ur_msgs_s.ep.rosidl_typesupport_c.c
+[38.949s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[38.949s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[38.949s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/libur_msgs__rosidl_generator_py.so
+[38.949s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/__init__.py
+[38.949s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg
+[38.950s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_tool_data_msg_s.c
+[38.950s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_io_states.py
+[38.950s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_digital_s.c
+[38.950s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_robot_mode_data_msg_s.c
+[38.950s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_analog.py
+[38.950s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_masterboard_data_msg_s.c
+[38.951s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_io_states_s.c
+[38.951s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_masterboard_data_msg.py
+[38.951s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_tool_data_msg.py
+[38.951s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_robot_mode_data_msg.py
+[38.951s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_analog_s.c
+[38.951s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_digital.py
+[38.951s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_robot_state_rt_msg_s.c
+[38.951s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/__init__.py
+[38.951s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_robot_state_rt_msg.py
+[39.019s] Listing '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs'...
+[39.019s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/__init__.py'...
+[39.019s] Listing '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg'...
+[39.019s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/__init__.py'...
+[39.019s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_analog.py'...
+[39.019s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_digital.py'...
+[39.019s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_io_states.py'...
+[39.020s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_masterboard_data_msg.py'...
+[39.020s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_robot_mode_data_msg.py'...
+[39.020s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_robot_state_rt_msg.py'...
+[39.020s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/msg/_tool_data_msg.py'...
+[39.020s] Listing '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv'...
+[39.020s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/__init__.py'...
+[39.020s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/_set_io.py'...
+[39.020s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/_set_payload.py'...
+[39.020s] Compiling '/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/srv/_set_speed_slider_fraction.py'...
+[39.028s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[39.028s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.029s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[39.029s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.029s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[39.030s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages/ur_msgs/ur_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[39.030s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_generator_py.so
+[39.030s] -- Set runtime path of "/workspaces/aprs/aprs_ws/install/ur_msgs/lib/libur_msgs__rosidl_generator_py.so" to ""
+[39.030s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/Analog.idl
+[39.031s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/Digital.idl
+[39.031s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/IOStates.idl
+[39.031s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/RobotStateRTMsg.idl
+[39.031s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/MasterboardDataMsg.idl
+[39.031s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/RobotModeDataMsg.idl
+[39.031s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/ToolDataMsg.idl
+[39.032s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetPayload.idl
+[39.032s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetSpeedSliderFraction.idl
+[39.032s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetIO.idl
+[39.032s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/Analog.msg
+[39.032s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/Digital.msg
+[39.032s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/IOStates.msg
+[39.032s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/RobotStateRTMsg.msg
+[39.033s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/MasterboardDataMsg.msg
+[39.033s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/RobotModeDataMsg.msg
+[39.033s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/msg/ToolDataMsg.msg
+[39.033s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetPayload.srv
+[39.033s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetPayload_Request.msg
+[39.034s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetPayload_Response.msg
+[39.034s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetSpeedSliderFraction.srv
+[39.034s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetSpeedSliderFraction_Request.msg
+[39.034s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetSpeedSliderFraction_Response.msg
+[39.034s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetIO.srv
+[39.035s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetIO_Request.msg
+[39.035s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/srv/SetIO_Response.msg
+[39.035s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ament_index/resource_index/package_run_dependencies/ur_msgs
+[39.035s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ament_index/resource_index/parent_prefix_path/ur_msgs
+[39.036s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/environment/ament_prefix_path.sh
+[39.036s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/environment/ament_prefix_path.dsv
+[39.036s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/environment/path.sh
+[39.036s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/environment/path.dsv
+[39.036s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/local_setup.bash
+[39.037s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/local_setup.sh
+[39.037s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/local_setup.zsh
+[39.037s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/local_setup.dsv
+[39.037s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/package.dsv
+[39.038s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ament_index/resource_index/packages/ur_msgs
+[39.038s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/export_ur_msgs__rosidl_generator_cExport.cmake
+[39.038s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/export_ur_msgs__rosidl_generator_cExport-noconfig.cmake
+[39.038s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/export_ur_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[39.039s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/export_ur_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[39.039s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/export_ur_msgs__rosidl_generator_cppExport.cmake
+[39.040s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/export_ur_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[39.040s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/export_ur_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[39.040s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_introspection_cExport.cmake
+[39.040s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[39.041s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_cExport.cmake
+[39.041s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[39.041s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[39.042s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.042s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_cppExport.cmake
+[39.042s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[39.043s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/export_ur_msgs__rosidl_generator_pyExport.cmake
+[39.043s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/export_ur_msgs__rosidl_generator_pyExport-noconfig.cmake
+[39.043s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/rosidl_cmake-extras.cmake
+[39.043s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.044s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.044s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[39.044s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[39.044s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.045s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.045s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgsConfig.cmake
+[39.045s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/cmake/ur_msgsConfig-version.cmake
+[39.046s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_msgs/share/ur_msgs/package.xml
+[39.050s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_msgs

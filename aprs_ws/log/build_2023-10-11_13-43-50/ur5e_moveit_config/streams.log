@@ -1,0 +1,68 @@
+[0.233s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur5e_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/robots/ur5e/ur5e_moveit_config -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur5e_moveit_config
+[0.330s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.649s] -- Configuring done
+[0.655s] -- Generating done
+[0.657s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/ur5e_moveit_config
+[0.836s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur5e_moveit_config' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/robots/ur5e/ur5e_moveit_config -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur5e_moveit_config
+[0.839s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur5e_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur5e_moveit_config -- -j16 -l16
+[0.932s] Built target ament_cmake_python_copy_ur5e_moveit_config
+[1.192s] running egg_info
+[1.194s] writing ur5e_moveit_config.egg-info/PKG-INFO
+[1.194s] writing dependency_links to ur5e_moveit_config.egg-info/dependency_links.txt
+[1.194s] writing top-level names to ur5e_moveit_config.egg-info/top_level.txt
+[1.199s] reading manifest file 'ur5e_moveit_config.egg-info/SOURCES.txt'
+[1.200s] writing manifest file 'ur5e_moveit_config.egg-info/SOURCES.txt'
+[1.247s] running install_scripts
+[1.250s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.250s]   warnings.warn(
+[1.271s] Built target ament_cmake_python_build_ur5e_moveit_config_egg
+[1.279s] running egg_info
+[1.280s] writing ur5e_moveit_config.egg-info/PKG-INFO
+[1.280s] writing dependency_links to ur5e_moveit_config.egg-info/dependency_links.txt
+[1.280s] writing top-level names to ur5e_moveit_config.egg-info/top_level.txt
+[1.282s] reading manifest file 'ur5e_moveit_config.egg-info/SOURCES.txt'
+[1.283s] writing manifest file 'ur5e_moveit_config.egg-info/SOURCES.txt'
+[1.323s] Built target ament_cmake_python_build_ur5e_moveit_config_scripts
+[1.590s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur5e_moveit_config' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur5e_moveit_config -- -j16 -l16
+[1.941s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur5e_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur5e_moveit_config
+[2.088s] -- Install configuration: ""
+[2.089s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config
+[2.090s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/ompl_planning.yaml
+[2.090s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/joint_limits.yaml
+[2.090s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/ur_servo.yaml
+[2.090s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/kinematics.yaml
+[2.091s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/config/controllers.yaml
+[2.091s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/launch
+[2.091s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/launch/ur_moveit.launch.py
+[2.091s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/srdf
+[2.091s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/srdf/ur.srdf
+[2.091s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/rviz
+[2.091s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/rviz/moveit.rviz
+[2.091s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/pythonpath.sh
+[2.092s] -- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/pythonpath.dsv
+[2.092s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info
+[2.092s] -- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.092s] -- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info/top_level.txt
+[2.092s] -- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info/PKG-INFO
+[2.092s] -- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.093s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/lib/ur5e_moveit_config/
+[2.093s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config
+[2.093s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config/parameters.py
+[2.093s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config/__init__.py
+[2.093s] Listing '/workspaces/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages/ur5e_moveit_config'...
+[2.093s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur5e_moveit_config
+[2.094s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur5e_moveit_config
+[2.094s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/ament_prefix_path.sh
+[2.094s] -- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/ament_prefix_path.dsv
+[2.094s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/path.sh
+[2.094s] -- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/environment/path.dsv
+[2.094s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/local_setup.bash
+[2.094s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/local_setup.sh
+[2.094s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/local_setup.zsh
+[2.094s] -- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/local_setup.dsv
+[2.094s] -- Installing: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/package.dsv
+[2.094s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ament_index/resource_index/packages/ur5e_moveit_config
+[2.094s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/cmake/ur5e_moveit_configConfig.cmake
+[2.095s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/cmake/ur5e_moveit_configConfig-version.cmake
+[2.096s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur5e_moveit_config/share/ur5e_moveit_config/package.xml
+[2.219s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur5e_moveit_config' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur5e_moveit_config

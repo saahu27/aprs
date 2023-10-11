@@ -1,0 +1,22 @@
+[0.545s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_gazebo -- -j16 -l16
+[0.675s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_gazebo -- -j16 -l16
+[0.789s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_gazebo
+[0.831s] -- Install configuration: ""
+[0.831s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/launch
+[0.831s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/launch/aprs.launch.py
+[0.831s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/package_run_dependencies/aprs_gazebo
+[0.831s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/parent_prefix_path/aprs_gazebo
+[0.831s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/ament_prefix_path.sh
+[0.831s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/ament_prefix_path.dsv
+[0.833s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/path.sh
+[0.834s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/path.dsv
+[0.834s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.bash
+[0.834s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.sh
+[0.834s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.zsh
+[0.835s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.dsv
+[0.835s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/package.dsv
+[0.835s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/packages/aprs_gazebo
+[0.835s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/cmake/aprs_gazeboConfig.cmake
+[0.835s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/cmake/aprs_gazeboConfig-version.cmake
+[0.836s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/package.xml
+[0.945s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_gazebo

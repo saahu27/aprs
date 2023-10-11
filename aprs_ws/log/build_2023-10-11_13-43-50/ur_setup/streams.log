@@ -1,0 +1,60 @@
+[0.454s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/ur_setup -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur_setup
+[0.582s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.626s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.637s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.669s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.680s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.687s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.715s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.797s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.809s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.880s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.883s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.135s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.296s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.373s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.429s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.581s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.197s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.636s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.912s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.254s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.316s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.317s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspaces/aprs/aprs_ws/src/ur_setup/include>
+[4.317s] -- Configured cppcheck exclude dirs and/or files: 
+[4.317s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.317s] -- Added test 'lint_cmake' to check CMake code style
+[4.317s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.318s] -- Added test 'uncrustify' to check C / C++ code style
+[4.318s] -- Configured uncrustify additional arguments: 
+[4.318s] -- Added test 'xmllint' to check XML markup files
+[4.319s] -- Configuring done
+[4.351s] -- Generating done
+[4.354s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/ur_setup
+[4.485s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/ur_setup -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/ur_setup
+[4.485s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_setup -- -j16 -l16
+[4.540s] [35m[1mConsolidate compiler generated dependencies of target ur_setup[0m
+[4.575s] [100%] Built target ur_setup
+[4.593s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_setup -- -j16 -l16
+[4.620s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_setup
+[4.629s] -- Install configuration: ""
+[4.629s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup//launch
+[4.629s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup//launch/ur_setup.launch.py
+[4.630s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/lib/ur_setup/ur_setup
+[4.630s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/package_run_dependencies/ur_setup
+[4.630s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/parent_prefix_path/ur_setup
+[4.630s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/ament_prefix_path.sh
+[4.630s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/ament_prefix_path.dsv
+[4.630s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/path.sh
+[4.630s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/path.dsv
+[4.630s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.bash
+[4.630s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.sh
+[4.631s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.zsh
+[4.631s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.dsv
+[4.631s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/package.dsv
+[4.631s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/packages/ur_setup
+[4.631s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/cmake/ur_setupConfig.cmake
+[4.631s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/cmake/ur_setupConfig-version.cmake
+[4.631s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/package.xml
+[4.634s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_setup

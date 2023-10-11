@@ -1,0 +1,15 @@
+{
+  "package_name": "ur_msgs",
+  "non_idl_tuples": [
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:msg/Analog.msg",
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:msg/Digital.msg",
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:msg/IOStates.msg",
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:msg/RobotStateRTMsg.msg",
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:msg/MasterboardDataMsg.msg",
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:msg/RobotModeDataMsg.msg",
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:msg/ToolDataMsg.msg",
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:srv/SetPayload.srv",
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:srv/SetSpeedSliderFraction.srv",
+    "/workspaces/aprs/aprs_ws/src/ur_msgs:srv/SetIO.srv"
+  ]
+}
