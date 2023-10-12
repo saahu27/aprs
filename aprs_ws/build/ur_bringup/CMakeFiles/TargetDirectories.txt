@@ -1,9 +1,0 @@
-/workspaces/aprs/aprs_ws/build/ur_bringup/CMakeFiles/uninstall.dir
-/workspaces/aprs/aprs_ws/build/ur_bringup/CMakeFiles/ur_bringup_uninstall.dir
-/workspaces/aprs/aprs_ws/build/ur_bringup/CMakeFiles/test.dir
-/workspaces/aprs/aprs_ws/build/ur_bringup/CMakeFiles/edit_cache.dir
-/workspaces/aprs/aprs_ws/build/ur_bringup/CMakeFiles/rebuild_cache.dir
-/workspaces/aprs/aprs_ws/build/ur_bringup/CMakeFiles/list_install_components.dir
-/workspaces/aprs/aprs_ws/build/ur_bringup/CMakeFiles/install.dir
-/workspaces/aprs/aprs_ws/build/ur_bringup/CMakeFiles/install/local.dir
-/workspaces/aprs/aprs_ws/build/ur_bringup/CMakeFiles/install/strip.dir

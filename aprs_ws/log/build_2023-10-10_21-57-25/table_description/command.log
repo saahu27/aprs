@@ -1,6 +1,0 @@
-Invoking command in '/workspaces/aprs/aprs_ws/build/table_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/environment/table_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/table_description
-Invoked command in '/workspaces/aprs/aprs_ws/build/table_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/environment/table_description -DBUILD_TESTING=ON -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/table_description
-Invoking command in '/workspaces/aprs/aprs_ws/build/table_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/table_description -- -j16 -l16
-Invoked command in '/workspaces/aprs/aprs_ws/build/table_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/table_description -- -j16 -l16
-Invoking command in '/workspaces/aprs/aprs_ws/build/table_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/table_description
-Invoked command in '/workspaces/aprs/aprs_ws/build/table_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/table_description

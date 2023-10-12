@@ -18,10 +18,10 @@ find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 
 # Include Cpp "include" directory
-# include_directories(
-#   include/aprs_gazebo
-#   ${GAZEBO_INCLUDE_DIRS}
-# )
+include_directories(
+  include/aprs_gazebo
+  ${GAZEBO_INCLUDE_DIRS}
+)
 
 # Create Cpp executable
 # add_executable(cpp_executable src/cpp_node.cpp)
@@ -83,12 +83,12 @@ install(DIRECTORY
 
 
 # Install Python modules
-# ament_python_install_package(${PROJECT_NAME} SCRIPTS_DESTINATION lib/${PROJECT_NAME})
+ament_python_install_package(${PROJECT_NAME} SCRIPTS_DESTINATION lib/${PROJECT_NAME})
 
 # Install Python executables
-# install(PROGRAMS
-
-#   DESTINATION lib/${PROJECT_NAME}
-# )
+install(PROGRAMS
+  nodes/controller_switcher.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()

@@ -1,4 +1,0 @@
-source;share/ur_gz/environment/ament_prefix_path.sh
-source;share/ur_gz/environment/path.sh
-source;share/ur_gz/environment/ur_gz.sh
-source;share/ur_gz/environment/ur_gz.dsv

@@ -49,7 +49,8 @@ def launch_setup(context, *args, **kwargs):
     controller_names = [
         'joint_state_broadcaster',
         'ur_robot_controller',
-        'franka_robot_controller'
+        'franka_robot_controller',
+        'gripper_trajectory_controller'
     ]
 
     controller_spawner_nodes = []
@@ -57,7 +58,7 @@ def launch_setup(context, *args, **kwargs):
         if controller == 'joint_state_broadcaster':
             args = [controller]
         else:
-            args = [controller, '--stopped']
+            args = [controller, '--inactive']
 
         controller_spawner_nodes.append(
             Node(
@@ -71,30 +72,39 @@ def launch_setup(context, *args, **kwargs):
             )
         )
 
-        gz = IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                [os.path.join(get_package_share_directory('ros_gz_sim'),
-                              'launch', 'gz_sim.launch.py')]),
-            launch_arguments=[('gz_args', [' -r -v 4 empty.sdf'])])
-        
-        gz_spawn_entity = Node(
-        package='ros_gz_sim',
-        executable='create',
-        parameters=[
-            {'robot_description': robot_description_content}],
-        output='screen',
-        arguments=['-name', 'aprs',
-                   '-param', 'robot_description'],
+    gz = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            [os.path.join(get_package_share_directory('ros_gz_sim'),
+                            'launch', 'gz_sim.launch.py')]),
+        launch_arguments=[('gz_args', [' -r -v 4 empty.sdf'])])
+    
+    gz_spawn_entity = Node(
+    package='ros_gz_sim',
+    executable='create',
+    parameters=[
+        {'robot_description': robot_description_content}],
+    output='screen',
+    arguments=['-name', 'aprs',
+                '-param', 'robot_description'],
     )
 
-        nodes_to_start = [
-        gz,
-        gz_spawn_entity,
-        robot_state_publisher,
-        *controller_spawner_nodes,
-        ]
+    # Robot Controller Switcher
+    robot_controller_switcher = Node(
+        package='aprs_gazebo',
+        executable='controller_switcher.py',
+        output='screen',
+    )
+
+
+    nodes_to_start = [
+    gz,
+    gz_spawn_entity,
+    robot_state_publisher,
+    robot_controller_switcher,
+    *controller_spawner_nodes
+    ]
         
-        return nodes_to_start
+    return nodes_to_start
         
 def generate_launch_description():
     declared_arguments = []

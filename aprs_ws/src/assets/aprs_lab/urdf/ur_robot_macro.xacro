@@ -2,7 +2,7 @@
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
   <xacro:macro name="aprs_ur_robot" params="">
    <!-- robot name parameter -->
-   <xacro:arg name="name" default="ur"/>
+   <xacro:arg name="name" default="panda"/>
    <!-- import main macro -->
    <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
    <xacro:include filename="$(find vaccum_description)/urdf/vaccum.urdf.xacro"/>

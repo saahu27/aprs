@@ -1,6 +1,0 @@
-Invoking command in '/workspaces/aprs/aprs_ws/build/worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/worlds -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/worlds
-Invoked command in '/workspaces/aprs/aprs_ws/build/worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/assets/worlds -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/worlds
-Invoking command in '/workspaces/aprs/aprs_ws/build/worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/worlds -- -j16 -l16
-Invoked command in '/workspaces/aprs/aprs_ws/build/worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/worlds -- -j16 -l16
-Invoking command in '/workspaces/aprs/aprs_ws/build/worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/worlds
-Invoked command in '/workspaces/aprs/aprs_ws/build/worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/worlds

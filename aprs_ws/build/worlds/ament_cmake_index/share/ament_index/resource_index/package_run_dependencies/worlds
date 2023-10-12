@@ -1,1 +1,0 @@
-gz-sim7;joint_state_publisher_gui;hardware_interface;joint_trajectory_controller;joint_state_broadcaster;launch;launch_ros;robot_state_publisher;ros2_control;ros2_controllers;rclcpp;xacro;urdf;sdformat_urdf;rqt_image_view;rqt_plot;rqt_topic;rviz2;ros_gz_bridge;ros_gz_sim;ros_gz_image;ros_gz_interfaces;ros_gz;gz_ros2_control;ament_lint_auto;ament_lint_common
