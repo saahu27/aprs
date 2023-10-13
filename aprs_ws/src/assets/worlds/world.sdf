@@ -1,0 +1,539 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <world name='aprslab'>
+
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose frame=''>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay>
+          <linear>0</linear>
+          <angular>0</angular>
+        </velocity_decay>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+      </link>
+    </model>
+
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>0</shadows>
+      <grid>false</grid>
+    </scene>
+
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+
+    <state world_name='aprslab'>
+      <!--sim_time>7 000000000</sim_time>
+      <real_time>0 000000000</real_time>
+      <wall_time>1448841404 508559476</wall_time>
+      <iterations>307566</iterations-->
+      <model name='ground_plane'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose frame=''>0 0 10 0 -0 0</pose>
+      </light>
+    </state>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>7.389313 -9.482191 4.921082 0.00 0.613799 2.446580</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+
+
+        <!-- <model name="lrmate">
+            <include>
+                <static>false</static>
+                <uri>model://fanuc_lrmate200id</uri>
+                <pose>-0.169 -1.140 0.934191 0 0 0</pose>
+            </include>
+            <plugin filename="libgzjointcmdplugin.so" name="fanuc_jnts">
+                <topic>~/fanuc/joints</topic>
+                <force_update> 1 </force_update>
+                <finger_joint> fanuc_prism1 </finger_joint>
+                <finger_joint> fanuc_prism2 </finger_joint>
+            </plugin>
+        </model> -->
+
+   <model name="Computer_Table1">
+        <include>
+          <static>true</static>
+          <uri>model://computer_table</uri>
+        </include>
+       <pose frame=''>-2.568999 -6.568235 0 0 0 0</pose>
+      </model>
+
+
+   <model name="Computer_Table2">
+        <include>
+          <static>true</static>
+          <uri>model://computer_table</uri>
+        </include>
+       <pose frame=''>6.535435 -6.578433 0 0 0 1.568747</pose>
+      </model>
+
+
+   <model name="monitor1">
+        <include>
+          <static>true</static>
+          <uri>model://monitor_1</uri>
+        </include>
+       <pose frame=''>0.846932 -3.055306 0.793659 0 0 0</pose>
+      </model>
+
+   <model name="monitor2">
+        <include>
+          <static>true</static>
+          <uri>model://monitor_2</uri>
+        </include>
+       <pose frame=''>1.581318 -3.057039 0.792187 0 0 0</pose>
+      </model>
+
+   <model name="monitor3">
+        <include>
+          <static>true</static>
+          <uri>model://monitor_3</uri>
+        </include>
+       <pose frame=''>2.328654 -3.058509 0.792639 0 0 0</pose>
+      </model>
+
+    <model name="monitor4">
+        <include>
+          <static>true</static>
+          <uri>model://monitor_4</uri>
+        </include>
+       <pose frame=''>3.101792 -2.819043 0.796560 0 0 1.584804</pose>
+      </model>
+
+    <model name="monitor5">
+        <include>
+          <static>true</static>
+          <uri>model://monitor_2</uri>
+        </include>
+       <pose frame=''>3.084432 -1.933557 0.793026 0 0 1.568442</pose>
+      </model>
+
+
+    <model name="computer_case1">
+        <include>
+          <static>true</static>
+          <uri>model://computer_case</uri>
+        </include>
+       <pose frame=''>0.724868 -3.078337 0.002320 0 0 3.134487</pose>
+      </model>
+
+
+    <model name="computer_case2">
+        <include>
+          <static>true</static>
+          <uri>model://computer_case</uri>
+        </include>
+       <pose frame=''>1.575020 -3.076530 0.001695 0 0 -3.133227</pose>
+      </model>
+
+    <model name="computer_case3">
+        <include>
+          <static>true</static>
+          <uri>model://computer_case</uri>
+        </include>
+       <pose frame=''>2.443258 -3.075446 0.001423 0 0 -3.136379</pose>
+      </model>
+
+
+    <model name="computer_case4">
+        <include>
+          <static>true</static>
+          <uri>model://computer_case</uri>
+        </include>
+       <pose frame=''>2.941647 -3.016007 0.000527 0 0 -1.562693</pose>
+      </model>
+
+
+  <model name="computer_case5">
+        <include>
+          <static>true</static>
+          <uri>model://computer_case</uri>
+        </include>
+       <pose frame=''>2.940856 -1.867571 0.000497 0 0 -1.562568</pose>
+      </model>
+
+
+  <model name="keyboard1">
+        <include>
+          <static>true</static>
+          <uri>model://keyboard</uri>
+        </include>
+       <pose frame=''>0.664424 -3.446298 0.798140 0 0 0</pose>
+      </model>
+
+  <model name="keyboard2">
+        <include>
+          <static>true</static>
+          <uri>model://keyboard</uri>
+        </include>
+       <pose frame=''>1.419794 -3.449152 0.789514 0 0 0</pose>
+      </model>
+
+
+  <model name="keyboard3">
+        <include>
+          <static>true</static>
+          <uri>model://keyboard</uri>
+        </include>
+       <pose frame=''>2.169536 -3.446143 0.797640 0 0 0</pose>
+      </model>
+
+
+  <model name="keyboard4">
+        <include>
+          <static>true</static>
+          <uri>model://keyboard</uri>
+        </include>
+       <pose frame=''>3.314045 -3.044487 0.797640 0 0 1.570936</pose>
+      </model>
+
+
+   <model name="keyboard5">
+        <include>
+          <static>true</static>
+          <uri>model://keyboard</uri>
+        </include>
+       <pose frame=''>3.305567 -2.067268 0.789514 0 0 1.575841</pose>
+      </model>
+
+
+   <model name="mouse_pad1">
+        <include>
+          <static>true</static>
+          <uri>model://mouse_pad</uri>
+        </include>
+       <pose frame=''>0.899351 -3.366318 0.792325 0 0 0</pose>
+      </model>
+
+
+
+   <model name="mouse_pad2">
+        <include>
+          <static>true</static>
+          <uri>model://mouse_pad</uri>
+        </include>
+       <pose frame=''>1.641818 -3.368774 0.792348 0 0 0</pose>
+      </model>
+
+
+   <model name="mouse_pad3">
+        <include>
+          <static>true</static>
+          <uri>model://mouse_pad</uri>
+        </include>
+       <pose frame=''>2.393255 -3.369696 0.791977 0 0 0</pose>
+      </model>
+
+
+  <model name="mouse_pad4">
+        <include>
+          <static>true</static>
+          <uri>model://mouse_pad</uri>
+        </include>
+       <pose frame=''>3.461037 -2.771012 0.791977 0 0 1.571706</pose>
+      </model>
+
+  <model name="mouse_pad5">
+        <include>
+          <static>true</static>
+          <uri>model://mouse_pad</uri>
+        </include>
+       <pose frame=''>3.462044 -1.791097 0.792348 0 0 1.575830</pose>
+      </model>
+
+  <model name="mouse1">
+        <include>
+          <static>true</static>
+          <uri>model://mouse</uri>
+        </include>
+       <pose frame=''>1.177393 -3.355958 0.792933 0 0 1.105599</pose>
+      </model>
+
+
+
+  <model name="mouse2">
+        <include>
+          <static>true</static>
+          <uri>model://mouse</uri>
+        </include>
+       <pose frame=''>1.912844 -3.345191 0.792933 0 0 1.105599</pose>
+      </model>
+
+
+ <model name="mouse3">
+        <include>
+          <static>true</static>
+          <uri>model://mouse</uri>
+        </include>
+       <pose frame=''>2.646565 -3.353451 0.792933 0 0 1.105599</pose>
+      </model>
+
+
+  <model name="mouse4">
+        <include>
+          <static>true</static>
+          <uri>model://mouse</uri>
+        </include>
+       <pose frame=''>3.373104 -2.501179 0.792933 0 0 2.753324</pose>
+      </model>
+
+
+
+ <model name="mouse5">
+        <include>
+          <static>true</static>
+          <uri>model://mouse</uri>
+        </include>
+       <pose frame=''>3.384619 -1.504131 0.792933 0 0 2.753324</pose>
+      </model>
+
+
+ <!-- <model name="TV">
+        <include>
+          <static>true</static>
+          <uri>model://TV</uri>
+        </include>
+       <pose frame=''>-3.174602 -9.475804 0 0 0 1.571651</pose>
+      </model> -->
+
+
+  <model name="Conference_Table">
+        <include>
+          <static>true</static>
+          <uri>model://conference_table</uri>
+        </include>
+       <pose frame=''>2.841950 -6.686168 0 0 0 1.574130</pose>
+      </model>
+
+
+   <!-- <model name="Cabinet">
+        <include>
+          <static>true</static>
+          <uri>model://cabinet_test</uri>
+        </include>
+       <pose frame=''>-3.238440 -10.412200 0 0 0 1.576210</pose>
+      </model> -->
+
+
+  <model name="chair1">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>0.126830 -7.044606 0 0 0 -3.139429</pose>
+      </model>
+
+ <model name="chair2">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>0.912117 -7.043122 0 0 0 -3.139429</pose>
+      </model>
+
+ <model name="chair3">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>1.694904 -7.040320 0 0 0 -3.139429</pose>
+      </model>
+
+ <model name="chair4">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>2.458971 -7.041728 0 0 0 -3.139429</pose>
+      </model>
+
+ <model name="chair5">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>3.112309 -6.178398 0 0 0 -1.579021</pose>
+      </model>
+
+ <model name="chair6">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>0.146723 -5.280884 0 0 0 0.001720</pose>
+      </model>
+
+ <model name="chair7">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>0.899159 -5.272725 0 0 0 0.008982</pose>
+      </model>
+
+ <model name="chair8">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>1.664302 -5.252617 0 0 0 0.034372</pose>
+      </model>
+
+
+ <model name="chair9">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>2.448952 -5.247874 0 0 0 0.003686</pose>
+      </model>
+
+ <model name="chair10">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>1.038385 -3.859772 0 0 0 -3.118850</pose>
+      </model>
+
+
+
+ <model name="chair11">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>1.940029 -3.859193 0 0 0 -3.126523</pose>
+      </model>
+
+
+
+ <model name="chair12">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>3.802846 -2.925306 0 0 0 -1.557395</pose>
+      </model>
+
+
+
+ <model name="chair13">
+        <include>
+          <static>true</static>
+          <uri>model://chair</uri>
+        </include>
+       <pose frame=''>3.807487 -1.955593 0 0 0 -1.570163</pose>
+      </model>
+
+
+  <include>
+      <uri>model://conveyor</uri>
+      <pose>-1.869440 -6.984981 0.0700 0 0 0</pose>
+  </include>
+
+
+   <!--include>
+      <uri>model://conveyor_belt</uri>
+      <pose>-0.022178 -0.493344 0.91 0 0 0</pose>
+  </include-->
+
+
+
+
+  </world>
+</sdf>

@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/saahu27/aprs/aprs_ws/install/ur_calibration/include/**",
+        "/home/saahu27/aprs/aprs_ws/install/ur_robot_driver/include/**",
+        "/home/saahu27/aprs/aprs_ws/install/ur_controllers/include/**",
+        "/home/saahu27/aprs/aprs_ws/install/ur_msgs/include/**",
+        "/home/saahu27/aprs/aprs_ws/install/ur_dashboard_msgs/include/**",
+        "/home/saahu27/aprs/aprs_ws/install/ur_client_library/include/**",
+        "/home/saahu27/aprs/aprs_ws/install/gz_ros2_control/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/saahu27/aprs/aprs_ws/src/Universal_Robots_Client_Library/include/**",
+        "/home/saahu27/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_calibration/include/**",
+        "/home/saahu27/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/**",
+        "/home/saahu27/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver/include/**",
+        "/home/saahu27/aprs/aprs_ws/src/gz_ros2_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
