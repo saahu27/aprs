@@ -17,7 +17,7 @@ Press ` Ctrl + Shft + P ' choose rebuild and reopen containers
 
 Environment :
 
-1. Ros2 Rolling Ridley
+1. Ros2 humble
 2. Gazebo Garden
 
 ## Reuse
@@ -50,8 +50,6 @@ ros2 launch gz_ros2_control_demos urrobot.launch.py
 2. cd ariac_ws
 3. ```./bridge.sh```
 4. ```. install/setup.bash```
-
-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
 
 # Launch simulation
 
