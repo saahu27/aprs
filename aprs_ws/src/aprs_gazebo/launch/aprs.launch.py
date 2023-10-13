@@ -16,12 +16,6 @@ from launch.conditions import IfCondition
 from ament_index_python.packages import get_package_share_directory, PackageNotFoundError
 
 def launch_setup(context, *args, **kwargs):
-    # Set the path to this package.
-    pkg_share = FindPackageShare(package='worlds').find('worlds')
-
-    # Set the path to the world file
-    world_file_name = 'demo_world'
-    world_path = os.path.join(pkg_share, 'worlds', world_file_name)
 
     robot_description_content = Command(
         [
@@ -77,6 +71,12 @@ def launch_setup(context, *args, **kwargs):
             [os.path.join(get_package_share_directory('ros_gz_sim'),
                             'launch', 'gz_sim.launch.py')]),
         launch_arguments=[('gz_args', [' -r -v 4 empty.sdf'])])
+    
+    # launch_arguments={'gz_args': PathJoinSubstitution([
+        #     pkg_project_gazebo,
+        #     'worlds',
+        #     'diff_drive.sdf'
+        # ])}.items(),
     
     gz_spawn_entity = Node(
     package='ros_gz_sim',
