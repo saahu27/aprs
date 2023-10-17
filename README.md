@@ -56,3 +56,10 @@ ros2 launch gz_ros2_control_demos urrobot.launch.py
 ```
 ros2 launch ariac_gz ariac.launch.py
 ```
+
+
+##Bugs
+```
+sudo chmod 666 /dev/dri/renderD129
+sudo chmod 666 /dev/dri/renderD128
+```

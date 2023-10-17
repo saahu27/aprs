@@ -28,20 +28,20 @@ class RobotControllerSwitcher(Node):
             except KeyboardInterrupt:
                 break
 
-            self.request.start_controllers.clear() # type: ignore
+            self.request.activate_controllers.clear() # type: ignore
             self.request.stop_controllers.clear() # type: ignore
 
             if not self.ur_robot_state:
                 for controller in self.ur_robot_controllers:
-                    self.request.start_controllers.append(controller) # type: ignore
+                    self.request.activate_controllers.append(controller) # type: ignore
                     self.ur_robot_state = True
             
             if not self.franka_robot_state:
                 for controller in self.franka_robot_controllers:
-                    self.request.start_controllers.append(controller) # type: ignore
+                    self.request.activate_controllers.append(controller) # type: ignore
                     self.franka_robot_state = True
 
-            if self.request.start_controllers or self.request.stop_controllers:
+            if self.request.activate_controllers or self.request.stop_controllers:
                 future = self.controller_switcher.call_async(self.request)
 
                 rclpy.spin_until_future_complete(self, future)

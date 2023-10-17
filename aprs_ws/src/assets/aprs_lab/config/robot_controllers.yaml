@@ -1,7 +1,7 @@
 controller_manager:
   ros__parameters:
 
-    update_rate: 1000 # Hz
+    update_rate: 100 # Hz
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
@@ -29,7 +29,7 @@ ur_robot_controller:
     state_interfaces:
       - position
       - velocity
-    state_publish_rate: 1000.0
+    state_publish_rate: 100.0
     action_monitor_rate: 20.0
     allow_partial_joints_goal: false
     constraints:
@@ -57,7 +57,7 @@ franka_robot_controller:
     state_interfaces:
       - position
       - velocity
-    state_publish_rate: 1000.0
+    state_publish_rate: 100.0
     action_monitor_rate: 20.0
 
 gripper_trajectory_controller:
