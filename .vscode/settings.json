@@ -85,7 +85,8 @@
     },
     "python.analysis.extraPaths": [
         "/opt/ros/rolling/lib/python3.8/site-packages",
-        "./aprs_ws/src/assets/robots/ur5e/ur5e_moveit_config"
+        "./aprs_ws/src/assets/robots/ur5e/ur5e_moveit_config",
+        "./aprs_ws/src/aprs_moveit_config"
     ],
     "vscode-coverage-highlighter.files": [
         "build/*/coverage*.info"

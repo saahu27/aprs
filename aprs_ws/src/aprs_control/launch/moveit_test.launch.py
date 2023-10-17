@@ -1,0 +1,34 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.actions import IncludeLaunchDescription
+from launch_ros.substitutions import FindPackageShare
+from launch.substitutions import Command, FindExecutable, PathJoinSubstitution
+from aprs_moveit_config.parameters import generate_parameters
+
+from ament_index_python.packages import get_package_share_directory
+
+
+def generate_launch_description():
+    
+
+
+    # Robot Commander Node
+    robot_commander = Node(
+        package="aprs_control",
+        executable="moveit_test",
+        output="screen",
+        parameters=generate_parameters() )
+
+    # RVIZ 
+    # rviz_config_file = PathJoinSubstitution(
+    #     [FindPackageShare("aprs_moveit_config"), "rviz", "moveit.rviz"] )
+
+    # rviz = Node(
+    #     package="rviz2",
+    #     executable="rviz2",
+    #     parameters= generate_parameters(),
+    #     arguments=['-d', rviz_config_file] )
+
+    # return LaunchDescription([robot_commander, moveit])
+    return LaunchDescription([robot_commander])

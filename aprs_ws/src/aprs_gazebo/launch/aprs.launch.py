@@ -35,6 +35,7 @@ def launch_setup(context, *args, **kwargs):
     robot_state_publisher = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
+        name='robot_state_publisher',
         output="screen",
         parameters=[{'use_sim_time': True},robot_description]
     )
@@ -95,12 +96,29 @@ def launch_setup(context, *args, **kwargs):
         output='screen',
     )
 
+    # Gz - ROS Bridge
+    bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            # Clock (IGN -> ROS2)
+            '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
+            # # Joint states (IGN -> ROS2)
+            # '/world/empty/model/rrbot/joint_state@sensor_msgs/msg/JointState[gz.msgs.Model',
+        ],
+        remappings=[
+            ('/world/empty/dynamic_pose/info', '/joint_states'),
+        ],
+        output='screen'
+    )
+
 
     nodes_to_start = [
     gz,
     gz_spawn_entity,
     robot_state_publisher,
     robot_controller_switcher,
+    bridge,
     *controller_spawner_nodes
     ]
         
