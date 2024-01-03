@@ -1,0 +1,4 @@
+source;share/worlds/environment/ament_prefix_path.sh
+source;share/worlds/environment/path.sh
+source;share/worlds/environment/worlds.sh
+source;share/worlds/environment/worlds.dsv

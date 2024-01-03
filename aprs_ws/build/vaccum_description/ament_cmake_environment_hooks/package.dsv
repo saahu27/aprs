@@ -1,0 +1,4 @@
+source;share/vaccum_description/local_setup.bash
+source;share/vaccum_description/local_setup.dsv
+source;share/vaccum_description/local_setup.sh
+source;share/vaccum_description/local_setup.zsh

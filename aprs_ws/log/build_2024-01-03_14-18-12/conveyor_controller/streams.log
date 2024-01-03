@@ -1,0 +1,23 @@
+[0.667s] Invoking command in '/home/aprs/aprs/aprs_ws/src/aprs-ros-conveyor/conveyor_controller': PYTHONPATH=/home/aprs/aprs/aprs_ws/build/conveyor_controller/prefix_override:/home/aprs/aprs/aprs_ws/install/conveyor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/conveyor_controller build --build-base /home/aprs/aprs/aprs_ws/build/conveyor_controller/build install --record /home/aprs/aprs/aprs_ws/build/conveyor_controller/install.log --single-version-externally-managed
+[0.889s] running egg_info
+[0.889s] writing ../../../build/conveyor_controller/conveyor_controller.egg-info/PKG-INFO
+[0.889s] writing dependency_links to ../../../build/conveyor_controller/conveyor_controller.egg-info/dependency_links.txt
+[0.889s] writing entry points to ../../../build/conveyor_controller/conveyor_controller.egg-info/entry_points.txt
+[0.889s] writing requirements to ../../../build/conveyor_controller/conveyor_controller.egg-info/requires.txt
+[0.891s] writing top-level names to ../../../build/conveyor_controller/conveyor_controller.egg-info/top_level.txt
+[0.892s] reading manifest file '../../../build/conveyor_controller/conveyor_controller.egg-info/SOURCES.txt'
+[0.892s] writing manifest file '../../../build/conveyor_controller/conveyor_controller.egg-info/SOURCES.txt'
+[0.892s] running build
+[0.892s] running build_py
+[0.895s] running install
+[0.895s] running install_lib
+[0.902s] running install_data
+[0.904s] running install_egg_info
+[0.912s] removing '/home/aprs/aprs/aprs_ws/install/conveyor_controller/lib/python3.10/site-packages/conveyor_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.912s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.913s]   warnings.warn(
+[0.913s] Copying ../../../build/conveyor_controller/conveyor_controller.egg-info to /home/aprs/aprs/aprs_ws/install/conveyor_controller/lib/python3.10/site-packages/conveyor_controller-0.0.0-py3.10.egg-info
+[0.915s] running install_scripts
+[0.918s] Installing conveyor_controller script to /home/aprs/aprs/aprs_ws/install/conveyor_controller/lib/conveyor_controller
+[0.918s] writing list of installed files to '/home/aprs/aprs/aprs_ws/build/conveyor_controller/install.log'
+[1.141s] Invoked command in '/home/aprs/aprs/aprs_ws/src/aprs-ros-conveyor/conveyor_controller' returned '0': PYTHONPATH=/home/aprs/aprs/aprs_ws/build/conveyor_controller/prefix_override:/home/aprs/aprs/aprs_ws/install/conveyor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/conveyor_controller build --build-base /home/aprs/aprs/aprs_ws/build/conveyor_controller/build install --record /home/aprs/aprs/aprs_ws/build/conveyor_controller/install.log --single-version-externally-managed

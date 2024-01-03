@@ -1,0 +1,3 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/aprs/aprs/aprs_ws/install/ur_gz/share
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/aprs/aprs/aprs_ws/install/ur_gz/share/ur_gz
+prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib/ur_gz/

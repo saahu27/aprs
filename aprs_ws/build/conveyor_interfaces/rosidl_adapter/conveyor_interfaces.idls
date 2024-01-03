@@ -1,0 +1,3 @@
+/home/aprs/aprs/aprs_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:msg/ConveyorState.idl
+/home/aprs/aprs/aprs_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:srv/EnableConveyor.idl
+/home/aprs/aprs/aprs_ws/build/conveyor_interfaces/rosidl_adapter/conveyor_interfaces:srv/SetConveyorState.idl

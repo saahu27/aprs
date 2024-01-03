@@ -1,0 +1,15 @@
+/home/aprs/aprs/aprs_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/aprs/aprs/aprs_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/environment/path.sh
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/environment/path.dsv
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/local_setup.bash
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/local_setup.sh
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/local_setup.zsh
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/local_setup.dsv
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/package.dsv
+/home/aprs/aprs/aprs_ws/install/ur/share/ament_index/resource_index/packages/ur
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/cmake/urConfig.cmake
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/aprs/aprs/aprs_ws/install/ur/share/ur/package.xml

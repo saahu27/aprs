@@ -1,0 +1,17 @@
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup//launch/franka_setup.launch.py
+/home/aprs/aprs/aprs_ws/install/franka_setup/lib/franka_setup/franka_setup
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/ament_index/resource_index/package_run_dependencies/franka_setup
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/ament_index/resource_index/parent_prefix_path/franka_setup
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/environment/ament_prefix_path.sh
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/environment/ament_prefix_path.dsv
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/environment/path.sh
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/environment/path.dsv
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/local_setup.bash
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/local_setup.sh
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/local_setup.zsh
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/local_setup.dsv
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/package.dsv
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/ament_index/resource_index/packages/franka_setup
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/cmake/franka_setupConfig.cmake
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/cmake/franka_setupConfig-version.cmake
+/home/aprs/aprs/aprs_ws/install/franka_setup/share/franka_setup/package.xml

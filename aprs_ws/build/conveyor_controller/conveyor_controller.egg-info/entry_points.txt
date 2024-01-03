@@ -1,0 +1,3 @@
+[console_scripts]
+conveyor_controller = conveyor_controller.conveyor_controller:main
+

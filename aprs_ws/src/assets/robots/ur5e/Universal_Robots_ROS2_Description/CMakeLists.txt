@@ -17,4 +17,7 @@ if(BUILD_TESTING)
   ament_add_pytest_test(view_ur_launch test/test_view_ur_launch.py)
 endif()
 
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/hooks/${PROJECT_NAME}.dsv.in")
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/hooks/${PROJECT_NAME}.sh.in")
+
 ament_package()
