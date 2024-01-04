@@ -1,3 +1,0 @@
-prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/aprs/aprs/aprs_ws/install/panda_description/share/panda_description
-prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/aprs/aprs/aprs_ws/install/panda_description/share/panda_description/meshes
-prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib/panda_description/

@@ -1,3 +1,0 @@
-# EnableConveyor.srv
-
-bool enable

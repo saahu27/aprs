@@ -1,4 +1,0 @@
-source;share/conveyor_interfaces/local_setup.bash
-source;share/conveyor_interfaces/local_setup.dsv
-source;share/conveyor_interfaces/local_setup.sh
-source;share/conveyor_interfaces/local_setup.zsh

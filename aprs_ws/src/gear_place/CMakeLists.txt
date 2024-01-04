@@ -27,28 +27,9 @@ foreach(Dependency IN ITEMS ${THIS_PACKAGE_INCLUDE_DEPENDS})
   find_package(${Dependency} REQUIRED)
 endforeach()
 
-# add_library(${PROJECT_NAME} SHARED
-#   src/robot_commander.cpp
-# )
-
-# target_include_directories(${PROJECT_NAME} PRIVATE include)
-# ament_target_dependencies(${PROJECT_NAME} ${THIS_PACKAGE_INCLUDE_DEPENDS})
-
-# # Add robot_commander executable
-# add_executable(robot_commander_node nodes/robot_commander_node.cpp)
-# target_include_directories(robot_commander_node PRIVATE include)
-# target_link_libraries(robot_commander_node
-#   ${PROJECT_NAME}
-# )
-# ament_target_dependencies(robot_commander_node ${THIS_PACKAGE_INCLUDE_DEPENDS})
-
-# install(TARGETS robot_commander_node
-#   RUNTIME DESTINATION lib/${PROJECT_NAME}
-# )
-
 # Install Python modules
-#ament_python_install_package(${PROJECT_NAME} SCRIPTS_DESTINATION lib/${PROJECT_NAME})
-ament_python_install_package(${PROJECT_NAME})
+# ament_python_install_package(${PROJECT_NAME} SCRIPTS_DESTINATION lib/${PROJECT_NAME})
+# ament_python_install_package(${PROJECT_NAME})
 
 # Install Python executables
 install(PROGRAMS
@@ -61,23 +42,31 @@ DESTINATION lib/${PROJECT_NAME}
 #   ARCHIVE DESTINATION lib
 # )
 
-# install(DIRECTORY include/
-#   DESTINATION include
-# )
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/
+)
 
 
-# install(DIRECTORY
-#   launch
-#   DESTINATION share/${PROJECT_NAME}
-# )
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # uncomment the line when a copyright and license is not present in all source files
+  #set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # uncomment the line when this package is not in a git repo
+  #set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
 
-ament_export_libraries(
-  ${PROJECT_NAME}
-)
-ament_export_include_directories(
-  include
-)
-ament_export_dependencies(
-  ${THIS_PACKAGE_INCLUDE_DEPENDS}
-)
 ament_package()
+# ament_export_libraries(
+#   ${PROJECT_NAME}
+# )
+# ament_export_include_directories(
+#   include
+# )
+# ament_export_dependencies(
+#   ${THIS_PACKAGE_INCLUDE_DEPENDS}
+# )
+# ament_package()

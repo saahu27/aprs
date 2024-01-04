@@ -1,9 +1,0 @@
-/home/aprs/aprs/aprs_ws/build/worlds/CMakeFiles/uninstall.dir
-/home/aprs/aprs/aprs_ws/build/worlds/CMakeFiles/worlds_uninstall.dir
-/home/aprs/aprs/aprs_ws/build/worlds/CMakeFiles/test.dir
-/home/aprs/aprs/aprs_ws/build/worlds/CMakeFiles/edit_cache.dir
-/home/aprs/aprs/aprs_ws/build/worlds/CMakeFiles/rebuild_cache.dir
-/home/aprs/aprs/aprs_ws/build/worlds/CMakeFiles/list_install_components.dir
-/home/aprs/aprs/aprs_ws/build/worlds/CMakeFiles/install.dir
-/home/aprs/aprs/aprs_ws/build/worlds/CMakeFiles/install/local.dir
-/home/aprs/aprs/aprs_ws/build/worlds/CMakeFiles/install/strip.dir

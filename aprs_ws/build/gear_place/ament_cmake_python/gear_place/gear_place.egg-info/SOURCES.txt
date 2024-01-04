@@ -1,9 +1,0 @@
-setup.py
-gear_place/__init__.py
-gear_place/find_object.py
-gear_place/find_object_color.py
-gear_place/object_depth.py
-gear_place.egg-info/PKG-INFO
-gear_place.egg-info/SOURCES.txt
-gear_place.egg-info/dependency_links.txt
-gear_place.egg-info/top_level.txt

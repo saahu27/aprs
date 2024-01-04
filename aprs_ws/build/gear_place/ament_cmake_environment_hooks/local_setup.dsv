@@ -1,4 +1,0 @@
-source;share/gear_place/environment/ament_prefix_path.sh
-source;share/gear_place/environment/library_path.sh
-source;share/gear_place/environment/path.sh
-source;share/gear_place/environment/pythonpath.sh
