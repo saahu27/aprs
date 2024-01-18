@@ -2,7 +2,7 @@ import cv2
 from rclpy.node import Node
 from math import sqrt
 import numpy as np
-
+from rclpy.qos import qos_profile_sensor_data
 from sensor_msgs.msg import Image  # msg for recieving the image
 
 from cv_bridge import (
@@ -24,7 +24,7 @@ class FindObject(Node):
         self.thresh_image = None
         self.declare_parameter("thresh_value", 50)
         self.subscription = self.create_subscription(
-            Image, "/camera/depth/image_rect_raw", self.listener_callback, 1
+            Image, "/camera/camera/depth/image_rect_raw", self.listener_callback, qos_profile_sensor_data
         )
         self.subscription  # prevent unused variable warning
 

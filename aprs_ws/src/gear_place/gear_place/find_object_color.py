@@ -25,7 +25,7 @@ class FindObjectColor(Node):
         self.declare_parameter("thresh_value", 50)
         self.subscription = self.create_subscription(
             Image,
-            '/camera/color/image_raw',
+            '/camera/camera/color/image_raw',
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning

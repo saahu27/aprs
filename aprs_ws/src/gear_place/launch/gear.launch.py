@@ -16,7 +16,7 @@ from launch_ros.actions import Node
 import xacro
 from ament_index_python.packages import get_package_share_directory
 from launch.substitutions import Command, FindExecutable, LaunchConfiguration, PathJoinSubstitution
-
+from launch.actions import DeclareLaunchArgument, ExecuteProcess, IncludeLaunchDescription
 
 def launch_setup(context, *args, **kwargs):
     # Generate robot description
@@ -190,6 +190,18 @@ def launch_setup(context, *args, **kwargs):
             "ur_type": "ur5e",
         }.items(),
     )
+
+    moveit = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            [FindPackageShare("ur_moveit_config"), "/launch", "/ur_moveit.launch.py"]
+        ),
+        launch_arguments={
+            "robot_ip": "192.168.0.1",
+            "ur_type": "ur5e",
+            "rviz":"true"
+        }.items(),
+    )
+
     # Camera
     realsense = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -239,11 +251,21 @@ def launch_setup(context, *args, **kwargs):
     #     output="screen"
     # )
 
+    ur_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=[
+            "scaled_joint_trajectory_controller"
+        ],
+    )
+
     nodes_to_start = [
         robot_state_publisher,
         realsense,
         rviz_node,
-        ur_robot_driver
+        ur_robot_driver,
+        moveit,
+        ur_controller_spawner
     ]
 
     return nodes_to_start
