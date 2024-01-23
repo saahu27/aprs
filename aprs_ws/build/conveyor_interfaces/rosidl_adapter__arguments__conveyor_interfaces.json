@@ -1,0 +1,8 @@
+{
+  "package_name": "conveyor_interfaces",
+  "non_idl_tuples": [
+    "/home/aprs/aprs/aprs_ws/src/aprs-ros-conveyor/conveyor_interfaces:msg/ConveyorState.msg",
+    "/home/aprs/aprs/aprs_ws/src/aprs-ros-conveyor/conveyor_interfaces:srv/EnableConveyor.srv",
+    "/home/aprs/aprs/aprs_ws/src/aprs-ros-conveyor/conveyor_interfaces:srv/SetConveyorState.srv"
+  ]
+}

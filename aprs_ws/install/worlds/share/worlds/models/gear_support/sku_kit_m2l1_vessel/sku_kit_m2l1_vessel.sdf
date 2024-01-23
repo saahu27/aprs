@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.5">
+   <model name="sku_kit_m2l1_vessel">
+      <static>true</static>
+      <link name="link1">
+        <inertial>
+            <mass>0.39</mass>
+            <inertia>
+               <ixx>8.54977215e+01</ixx>
+               <ixy>5.18963385e-03</ixy>
+               <ixz>-6.49974690e-05</ixz>
+               <iyy>7.01009727e+01</iyy>
+               <iyz>-7.13569718e-02</iyz>
+               <izz>1.54056453e+02</izz>
+            </inertia>
+         </inertial>
+         <collision name="collision1">
+            <pose>0 0 0.0 0 0 0</pose>
+            <geometry>
+               <mesh>
+                  <scale>1 1 1</scale>
+                  <uri>model://gear_support/meshes/newKitTray_1Large_2Medium_Centered_ZeroZmin.stl</uri>
+               </mesh>
+            </geometry>
+         </collision>
+         <visual name="visual1">
+            <pose>0 0 0 0 0 0</pose>
+            <geometry>
+               <mesh>
+                  <scale>1 1 1</scale>
+                  <uri>model://gear_support/meshes/newKitTray_1Large_2Medium_Centered_ZeroZmin.stl</uri>
+               </mesh>
+            </geometry>
+            <material>
+               <script>
+                  <name>Gazebo/Red</name>
+                  <uri>__default__</uri>
+               </script>
+            </material>
+         </visual>
+      </link>
+   </model>
+</sdf>
+
+

@@ -1,0 +1,13 @@
+[0.008s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gear_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target gear_ur[0m
+[0.064s] [ 50%] Built target gear_ur
+[0.083s] [ 75%] [32mBuilding CXX object CMakeFiles/gear.dir/src/main.cpp.o[0m
+[2.714s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.714s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:16:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class gearpick[m[K’ {aka ‘[01m[Kclass gearpick[m[K’} has no member named ‘[01m[KFloorRobotSendHome[m[K’; did you mean ‘[01m[KUrRobotSendHome[m[K’?
+[2.715s]    16 |   gear_pick->[01;31m[KFloorRobotSendHome[m[K();
+[2.715s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.715s]       |              [32m[KUrRobotSendHome[m[K
+[4.079s] gmake[2]: *** [CMakeFiles/gear.dir/build.make:76: CMakeFiles/gear.dir/src/main.cpp.o] Error 1
+[4.079s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gear.dir/all] Error 2
+[4.079s] gmake: *** [Makefile:146: all] Error 2
+[4.081s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gear_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16

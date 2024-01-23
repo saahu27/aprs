@@ -1,0 +1,11 @@
+source;share/gear_ur/hook/cmake_prefix_path.ps1
+source;share/gear_ur/hook/cmake_prefix_path.dsv
+source;share/gear_ur/hook/cmake_prefix_path.sh
+source;share/gear_ur/hook/ld_library_path_lib.ps1
+source;share/gear_ur/hook/ld_library_path_lib.dsv
+source;share/gear_ur/hook/ld_library_path_lib.sh
+source;share/gear_ur/local_setup.bash
+source;share/gear_ur/local_setup.dsv
+source;share/gear_ur/local_setup.ps1
+source;share/gear_ur/local_setup.sh
+source;share/gear_ur/local_setup.zsh

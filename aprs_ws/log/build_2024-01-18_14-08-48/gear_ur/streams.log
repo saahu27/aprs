@@ -1,0 +1,68 @@
+[0.234s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gear_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16
+[0.344s] [ 25%] [32mBuilding CXX object CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o[0m
+[4.927s] [ 50%] [32m[1mLinking CXX shared library libgear_ur.so[0m
+[5.041s] [ 50%] Built target gear_ur
+[5.066s] [ 75%] [32mBuilding CXX object CMakeFiles/gear.dir/src/main.cpp.o[0m
+[7.684s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.684s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+[7.684s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:1[m[K:
+[7.684s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.684s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[7.684s]    18 |   RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "Moved to home");
+[7.684s]       |                [01;31m[K^~~~~~~~~~[m[K
+[7.684s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.685s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+[7.685s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:1[m[K:
+[7.685s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[7.685s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[7.685s]       |                 [01;36m[K^~~~~~[m[K
+[7.685s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.685s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+[7.685s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:1[m[K:
+[7.685s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.685s]    18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+[7.685s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[7.685s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.685s]    18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+[7.685s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[7.685s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.685s]    18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+[7.685s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[7.685s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.685s]    18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+[7.685s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[7.685s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.685s]    18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+[7.685s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[9.045s] gmake[2]: *** [CMakeFiles/gear.dir/build.make:76: CMakeFiles/gear.dir/src/main.cpp.o] Error 1
+[9.045s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gear.dir/all] Error 2
+[9.045s] gmake: *** [Makefile:146: all] Error 2
+[9.047s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gear_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16

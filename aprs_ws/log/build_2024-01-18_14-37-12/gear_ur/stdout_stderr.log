@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target gear_ur[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libgear_ur.so[0m
+[ 50%] Built target gear_ur
+[35m[1mConsolidate compiler generated dependencies of target gear[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/gear.dir/src/main.cpp.o[0m
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class gearpick[m[K’ {aka ‘[01m[Kclass gearpick[m[K’} has no member named ‘[01m[KUrRobotWaitForAttach[m[K’
+   18 |   gear_pick->[01;31m[KUrRobotWaitForAttach[m[K(5.00)
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gear.dir/build.make:76: CMakeFiles/gear.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gear.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

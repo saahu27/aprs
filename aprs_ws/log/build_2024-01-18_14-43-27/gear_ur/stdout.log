@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target gear_ur[0m
+[ 50%] Built target gear_ur
+[35m[1mConsolidate compiler generated dependencies of target gear[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/gear.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gear[0m

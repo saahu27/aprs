@@ -1,0 +1,4 @@
+source;share/gear_ur/local_setup.bash
+source;share/gear_ur/local_setup.dsv
+source;share/gear_ur/local_setup.sh
+source;share/gear_ur/local_setup.zsh

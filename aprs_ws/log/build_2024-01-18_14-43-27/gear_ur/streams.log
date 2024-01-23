@@ -1,0 +1,12 @@
+[0.007s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gear_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target gear_ur[0m
+[0.062s] [ 50%] Built target gear_ur
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target gear[0m
+[0.095s] [ 75%] [32mBuilding CXX object CMakeFiles/gear.dir/src/main.cpp.o[0m
+[4.096s] [100%] [32m[1mLinking CXX executable gear[0m
+[4.245s] /usr/bin/ld: libgear_ur.so: undefined reference to `gearpick::QuaternionFromRPY(double, double, double)'
+[4.259s] collect2: error: ld returned 1 exit status
+[4.260s] gmake[2]: *** [CMakeFiles/gear.dir/build.make:343: gear] Error 1
+[4.260s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gear.dir/all] Error 2
+[4.261s] gmake: *** [Makefile:146: all] Error 2
+[4.263s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gear_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16

@@ -1,0 +1,10 @@
+[0.007s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gear_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16
+[0.043s] [ 25%] [32mBuilding CXX object CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o[0m
+[0.048s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K../gear_ur/gear_pick.hpp: No such file or directory
+[0.049s]     1 | #include [01;31m[K<../gear_ur/gear_pick.hpp>[m[K
+[0.049s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.049s] compilation terminated.
+[0.049s] gmake[2]: *** [CMakeFiles/gear_ur.dir/build.make:76: CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o] Error 1
+[0.049s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gear_ur.dir/all] Error 2
+[0.049s] gmake: *** [Makefile:146: all] Error 2
+[0.052s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gear_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16

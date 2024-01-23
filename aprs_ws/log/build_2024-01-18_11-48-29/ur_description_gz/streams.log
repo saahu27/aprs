@@ -1,0 +1,204 @@
+[0.201s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_description_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/assets/robots/ur5e/ur_description_gz -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ur_description_gz
+[1.137s] -- The C compiler identification is GNU 11.4.0
+[1.137s] -- The CXX compiler identification is GNU 11.4.0
+[1.137s] -- Detecting C compiler ABI info
+[1.138s] -- Detecting C compiler ABI info - done
+[1.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.138s] -- Detecting C compile features
+[1.138s] -- Detecting C compile features - done
+[1.138s] -- Detecting CXX compiler ABI info
+[1.138s] -- Detecting CXX compiler ABI info - done
+[1.138s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.138s] -- Detecting CXX compile features
+[1.138s] -- Detecting CXX compile features - done
+[1.138s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.138s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.138s] -- Found ament_cmake_pytest: 1.3.5 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.086s] -- Configuring done
+[2.090s] -- Generating done
+[2.091s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/ur_description_gz
+[2.102s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_description_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/assets/robots/ur5e/ur_description_gz -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ur_description_gz
+[2.112s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_description_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ur_description_gz -- -j16 -l16
+[2.217s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_description_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ur_description_gz -- -j16 -l16
+[2.485s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_description_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ur_description_gz
+[2.512s] -- Install configuration: ""
+[2.512s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config
+[2.513s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5e
+[2.513s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5e/joint_limits.yaml
+[2.513s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5e/visual_parameters.yaml
+[2.513s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5e/physical_parameters.yaml
+[2.513s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5e/default_kinematics.yaml
+[2.513s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur16e
+[2.514s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur16e/joint_limits.yaml
+[2.514s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur16e/visual_parameters.yaml
+[2.514s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur16e/physical_parameters.yaml
+[2.514s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur16e/default_kinematics.yaml
+[2.516s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3
+[2.518s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3/joint_limits.yaml
+[2.519s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3/visual_parameters.yaml
+[2.519s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3/physical_parameters.yaml
+[2.519s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3/default_kinematics.yaml
+[2.520s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10
+[2.520s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10/joint_limits.yaml
+[2.529s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10/visual_parameters.yaml
+[2.529s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10/physical_parameters.yaml
+[2.529s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10/default_kinematics.yaml
+[2.561s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/initial_positions.yaml
+[2.561s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3e
+[2.562s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3e/joint_limits.yaml
+[2.566s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3e/visual_parameters.yaml
+[2.566s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3e/physical_parameters.yaml
+[2.566s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur3e/default_kinematics.yaml
+[2.566s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5
+[2.566s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5/joint_limits.yaml
+[2.566s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5/visual_parameters.yaml
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5/physical_parameters.yaml
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur5/default_kinematics.yaml
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10e
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10e/joint_limits.yaml
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10e/visual_parameters.yaml
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10e/physical_parameters.yaml
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/config/ur10e/default_kinematics.yaml
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/launch
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/launch/view_ur.launch.py
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/collision
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/collision/wrist2.stl
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/collision/forearm.stl
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/collision/wrist1.stl
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/collision/upperarm.stl
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/collision/base.stl
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/collision/shoulder.stl
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/collision/wrist3.stl
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/visual
+[2.567s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/visual/wrist3.dae
+[2.568s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/visual/base.dae
+[2.568s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/visual/shoulder.dae
+[2.574s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/visual/forearm.dae
+[2.579s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/visual/wrist1.dae
+[2.581s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/visual/wrist2.dae
+[2.584s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5e/visual/upperarm.dae
+[2.626s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur16e
+[2.626s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur16e/collision
+[2.626s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur16e/collision/forearm.stl
+[2.626s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur16e/collision/upperarm.stl
+[2.626s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur16e/visual
+[2.626s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur16e/visual/forearm.dae
+[2.626s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur16e/visual/upperarm.dae
+[2.626s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3
+[2.626s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/collision
+[2.627s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/collision/wrist2.stl
+[2.627s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/collision/forearm.stl
+[2.627s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/collision/wrist1.stl
+[2.627s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/collision/upperarm.stl
+[2.651s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/collision/base.stl
+[2.677s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/collision/shoulder.stl
+[2.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/collision/wrist3.stl
+[2.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/visual
+[2.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/visual/wrist3.dae
+[2.721s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/visual/base.dae
+[2.741s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/visual/shoulder.dae
+[2.754s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/visual/forearm.dae
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/visual/wrist1.dae
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/visual/wrist2.dae
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3/visual/upperarm.dae
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/collision
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/collision/wrist2.stl
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/collision/forearm.stl
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/collision/wrist1.stl
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/collision/upperarm.stl
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/collision/base.stl
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/collision/shoulder.stl
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/collision/wrist3.stl
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/visual
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/visual/wrist3.dae
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/visual/base.dae
+[2.806s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/visual/shoulder.dae
+[2.807s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/visual/forearm.dae
+[2.807s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/visual/wrist1.dae
+[2.807s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/visual/wrist2.dae
+[2.807s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10/visual/upperarm.dae
+[2.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e
+[2.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/collision
+[2.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/collision/wrist2.stl
+[2.809s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/collision/forearm.stl
+[2.827s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/collision/wrist1.stl
+[2.827s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/collision/upperarm.stl
+[2.827s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/collision/base.stl
+[2.827s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/collision/shoulder.stl
+[2.827s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/collision/wrist3.stl
+[2.827s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/visual
+[2.827s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/visual/wrist3.dae
+[2.828s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/visual/base.dae
+[2.841s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/visual/shoulder.dae
+[2.859s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/visual/forearm.dae
+[2.862s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/visual/wrist1.dae
+[2.862s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/visual/wrist2.dae
+[2.905s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur3e/visual/upperarm.dae
+[2.996s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5
+[2.996s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/collision
+[2.996s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/collision/wrist2.stl
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/collision/forearm.stl
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/collision/wrist1.stl
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/collision/upperarm.stl
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/collision/base.stl
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/collision/shoulder.stl
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/collision/wrist3.stl
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/visual
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/visual/wrist3.dae
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/visual/base.dae
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/visual/shoulder.dae
+[2.997s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/visual/forearm.dae
+[3.000s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/visual/wrist1.dae
+[3.011s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/visual/wrist2.dae
+[3.017s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur5/visual/upperarm.dae
+[3.046s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e
+[3.046s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/collision
+[3.046s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/collision/wrist2.stl
+[3.047s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/collision/forearm.stl
+[3.048s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/collision/wrist1.stl
+[3.049s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/collision/upperarm.stl
+[3.049s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/collision/base.stl
+[3.052s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/collision/shoulder.stl
+[3.055s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/collision/wrist3.stl
+[3.055s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/visual
+[3.055s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/visual/wrist3.dae
+[3.056s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/visual/base.dae
+[3.070s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/visual/shoulder.dae
+[3.098s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/visual/forearm.dae
+[3.101s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/visual/wrist1.dae
+[3.103s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/visual/wrist2.dae
+[3.106s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/meshes/ur10e/visual/upperarm.dae
+[3.113s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/rviz
+[3.113s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/rviz/view_robot.rviz
+[3.113s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/urdf
+[3.113s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/urdf/ur.urdf.xacro
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/urdf/ur.urdf
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/urdf/ur.ros2_control.xacro
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/urdf/ur_macro.xacro
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/urdf/inc
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/urdf/inc/ur_transmissions.xacro
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/urdf/inc/ur_common.xacro
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/test
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/test/test_view_ur_launch.py
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/test/test_ur_urdf_xacro.py
+[3.116s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/environment/ur_description_gz.dsv
+[3.117s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/environment/ur_description_gz.sh
+[3.117s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ament_index/resource_index/package_run_dependencies/ur_description_gz
+[3.117s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ament_index/resource_index/parent_prefix_path/ur_description_gz
+[3.117s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/environment/ament_prefix_path.sh
+[3.117s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/environment/ament_prefix_path.dsv
+[3.117s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/environment/path.sh
+[3.117s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/environment/path.dsv
+[3.118s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/local_setup.bash
+[3.118s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/local_setup.sh
+[3.118s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/local_setup.zsh
+[3.118s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/local_setup.dsv
+[3.118s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/package.dsv
+[3.118s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ament_index/resource_index/packages/ur_description_gz
+[3.118s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/cmake/ur_description_gzConfig.cmake
+[3.118s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/cmake/ur_description_gzConfig-version.cmake
+[3.118s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz/package.xml
+[3.155s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_description_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ur_description_gz

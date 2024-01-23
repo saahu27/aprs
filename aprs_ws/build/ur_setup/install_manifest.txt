@@ -1,0 +1,17 @@
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup//launch/ur_setup.launch.py
+/home/aprs/aprs/aprs_ws/install/ur_setup/lib/ur_setup/ur_setup
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/package_run_dependencies/ur_setup
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/parent_prefix_path/ur_setup
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/ament_prefix_path.sh
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/ament_prefix_path.dsv
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/path.sh
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/path.dsv
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.bash
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.sh
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.zsh
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.dsv
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/package.dsv
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/packages/ur_setup
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/cmake/ur_setupConfig.cmake
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/cmake/ur_setupConfig-version.cmake
+/home/aprs/aprs/aprs_ws/install/ur_setup/share/ur_setup/package.xml

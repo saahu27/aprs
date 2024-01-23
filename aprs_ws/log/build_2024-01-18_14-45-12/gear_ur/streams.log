@@ -1,0 +1,11 @@
+[0.009s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gear_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target gear_ur[0m
+[0.072s] [ 25%] [32mBuilding CXX object CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o[0m
+[2.704s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K In member function ‘[01m[Kvoid gearpick::AddModelsToPlanningScene()[m[K’:
+[2.704s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:114:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kconveyor_pose[m[K’ was not declared in this scope
+[2.704s]   114 |   AddModelToPlanningScene("conveyor", "conveyor.stl", [01;31m[Kconveyor_pose[m[K);
+[2.704s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[4.073s] gmake[2]: *** [CMakeFiles/gear_ur.dir/build.make:76: CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o] Error 1
+[4.073s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gear_ur.dir/all] Error 2
+[4.074s] gmake: *** [Makefile:146: all] Error 2
+[4.075s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gear_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16

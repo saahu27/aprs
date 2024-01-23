@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="camera_mount" params="prefix parent *origin">
+
+    <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro" />
+    
+    <link name="camera_mount">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh
+            filename="file://$(find camera_mount)/meshes/camera_mount.STL"
+            scale="1 1 1"/>
+        </geometry>
+        <material name="Black"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find camera_mount)/meshes/camera_mount.STL" scale="1 1 1"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Camera Link -->
+      <link name ="robot_camera_link">
+        <sensor name="depth_camera" type="camera">
+          <always_on>true</always_on>
+          <visualize>false</visualize>
+          <update_rate>5</update_rate>
+          <camera name="camera">
+            <horizontal_fov>1.02974</horizontal_fov>
+            <image>
+              <width>640</width>
+              <height>480</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.02</near>
+              <far>10</far>
+            </clip>
+            <noise>
+              <type>gaussian</type>
+              <!-- Noise is sampled independently per pixel on each frame.
+                  That pixel's noise value is added to each of its color
+                    channels, which at that point lie in the range [0,1]. -->
+              <mean>0.0</mean>
+              <stddev>0.007</stddev>
+            </noise>
+          </camera>
+          <!-- <plugin name="depth_camera_controller" filename="libgazebo_ros_camera.so">
+            <camera_name>depth_camera</camera_name>
+            <frame_name>camera_depth_frame</frame_name>
+            <hack_baseline>0</hack_baseline>
+            <min_depth>0.001</min_depth>
+          </plugin> -->
+        </sensor>
+      </link>
+
+    <joint name="robot_camera_mount_joint" type="fixed">
+        <axis xyz="0 1 0" />
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="${parent}"/>
+        <child link="camera_mount"/>
+    </joint>
+
+    <!-- Add camera joint -->
+      <joint name="robot_camera_joint" type="fixed">
+        <axis xyz="0 1 0" />
+        <origin xyz="0.04617 0.02 0.04178" rpy="0 0.314159 0"/>
+        <parent link="camera_mount"/>
+        <child link="robot_camera_link"/>
+      </joint>
+
+      <gazebo reference="camera_mount">
+        <material>Gazebo/White</material>
+      </gazebo>
+
+      <!-- <gazebo reference="robot_camera_link">
+        <material>Gazebo/White</material>
+      </gazebo> -->
+
+    <!-- <joint name="camera_mount_joint_" type="fixed">
+      <origin xyz="0 -0.0175 0.0208" rpy="0 ${-pi/2} ${-pi}"/>
+      <parent link="camera_mount"/>
+      <child link="camera_link" />
+    </joint> -->
+
+    <!-- Run camera macro -->
+    <xacro:sensor_d435 
+      parent="robot_camera_link" 
+      use_nominal_extrinsics="false" 
+      add_plug="false" 
+      use_mesh="true">
+      <origin xyz="0 0.014 -0.0125" rpy="0 0 ${pi/2.0}"/>
+    </xacro:sensor_d435>
+
+  </xacro:macro>
+</robot>

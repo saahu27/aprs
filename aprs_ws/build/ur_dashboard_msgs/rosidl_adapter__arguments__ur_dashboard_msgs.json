@@ -1,0 +1,19 @@
+{
+  "package_name": "ur_dashboard_msgs",
+  "non_idl_tuples": [
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/ProgramState.msg",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/RobotMode.msg",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/SafetyMode.msg",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/AddToLog.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetLoadedProgram.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetProgramState.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetRobotMode.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetSafetyMode.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramRunning.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramSaved.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Load.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Popup.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/RawRequest.srv",
+    "/home/aprs/aprs/aprs_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:action/SetMode.action"
+  ]
+}

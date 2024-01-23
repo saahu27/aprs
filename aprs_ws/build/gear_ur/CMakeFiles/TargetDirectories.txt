@@ -1,0 +1,11 @@
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/uninstall.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/gear_ur_uninstall.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/gear_ur.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/gear.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/test.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/edit_cache.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/rebuild_cache.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/list_install_components.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/install.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/install/local.dir
+/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/install/strip.dir

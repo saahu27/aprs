@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (-) JobUnselected: {'identifier': 'camera_mount'}
+[0.000334] (-) JobUnselected: {'identifier': 'conveyor_controller'}
+[0.000491] (-) JobUnselected: {'identifier': 'conveyor_interfaces'}
+[0.000526] (-) JobUnselected: {'identifier': 'fanuc_description'}
+[0.000534] (-) JobUnselected: {'identifier': 'fanuc_moveit_config'}
+[0.000549] (-) JobUnselected: {'identifier': 'franka_gz'}
+[0.000558] (-) JobUnselected: {'identifier': 'franka_setup'}
+[0.000644] (-) JobUnselected: {'identifier': 'gear_place'}
+[0.000664] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.000671] (-) JobUnselected: {'identifier': 'ign_ros2_control'}
+[0.000683] (-) JobUnselected: {'identifier': 'ign_ros2_control_demos'}
+[0.000694] (-) JobUnselected: {'identifier': 'panda_description'}
+[0.000703] (-) JobUnselected: {'identifier': 'panda_moveit_config'}
+[0.001087] (-) JobUnselected: {'identifier': 'point_cloud'}
+[0.001245] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001266] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001282] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001298] (-) JobUnselected: {'identifier': 'table_description'}
+[0.001314] (-) JobUnselected: {'identifier': 'ur'}
+[0.001329] (-) JobUnselected: {'identifier': 'ur5e_moveit_config'}
+[0.001344] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.001360] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.001375] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.001390] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.001405] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.001420] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.001435] (-) JobUnselected: {'identifier': 'ur_description_gz'}
+[0.001451] (-) JobUnselected: {'identifier': 'ur_gz'}
+[0.001478] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.001498] (-) JobUnselected: {'identifier': 'ur_msgs'}
+[0.001512] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.001524] (-) JobUnselected: {'identifier': 'ur_setup'}
+[0.001566] (-) JobUnselected: {'identifier': 'vaccum_description'}
+[0.001575] (-) JobUnselected: {'identifier': 'workbench_description'}
+[0.001593] (-) JobUnselected: {'identifier': 'worlds'}
+[0.001603] (gear_ur) JobQueued: {'identifier': 'gear_ur', 'dependencies': OrderedDict()}
+[0.001655] (gear_ur) JobStarted: {'identifier': 'gear_ur'}
+[0.007890] (gear_ur) JobProgress: {'identifier': 'gear_ur', 'progress': 'cmake'}
+[0.007992] (gear_ur) Command: {'cmd': ['/usr/bin/cmake', '/home/aprs/aprs/aprs_ws/src/gear_ur', '-DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/gear_ur'], 'cwd': '/home/aprs/aprs/aprs_ws/build/gear_ur', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aprs/aprs/aprs_ws/install/worlds/lib/worlds/:/home/aprs/aprs/aprs_ws/install/vaccum_description/lib/vaccum_description/:/home/aprs/aprs/aprs_ws/install/ur_gz/lib/ur_gz/:/home/aprs/aprs/aprs_ws/install/ur_description_gz/lib/ur_description_gz/:/home/aprs/aprs/aprs_ws/install/ur_description/lib/ur_description/:/home/aprs/aprs/aprs_ws/install/panda_description/lib/panda_description/:/home/aprs/aprs/aprs_ws/install/ign_ros2_control/lib/ign_ros2_control/:/home/aprs/aprs/aprs_ws/install/camera_mount/lib/camera_mount/'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/aprs/aprs/aprs_ws/install/worlds/share/worlds/worlds:/home/aprs/aprs/aprs_ws/install/worlds/share/worlds/models:/home/aprs/aprs/aprs_ws/install/vaccum_description/share:/home/aprs/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/meshes:/home/aprs/aprs/aprs_ws/install/ur_gz/share/ur_gz:/home/aprs/aprs/aprs_ws/install/ur_gz/share:/home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz:/home/aprs/aprs/aprs_ws/install/ur_description_gz/share:/home/aprs/aprs/aprs_ws/install/ur_description/share/ur_description:/home/aprs/aprs/aprs_ws/install/ur_description/share:/home/aprs/aprs/aprs_ws/install/panda_description/share/panda_description/meshes:/home/aprs/aprs/aprs_ws/install/panda_description/share/panda_description:/home/aprs/aprs/aprs_ws/install/ign_ros2_control/share:/home/aprs/aprs/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/meshes:/home/aprs/aprs/aprs_ws/install/camera_mount/share:/home/aprs/aprs/aprs_ws/install/camera_mount/share/camera_mount/meshes'), ('USER', 'aprs'), ('ROS_PACKAGE_PATH', '/home/aprs/aprs/aprs_ws/install/ur_client_library'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aprs/aprs/aprs_ws/install/ur_robot_driver/lib:/home/aprs/aprs/aprs_ws/install/ur_controllers/lib:/home/aprs/aprs/aprs_ws/install/ur_msgs/lib:/home/aprs/aprs/aprs_ws/install/ur_dashboard_msgs/lib:/home/aprs/aprs/aprs_ws/install/ur_client_library/lib:/home/aprs/aprs/aprs_ws/install/point_cloud/lib:/home/aprs/aprs/aprs_ws/install/realsense2_camera/lib:/home/aprs/aprs/aprs_ws/install/realsense2_camera_msgs/lib:/home/aprs/aprs/aprs_ws/install/ign_ros2_control/lib:/home/aprs/aprs/aprs_ws/install/conveyor_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aprs'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/aprs/aprs'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '22361'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac33807fb912c070c1ebe2d2659da884'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23910'), ('COLCON_PREFIX_PATH', '/home/aprs/aprs/aprs_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aprs'), ('JOURNAL_STREAM', '8:495164'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aprs/aprs/aprs_ws/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/home/aprs/aprs/aprs_ws/install/ur_client_library/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aprs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aprs/aprs/aprs_ws/install/ur_robot_driver/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/silverstone:@/tmp/.ICE-unix/22361,unix/silverstone:/tmp/.ICE-unix/22361'), ('INVOCATION_ID', '7ecd7caf9e864d5382357719aae47b69'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e6af992bb7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aprs/aprs/aprs_ws/install/worlds:/home/aprs/aprs/aprs_ws/install/workbench_description:/home/aprs/aprs/aprs_ws/install/vaccum_description:/home/aprs/aprs/aprs_ws/install/ur_setup:/home/aprs/aprs/aprs_ws/install/ur:/home/aprs/aprs/aprs_ws/install/ur_calibration:/home/aprs/aprs/aprs_ws/install/ur_robot_driver:/home/aprs/aprs/aprs_ws/install/ur_bringup:/home/aprs/aprs/aprs_ws/install/ur_controllers:/home/aprs/aprs/aprs_ws/install/ur_msgs:/home/aprs/aprs/aprs_ws/install/ur_moveit_config:/home/aprs/aprs/aprs_ws/install/ur_gz:/home/aprs/aprs/aprs_ws/install/ur_description_gz:/home/aprs/aprs/aprs_ws/install/ur5e_moveit_config:/home/aprs/aprs/aprs_ws/install/panda_moveit_config:/home/aprs/aprs/aprs_ws/install/ur_description:/home/aprs/aprs/aprs_ws/install/ur_dashboard_msgs:/home/aprs/aprs/aprs_ws/install/ur_client_library:/home/aprs/aprs/aprs_ws/install/table_description:/home/aprs/aprs/aprs_ws/install/point_cloud:/home/aprs/aprs/aprs_ws/install/gear_place:/home/aprs/aprs/aprs_ws/install/realsense2_description:/home/aprs/aprs/aprs_ws/install/realsense2_camera:/home/aprs/aprs/aprs_ws/install/realsense2_camera_msgs:/home/aprs/aprs/aprs_ws/install/panda_description:/home/aprs/aprs/aprs_ws/install/ign_ros2_control_demos:/home/aprs/aprs/aprs_ws/install/gz_ros2_control_tests:/home/aprs/aprs/aprs_ws/install/ign_ros2_control:/home/aprs/aprs/aprs_ws/install/franka_setup:/home/aprs/aprs/aprs_ws/install/franka_gz:/home/aprs/aprs/aprs_ws/install/fanuc_moveit_config:/home/aprs/aprs/aprs_ws/install/fanuc_description:/home/aprs/aprs/aprs_ws/install/conveyor_interfaces:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/home/aprs/aprs/aprs_ws/install/camera_mount:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aprs/aprs/aprs_ws/build/gear_ur'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac33807fb912c070c1ebe2d2659da884'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aprs/aprs/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/conveyor_interfaces/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/conveyor_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aprs/aprs/aprs_ws/install/worlds:/home/aprs/aprs/aprs_ws/install/workbench_description:/home/aprs/aprs/aprs_ws/install/vaccum_description:/home/aprs/aprs/aprs_ws/install/ur_setup:/home/aprs/aprs/aprs_ws/install/ur:/home/aprs/aprs/aprs_ws/install/ur_calibration:/home/aprs/aprs/aprs_ws/install/ur_robot_driver:/home/aprs/aprs/aprs_ws/install/ur_bringup:/home/aprs/aprs/aprs_ws/install/ur_controllers:/home/aprs/aprs/aprs_ws/install/ur_msgs:/home/aprs/aprs/aprs_ws/install/ur_moveit_config:/home/aprs/aprs/aprs_ws/install/ur_gz:/home/aprs/aprs/aprs_ws/install/ur_description_gz:/home/aprs/aprs/aprs_ws/install/ur5e_moveit_config:/home/aprs/aprs/aprs_ws/install/panda_moveit_config:/home/aprs/aprs/aprs_ws/install/ur_description:/home/aprs/aprs/aprs_ws/install/ur_dashboard_msgs:/home/aprs/aprs/aprs_ws/install/ur_client_library:/home/aprs/aprs/aprs_ws/install/table_description:/home/aprs/aprs/aprs_ws/install/point_cloud:/home/aprs/aprs/aprs_ws/install/gear_place:/home/aprs/aprs/aprs_ws/install/realsense2_description:/home/aprs/aprs/aprs_ws/install/realsense2_camera:/home/aprs/aprs/aprs_ws/install/realsense2_camera_msgs:/home/aprs/aprs/aprs_ws/install/panda_description:/home/aprs/aprs/aprs_ws/install/ign_ros2_control_demos:/home/aprs/aprs/aprs_ws/install/gz_ros2_control_tests:/home/aprs/aprs/aprs_ws/install/ign_ros2_control:/home/aprs/aprs/aprs_ws/install/franka_setup:/home/aprs/aprs/aprs_ws/install/franka_gz:/home/aprs/aprs/aprs_ws/install/fanuc_moveit_config:/home/aprs/aprs/aprs_ws/install/fanuc_description:/home/aprs/aprs/aprs_ws/install/conveyor_interfaces:/home/aprs/aprs/aprs_ws/install/camera_mount:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble')]), 'shell': False}
+[0.044824] (gear_ur) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.080793] (gear_ur) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.085025] (gear_ur) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099326] (-) TimerEvent: {}
+[0.132843] (gear_ur) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.136815] (gear_ur) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.136983] (gear_ur) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.137201] (gear_ur) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.138823] (gear_ur) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.189705] (gear_ur) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.194303] (gear_ur) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.194526] (gear_ur) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.195071] (gear_ur) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199455] (gear_ur) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199575] (-) TimerEvent: {}
+[0.299836] (-) TimerEvent: {}
+[0.325089] (gear_ur) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.399966] (-) TimerEvent: {}
+[0.407986] (gear_ur) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.452966] (gear_ur) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.458743] (gear_ur) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.466739] (gear_ur) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.477617] (gear_ur) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.494606] (gear_ur) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500076] (-) TimerEvent: {}
+[0.556085] (gear_ur) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.559810] (gear_ur) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600189] (-) TimerEvent: {}
+[0.636707] (gear_ur) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.659616] (gear_ur) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.693727] (gear_ur) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700343] (-) TimerEvent: {}
+[0.703975] (gear_ur) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.758015] (gear_ur) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.758142] (gear_ur) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800476] (-) TimerEvent: {}
+[0.823184] (gear_ur) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.823845] (gear_ur) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900658] (-) TimerEvent: {}
+[0.920572] (gear_ur) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.957419] (gear_ur) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.000774] (-) TimerEvent: {}
+[1.100977] (-) TimerEvent: {}
+[1.201285] (-) TimerEvent: {}
+[1.301607] (-) TimerEvent: {}
+[1.401933] (-) TimerEvent: {}
+[1.452400] (gear_ur) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.474626] (gear_ur) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.502079] (-) TimerEvent: {}
+[1.554761] (gear_ur) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.602243] (-) TimerEvent: {}
+[1.652946] (gear_ur) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.653073] (gear_ur) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.702395] (-) TimerEvent: {}
+[1.802652] (-) TimerEvent: {}
+[1.902988] (-) TimerEvent: {}
+[1.985658] (gear_ur) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[2.003155] (-) TimerEvent: {}
+[2.103470] (-) TimerEvent: {}
+[2.203822] (-) TimerEvent: {}
+[2.277928] (gear_ur) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[2.304013] (-) TimerEvent: {}
+[2.404330] (-) TimerEvent: {}
+[2.414111] (gear_ur) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[2.504519] (-) TimerEvent: {}
+[2.604882] (-) TimerEvent: {}
+[2.639038] (gear_ur) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:38 (install):\n'}
+[2.639244] (gear_ur) StderrLine: {'line': b'  install TARGETS given target "competitor" which does not exist.\n'}
+[2.639316] (gear_ur) StderrLine: {'line': b'\n'}
+[2.639380] (gear_ur) StderrLine: {'line': b'\x1b[0m\n'}
+[2.677227] (gear_ur) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.677375] (gear_ur) StdoutLine: {'line': b'See also "/home/aprs/aprs/aprs_ws/build/gear_ur/CMakeFiles/CMakeOutput.log".\n'}
+[2.684877] (gear_ur) CommandEnded: {'returncode': 1}
+[2.699628] (gear_ur) JobEnded: {'identifier': 'gear_ur', 'rc': 1}
+[2.705025] (-) TimerEvent: {}
+[2.710332] (-) EventReactorShutdown: {}

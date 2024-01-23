@@ -1,0 +1,1 @@
+rclcpp;geometry_msgs;orocos_kdl;python3-pykdl;moveit_ros_planning_interface;realsense2_camera;realsense2_description;rclpy;std_msgs

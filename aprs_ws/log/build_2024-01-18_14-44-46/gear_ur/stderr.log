@@ -1,0 +1,7 @@
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K In member function ‘[01m[Kvoid gearpick::AddModelsToPlanningScene()[m[K’:
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:112:31:[m[K [01;31m[Kerror: [m[K‘[01m[KQuaternionFromRPY[m[K’ was not declared in this scope
+  112 |   conveyor_pose.orientation = [01;31m[KQuaternionFromRPY[m[K(0, 0, 0);
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gear_ur.dir/build.make:76: CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gear_ur.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+[0.248s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gear_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16
+[0.310s] [ 25%] [32mBuilding CXX object CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o[0m
+[3.653s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K In member function ‘[01m[Kvoid gearpick::UrRobotWaitForAttach(double)[m[K’:
+[3.653s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:77:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloor_gripper_state_[m[K’ was not declared in this scope
+[3.653s]    77 |   while (![01;31m[Kfloor_gripper_state_[m[K.attached)
+[3.653s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.662s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[KFloorRobotMoveCartesian[m[K’ was not declared in this scope; did you mean ‘[01m[KUrRobotMoveCartesian[m[K’?
+[3.662s]    85 |     [01;31m[KFloorRobotMoveCartesian[m[K(waypoints, 0.1, 0.1);
+[3.662s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.662s]       |     [32m[KUrRobotMoveCartesian[m[K
+[5.069s] gmake[2]: *** [CMakeFiles/gear_ur.dir/build.make:76: CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o] Error 1
+[5.070s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gear_ur.dir/all] Error 2
+[5.070s] gmake: *** [Makefile:146: all] Error 2
+[5.072s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gear_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16

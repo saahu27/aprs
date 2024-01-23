@@ -1,0 +1,180 @@
+[0.007s] Invoking command in '/home/aprs/aprs/aprs_ws/build/gear_ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target gear_ur[0m
+[0.058s] [ 25%] [32mBuilding CXX object CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o[0m
+[2.688s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:26:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTestCompetitor[m[K’ has not been declared
+[2.688s]    26 | void [01;31m[KTestCompetitor[m[K::UrRobotSendHome()
+[2.688s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.692s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K In function ‘[01m[Kvoid UrRobotSendHome()[m[K’:
+[2.692s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kur_robot_[m[K’ was not declared in this scope
+[2.692s]    29 |   [01;31m[Kur_robot_[m[K.setNamedTarget("home");
+[2.692s]       |   [01;31m[K^~~~~~~~~[m[K
+[2.699s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[KUrRobotMovetoTarget[m[K’ was not declared in this scope
+[2.699s]    30 |   [01;31m[KUrRobotMovetoTarget[m[K();
+[2.699s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.699s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K At global scope:
+[2.700s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:49:26:[m[K [01;31m[Kerror: [m[K‘[01m[KTestCompetitor[m[K’ has not been declared
+[2.700s]    49 | geometry_msgs::msg::Pose [01;31m[KTestCompetitor[m[K::MultiplyPose(
+[2.700s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::Pose MultiplyPose(geometry_msgs::msg::Pose, geometry_msgs::msg::Pose)[m[K’:
+[2.700s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:60:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoMsg(KDL::Frame&)[m[K’
+[2.700s]    60 |   return [01;31m[Ktf2::toMsg(f3)[m[K;
+[2.700s]       |          [01;31m[K~~~~~~~~~~^~~~[m[K
+[2.700s] In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:43[m[K,
+[2.700s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+[2.700s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:62[m[K,
+[2.700s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:11[m[K,
+[2.700s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1[m[K:
+[2.700s] [01m[K/opt/ros/humble/include/tf2/tf2/convert.h:129:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B tf2::toMsg(const A&)[m[K’
+[2.700s]   129 | B [01;36m[KtoMsg[m[K(const A & a);
+[2.700s]       |   [01;36m[K^~~~~[m[K
+[2.700s] [01m[K/opt/ros/humble/include/tf2/tf2/convert.h:129:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.700s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:60:20:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KB[m[K’
+[2.700s]    60 |   return [01;36m[Ktf2::toMsg(f3)[m[K;
+[2.700s]       |          [01;36m[K~~~~~~~~~~^~~~[m[K
+[2.700s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K At global scope:
+[2.700s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:63:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTestCompetitor[m[K’ has not been declared
+[2.700s]    63 | void [01;31m[KTestCompetitor[m[K::LogPose(geometry_msgs::msg::Pose p)
+[2.700s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.700s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.701s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+[2.701s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1[m[K:
+[2.701s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K In function ‘[01m[Kvoid LogPose(geometry_msgs::msg::Pose)[m[K’:
+[2.701s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[2.701s]    78 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",
+[2.701s]       |               [01;31m[K^~~~~~~~~~[m[K
+[2.701s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.701s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+[2.701s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1[m[K:
+[2.701s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[2.701s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.701s]       |                 [01;36m[K^~~~~~[m[K
+[2.701s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.701s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+[2.701s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1[m[K:
+[2.701s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.701s]    78 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",
+[2.701s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.702s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.702s]    78 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",
+[2.702s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.702s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.702s]    78 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",
+[2.702s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.702s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.702s]    78 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",
+[2.702s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.702s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.702s]    78 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",
+[2.702s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.702s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K At global scope:
+[2.702s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:83:26:[m[K [01;31m[Kerror: [m[K‘[01m[KTestCompetitor[m[K’ has not been declared
+[2.702s]    83 | geometry_msgs::msg::Pose [01;31m[KTestCompetitor[m[K::BuildPose(
+[2.702s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.702s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:95:26:[m[K [01;31m[Kerror: [m[K‘[01m[KTestCompetitor[m[K’ has not been declared
+[2.702s]    95 | geometry_msgs::msg::Pose [01;31m[KTestCompetitor[m[K::FrameWorldPose(std::string frame_id)
+[2.702s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.703s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::Pose FrameWorldPose(std::string)[m[K’:
+[2.703s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:102:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+[2.703s]   102 |     t = [01;31m[Ktf_buffer[m[K->lookupTransform("world", frame_id, tf2::TimePointZero);
+[2.703s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.703s]       |         [32m[Ksetbuffer[m[K
+[2.703s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.703s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.703s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.703s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.703s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.703s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.704s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+[2.704s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1[m[K:
+[2.704s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[2.704s]   106 |     RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "Could not get transform");
+[2.704s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[2.704s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.704s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+[2.704s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1[m[K:
+[2.704s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[2.704s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.704s]       |                 [01;36m[K^~~~~~[m[K
+[2.704s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.704s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+[2.704s]                  from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1[m[K:
+[2.704s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.704s]   106 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Could not get transform");
+[2.704s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[2.705s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.705s]   106 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Could not get transform");
+[2.705s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[2.705s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.705s]   106 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Could not get transform");
+[2.705s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[2.705s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.705s]   106 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Could not get transform");
+[2.705s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[2.705s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.705s]   106 |     [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Could not get transform");
+[2.705s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[2.705s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K At global scope:
+[2.705s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:117:8:[m[K [01;31m[Kerror: [m[K‘[01m[KTestCompetitor[m[K’ has not been declared
+[2.705s]   117 | double [01;31m[KTestCompetitor[m[K::GetYaw(geometry_msgs::msg::Pose pose)
+[2.705s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.705s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:131:32:[m[K [01;31m[Kerror: [m[K‘[01m[KTestCompetitor[m[K’ has not been declared
+[2.705s]   131 | geometry_msgs::msg::Quaternion [01;31m[KTestCompetitor[m[K::QuaternionFromRPY(double r, double p, double y)
+[2.705s]       |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.705s] [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:146:32:[m[K [01;31m[Kerror: [m[K‘[01m[KTestCompetitor[m[K’ has not been declared
+[2.705s]   146 | geometry_msgs::msg::Quaternion [01;31m[KTestCompetitor[m[K::SetRobotOrientation(double rotation)
+[2.705s]       |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.052s] gmake[2]: *** [CMakeFiles/gear_ur.dir/build.make:76: CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o] Error 1
+[4.052s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gear_ur.dir/all] Error 2
+[4.052s] gmake: *** [Makefile:146: all] Error 2
+[4.053s] Invoked command in '/home/aprs/aprs/aprs_ws/build/gear_ur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/gear_ur -- -j16 -l16

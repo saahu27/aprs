@@ -1,0 +1,9 @@
+/home/aprs/aprs/aprs_ws/build/camera_mount/CMakeFiles/uninstall.dir
+/home/aprs/aprs/aprs_ws/build/camera_mount/CMakeFiles/camera_mount_uninstall.dir
+/home/aprs/aprs/aprs_ws/build/camera_mount/CMakeFiles/test.dir
+/home/aprs/aprs/aprs_ws/build/camera_mount/CMakeFiles/edit_cache.dir
+/home/aprs/aprs/aprs_ws/build/camera_mount/CMakeFiles/rebuild_cache.dir
+/home/aprs/aprs/aprs_ws/build/camera_mount/CMakeFiles/list_install_components.dir
+/home/aprs/aprs/aprs_ws/build/camera_mount/CMakeFiles/install.dir
+/home/aprs/aprs/aprs_ws/build/camera_mount/CMakeFiles/install/local.dir
+/home/aprs/aprs/aprs_ws/build/camera_mount/CMakeFiles/install/strip.dir

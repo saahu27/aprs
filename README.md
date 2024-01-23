@@ -58,3 +58,15 @@ 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
 ```
 ros2 launch ariac_gz ariac.launch.py
 ```
+
+
+# Real UR
+``` 
+ros2 launch gear_place gear.launch.py ur_type:=ur5e robot_ip:=192.168.0.1
+```
+```
+ros2 launch ur_moveit_config ur_moveit.launch.py  ur_type:=ur5e robot_ip:=192.168.0.1 rviz:=true
+```
+```
+ros2 control set_controller_state scaled_joint_trajectory_controller active
+```

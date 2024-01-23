@@ -1,0 +1,73 @@
+[0.198s] Invoking command in '/home/aprs/aprs/aprs_ws/build/fanuc_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/assets/robots/fanuc/fanuc_moveit_config -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/fanuc_moveit_config
+[0.818s] -- The C compiler identification is GNU 11.4.0
+[0.818s] -- The CXX compiler identification is GNU 11.4.0
+[0.819s] -- Detecting C compiler ABI info
+[0.819s] -- Detecting C compiler ABI info - done
+[0.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.819s] -- Detecting C compile features
+[0.819s] -- Detecting C compile features - done
+[0.819s] -- Detecting CXX compiler ABI info
+[0.819s] -- Detecting CXX compiler ABI info - done
+[0.819s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.819s] -- Detecting CXX compile features
+[0.820s] -- Detecting CXX compile features - done
+[0.820s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.820s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.202s] -- Configuring done
+[1.209s] -- Generating done
+[1.214s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/fanuc_moveit_config
+[1.283s] Invoked command in '/home/aprs/aprs/aprs_ws/build/fanuc_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/assets/robots/fanuc/fanuc_moveit_config -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/fanuc_moveit_config
+[1.302s] Invoking command in '/home/aprs/aprs/aprs_ws/build/fanuc_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/fanuc_moveit_config -- -j16 -l16
+[2.187s] Invoked command in '/home/aprs/aprs/aprs_ws/build/fanuc_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/fanuc_moveit_config -- -j16 -l16
+[2.310s] Invoking command in '/home/aprs/aprs/aprs_ws/build/fanuc_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/fanuc_moveit_config
+[2.368s] -- Install configuration: ""
+[2.368s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/ament_index/resource_index/package_run_dependencies/fanuc_moveit_config
+[2.368s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/ament_index/resource_index/parent_prefix_path/fanuc_moveit_config
+[2.368s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/ament_prefix_path.sh
+[2.368s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/ament_prefix_path.dsv
+[2.368s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/path.sh
+[2.368s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/path.dsv
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.bash
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.sh
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.zsh
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.dsv
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/package.dsv
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/ament_index/resource_index/packages/fanuc_moveit_config
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/cmake/fanuc_moveit_configConfig.cmake
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/cmake/fanuc_moveit_configConfig-version.cmake
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/package.xml
+[2.369s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/moveit.rviz
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/ompl_planning_pipeline.launch.xml
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/run_benchmark_ompl.launch
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/gazebo.launch
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/move_group.launch
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/fanuc_moveit_sensor_manager.launch.xml
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/sensor_manager.launch.xml
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/fake_moveit_controller_manager.launch.xml
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/ros_controllers.launch
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/demo_chomp.launch
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/trajectory_execution.launch.xml
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/demo_gazebo.launch
+[2.370s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/joystick_control.launch
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/fanuc_moveit_controller_manager.launch.xml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/warehouse_settings.launch.xml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/planning_context.launch
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/chomp_planning_pipeline.launch.xml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/planning_pipeline.launch.xml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/test_environment.launch
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/demo.launch
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/moveit_rviz.launch
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/warehouse.launch
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/default_warehouse_db.launch
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/sensors_3d.yaml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/ompl_planning.yaml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/joint_limits.yaml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/kinematics.yaml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/fake_controllers.yaml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/ros_controllers.yaml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/chomp_planning.yaml
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/fanuc.srdf
+[2.371s] -- Installing: /home/aprs/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/fanuc.srdf.xacro
+[2.451s] Invoked command in '/home/aprs/aprs/aprs_ws/build/fanuc_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/fanuc_moveit_config

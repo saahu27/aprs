@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (-) JobUnselected: {'identifier': 'camera_mount'}
+[0.000116] (-) JobUnselected: {'identifier': 'conveyor_controller'}
+[0.000125] (-) JobUnselected: {'identifier': 'conveyor_interfaces'}
+[0.000134] (-) JobUnselected: {'identifier': 'fanuc_description'}
+[0.000141] (-) JobUnselected: {'identifier': 'fanuc_moveit_config'}
+[0.000148] (-) JobUnselected: {'identifier': 'franka_gz'}
+[0.000155] (-) JobUnselected: {'identifier': 'franka_setup'}
+[0.000162] (-) JobUnselected: {'identifier': 'gear_place'}
+[0.000170] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.000191] (-) JobUnselected: {'identifier': 'ign_ros2_control'}
+[0.000200] (-) JobUnselected: {'identifier': 'ign_ros2_control_demos'}
+[0.000208] (-) JobUnselected: {'identifier': 'panda_description'}
+[0.000220] (-) JobUnselected: {'identifier': 'panda_moveit_config'}
+[0.000417] (-) JobUnselected: {'identifier': 'point_cloud'}
+[0.000435] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000471] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000479] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000490] (-) JobUnselected: {'identifier': 'table_description'}
+[0.000502] (-) JobUnselected: {'identifier': 'ur'}
+[0.000510] (-) JobUnselected: {'identifier': 'ur5e_moveit_config'}
+[0.000657] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.000689] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000696] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.000710] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000719] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000793] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000811] (-) JobUnselected: {'identifier': 'ur_description_gz'}
+[0.000818] (-) JobUnselected: {'identifier': 'ur_gz'}
+[0.000832] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000840] (-) JobUnselected: {'identifier': 'ur_msgs'}
+[0.001146] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.001296] (-) JobUnselected: {'identifier': 'ur_setup'}
+[0.001322] (-) JobUnselected: {'identifier': 'vaccum_description'}
+[0.001346] (-) JobUnselected: {'identifier': 'workbench_description'}
+[0.001371] (-) JobUnselected: {'identifier': 'worlds'}
+[0.001387] (gear_ur) JobQueued: {'identifier': 'gear_ur', 'dependencies': OrderedDict()}
+[0.001404] (gear_ur) JobStarted: {'identifier': 'gear_ur'}
+[0.007329] (gear_ur) JobProgress: {'identifier': 'gear_ur', 'progress': 'cmake'}
+[0.007739] (gear_ur) JobProgress: {'identifier': 'gear_ur', 'progress': 'build'}
+[0.008166] (gear_ur) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aprs/aprs/aprs_ws/build/gear_ur', '--', '-j16', '-l16'], 'cwd': '/home/aprs/aprs/aprs_ws/build/gear_ur', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aprs/aprs/aprs_ws/install/worlds/lib/worlds/:/home/aprs/aprs/aprs_ws/install/vaccum_description/lib/vaccum_description/:/home/aprs/aprs/aprs_ws/install/ur_gz/lib/ur_gz/:/home/aprs/aprs/aprs_ws/install/ur_description_gz/lib/ur_description_gz/:/home/aprs/aprs/aprs_ws/install/ur_description/lib/ur_description/:/home/aprs/aprs/aprs_ws/install/panda_description/lib/panda_description/:/home/aprs/aprs/aprs_ws/install/ign_ros2_control/lib/ign_ros2_control/:/home/aprs/aprs/aprs_ws/install/camera_mount/lib/camera_mount/'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/aprs/aprs/aprs_ws/install/worlds/share/worlds/worlds:/home/aprs/aprs/aprs_ws/install/worlds/share/worlds/models:/home/aprs/aprs/aprs_ws/install/vaccum_description/share:/home/aprs/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/meshes:/home/aprs/aprs/aprs_ws/install/ur_gz/share/ur_gz:/home/aprs/aprs/aprs_ws/install/ur_gz/share:/home/aprs/aprs/aprs_ws/install/ur_description_gz/share/ur_description_gz:/home/aprs/aprs/aprs_ws/install/ur_description_gz/share:/home/aprs/aprs/aprs_ws/install/ur_description/share/ur_description:/home/aprs/aprs/aprs_ws/install/ur_description/share:/home/aprs/aprs/aprs_ws/install/panda_description/share/panda_description/meshes:/home/aprs/aprs/aprs_ws/install/panda_description/share/panda_description:/home/aprs/aprs/aprs_ws/install/ign_ros2_control/share:/home/aprs/aprs/aprs_ws/install/ign_ros2_control/share/ign_ros2_control/meshes:/home/aprs/aprs/aprs_ws/install/camera_mount/share:/home/aprs/aprs/aprs_ws/install/camera_mount/share/camera_mount/meshes'), ('USER', 'aprs'), ('ROS_PACKAGE_PATH', '/home/aprs/aprs/aprs_ws/install/ur_client_library'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aprs/aprs/aprs_ws/install/ur_robot_driver/lib:/home/aprs/aprs/aprs_ws/install/ur_controllers/lib:/home/aprs/aprs/aprs_ws/install/ur_msgs/lib:/home/aprs/aprs/aprs_ws/install/ur_dashboard_msgs/lib:/home/aprs/aprs/aprs_ws/install/ur_client_library/lib:/home/aprs/aprs/aprs_ws/install/point_cloud/lib:/home/aprs/aprs/aprs_ws/install/realsense2_camera/lib:/home/aprs/aprs/aprs_ws/install/realsense2_camera_msgs/lib:/home/aprs/aprs/aprs_ws/install/ign_ros2_control/lib:/home/aprs/aprs/aprs_ws/install/conveyor_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aprs'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/aprs/aprs/aprs_ws/src/gear_ur/include'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1011'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '22361'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac33807fb912c070c1ebe2d2659da884'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23910'), ('COLCON_PREFIX_PATH', '/home/aprs/aprs/aprs_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aprs'), ('JOURNAL_STREAM', '8:495164'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aprs/aprs/aprs_ws/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/home/aprs/aprs/aprs_ws/install/ur_client_library/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aprs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aprs/aprs/aprs_ws/install/ur_robot_driver/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/silverstone:@/tmp/.ICE-unix/22361,unix/silverstone:/tmp/.ICE-unix/22361'), ('INVOCATION_ID', '7ecd7caf9e864d5382357719aae47b69'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e6af992bb7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aprs/aprs/aprs_ws/install/worlds:/home/aprs/aprs/aprs_ws/install/workbench_description:/home/aprs/aprs/aprs_ws/install/vaccum_description:/home/aprs/aprs/aprs_ws/install/ur_setup:/home/aprs/aprs/aprs_ws/install/ur:/home/aprs/aprs/aprs_ws/install/ur_calibration:/home/aprs/aprs/aprs_ws/install/ur_robot_driver:/home/aprs/aprs/aprs_ws/install/ur_bringup:/home/aprs/aprs/aprs_ws/install/ur_controllers:/home/aprs/aprs/aprs_ws/install/ur_msgs:/home/aprs/aprs/aprs_ws/install/ur_moveit_config:/home/aprs/aprs/aprs_ws/install/ur_gz:/home/aprs/aprs/aprs_ws/install/ur_description_gz:/home/aprs/aprs/aprs_ws/install/ur5e_moveit_config:/home/aprs/aprs/aprs_ws/install/panda_moveit_config:/home/aprs/aprs/aprs_ws/install/ur_description:/home/aprs/aprs/aprs_ws/install/ur_dashboard_msgs:/home/aprs/aprs/aprs_ws/install/ur_client_library:/home/aprs/aprs/aprs_ws/install/table_description:/home/aprs/aprs/aprs_ws/install/point_cloud:/home/aprs/aprs/aprs_ws/install/gear_place:/home/aprs/aprs/aprs_ws/install/realsense2_description:/home/aprs/aprs/aprs_ws/install/realsense2_camera:/home/aprs/aprs/aprs_ws/install/realsense2_camera_msgs:/home/aprs/aprs/aprs_ws/install/panda_description:/home/aprs/aprs/aprs_ws/install/ign_ros2_control_demos:/home/aprs/aprs/aprs_ws/install/gz_ros2_control_tests:/home/aprs/aprs/aprs_ws/install/ign_ros2_control:/home/aprs/aprs/aprs_ws/install/franka_setup:/home/aprs/aprs/aprs_ws/install/franka_gz:/home/aprs/aprs/aprs_ws/install/fanuc_moveit_config:/home/aprs/aprs/aprs_ws/install/fanuc_description:/home/aprs/aprs/aprs_ws/install/conveyor_interfaces:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/home/aprs/aprs/aprs_ws/install/camera_mount:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aprs/aprs/aprs_ws/build/gear_ur'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac33807fb912c070c1ebe2d2659da884'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aprs/aprs/aprs_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/ur_msgs/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/ur5e_moveit_config/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/point_cloud/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/conveyor_interfaces/local/lib/python3.10/dist-packages:/home/aprs/aprs/aprs_ws/install/conveyor_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aprs/aprs/aprs_ws/install/worlds:/home/aprs/aprs/aprs_ws/install/workbench_description:/home/aprs/aprs/aprs_ws/install/vaccum_description:/home/aprs/aprs/aprs_ws/install/ur_setup:/home/aprs/aprs/aprs_ws/install/ur:/home/aprs/aprs/aprs_ws/install/ur_calibration:/home/aprs/aprs/aprs_ws/install/ur_robot_driver:/home/aprs/aprs/aprs_ws/install/ur_bringup:/home/aprs/aprs/aprs_ws/install/ur_controllers:/home/aprs/aprs/aprs_ws/install/ur_msgs:/home/aprs/aprs/aprs_ws/install/ur_moveit_config:/home/aprs/aprs/aprs_ws/install/ur_gz:/home/aprs/aprs/aprs_ws/install/ur_description_gz:/home/aprs/aprs/aprs_ws/install/ur5e_moveit_config:/home/aprs/aprs/aprs_ws/install/panda_moveit_config:/home/aprs/aprs/aprs_ws/install/ur_description:/home/aprs/aprs/aprs_ws/install/ur_dashboard_msgs:/home/aprs/aprs/aprs_ws/install/ur_client_library:/home/aprs/aprs/aprs_ws/install/table_description:/home/aprs/aprs/aprs_ws/install/point_cloud:/home/aprs/aprs/aprs_ws/install/gear_place:/home/aprs/aprs/aprs_ws/install/realsense2_description:/home/aprs/aprs/aprs_ws/install/realsense2_camera:/home/aprs/aprs/aprs_ws/install/realsense2_camera_msgs:/home/aprs/aprs/aprs_ws/install/panda_description:/home/aprs/aprs/aprs_ws/install/ign_ros2_control_demos:/home/aprs/aprs/aprs_ws/install/gz_ros2_control_tests:/home/aprs/aprs/aprs_ws/install/ign_ros2_control:/home/aprs/aprs/aprs_ws/install/franka_setup:/home/aprs/aprs/aprs_ws/install/franka_gz:/home/aprs/aprs/aprs_ws/install/fanuc_moveit_config:/home/aprs/aprs/aprs_ws/install/fanuc_description:/home/aprs/aprs/aprs_ws/install/conveyor_interfaces:/home/aprs/aprs/aprs_ws/install/camera_mount:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble')]), 'shell': False}
+[0.057813] (gear_ur) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o\x1b[0m\n'}
+[0.099526] (-) TimerEvent: {}
+[0.199810] (-) TimerEvent: {}
+[0.300137] (-) TimerEvent: {}
+[0.400458] (-) TimerEvent: {}
+[0.500757] (-) TimerEvent: {}
+[0.601068] (-) TimerEvent: {}
+[0.701408] (-) TimerEvent: {}
+[0.801738] (-) TimerEvent: {}
+[0.902090] (-) TimerEvent: {}
+[1.002456] (-) TimerEvent: {}
+[1.102801] (-) TimerEvent: {}
+[1.203180] (-) TimerEvent: {}
+[1.303537] (-) TimerEvent: {}
+[1.403817] (-) TimerEvent: {}
+[1.504179] (-) TimerEvent: {}
+[1.604551] (-) TimerEvent: {}
+[1.704886] (-) TimerEvent: {}
+[1.805258] (-) TimerEvent: {}
+[1.905605] (-) TimerEvent: {}
+[2.005984] (-) TimerEvent: {}
+[2.106316] (-) TimerEvent: {}
+[2.206683] (-) TimerEvent: {}
+[2.307036] (-) TimerEvent: {}
+[2.407417] (-) TimerEvent: {}
+[2.507772] (-) TimerEvent: {}
+[2.608144] (-) TimerEvent: {}
+[2.689259] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:26:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTestCompetitor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.689454] (gear_ur) StderrLine: {'line': b'   26 | void \x1b[01;31m\x1b[KTestCompetitor\x1b[m\x1b[K::UrRobotSendHome()\n'}
+[2.689524] (gear_ur) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.693463] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid UrRobotSendHome()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.693632] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:29:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kur_robot_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.693702] (gear_ur) StderrLine: {'line': b'   29 |   \x1b[01;31m\x1b[Kur_robot_\x1b[m\x1b[K.setNamedTarget("home");\n'}
+[2.693766] (gear_ur) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.700642] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:30:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KUrRobotMovetoTarget\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.700820] (gear_ur) StderrLine: {'line': b'   30 |   \x1b[01;31m\x1b[KUrRobotMovetoTarget\x1b[m\x1b[K();\n'}
+[2.700890] (gear_ur) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.701068] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.701206] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:49:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTestCompetitor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.701277] (gear_ur) StderrLine: {'line': b'   49 | geometry_msgs::msg::Pose \x1b[01;31m\x1b[KTestCompetitor\x1b[m\x1b[K::MultiplyPose(\n'}
+[2.701342] (gear_ur) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.701482] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose MultiplyPose(geometry_msgs::msg::Pose, geometry_msgs::msg::Pose)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.701760] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:60:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KtoMsg(KDL::Frame&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.701859] (gear_ur) StderrLine: {'line': b'   60 |   return \x1b[01;31m\x1b[Ktf2::toMsg(f3)\x1b[m\x1b[K;\n'}
+[2.701940] (gear_ur) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.702001] (gear_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:43\x1b[m\x1b[K,\n'}
+[2.702061] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42\x1b[m\x1b[K,\n'}
+[2.702120] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:62\x1b[m\x1b[K,\n'}
+[2.702180] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:11\x1b[m\x1b[K,\n'}
+[2.702239] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1\x1b[m\x1b[K:\n'}
+[2.702299] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/tf2/convert.h:129:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class A, class B> B tf2::toMsg(const A&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.702360] (gear_ur) StderrLine: {'line': b'  129 | B \x1b[01;36m\x1b[KtoMsg\x1b[m\x1b[K(const A & a);\n'}
+[2.702418] (gear_ur) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.702477] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/tf2/convert.h:129:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.702535] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:60:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KB\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.702595] (gear_ur) StderrLine: {'line': b'   60 |   return \x1b[01;36m\x1b[Ktf2::toMsg(f3)\x1b[m\x1b[K;\n'}
+[2.702653] (gear_ur) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.702710] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.702768] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:63:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTestCompetitor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.702836] (gear_ur) StderrLine: {'line': b'   63 | void \x1b[01;31m\x1b[KTestCompetitor\x1b[m\x1b[K::LogPose(geometry_msgs::msg::Pose p)\n'}
+[2.702895] (gear_ur) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.702953] (gear_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.703011] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.703074] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.703132] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.703190] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.703247] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.703304] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.703363] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.703426] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.703622] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.703689] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2\x1b[m\x1b[K,\n'}
+[2.703719] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1\x1b[m\x1b[K:\n'}
+[2.703746] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid LogPose(geometry_msgs::msg::Pose)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.703772] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.703799] (gear_ur) StderrLine: {'line': b'   78 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",\n'}
+[2.703824] (gear_ur) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.703849] (gear_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.703873] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.703896] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.703919] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.703944] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.703968] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.703991] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.704021] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.704045] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.704068] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.704091] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.704114] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2\x1b[m\x1b[K,\n'}
+[2.704138] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1\x1b[m\x1b[K:\n'}
+[2.704161] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.704186] (gear_ur) StderrLine: {'line': b'  106 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.704210] (gear_ur) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.704234] (gear_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.704258] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.704282] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.704306] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.704329] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.704355] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.704378] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.704402] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.704429] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.704473] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.704498] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2\x1b[m\x1b[K,\n'}
+[2.704523] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1\x1b[m\x1b[K:\n'}
+[2.704548] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.704572] (gear_ur) StderrLine: {'line': b'   78 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",\n'}
+[2.704596] (gear_ur) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.704619] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.704650] (gear_ur) StderrLine: {'line': b'   78 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",\n'}
+[2.704676] (gear_ur) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.704700] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.704724] (gear_ur) StderrLine: {'line': b'   78 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",\n'}
+[2.704749] (gear_ur) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.704855] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.704884] (gear_ur) StderrLine: {'line': b'   78 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",\n'}
+[2.704908] (gear_ur) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.704933] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:78:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.704957] (gear_ur) StderrLine: {'line': b'   78 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "(X: %.2f, Y: %.2f, Z: %.2f, R: %.2f, P: %.2f, Y: %.2f)",\n'}
+[2.704981] (gear_ur) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.705004] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.705029] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:83:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTestCompetitor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.705068] (gear_ur) StderrLine: {'line': b'   83 | geometry_msgs::msg::Pose \x1b[01;31m\x1b[KTestCompetitor\x1b[m\x1b[K::BuildPose(\n'}
+[2.705095] (gear_ur) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.705121] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:95:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTestCompetitor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.705161] (gear_ur) StderrLine: {'line': b'   95 | geometry_msgs::msg::Pose \x1b[01;31m\x1b[KTestCompetitor\x1b[m\x1b[K::FrameWorldPose(std::string frame_id)\n'}
+[2.705185] (gear_ur) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.705209] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose FrameWorldPose(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.705248] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:102:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_buffer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksetbuffer\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.705275] (gear_ur) StderrLine: {'line': b'  102 |     t = \x1b[01;31m\x1b[Ktf_buffer\x1b[m\x1b[K->lookupTransform("world", frame_id, tf2::TimePointZero);\n'}
+[2.705299] (gear_ur) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.705324] (gear_ur) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ksetbuffer\x1b[m\x1b[K\n'}
+[2.705350] (gear_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.705375] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.705399] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.705423] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.705446] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.705472] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.705495] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.705519] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.705543] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.705567] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.705592] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2\x1b[m\x1b[K,\n'}
+[2.705615] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1\x1b[m\x1b[K:\n'}
+[2.705640] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.705664] (gear_ur) StderrLine: {'line': b'  106 |     RCLCPP_ERROR(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Could not get transform");\n'}
+[2.705688] (gear_ur) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.705713] (gear_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.705736] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.705761] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.705786] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.705810] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.705833] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.705856] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.705880] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.705903] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.705926] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.705956] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.705979] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2\x1b[m\x1b[K,\n'}
+[2.706003] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1\x1b[m\x1b[K:\n'}
+[2.706026] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.706049] (gear_ur) StderrLine: {'line': b'  106 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.706075] (gear_ur) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.706099] (gear_ur) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.706123] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.706147] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.706170] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.706194] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.706217] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.706241] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.706264] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.706287] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.706311] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.706333] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2\x1b[m\x1b[K,\n'}
+[2.706357] (gear_ur) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1\x1b[m\x1b[K:\n'}
+[2.706383] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.706407] (gear_ur) StderrLine: {'line': b'  106 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(get_logger(), "Could not get transform");\n'}
+[2.706431] (gear_ur) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706455] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.706481] (gear_ur) StderrLine: {'line': b'  106 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(get_logger(), "Could not get transform");\n'}
+[2.706505] (gear_ur) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706531] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.706558] (gear_ur) StderrLine: {'line': b'  106 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(get_logger(), "Could not get transform");\n'}
+[2.706581] (gear_ur) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706605] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.706630] (gear_ur) StderrLine: {'line': b'  106 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(get_logger(), "Could not get transform");\n'}
+[2.706653] (gear_ur) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706677] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:106:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.706700] (gear_ur) StderrLine: {'line': b'  106 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(get_logger(), "Could not get transform");\n'}
+[2.706724] (gear_ur) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706749] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.706775] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:117:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTestCompetitor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.706799] (gear_ur) StderrLine: {'line': b'  117 | double \x1b[01;31m\x1b[KTestCompetitor\x1b[m\x1b[K::GetYaw(geometry_msgs::msg::Pose pose)\n'}
+[2.706823] (gear_ur) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706846] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:131:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTestCompetitor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.706870] (gear_ur) StderrLine: {'line': b'  131 | geometry_msgs::msg::Quaternion \x1b[01;31m\x1b[KTestCompetitor\x1b[m\x1b[K::QuaternionFromRPY(double r, double p, double y)\n'}
+[2.706894] (gear_ur) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706917] (gear_ur) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:146:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTestCompetitor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.706941] (gear_ur) StderrLine: {'line': b'  146 | geometry_msgs::msg::Quaternion \x1b[01;31m\x1b[KTestCompetitor\x1b[m\x1b[K::SetRobotOrientation(double rotation)\n'}
+[2.706965] (gear_ur) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.708197] (-) TimerEvent: {}
+[2.808450] (-) TimerEvent: {}
+[2.908767] (-) TimerEvent: {}
+[3.009091] (-) TimerEvent: {}
+[3.109406] (-) TimerEvent: {}
+[3.209721] (-) TimerEvent: {}
+[3.310039] (-) TimerEvent: {}
+[3.410349] (-) TimerEvent: {}
+[3.510655] (-) TimerEvent: {}
+[3.610997] (-) TimerEvent: {}
+[3.711311] (-) TimerEvent: {}
+[3.811639] (-) TimerEvent: {}
+[3.911959] (-) TimerEvent: {}
+[4.012267] (-) TimerEvent: {}
+[4.066232] (gear_ur) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gear_ur.dir/build.make:76: CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o] Error 1\n'}
+[4.066394] (gear_ur) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gear_ur.dir/all] Error 2\n'}
+[4.066581] (gear_ur) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.068013] (gear_ur) CommandEnded: {'returncode': 2}
+[4.093320] (gear_ur) JobEnded: {'identifier': 'gear_ur', 'rc': 2}
+[4.104369] (-) EventReactorShutdown: {}

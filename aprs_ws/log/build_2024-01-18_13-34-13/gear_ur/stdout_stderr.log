@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target gear_ur[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o[0m
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::Pose gearpick::MultiplyPose(geometry_msgs::msg::Pose, geometry_msgs::msg::Pose)[m[K’:
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:60:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoMsg(KDL::Frame&)[m[K’
+   60 |   return [01;31m[Ktf2::toMsg(f3)[m[K;
+      |          [01;31m[K~~~~~~~~~~^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:43[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:62[m[K,
+                 from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:11[m[K,
+                 from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2/tf2/convert.h:129:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B tf2::toMsg(const A&)[m[K’
+  129 | B [01;36m[KtoMsg[m[K(const A & a);
+      |   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/convert.h:129:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/gear_pick.cpp:60:20:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KB[m[K’
+   60 |   return [01;36m[Ktf2::toMsg(f3)[m[K;
+      |          [01;36m[K~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/gear_ur.dir/build.make:76: CMakeFiles/gear_ur.dir/src/gear_pick.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gear_ur.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

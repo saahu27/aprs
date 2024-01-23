@@ -1,0 +1,4 @@
+source;share/ur_description/environment/ament_prefix_path.sh
+source;share/ur_description/environment/path.sh
+source;share/ur_description/environment/ur_description.sh
+source;share/ur_description/environment/ur_description.dsv

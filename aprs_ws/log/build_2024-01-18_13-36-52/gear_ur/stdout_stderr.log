@@ -1,0 +1,33 @@
+[ 50%] Built target gear_ur
+[35m[1mConsolidate compiler generated dependencies of target gear[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/gear.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gear[0m
+[100%] Built target gear
+-- Install configuration: ""
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/lib/gear_ur/gear
+-- Set runtime path of "/home/aprs/aprs/aprs_ws/install/gear_ur/lib/gear_ur/gear" to ""
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/lib/libgear_ur.so
+-- Set runtime path of "/home/aprs/aprs/aprs_ws/install/gear_ur/lib/libgear_ur.so" to ""
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/include
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/include/gear_pick.hpp
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/launch
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/environment/library_path.sh
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/environment/library_path.dsv
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/ament_index/resource_index/package_run_dependencies/gear_ur
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/ament_index/resource_index/parent_prefix_path/gear_ur
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/environment/ament_prefix_path.sh
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/environment/ament_prefix_path.dsv
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/environment/path.sh
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/environment/path.dsv
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/local_setup.bash
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/local_setup.sh
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/local_setup.zsh
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/local_setup.dsv
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/package.dsv
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/ament_index/resource_index/packages/gear_ur
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/cmake/gear_urConfig.cmake
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/cmake/gear_urConfig-version.cmake
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_ur/share/gear_ur/package.xml

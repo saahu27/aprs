@@ -1,0 +1,162 @@
+[0.049s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/Universal_Robots_Client_Library -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ur_client_library
+[0.255s] -- The C compiler identification is GNU 11.4.0
+[0.255s] -- The CXX compiler identification is GNU 11.4.0
+[0.255s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.255s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.372s] -- Detecting CXX compile features
+[0.372s] -- Detecting CXX compile features - done
+[0.372s] [0mur_client_library: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.376s] -- Performing C++17 Test
+[0.376s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[0.476s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[0.476s] -- Looking for pthread.h
+[0.656s] -- Looking for pthread.h - found
+[0.657s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.796s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.796s] -- Found Threads: TRUE  
+[0.796s] -- Building tests disabled.
+[0.804s] -- Configuring done
+[0.840s] -- Generating done
+[0.840s] -- Build files have been written to: /home/aprs/aprs/aprs_ws/build/ur_client_library
+[0.844s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake /home/aprs/aprs/aprs_ws/src/Universal_Robots_Client_Library -DCMAKE_INSTALL_PREFIX=/home/aprs/aprs/aprs_ws/install/ur_client_library
+[0.845s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ur_client_library -- -j16 -l16
+[1.254s] [  2%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_socket.cpp.o[0m
+[1.254s] [  4%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/reverse_interface.cpp.o[0m
+[1.254s] [  6%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_server.cpp.o[0m
+[1.254s] [  8%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_sender.cpp.o[0m
+[1.254s] [ 10%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/trajectory_point_interface.cpp.o[0m
+[1.254s] [ 14%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state.cpp.o[0m
+[1.254s] [ 14%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message.cpp.o[0m
+[1.254s] [ 16%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/primary_package.cpp.o[0m
+[1.254s] [ 18%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_command_interface.cpp.o[0m
+[1.254s] [ 20%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/version_message.cpp.o[0m
+[1.254s] [ 22%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state/kinematics_info.cpp.o[0m
+[1.254s] [ 24%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_pause.cpp.o[0m
+[1.254s] [ 26%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_outputs.cpp.o[0m
+[1.254s] [ 28%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_inputs.cpp.o[0m
+[1.254s] [ 30%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_start.cpp.o[0m
+[1.254s] [ 32%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/data_package.cpp.o[0m
+[2.047s] [ 34%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/get_urcontrol_version.cpp.o[0m
+[2.076s] [ 36%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/request_protocol_version.cpp.o[0m
+[2.112s] [ 38%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_package.cpp.o[0m
+[2.180s] [ 40%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_client.cpp.o[0m
+[2.182s] [ 42%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/text_message.cpp.o[0m
+[2.247s] [ 44%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/ur_driver.cpp.o[0m
+[2.252s] [ 46%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/calibration_checker.cpp.o[0m
+[2.277s] [ 48%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/dashboard_client.cpp.o[0m
+[2.316s] [ 51%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/tool_communication.cpp.o[0m
+[2.368s] [ 53%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/version_information.cpp.o[0m
+[2.498s] [ 55%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_writer.cpp.o[0m
+[2.564s] [ 57%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/default_log_handler.cpp.o[0m
+[2.710s] [ 59%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/log.cpp.o[0m
+[2.789s] [ 61%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/helpers.cpp.o[0m
+[10.275s] [ 63%] [32m[1mLinking CXX shared library liburcl.so[0m
+[10.838s] [ 63%] Built target urcl
+[10.907s] [ 65%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_calibration_example.dir/primary_pipeline_calibration.cpp.o[0m
+[10.923s] [ 67%] [32mBuilding CXX object examples/CMakeFiles/driver_example.dir/full_driver.cpp.o[0m
+[10.942s] [ 69%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_example.dir/primary_pipeline.cpp.o[0m
+[11.082s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/rtde_client_example.dir/rtde_client.cpp.o[0m
+[11.170s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/dashboard_example.dir/dashboard_example.cpp.o[0m
+[11.408s] [ 75%] [32mBuilding CXX object examples/CMakeFiles/tool_contact_example.dir/tool_contact_example.cpp.o[0m
+[11.426s] [ 77%] [32mBuilding CXX object examples/CMakeFiles/spline_example.dir/spline_example.cpp.o[0m
+[11.459s] [ 79%] [32mBuilding CXX object examples/CMakeFiles/freedrive_example.dir/freedrive_example.cpp.o[0m
+[11.460s] [ 81%] [32mBuilding CXX object examples/CMakeFiles/force_mode_example.dir/force_mode_example.cpp.o[0m
+[12.566s] [ 83%] [32m[1mLinking CXX executable dashboard_example[0m
+[12.780s] [ 83%] Built target dashboard_example
+[12.960s] [ 85%] [32m[1mLinking CXX executable primary_pipeline_calibration_example[0m
+[13.033s] [ 87%] [32m[1mLinking CXX executable primary_pipeline_example[0m
+[13.133s] [ 87%] Built target primary_pipeline_calibration_example
+[13.185s] [ 87%] Built target primary_pipeline_example
+[13.206s] [ 89%] [32m[1mLinking CXX executable rtde_client_example[0m
+[13.283s] [ 89%] Built target rtde_client_example
+[13.315s] [ 91%] [32m[1mLinking CXX executable tool_contact_example[0m
+[13.375s] [ 93%] [32m[1mLinking CXX executable force_mode_example[0m
+[13.388s] [ 95%] [32m[1mLinking CXX executable driver_example[0m
+[13.433s] [ 95%] Built target tool_contact_example
+[13.469s] [ 95%] Built target force_mode_example
+[13.487s] [ 95%] Built target driver_example
+[13.503s] [ 97%] [32m[1mLinking CXX executable freedrive_example[0m
+[13.575s] [ 97%] Built target freedrive_example
+[13.807s] [100%] [32m[1mLinking CXX executable spline_example[0m
+[13.865s] [100%] Built target spline_example
+[13.873s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --build /home/aprs/aprs/aprs_ws/build/ur_client_library -- -j16 -l16
+[13.958s] Invoking command in '/home/aprs/aprs/aprs_ws/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ur_client_library
+[13.962s] -- Install configuration: "RelWithDebInfo"
+[13.962s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/lib/liburcl.so
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/helpers.h
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/log.h
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/default_log_handler.h
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/exceptions.h
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_message.h
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_message
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_message/version_message.h
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_state
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_state/kinematics_info.h
+[13.971s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/primary_parser.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/package_header.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/primary_package.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_state.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/abstract_primary_consumer.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_outputs.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/get_urcontrol_version.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/text_message.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/data_package.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_start.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/request_protocol_version.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_parser.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_pause.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_package.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/package_header.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_client.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_writer.h
+[13.972s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_inputs.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/queue
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/queue/LICENSE.md
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/queue/readerwriterqueue.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/queue/atomicops.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/pipeline.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/package_serializer.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/producer.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/tcp_socket.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/package.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/bin_parser.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/parser.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/stream.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/control_mode.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/shell_consumer.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/tcp_server.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control/script_sender.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control/script_command_interface.h
+[13.973s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control/reverse_interface.h
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control/trajectory_point_interface.h
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/types.h
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/version_information.h
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/datatypes.h
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/tool_communication.h
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/ur_driver.h
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/dashboard_client.h
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/calibration_checker.h
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/lib/cmake/ur_client_library/urclTargets.cmake
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/lib/cmake/ur_client_library/urclTargets-relwithdebinfo.cmake
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/lib/ur_client_library/start_ursim.sh
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/lib/cmake/ur_client_library/ur_client_libraryConfig.cmake
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/package.xml
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/share/ament_index/resource_index/packages/ur_client_library
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/hook/ament_prefix_path.dsv
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/hook/ros_package_path.dsv
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/resources
+[13.974s] -- Installing: /home/aprs/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/resources/external_control.urscript
+[13.976s] Invoked command in '/home/aprs/aprs/aprs_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aprs/aprs/aprs_ws/install/conveyor_controller:/opt/ros/humble /usr/bin/cmake --install /home/aprs/aprs/aprs_ws/build/ur_client_library

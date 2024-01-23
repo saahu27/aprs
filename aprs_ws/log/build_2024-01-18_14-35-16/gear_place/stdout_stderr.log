@@ -1,0 +1,40 @@
+Built target ament_cmake_python_copy_gear_place
+running egg_info
+writing gear_place.egg-info/PKG-INFO
+writing dependency_links to gear_place.egg-info/dependency_links.txt
+writing top-level names to gear_place.egg-info/top_level.txt
+reading manifest file 'gear_place.egg-info/SOURCES.txt'
+writing manifest file 'gear_place.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_gear_place_egg
+-- Install configuration: ""
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/environment/pythonpath.sh
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/environment/pythonpath.dsv
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place-0.0.0-py3.10.egg-info
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place/__init__.py
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place/object_depth.py
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place/find_object_color.py
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place/find_object.py
+Listing '/home/aprs/aprs/aprs_ws/install/gear_place/local/lib/python3.10/dist-packages/gear_place'...
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/lib/gear_place/find_object_node.py
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place//launch
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place//launch/gear.launch.py
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/ament_index/resource_index/package_run_dependencies/gear_place
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/ament_index/resource_index/parent_prefix_path/gear_place
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/environment/ament_prefix_path.sh
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/environment/path.sh
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/environment/path.dsv
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/local_setup.bash
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/local_setup.sh
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/local_setup.zsh
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/local_setup.dsv
+-- Installing: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/package.dsv
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/ament_index/resource_index/packages/gear_place
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/cmake/gear_placeConfig.cmake
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/cmake/gear_placeConfig-version.cmake
+-- Up-to-date: /home/aprs/aprs/aprs_ws/install/gear_place/share/gear_place/package.xml

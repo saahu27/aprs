@@ -1,0 +1,5 @@
+/usr/bin/ld: libgear_ur.so: undefined reference to `gearpick::QuaternionFromRPY(double, double, double)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/gear.dir/build.make:343: gear] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gear.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

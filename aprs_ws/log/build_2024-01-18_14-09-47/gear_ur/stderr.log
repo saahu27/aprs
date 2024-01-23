@@ -1,0 +1,62 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+                 from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:1[m[K:
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   18 |   RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "Moved to home");
+      |                [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+                 from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/include/gear_pick.hpp:2[m[K,
+                 from [01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:1[m[K:
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aprs/aprs/aprs_ws/src/gear_ur/src/main.cpp:18:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |   [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Moved to home");
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gear.dir/build.make:76: CMakeFiles/gear.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gear.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
