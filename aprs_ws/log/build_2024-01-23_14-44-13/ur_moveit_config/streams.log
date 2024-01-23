@@ -1,9 +1,0 @@
-[0.812s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_moveit_config -- -j16 -l16
-[0.842s] Built target ament_cmake_python_copy_ur_moveit_config
-[1.054s] running egg_info
-[1.054s] writing ur_moveit_config.egg-info/PKG-INFO
-[1.055s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
-[1.055s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
-[1.057s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
-[1.058s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
-[1.113s] Built target ament_cmake_python_build_ur_moveit_config_egg

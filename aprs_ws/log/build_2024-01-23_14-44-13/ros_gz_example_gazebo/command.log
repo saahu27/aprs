@@ -1,1 +1,0 @@
-Invoking command in '/workspaces/aprs/aprs_ws/build/ros_gz_example_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ros_gz_example_gazebo -- -j16 -l16

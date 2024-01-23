@@ -1,3 +1,0 @@
-prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description
-prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes
-prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib/motoman_description/

@@ -1,7 +1,0 @@
-setup.py
-motoman_moveit_config/__init__.py
-motoman_moveit_config/parameters.py
-motoman_moveit_config.egg-info/PKG-INFO
-motoman_moveit_config.egg-info/SOURCES.txt
-motoman_moveit_config.egg-info/dependency_links.txt
-motoman_moveit_config.egg-info/top_level.txt

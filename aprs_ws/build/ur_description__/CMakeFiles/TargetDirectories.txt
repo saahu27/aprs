@@ -1,9 +1,0 @@
-/workspaces/aprs/aprs_ws/build/ur_description__/CMakeFiles/uninstall.dir
-/workspaces/aprs/aprs_ws/build/ur_description__/CMakeFiles/ur_description___uninstall.dir
-/workspaces/aprs/aprs_ws/build/ur_description__/CMakeFiles/test.dir
-/workspaces/aprs/aprs_ws/build/ur_description__/CMakeFiles/edit_cache.dir
-/workspaces/aprs/aprs_ws/build/ur_description__/CMakeFiles/rebuild_cache.dir
-/workspaces/aprs/aprs_ws/build/ur_description__/CMakeFiles/list_install_components.dir
-/workspaces/aprs/aprs_ws/build/ur_description__/CMakeFiles/install.dir
-/workspaces/aprs/aprs_ws/build/ur_description__/CMakeFiles/install/local.dir
-/workspaces/aprs/aprs_ws/build/ur_description__/CMakeFiles/install/strip.dir

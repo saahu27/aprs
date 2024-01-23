@@ -1,7 +1,0 @@
-setup.py
-fanuc_moveit_config/__init__.py
-fanuc_moveit_config/parameters.py
-fanuc_moveit_config.egg-info/PKG-INFO
-fanuc_moveit_config.egg-info/SOURCES.txt
-fanuc_moveit_config.egg-info/dependency_links.txt
-fanuc_moveit_config.egg-info/top_level.txt

@@ -1,8 +1,0 @@
-source;share/worlds/hook/cmake_prefix_path.ps1
-source;share/worlds/hook/cmake_prefix_path.dsv
-source;share/worlds/hook/cmake_prefix_path.sh
-source;share/worlds/local_setup.bash
-source;share/worlds/local_setup.dsv
-source;share/worlds/local_setup.ps1
-source;share/worlds/local_setup.sh
-source;share/worlds/local_setup.zsh
