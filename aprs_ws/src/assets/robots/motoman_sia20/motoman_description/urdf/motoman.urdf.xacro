@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="motoman_robot">
+    <!-- Root link -->
+  
+  <xacro:include filename="$(find motoman_description)/urdf/sia20.urdf.xacro"/>
+
+  <xacro:motoman_sia20d prefix=""/>
+
+  <xacro:arg name="controllers" default="$(find motoman_gz)/config/controller.yaml" />
+
+  <gazebo>
+    <plugin filename="libign_ros2_control-system.so" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+      <parameters>$(arg controllers)</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

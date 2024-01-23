@@ -1,0 +1,27 @@
+[0.990s] Invoking command in '/workspaces/aprs/aprs_ws/build/workbench_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/workbench_description -- -j16 -l16
+[1.623s] Invoked command in '/workspaces/aprs/aprs_ws/build/workbench_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/workbench_description -- -j16 -l16
+[2.273s] Invoking command in '/workspaces/aprs/aprs_ws/build/workbench_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/workbench_description
+[2.451s] -- Install configuration: ""
+[2.452s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/meshes
+[2.452s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/meshes/visual
+[2.452s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/meshes/visual/table.stl
+[2.453s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/meshes/collision
+[2.454s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/meshes/collision/table.stl
+[2.454s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/urdf
+[2.454s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/urdf/table.urdf.xacro
+[2.454s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/ament_index/resource_index/package_run_dependencies/workbench_description
+[2.454s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/ament_index/resource_index/parent_prefix_path/workbench_description
+[2.454s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/environment/ament_prefix_path.sh
+[2.454s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/environment/ament_prefix_path.dsv
+[2.454s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/environment/path.sh
+[2.455s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/environment/path.dsv
+[2.455s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/local_setup.bash
+[2.455s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/local_setup.sh
+[2.456s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/local_setup.zsh
+[2.456s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/local_setup.dsv
+[2.456s] -- Installing: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/package.dsv
+[2.456s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/ament_index/resource_index/packages/workbench_description
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/cmake/workbench_descriptionConfig.cmake
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/cmake/workbench_descriptionConfig-version.cmake
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/workbench_description/share/workbench_description/package.xml
+[2.993s] Invoked command in '/workspaces/aprs/aprs_ws/build/workbench_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/workbench_description

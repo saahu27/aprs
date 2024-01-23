@@ -1,0 +1,52 @@
+[0.525s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_gazebo -- -j16 -l16
+[0.614s] Built target ament_cmake_python_copy_aprs_gazebo
+[0.940s] running install_scripts
+[0.943s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.943s]   warnings.warn(
+[0.968s] running egg_info
+[0.968s] writing aprs_gazebo.egg-info/PKG-INFO
+[0.969s] running egg_info
+[0.969s] writing dependency_links to aprs_gazebo.egg-info/dependency_links.txt
+[0.969s] writing top-level names to aprs_gazebo.egg-info/top_level.txt
+[0.970s] writing aprs_gazebo.egg-info/PKG-INFO
+[0.970s] writing dependency_links to aprs_gazebo.egg-info/dependency_links.txt
+[0.970s] writing top-level names to aprs_gazebo.egg-info/top_level.txt
+[0.972s] reading manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+[0.973s] reading manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+[0.973s] writing manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+[0.973s] writing manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+[1.018s] Built target ament_cmake_python_build_aprs_gazebo_scripts
+[1.019s] Built target ament_cmake_python_build_aprs_gazebo_egg
+[1.302s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_gazebo -- -j16 -l16
+[2.578s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_gazebo
+[2.639s] -- Install configuration: ""
+[2.640s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/launch
+[2.641s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/launch/aprs.launch.py
+[2.641s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/pythonpath.sh
+[2.641s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/pythonpath.dsv
+[2.641s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info
+[2.641s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.642s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/top_level.txt
+[2.642s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/PKG-INFO
+[2.642s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.642s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/lib/aprs_gazebo/
+[2.642s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo
+[2.643s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo/__init__.py
+[2.643s] Listing '/workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo'...
+[2.643s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/lib/aprs_gazebo/controller_switcher.py
+[2.643s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/package_run_dependencies/aprs_gazebo
+[2.644s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/parent_prefix_path/aprs_gazebo
+[2.644s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/ament_prefix_path.sh
+[2.644s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/ament_prefix_path.dsv
+[2.644s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/path.sh
+[2.644s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/path.dsv
+[2.644s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.bash
+[2.645s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.sh
+[2.645s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.zsh
+[2.645s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.dsv
+[2.645s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/package.dsv
+[2.645s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/packages/aprs_gazebo
+[2.645s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/cmake/aprs_gazeboConfig.cmake
+[2.645s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/cmake/aprs_gazeboConfig-version.cmake
+[2.645s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/package.xml
+[2.935s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_gazebo

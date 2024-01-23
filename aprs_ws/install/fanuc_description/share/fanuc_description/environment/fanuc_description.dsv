@@ -1,0 +1,3 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs/aprs_ws/install/fanuc_description/share/fanuc_description
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs/aprs_ws/install/fanuc_description/share/fanuc_description/meshes
+prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib/fanuc_description/

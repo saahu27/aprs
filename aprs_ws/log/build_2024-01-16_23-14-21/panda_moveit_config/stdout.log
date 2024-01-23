@@ -1,0 +1,87 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found panda_description: 0.7.0 (/workspaces/aprs/aprs_ws/install/panda_description/share/panda_description/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/aprs/aprs_ws/build/panda_moveit_config
+Built target ament_cmake_python_copy_panda_moveit_config
+running egg_info
+creating panda_moveit_config.egg-info
+writing panda_moveit_config.egg-info/PKG-INFO
+writing dependency_links to panda_moveit_config.egg-info/dependency_links.txt
+writing top-level names to panda_moveit_config.egg-info/top_level.txt
+writing manifest file 'panda_moveit_config.egg-info/SOURCES.txt'
+reading manifest file 'panda_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'panda_moveit_config.egg-info/SOURCES.txt'
+running install_scripts
+Built target ament_cmake_python_build_panda_moveit_config_egg
+running egg_info
+writing panda_moveit_config.egg-info/PKG-INFO
+writing dependency_links to panda_moveit_config.egg-info/dependency_links.txt
+writing top-level names to panda_moveit_config.egg-info/top_level.txt
+reading manifest file 'panda_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'panda_moveit_config.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_panda_moveit_config_scripts
+-- Install configuration: ""
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/ompl_planning.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/moveit_controller_manager.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/joint_limits.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/servo.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/kinematics.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/controllers_velocity.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/sensors_pointcloud.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/controllers_position,velocity.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/controllers.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/controllers_effort.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/config/controllers_position.yaml
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/launch
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/launch/franka_moveit.launch.py
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/rviz
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/rviz/moveit.rviz
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/srdf
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/srdf/panda_arm.xacro
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/srdf/panda_gripper.xacro
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/srdf/panda.srdf
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/srdf/panda.srdf.xacro
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/environment/pythonpath.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/environment/pythonpath.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config-3.0.0-py3.10.egg-info
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config-3.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config-3.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config-3.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config-3.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/lib/panda_moveit_config/
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config/parameters.py
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config/__init__.py
+Listing '/workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config'...
+Compiling '/workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config/__init__.py'...
+Compiling '/workspaces/aprs/aprs_ws/install/panda_moveit_config/local/lib/python3.10/dist-packages/panda_moveit_config/parameters.py'...
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/panda_moveit_config
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/panda_moveit_config
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/environment/path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/environment/path.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/local_setup.bash
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/local_setup.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/local_setup.zsh
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/local_setup.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/package.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/ament_index/resource_index/packages/panda_moveit_config
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig.cmake
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig-version.cmake
+-- Installing: /workspaces/aprs/aprs_ws/install/panda_moveit_config/share/panda_moveit_config/package.xml

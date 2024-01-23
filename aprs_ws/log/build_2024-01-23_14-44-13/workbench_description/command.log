@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/aprs/aprs_ws/build/workbench_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/workbench_description -- -j16 -l16
+Invoked command in '/workspaces/aprs/aprs_ws/build/workbench_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/workbench_description -- -j16 -l16

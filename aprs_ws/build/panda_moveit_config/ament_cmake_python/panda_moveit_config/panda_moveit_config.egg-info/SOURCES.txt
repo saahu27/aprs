@@ -1,0 +1,7 @@
+setup.py
+panda_moveit_config/__init__.py
+panda_moveit_config/parameters.py
+panda_moveit_config.egg-info/PKG-INFO
+panda_moveit_config.egg-info/SOURCES.txt
+panda_moveit_config.egg-info/dependency_links.txt
+panda_moveit_config.egg-info/top_level.txt

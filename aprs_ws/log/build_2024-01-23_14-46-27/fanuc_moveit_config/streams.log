@@ -1,0 +1,61 @@
+[0.477s] Invoking command in '/workspaces/aprs/aprs_ws/build/fanuc_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/fanuc_moveit_config -- -j16 -l16
+[0.706s] Built target ament_cmake_python_copy_fanuc_moveit_config
+[0.865s] running egg_info
+[0.866s] writing fanuc_moveit_config.egg-info/PKG-INFO
+[0.867s] writing dependency_links to fanuc_moveit_config.egg-info/dependency_links.txt
+[0.867s] writing top-level names to fanuc_moveit_config.egg-info/top_level.txt
+[0.871s] reading manifest file 'fanuc_moveit_config.egg-info/SOURCES.txt'
+[0.872s] writing manifest file 'fanuc_moveit_config.egg-info/SOURCES.txt'
+[0.925s] running install_scripts
+[0.932s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.932s]   warnings.warn(
+[0.961s] Built target ament_cmake_python_build_fanuc_moveit_config_egg
+[0.966s] running egg_info
+[0.967s] writing fanuc_moveit_config.egg-info/PKG-INFO
+[0.967s] writing dependency_links to fanuc_moveit_config.egg-info/dependency_links.txt
+[0.967s] writing top-level names to fanuc_moveit_config.egg-info/top_level.txt
+[0.971s] reading manifest file 'fanuc_moveit_config.egg-info/SOURCES.txt'
+[0.971s] writing manifest file 'fanuc_moveit_config.egg-info/SOURCES.txt'
+[1.013s] Built target ament_cmake_python_build_fanuc_moveit_config_scripts
+[1.522s] Invoked command in '/workspaces/aprs/aprs_ws/build/fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/fanuc_moveit_config -- -j16 -l16
+[2.398s] Invoking command in '/workspaces/aprs/aprs_ws/build/fanuc_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/fanuc_moveit_config
+[2.403s] -- Install configuration: ""
+[2.404s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config
+[2.405s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/controller.yaml
+[2.405s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/ompl_planning.yaml
+[2.405s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/joint_limits.yaml
+[2.405s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/config/kinematics.yaml
+[2.405s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch
+[2.405s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/launch/fanuc_moveit.launch.py
+[2.407s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/srdf
+[2.407s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/srdf/fanuc.srdf
+[2.407s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/rviz
+[2.407s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/rviz/moveit.rviz
+[2.407s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/pythonpath.sh
+[2.407s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/pythonpath.dsv
+[2.407s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/local/lib/python3.10/dist-packages/fanuc_moveit_config-0.0.0-py3.10.egg-info
+[2.408s] -- Installing: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/local/lib/python3.10/dist-packages/fanuc_moveit_config-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.409s] -- Installing: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/local/lib/python3.10/dist-packages/fanuc_moveit_config-0.0.0-py3.10.egg-info/top_level.txt
+[2.409s] -- Installing: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/local/lib/python3.10/dist-packages/fanuc_moveit_config-0.0.0-py3.10.egg-info/PKG-INFO
+[2.410s] -- Installing: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/local/lib/python3.10/dist-packages/fanuc_moveit_config-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.410s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/lib/fanuc_moveit_config/
+[2.410s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/local/lib/python3.10/dist-packages/fanuc_moveit_config
+[2.410s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/local/lib/python3.10/dist-packages/fanuc_moveit_config/parameters.py
+[2.410s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/local/lib/python3.10/dist-packages/fanuc_moveit_config/__init__.py
+[2.456s] Listing '/workspaces/aprs/aprs_ws/install/fanuc_moveit_config/local/lib/python3.10/dist-packages/fanuc_moveit_config'...
+[2.456s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/ament_index/resource_index/package_run_dependencies/fanuc_moveit_config
+[2.456s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/ament_index/resource_index/parent_prefix_path/fanuc_moveit_config
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/ament_prefix_path.sh
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/ament_prefix_path.dsv
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/path.sh
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/environment/path.dsv
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.bash
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.sh
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.zsh
+[2.457s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/local_setup.dsv
+[2.458s] -- Installing: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/package.dsv
+[2.458s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/ament_index/resource_index/packages/fanuc_moveit_config
+[2.458s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/cmake/fanuc_moveit_configConfig.cmake
+[2.458s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/cmake/fanuc_moveit_configConfig-version.cmake
+[2.458s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_moveit_config/share/fanuc_moveit_config/package.xml
+[2.578s] Invoked command in '/workspaces/aprs/aprs_ws/build/fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/fanuc_moveit_config

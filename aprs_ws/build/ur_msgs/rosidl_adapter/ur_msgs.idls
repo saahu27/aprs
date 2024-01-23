@@ -1,0 +1,10 @@
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Analog.idl
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Digital.idl
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/IOStates.idl
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotStateRTMsg.idl
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/MasterboardDataMsg.idl
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotModeDataMsg.idl
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/ToolDataMsg.idl
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetPayload.idl
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetSpeedSliderFraction.idl
+/workspaces/aprs/aprs_ws/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetIO.idl

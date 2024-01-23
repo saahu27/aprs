@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz//launch
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz//launch/motomanrobot.launch.py
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz//config
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz//config/controller.yaml
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/ament_index/resource_index/package_run_dependencies/motoman_gz
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/ament_index/resource_index/parent_prefix_path/motoman_gz
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/environment/ament_prefix_path.sh
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/environment/path.sh
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/environment/path.dsv
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/local_setup.bash
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/local_setup.sh
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/local_setup.zsh
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/local_setup.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/package.dsv
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/ament_index/resource_index/packages/motoman_gz
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/cmake/motoman_gzConfig.cmake
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/cmake/motoman_gzConfig-version.cmake
+-- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/package.xml

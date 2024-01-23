@@ -1,0 +1,16 @@
+Built target ament_cmake_python_copy_aprs_moveit_config
+running egg_info
+writing aprs_moveit_config.egg-info/PKG-INFO
+writing dependency_links to aprs_moveit_config.egg-info/dependency_links.txt
+writing top-level names to aprs_moveit_config.egg-info/top_level.txt
+reading manifest file 'aprs_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'aprs_moveit_config.egg-info/SOURCES.txt'
+running install_scripts
+running egg_info
+writing aprs_moveit_config.egg-info/PKG-INFO
+writing dependency_links to aprs_moveit_config.egg-info/dependency_links.txt
+writing top-level names to aprs_moveit_config.egg-info/top_level.txt
+reading manifest file 'aprs_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'aprs_moveit_config.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_aprs_moveit_config_egg
+Built target ament_cmake_python_build_aprs_moveit_config_scripts

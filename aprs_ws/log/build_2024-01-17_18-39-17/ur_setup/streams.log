@@ -1,0 +1,24 @@
+[1.179s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_setup -- -j16 -l16
+[1.408s] [100%] Built target ur_setup
+[1.791s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_setup -- -j16 -l16
+[2.610s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_setup
+[2.663s] -- Install configuration: ""
+[2.663s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup//launch
+[2.664s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup//launch/ur_setup.launch.py
+[2.664s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/lib/ur_setup/ur_setup
+[2.664s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/package_run_dependencies/ur_setup
+[2.664s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/parent_prefix_path/ur_setup
+[2.665s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/ament_prefix_path.sh
+[2.665s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/ament_prefix_path.dsv
+[2.666s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/path.sh
+[2.666s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/environment/path.dsv
+[2.668s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.bash
+[2.669s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.sh
+[2.669s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.zsh
+[2.669s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/local_setup.dsv
+[2.669s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/package.dsv
+[2.669s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ament_index/resource_index/packages/ur_setup
+[2.669s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/cmake/ur_setupConfig.cmake
+[2.670s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/cmake/ur_setupConfig-version.cmake
+[2.670s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_setup/share/ur_setup/package.xml
+[3.488s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_setup

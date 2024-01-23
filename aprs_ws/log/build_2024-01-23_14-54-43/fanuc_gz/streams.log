@@ -1,0 +1,24 @@
+[0.311s] Invoking command in '/workspaces/aprs/aprs_ws/build/fanuc_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/fanuc_gz -- -j16 -l16
+[0.434s] Invoked command in '/workspaces/aprs/aprs_ws/build/fanuc_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/fanuc_gz -- -j16 -l16
+[0.660s] Invoking command in '/workspaces/aprs/aprs_ws/build/fanuc_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/fanuc_gz
+[0.803s] -- Install configuration: ""
+[0.803s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz//launch
+[0.803s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz//launch/fanucrobot.launch.py
+[0.803s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz//config
+[0.803s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz//config/controller.yaml
+[0.803s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/ament_index/resource_index/package_run_dependencies/fanuc_gz
+[0.803s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/ament_index/resource_index/parent_prefix_path/fanuc_gz
+[0.803s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/environment/ament_prefix_path.sh
+[0.804s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/environment/ament_prefix_path.dsv
+[0.804s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/environment/path.sh
+[0.804s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/environment/path.dsv
+[0.804s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/local_setup.bash
+[0.805s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/local_setup.sh
+[0.805s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/local_setup.zsh
+[0.805s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/local_setup.dsv
+[0.805s] -- Installing: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/package.dsv
+[0.805s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/ament_index/resource_index/packages/fanuc_gz
+[0.805s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/cmake/fanuc_gzConfig.cmake
+[0.806s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/cmake/fanuc_gzConfig-version.cmake
+[0.806s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/fanuc_gz/share/fanuc_gz/package.xml
+[0.959s] Invoked command in '/workspaces/aprs/aprs_ws/build/fanuc_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/fanuc_gz

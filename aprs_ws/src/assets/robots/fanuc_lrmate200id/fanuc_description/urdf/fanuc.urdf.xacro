@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="fanuc_robot">
+    <!-- Root link -->
+
+  <link name="world"/>
+  
+  <gazebo 
+    reference="world">
+  </gazebo>
+
+  <xacro:include filename="$(find fanuc_description)/urdf/lrmate200id_macro.xacro"/>
+  
+  <xacro:fanuc_lrmate200id prefix=""/>
+
+  <xacro:include filename="$(find fanuc_description)/urdf/fanuc.ros2_control"/>
+  <!-- ROS 2 control -->
+
+  <xacro:ros2_control_fanuc_arm prefix="" plugin="ign" command_interface="position"/>
+
+  
+
+  <!-- <xacro:arg name="controllers" default="$(find fanuc_gz)/config/controller.yaml" /> -->
+
+  <gazebo>
+    <plugin filename="libign_ros2_control-system.so" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+      <parameters>$(find fanuc_gz)/config/controller.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

@@ -1,0 +1,91 @@
+[0.546s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/aprs_gazebo -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/aprs_gazebo
+[0.660s] -- The C compiler identification is GNU 11.4.0
+[0.789s] -- The CXX compiler identification is GNU 11.4.0
+[0.799s] -- Detecting C compiler ABI info
+[0.959s] -- Detecting C compiler ABI info - done
+[0.966s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.981s] -- Detecting C compile features
+[0.981s] -- Detecting C compile features - done
+[0.981s] -- Detecting CXX compiler ABI info
+[1.140s] -- Detecting CXX compiler ABI info - done
+[1.151s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.151s] -- Detecting CXX compile features
+[1.151s] -- Detecting CXX compile features - done
+[1.158s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.560s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.821s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.963s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.963s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.030s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.787s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.822s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.683s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.009s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.097s] -- Looking for pthread.h
+[4.523s] -- Looking for pthread.h - found
+[4.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.812s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.812s] -- Found Threads: TRUE  
+[5.091s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[5.407s] -- Configuring done
+[5.419s] -- Generating done
+[5.423s] -- Build files have been written to: /workspaces/aprs/aprs_ws/build/aprs_gazebo
+[6.562s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspaces/aprs/aprs_ws/src/aprs_gazebo -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/aprs_ws/install/aprs_gazebo
+[6.563s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_gazebo -- -j16 -l16
+[6.740s] Built target ament_cmake_python_copy_aprs_gazebo
+[7.213s] running install_scripts
+[7.218s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.218s]   warnings.warn(
+[7.263s] running egg_info
+[7.265s] creating aprs_gazebo.egg-info
+[7.265s] writing aprs_gazebo.egg-info/PKG-INFO
+[7.265s] writing dependency_links to aprs_gazebo.egg-info/dependency_links.txt
+[7.265s] writing top-level names to aprs_gazebo.egg-info/top_level.txt
+[7.266s] writing manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+[7.268s] reading manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+[7.268s] writing manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+[7.378s] running egg_info
+[7.380s] writing aprs_gazebo.egg-info/PKG-INFO
+[7.380s] writing dependency_links to aprs_gazebo.egg-info/dependency_links.txt
+[7.380s] writing top-level names to aprs_gazebo.egg-info/top_level.txt
+[7.385s] reading manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+[7.386s] writing manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+[7.403s] Built target ament_cmake_python_build_aprs_gazebo_scripts
+[7.500s] Built target ament_cmake_python_build_aprs_gazebo_egg
+[7.532s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_gazebo -- -j16 -l16
+[7.683s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_gazebo
+[9.235s] -- Install configuration: ""
+[9.235s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/launch
+[9.235s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/launch/aprs.launch.py
+[9.235s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/pythonpath.sh
+[9.235s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/pythonpath.dsv
+[9.235s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info
+[9.236s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.236s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/top_level.txt
+[9.236s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/PKG-INFO
+[9.236s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.236s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/lib/aprs_gazebo/
+[9.236s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo
+[9.236s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo/__init__.py
+[9.236s] Listing '/workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo'...
+[9.237s] Compiling '/workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo/__init__.py'...
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/lib/aprs_gazebo/controller_switcher.py
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/package_run_dependencies/aprs_gazebo
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/parent_prefix_path/aprs_gazebo
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/ament_prefix_path.sh
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/ament_prefix_path.dsv
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/path.sh
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/path.dsv
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.bash
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.sh
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.zsh
+[9.237s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.dsv
+[9.238s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/package.dsv
+[9.238s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/packages/aprs_gazebo
+[9.238s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/cmake/aprs_gazeboConfig.cmake
+[9.238s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/cmake/aprs_gazeboConfig-version.cmake
+[9.238s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/package.xml
+[9.661s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_gazebo

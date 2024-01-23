@@ -1,0 +1,40 @@
+[0.133s] Invoking command in '/workspaces/aprs/aprs_ws/build/motoman_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/motoman_description -- -j16 -l16
+[0.267s] Invoked command in '/workspaces/aprs/aprs_ws/build/motoman_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/motoman_description -- -j16 -l16
+[0.353s] Invoking command in '/workspaces/aprs/aprs_ws/build/motoman_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/motoman_description
+[0.410s] -- Install configuration: ""
+[0.411s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/config
+[0.411s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes
+[0.411s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_e.STL
+[0.411s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_u.STL
+[0.411s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_b.STL
+[0.412s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/base_link.STL
+[0.412s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_l.STL
+[0.412s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_s.STL
+[0.412s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_t.STL
+[0.412s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_r.STL
+[0.412s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf
+[0.412s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf/motoman.urdf.xacro
+[0.412s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf/common.urdf.xacro
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf/motoman_ros2_control.xacro
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf/sia20.urdf.xacro
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/hooks
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/hooks/motoman_description.dsv.in
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/hooks/motoman_description.sh.in
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/motoman_description.dsv
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/motoman_description.sh
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/ament_index/resource_index/package_run_dependencies/motoman_description
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/ament_index/resource_index/parent_prefix_path/motoman_description
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/ament_prefix_path.sh
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/ament_prefix_path.dsv
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/path.sh
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/path.dsv
+[0.413s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/local_setup.bash
+[0.414s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/local_setup.sh
+[0.414s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/local_setup.zsh
+[0.414s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/local_setup.dsv
+[0.414s] -- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/package.dsv
+[0.414s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/ament_index/resource_index/packages/motoman_description
+[0.414s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/cmake/motoman_descriptionConfig.cmake
+[0.414s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/cmake/motoman_descriptionConfig-version.cmake
+[0.414s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/package.xml
+[0.692s] Invoked command in '/workspaces/aprs/aprs_ws/build/motoman_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/motoman_description

@@ -1,0 +1,28 @@
+[1.083s] Invoking command in '/workspaces/aprs/aprs_ws/build/vaccum_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/vaccum_description -- -j16 -l16
+[1.579s] Invoked command in '/workspaces/aprs/aprs_ws/build/vaccum_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/vaccum_description -- -j16 -l16
+[2.177s] Invoking command in '/workspaces/aprs/aprs_ws/build/vaccum_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/vaccum_description
+[2.299s] -- Install configuration: ""
+[2.299s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/meshes
+[2.299s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/meshes/VacuumGripper.stl
+[2.299s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/urdf
+[2.299s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/urdf/vaccum.urdf.xacro
+[2.299s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/urdf
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/urdf/vaccum.urdf.xacro
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/environment/vaccum_description.dsv
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/environment/vaccum_description.sh
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/ament_index/resource_index/package_run_dependencies/vaccum_description
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/ament_index/resource_index/parent_prefix_path/vaccum_description
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/environment/ament_prefix_path.sh
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/environment/ament_prefix_path.dsv
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/environment/path.sh
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/environment/path.dsv
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/local_setup.bash
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/local_setup.sh
+[2.300s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/local_setup.zsh
+[2.301s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/local_setup.dsv
+[2.301s] -- Installing: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/package.dsv
+[2.301s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/ament_index/resource_index/packages/vaccum_description
+[2.301s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/cmake/vaccum_descriptionConfig.cmake
+[2.301s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/cmake/vaccum_descriptionConfig-version.cmake
+[2.301s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/vaccum_description/share/vaccum_description/package.xml
+[2.579s] Invoked command in '/workspaces/aprs/aprs_ws/build/vaccum_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/vaccum_description

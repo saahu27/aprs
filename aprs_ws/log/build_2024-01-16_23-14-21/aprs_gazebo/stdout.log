@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/aprs/aprs_ws/build/aprs_gazebo
+Built target ament_cmake_python_copy_aprs_gazebo
+running install_scripts
+running egg_info
+creating aprs_gazebo.egg-info
+writing aprs_gazebo.egg-info/PKG-INFO
+writing dependency_links to aprs_gazebo.egg-info/dependency_links.txt
+writing top-level names to aprs_gazebo.egg-info/top_level.txt
+writing manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+reading manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+running egg_info
+writing aprs_gazebo.egg-info/PKG-INFO
+writing dependency_links to aprs_gazebo.egg-info/dependency_links.txt
+writing top-level names to aprs_gazebo.egg-info/top_level.txt
+reading manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'aprs_gazebo.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_aprs_gazebo_scripts
+Built target ament_cmake_python_build_aprs_gazebo_egg
+-- Install configuration: ""
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/launch
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/launch/aprs.launch.py
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/pythonpath.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/pythonpath.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/lib/aprs_gazebo/
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo/__init__.py
+Listing '/workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo'...
+Compiling '/workspaces/aprs/aprs_ws/install/aprs_gazebo/local/lib/python3.10/dist-packages/aprs_gazebo/__init__.py'...
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/lib/aprs_gazebo/controller_switcher.py
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/package_run_dependencies/aprs_gazebo
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/parent_prefix_path/aprs_gazebo
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/ament_prefix_path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/environment/path.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.bash
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.zsh
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/local_setup.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/package.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/ament_index/resource_index/packages/aprs_gazebo
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/cmake/aprs_gazeboConfig.cmake
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/cmake/aprs_gazeboConfig-version.cmake
+-- Installing: /workspaces/aprs/aprs_ws/install/aprs_gazebo/share/aprs_gazebo/package.xml

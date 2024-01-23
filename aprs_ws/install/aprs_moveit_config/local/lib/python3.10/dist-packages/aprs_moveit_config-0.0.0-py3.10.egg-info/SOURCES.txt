@@ -1,0 +1,7 @@
+setup.py
+aprs_moveit_config/__init__.py
+aprs_moveit_config/parameters.py
+aprs_moveit_config.egg-info/PKG-INFO
+aprs_moveit_config.egg-info/SOURCES.txt
+aprs_moveit_config.egg-info/dependency_links.txt
+aprs_moveit_config.egg-info/top_level.txt

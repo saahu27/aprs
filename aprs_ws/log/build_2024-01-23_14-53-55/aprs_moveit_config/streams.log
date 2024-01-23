@@ -1,0 +1,60 @@
+[0.782s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_moveit_config -- -j16 -l16
+[0.845s] Built target ament_cmake_python_copy_aprs_moveit_config
+[1.169s] running egg_info
+[1.170s] writing aprs_moveit_config.egg-info/PKG-INFO
+[1.171s] writing dependency_links to aprs_moveit_config.egg-info/dependency_links.txt
+[1.171s] writing top-level names to aprs_moveit_config.egg-info/top_level.txt
+[1.175s] reading manifest file 'aprs_moveit_config.egg-info/SOURCES.txt'
+[1.176s] writing manifest file 'aprs_moveit_config.egg-info/SOURCES.txt'
+[1.191s] running install_scripts
+[1.194s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.194s]   warnings.warn(
+[1.229s] running egg_info
+[1.230s] writing aprs_moveit_config.egg-info/PKG-INFO
+[1.230s] writing dependency_links to aprs_moveit_config.egg-info/dependency_links.txt
+[1.231s] writing top-level names to aprs_moveit_config.egg-info/top_level.txt
+[1.233s] reading manifest file 'aprs_moveit_config.egg-info/SOURCES.txt'
+[1.234s] writing manifest file 'aprs_moveit_config.egg-info/SOURCES.txt'
+[1.242s] Built target ament_cmake_python_build_aprs_moveit_config_egg
+[1.313s] Built target ament_cmake_python_build_aprs_moveit_config_scripts
+[1.951s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_moveit_config' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/aprs_moveit_config -- -j16 -l16
+[2.782s] Invoking command in '/workspaces/aprs/aprs_ws/build/aprs_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_moveit_config
+[2.796s] -- Install configuration: ""
+[2.796s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/config
+[2.796s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/config/ompl_planning.yaml
+[2.796s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/config/kinematics.yaml
+[2.796s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/config/controllers.yaml
+[2.796s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/launch
+[2.796s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/launch/aprs_moveit.launch.py
+[2.796s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/srdf
+[2.796s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/srdf/aprs_robots.srdf
+[2.796s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/rviz
+[2.797s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/rviz/moveit.rviz
+[2.797s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/environment/pythonpath.sh
+[2.797s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/environment/pythonpath.dsv
+[2.797s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/local/lib/python3.10/dist-packages/aprs_moveit_config-0.0.0-py3.10.egg-info
+[2.797s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/local/lib/python3.10/dist-packages/aprs_moveit_config-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.797s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/local/lib/python3.10/dist-packages/aprs_moveit_config-0.0.0-py3.10.egg-info/top_level.txt
+[2.797s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/local/lib/python3.10/dist-packages/aprs_moveit_config-0.0.0-py3.10.egg-info/PKG-INFO
+[2.797s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/local/lib/python3.10/dist-packages/aprs_moveit_config-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.797s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/lib/aprs_moveit_config/
+[2.797s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/local/lib/python3.10/dist-packages/aprs_moveit_config
+[2.797s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/local/lib/python3.10/dist-packages/aprs_moveit_config/parameters.py
+[2.797s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/local/lib/python3.10/dist-packages/aprs_moveit_config/__init__.py
+[2.837s] Listing '/workspaces/aprs/aprs_ws/install/aprs_moveit_config/local/lib/python3.10/dist-packages/aprs_moveit_config'...
+[2.850s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/ament_index/resource_index/package_run_dependencies/aprs_moveit_config
+[2.851s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/ament_index/resource_index/parent_prefix_path/aprs_moveit_config
+[2.851s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/environment/ament_prefix_path.sh
+[2.851s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/environment/ament_prefix_path.dsv
+[2.851s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/environment/path.sh
+[2.851s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/environment/path.dsv
+[2.851s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/local_setup.bash
+[2.852s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/local_setup.sh
+[2.852s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/local_setup.zsh
+[2.852s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/local_setup.dsv
+[2.852s] -- Installing: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/package.dsv
+[2.852s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/ament_index/resource_index/packages/aprs_moveit_config
+[2.853s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/cmake/aprs_moveit_configConfig.cmake
+[2.853s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/cmake/aprs_moveit_configConfig-version.cmake
+[2.853s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/aprs_moveit_config/share/aprs_moveit_config/package.xml
+[3.163s] Invoked command in '/workspaces/aprs/aprs_ws/build/aprs_moveit_config' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/aprs_moveit_config

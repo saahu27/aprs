@@ -1,0 +1,86 @@
+[1.207s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_client_library -- -j16 -l16
+[1.340s] [ 63%] Built target urcl
+[1.385s] [ 67%] Built target driver_example
+[1.433s] [ 71%] Built target force_mode_example
+[1.520s] [ 75%] Built target freedrive_example
+[1.602s] [ 79%] Built target tool_contact_example
+[1.610s] [ 83%] Built target spline_example
+[1.657s] [ 87%] Built target dashboard_example
+[1.701s] [ 91%] Built target rtde_client_example
+[1.748s] [ 95%] Built target primary_pipeline_calibration_example
+[1.806s] [100%] Built target primary_pipeline_example
+[2.508s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_client_library -- -j16 -l16
+[4.195s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_client_library
+[4.971s] -- Install configuration: "RelWithDebInfo"
+[4.972s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/lib/liburcl.so
+[4.972s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include
+[4.973s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library
+[4.973s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde
+[4.973s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_start.h
+[4.974s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/text_message.h
+[4.975s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/request_protocol_version.h
+[4.975s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/data_package.h
+[4.975s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_outputs.h
+[4.975s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/package_header.h
+[4.975s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_inputs.h
+[4.976s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_parser.h
+[4.976s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/get_urcontrol_version.h
+[4.976s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_writer.h
+[4.976s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_client.h
+[4.976s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_package.h
+[4.977s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_pause.h
+[4.977s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/default_log_handler.h
+[4.977s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/queue
+[4.977s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/queue/LICENSE.md
+[4.977s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/queue/atomicops.h
+[4.977s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/queue/readerwriterqueue.h
+[4.978s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control
+[4.978s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control/script_sender.h
+[4.978s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control/reverse_interface.h
+[4.979s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control/trajectory_point_interface.h
+[4.979s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/control/script_command_interface.h
+[4.979s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/helpers.h
+[4.981s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/log.h
+[4.982s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/types.h
+[4.982s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/exceptions.h
+[4.983s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm
+[4.983s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/package_serializer.h
+[4.983s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/stream.h
+[4.983s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/control_mode.h
+[4.983s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/bin_parser.h
+[4.983s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/producer.h
+[4.984s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/tcp_server.h
+[4.984s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/parser.h
+[4.984s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/package.h
+[4.985s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/shell_consumer.h
+[4.985s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/pipeline.h
+[4.985s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/comm/tcp_socket.h
+[4.985s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur
+[4.985s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/datatypes.h
+[4.985s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/calibration_checker.h
+[4.985s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/version_information.h
+[4.986s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/tool_communication.h
+[4.986s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/dashboard_client.h
+[4.987s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/ur/ur_driver.h
+[4.987s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary
+[4.988s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/primary_package.h
+[4.988s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_message.h
+[4.988s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_state
+[4.988s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_state/kinematics_info.h
+[4.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/primary_parser.h
+[4.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/abstract_primary_consumer.h
+[4.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/package_header.h
+[4.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_message
+[4.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_message/version_message.h
+[4.990s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/include/ur_client_library/primary/robot_state.h
+[4.990s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/lib/cmake/ur_client_library/urclTargets.cmake
+[4.990s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/lib/cmake/ur_client_library/urclTargets-relwithdebinfo.cmake
+[4.990s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/lib/ur_client_library/start_ursim.sh
+[4.990s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/lib/cmake/ur_client_library/ur_client_libraryConfig.cmake
+[4.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/package.xml
+[4.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/share/ament_index/resource_index/packages/ur_client_library
+[4.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/hook/ament_prefix_path.dsv
+[4.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/hook/ros_package_path.dsv
+[4.994s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/resources
+[4.994s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_client_library/share/ur_client_library/resources/external_control.urscript
+[5.016s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_client_library

@@ -1,0 +1,53 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/aprs/aprs_ws/build/motoman_description
+-- Install configuration: ""
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/config
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_e.STL
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_u.STL
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_b.STL
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/base_link.STL
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_l.STL
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_s.STL
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_t.STL
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/meshes/link_r.STL
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf/motoman.urdf.xacro
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf/common.urdf.xacro
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf/motoman_ros2_control.xacro
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/urdf/sia20.urdf.xacro
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/hooks
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/hooks/motoman_description.dsv.in
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/hooks/motoman_description.sh.in
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/motoman_description.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/motoman_description.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/ament_index/resource_index/package_run_dependencies/motoman_description
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/ament_index/resource_index/parent_prefix_path/motoman_description
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/ament_prefix_path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/path.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/environment/path.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/local_setup.bash
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/local_setup.sh
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/local_setup.zsh
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/local_setup.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/package.dsv
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/ament_index/resource_index/packages/motoman_description
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/cmake/motoman_descriptionConfig.cmake
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/cmake/motoman_descriptionConfig-version.cmake
+-- Installing: /workspaces/aprs/aprs_ws/install/motoman_description/share/motoman_description/package.xml

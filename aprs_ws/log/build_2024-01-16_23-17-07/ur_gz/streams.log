@@ -1,0 +1,31 @@
+[0.938s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_gz -- -j16 -l16
+[1.499s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_gz -- -j16 -l16
+[1.791s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_gz
+[1.820s] -- Install configuration: ""
+[1.820s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz//launch
+[1.821s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz//launch/ur_real.launch.py
+[1.821s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz//launch/urrobot.launch.py
+[1.821s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz//launch/s2r.launch.py
+[1.821s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz//config
+[1.821s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz//config/ur_controller.yaml
+[1.821s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz//urdf
+[1.823s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz//urdf/ur_gz_macro.xacro
+[1.823s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz//urdf/ur_gz.xacro
+[1.823s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/environment/ur_gz.dsv
+[1.823s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/environment/ur_gz.sh
+[1.823s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ament_index/resource_index/package_run_dependencies/ur_gz
+[1.823s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ament_index/resource_index/parent_prefix_path/ur_gz
+[1.823s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/environment/ament_prefix_path.sh
+[1.823s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/environment/ament_prefix_path.dsv
+[1.823s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/environment/path.sh
+[1.824s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/environment/path.dsv
+[1.824s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/local_setup.bash
+[1.824s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/local_setup.sh
+[1.824s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/local_setup.zsh
+[1.824s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/local_setup.dsv
+[1.824s] -- Installing: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/package.dsv
+[1.825s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ament_index/resource_index/packages/ur_gz
+[1.826s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/cmake/ur_gzConfig.cmake
+[1.826s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/cmake/ur_gzConfig-version.cmake
+[1.826s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/ur_gz/share/ur_gz/package.xml
+[2.181s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/ur_gz

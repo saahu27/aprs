@@ -1,0 +1,2 @@
+[0.661s] Invoking command in '/workspaces/aprs/aprs_ws/build/ur_description__': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_description__ -- -j16 -l16
+[1.234s] Invoked command in '/workspaces/aprs/aprs_ws/build/ur_description__' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/ur_description__ -- -j16 -l16

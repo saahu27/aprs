@@ -1,0 +1,24 @@
+[0.140s] Invoking command in '/workspaces/aprs/aprs_ws/build/motoman_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/motoman_gz -- -j16 -l16
+[0.291s] Invoked command in '/workspaces/aprs/aprs_ws/build/motoman_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/motoman_gz -- -j16 -l16
+[0.428s] Invoking command in '/workspaces/aprs/aprs_ws/build/motoman_gz': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/motoman_gz
+[0.437s] -- Install configuration: ""
+[0.437s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz//launch
+[0.437s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz//launch/motomanrobot.launch.py
+[0.437s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz//config
+[0.438s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz//config/controller.yaml
+[0.438s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/ament_index/resource_index/package_run_dependencies/motoman_gz
+[0.438s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/ament_index/resource_index/parent_prefix_path/motoman_gz
+[0.438s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/environment/ament_prefix_path.sh
+[0.438s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/environment/ament_prefix_path.dsv
+[0.438s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/environment/path.sh
+[0.438s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/environment/path.dsv
+[0.438s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/local_setup.bash
+[0.439s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/local_setup.sh
+[0.439s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/local_setup.zsh
+[0.439s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/local_setup.dsv
+[0.439s] -- Installing: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/package.dsv
+[0.440s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/ament_index/resource_index/packages/motoman_gz
+[0.440s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/cmake/motoman_gzConfig.cmake
+[0.440s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/cmake/motoman_gzConfig-version.cmake
+[0.440s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_gz/share/motoman_gz/package.xml
+[0.889s] Invoked command in '/workspaces/aprs/aprs_ws/build/motoman_gz' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/motoman_gz

@@ -1,0 +1,61 @@
+[0.228s] Invoking command in '/workspaces/aprs/aprs_ws/build/motoman_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/motoman_moveit_config -- -j16 -l16
+[0.512s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.513s]   warnings.warn(
+[0.513s] Built target ament_cmake_python_copy_motoman_moveit_config
+[0.513s] running install_scripts
+[0.520s] running egg_info
+[0.520s] running egg_info
+[0.521s] writing motoman_moveit_config.egg-info/PKG-INFO
+[0.521s] writing dependency_links to motoman_moveit_config.egg-info/dependency_links.txt
+[0.521s] writing motoman_moveit_config.egg-info/PKG-INFO
+[0.521s] writing top-level names to motoman_moveit_config.egg-info/top_level.txt
+[0.522s] writing dependency_links to motoman_moveit_config.egg-info/dependency_links.txt
+[0.522s] writing top-level names to motoman_moveit_config.egg-info/top_level.txt
+[0.522s] reading manifest file 'motoman_moveit_config.egg-info/SOURCES.txt'
+[0.523s] reading manifest file 'motoman_moveit_config.egg-info/SOURCES.txt'
+[0.523s] writing manifest file 'motoman_moveit_config.egg-info/SOURCES.txt'
+[0.523s] writing manifest file 'motoman_moveit_config.egg-info/SOURCES.txt'
+[0.554s] Built target ament_cmake_python_build_motoman_moveit_config_egg
+[0.561s] Built target ament_cmake_python_build_motoman_moveit_config_scripts
+[1.082s] Invoked command in '/workspaces/aprs/aprs_ws/build/motoman_moveit_config' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/aprs_ws/build/motoman_moveit_config -- -j16 -l16
+[1.881s] Invoking command in '/workspaces/aprs/aprs_ws/build/motoman_moveit_config': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/motoman_moveit_config
+[1.988s] -- Install configuration: ""
+[1.988s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/config
+[1.988s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/config/controller.yaml
+[1.988s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/config/ompl_planning.yaml
+[1.988s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/config/joint_limits.yaml
+[1.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/config/kinematics.yaml
+[1.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/launch
+[1.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/launch/motoman_moveit.launch.py
+[1.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/srdf
+[1.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/srdf/motoman.srdf
+[1.989s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/rviz
+[1.990s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/rviz/moveit.rviz
+[1.990s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/environment/pythonpath.sh
+[1.990s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/environment/pythonpath.dsv
+[1.990s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/local/lib/python3.10/dist-packages/motoman_moveit_config-0.0.0-py3.10.egg-info
+[1.990s] -- Installing: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/local/lib/python3.10/dist-packages/motoman_moveit_config-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.991s] -- Installing: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/local/lib/python3.10/dist-packages/motoman_moveit_config-0.0.0-py3.10.egg-info/top_level.txt
+[1.991s] -- Installing: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/local/lib/python3.10/dist-packages/motoman_moveit_config-0.0.0-py3.10.egg-info/PKG-INFO
+[1.991s] -- Installing: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/local/lib/python3.10/dist-packages/motoman_moveit_config-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.991s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/lib/motoman_moveit_config/
+[1.992s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/local/lib/python3.10/dist-packages/motoman_moveit_config
+[1.992s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/local/lib/python3.10/dist-packages/motoman_moveit_config/parameters.py
+[1.992s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/local/lib/python3.10/dist-packages/motoman_moveit_config/__init__.py
+[1.992s] Listing '/workspaces/aprs/aprs_ws/install/motoman_moveit_config/local/lib/python3.10/dist-packages/motoman_moveit_config'...
+[1.992s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/ament_index/resource_index/package_run_dependencies/motoman_moveit_config
+[1.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/ament_index/resource_index/parent_prefix_path/motoman_moveit_config
+[1.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/environment/ament_prefix_path.sh
+[1.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/environment/ament_prefix_path.dsv
+[1.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/environment/path.sh
+[1.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/environment/path.dsv
+[1.993s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/local_setup.bash
+[1.994s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/local_setup.sh
+[1.994s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/local_setup.zsh
+[1.994s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/local_setup.dsv
+[1.994s] -- Installing: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/package.dsv
+[1.994s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/ament_index/resource_index/packages/motoman_moveit_config
+[1.995s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/cmake/motoman_moveit_configConfig.cmake
+[1.995s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/cmake/motoman_moveit_configConfig-version.cmake
+[1.996s] -- Up-to-date: /workspaces/aprs/aprs_ws/install/motoman_moveit_config/share/motoman_moveit_config/package.xml
+[2.210s] Invoked command in '/workspaces/aprs/aprs_ws/build/motoman_moveit_config' returned '0': AMENT_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/aprs/aprs_ws/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/aprs_ws/build/motoman_moveit_config

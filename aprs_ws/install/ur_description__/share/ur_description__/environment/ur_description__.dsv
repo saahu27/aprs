@@ -1,0 +1,3 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs/aprs_ws/install/ur_description__/share
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/workspaces/aprs/aprs_ws/install/ur_description__/share/ur_description__
+prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib/ur_description__/
