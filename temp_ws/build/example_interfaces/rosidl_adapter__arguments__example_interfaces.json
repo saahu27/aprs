@@ -1,0 +1,7 @@
+{
+  "package_name": "example_interfaces",
+  "non_idl_tuples": [
+    "/workspaces/aprs/temp_ws/src/example_interfaces:srv/MoveToNamedPose.srv",
+    "/workspaces/aprs/temp_ws/src/example_interfaces:srv/AddTwoInts.srv"
+  ]
+}

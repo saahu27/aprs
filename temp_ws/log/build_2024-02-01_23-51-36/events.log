@@ -1,0 +1,377 @@
+[0.000000] (-) TimerEvent: {}
+[0.000698] (example_interfaces) JobQueued: {'identifier': 'example_interfaces', 'dependencies': OrderedDict()}
+[0.000737] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('example_interfaces', '/workspaces/aprs/temp_ws/install/example_interfaces')])}
+[0.000769] (example_interfaces) JobStarted: {'identifier': 'example_interfaces'}
+[0.061384] (example_interfaces) JobProgress: {'identifier': 'example_interfaces', 'progress': 'cmake'}
+[0.061846] (example_interfaces) JobProgress: {'identifier': 'example_interfaces', 'progress': 'build'}
+[0.062317] (example_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/aprs/temp_ws/build/example_interfaces', '--', '-j16', '-l16'], 'cwd': '/workspaces/aprs/temp_ws/build/example_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('REALSENSE_DIR', '/root/librealsense'), ('HOSTNAME', 'SahuGf'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('HOME', '/home/SahuGf'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-175f91df-be45-4e3e-9ede-9e1c5c9a7c32.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/workspaces/aprs/temp_ws/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock","/tmp/.X11-unix/X1","/home/SahuGf/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('REALSENSE_BASE', '/root'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ac5623843.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/temp_ws/build/example_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.090446] (example_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099606] (-) TimerEvent: {}
+[0.200001] (-) TimerEvent: {}
+[0.209804] (example_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.233506] (example_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.235271] (example_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.239809] (example_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.247964] (example_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.259337] (example_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.269889] (example_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.293251] (example_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.300106] (-) TimerEvent: {}
+[0.324032] (example_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.400223] (-) TimerEvent: {}
+[0.500585] (-) TimerEvent: {}
+[0.573480] (example_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.601115] (-) TimerEvent: {}
+[0.701364] (-) TimerEvent: {}
+[0.801635] (-) TimerEvent: {}
+[0.901928] (-) TimerEvent: {}
+[0.905054] (example_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.002033] (-) TimerEvent: {}
+[1.035674] (example_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.055992] (example_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.062757] (example_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.084091] (example_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.084272] (example_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.084334] (example_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.084389] (example_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.101238] (example_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.102116] (-) TimerEvent: {}
+[1.152894] (example_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.183894] (example_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.186242] (example_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/aprs/temp_ws/build/example_interfaces\n'}
+[1.202235] (-) TimerEvent: {}
+[1.208365] (example_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.217769] (example_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.228145] (example_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_example_interfaces\n'}
+[1.302347] (-) TimerEvent: {}
+[1.402640] (-) TimerEvent: {}
+[1.427958] (example_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.428764] (example_interfaces) StdoutLine: {'line': b'creating example_interfaces.egg-info\n'}
+[1.429080] (example_interfaces) StdoutLine: {'line': b'writing example_interfaces.egg-info/PKG-INFO\n'}
+[1.429272] (example_interfaces) StdoutLine: {'line': b'writing dependency_links to example_interfaces.egg-info/dependency_links.txt\n'}
+[1.429405] (example_interfaces) StdoutLine: {'line': b'writing top-level names to example_interfaces.egg-info/top_level.txt\n'}
+[1.429593] (example_interfaces) StdoutLine: {'line': b"writing manifest file 'example_interfaces.egg-info/SOURCES.txt'\n"}
+[1.431556] (example_interfaces) StdoutLine: {'line': b"reading manifest file 'example_interfaces.egg-info/SOURCES.txt'\n"}
+[1.431931] (example_interfaces) StdoutLine: {'line': b"writing manifest file 'example_interfaces.egg-info/SOURCES.txt'\n"}
+[1.466215] (example_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_example_interfaces_egg\n'}
+[1.474747] (example_interfaces) StdoutLine: {'line': b'[  5%] Built target example_interfaces__cpp\n'}
+[1.484177] (example_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.484394] (example_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.484477] (example_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.492559] (example_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_interfaces/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[1.492812] (example_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_interfaces/srv/detail/move_to_named_pose__functions.c.o\x1b[0m\n'}
+[1.502773] (-) TimerEvent: {}
+[1.545561] (example_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libexample_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.581742] (example_interfaces) StdoutLine: {'line': b'[ 20%] Built target example_interfaces__rosidl_generator_c\n'}
+[1.592538] (example_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.592791] (example_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.592903] (example_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.602888] (-) TimerEvent: {}
+[1.695892] (example_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_interfaces/srv/move_to_named_pose__type_support.cpp.o\x1b[0m\n'}
+[1.696126] (example_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_interfaces/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[1.703003] (-) TimerEvent: {}
+[1.720410] (example_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_interfaces/srv/detail/move_to_named_pose__type_support.cpp.o\x1b[0m\n'}
+[1.720743] (example_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_interfaces/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[1.783656] (example_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_interfaces/srv/detail/dds_fastrtps/move_to_named_pose__type_support.cpp.o\x1b[0m\n'}
+[1.785944] (example_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[1.803133] (-) TimerEvent: {}
+[1.806675] (example_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_interfaces/srv/move_to_named_pose__type_support.cpp.o\x1b[0m\n'}
+[1.809715] (example_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_interfaces/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[1.850144] (example_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.882642] (example_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_interfaces/srv/detail/move_to_named_pose__type_support_c.cpp.o\x1b[0m\n'}
+[1.884018] (example_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[1.898294] (example_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_interfaces/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[1.898666] (example_interfaces) StdoutLine: {'line': b'[ 58%] Built target example_interfaces__rosidl_typesupport_c\n'}
+[1.898951] (example_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_interfaces/srv/detail/move_to_named_pose__type_support.c.o\x1b[0m\n'}
+[1.903276] (-) TimerEvent: {}
+[1.950310] (example_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libexample_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.964029] (example_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.983775] (example_interfaces) StdoutLine: {'line': b'[ 66%] Built target example_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.003409] (-) TimerEvent: {}
+[2.004525] (example_interfaces) StdoutLine: {'line': b'[ 66%] Built target example_interfaces__rosidl_typesupport_cpp\n'}
+[2.089713] (example_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.103490] (-) TimerEvent: {}
+[2.160102] (example_interfaces) StdoutLine: {'line': b'[ 69%] Built target example_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.196065] (example_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.203611] (-) TimerEvent: {}
+[2.224533] (example_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.264500] (example_interfaces) StdoutLine: {'line': b'[ 74%] Built target example_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.288812] (example_interfaces) StdoutLine: {'line': b'[ 74%] Built target example_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.303721] (-) TimerEvent: {}
+[2.307203] (example_interfaces) StdoutLine: {'line': b'[ 74%] Built target example_interfaces\n'}
+[2.328267] (example_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.403834] (-) TimerEvent: {}
+[2.504110] (-) TimerEvent: {}
+[2.604397] (-) TimerEvent: {}
+[2.662820] (example_interfaces) StdoutLine: {'line': b'[ 76%] Built target example_interfaces__py\n'}
+[2.683270] (example_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_interfaces/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[2.683460] (example_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_interfaces/srv/_move_to_named_pose_s.c.o\x1b[0m\n'}
+[2.704523] (-) TimerEvent: {}
+[2.782221] (example_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/example_interfaces/libexample_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[2.804664] (-) TimerEvent: {}
+[2.822386] (example_interfaces) StdoutLine: {'line': b'[ 84%] Built target example_interfaces__rosidl_generator_py\n'}
+[2.844417] (example_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.844623] (example_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.844737] (example_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.904812] (-) TimerEvent: {}
+[2.944775] (example_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.944962] (example_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.945027] (example_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.981996] (example_interfaces) StdoutLine: {'line': b'[100%] Built target example_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.982184] (example_interfaces) StdoutLine: {'line': b'[100%] Built target example_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.982262] (example_interfaces) StdoutLine: {'line': b'[100%] Built target example_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.993805] (example_interfaces) CommandEnded: {'returncode': 0}
+[3.004904] (-) TimerEvent: {}
+[3.069414] (example_interfaces) JobProgress: {'identifier': 'example_interfaces', 'progress': 'install'}
+[3.077990] (example_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/aprs/temp_ws/build/example_interfaces'], 'cwd': '/workspaces/aprs/temp_ws/build/example_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('REALSENSE_DIR', '/root/librealsense'), ('HOSTNAME', 'SahuGf'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('HOME', '/home/SahuGf'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-175f91df-be45-4e3e-9ede-9e1c5c9a7c32.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/workspaces/aprs/temp_ws/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock","/tmp/.X11-unix/X1","/home/SahuGf/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('REALSENSE_BASE', '/root'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ac5623843.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/temp_ws/build/example_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces:/opt/ros/humble')]), 'shell': False}
+[3.084769] (example_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.084951] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_interfaces\n'}
+[3.085103] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces\n'}
+[3.085272] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv\n'}
+[3.085387] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail\n'}
+[3.085500] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.h\n'}
+[3.085595] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__type_support.h\n'}
+[3.085713] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__type_support.h\n'}
+[3.085834] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__functions.c\n'}
+[3.085972] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__functions.h\n'}
+[3.086114] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__functions.h\n'}
+[3.086252] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__struct.h\n'}
+[3.086375] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__functions.c\n'}
+[3.086513] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/add_two_ints.h\n'}
+[3.086631] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/move_to_named_pose.h\n'}
+[3.086749] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg\n'}
+[3.086834] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.086995] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/library_path.sh\n'}
+[3.087159] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/library_path.dsv\n'}
+[3.087358] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so\n'}
+[3.087775] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so" to ""\n'}
+[3.087896] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces\n'}
+[3.087963] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv\n'}
+[3.088062] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail\n'}
+[3.088132] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[3.088187] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[3.088267] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg\n'}
+[3.088359] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.088456] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.088865] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.088964] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces\n'}
+[3.089034] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv\n'}
+[3.089097] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp\n'}
+[3.089165] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail\n'}
+[3.089215] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp\n'}
+[3.089301] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp\n'}
+[3.089379] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__traits.hpp\n'}
+[3.089480] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__struct.hpp\n'}
+[3.089605] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp\n'}
+[3.089717] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__builder.hpp\n'}
+[3.089832] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/move_to_named_pose.hpp\n'}
+[3.089958] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces\n'}
+[3.090023] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv\n'}
+[3.090102] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail\n'}
+[3.090162] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/dds_fastrtps\n'}
+[3.090215] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.090286] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.090383] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg\n'}
+[3.090466] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.090568] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.090933] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.091008] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces\n'}
+[3.091083] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv\n'}
+[3.091134] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail\n'}
+[3.091183] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__type_support.c\n'}
+[3.091252] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[3.091324] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__rosidl_typesupport_introspection_c.h\n'}
+[3.091440] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__type_support.c\n'}
+[3.091565] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg\n'}
+[3.091635] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.091748] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.092080] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.092158] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so\n'}
+[3.092439] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.092548] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces\n'}
+[3.092608] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv\n'}
+[3.092694] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail\n'}
+[3.092771] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.092823] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__type_support.cpp\n'}
+[3.092890] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.092972] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__type_support.cpp\n'}
+[3.093108] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.093455] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.093518] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.093827] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.093912] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/pythonpath.sh\n'}
+[3.094002] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/pythonpath.dsv\n'}
+[3.094127] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.094302] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.094415] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.094527] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.094642] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.094772] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces\n'}
+[3.094853] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv\n'}
+[3.094931] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_move_to_named_pose.py\n'}
+[3.095060] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_add_two_ints.py\n'}
+[3.095185] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_add_two_ints_s.c\n'}
+[3.095303] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/__init__.py\n'}
+[3.095415] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_move_to_named_pose_s.c\n'}
+[3.095533] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.095675] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.095813] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.095953] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.096098] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/libexample_interfaces__rosidl_generator_py.so\n'}
+[3.096251] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py\n'}
+[3.096351] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.096492] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.104975] (-) TimerEvent: {}
+[3.131908] (example_interfaces) StdoutLine: {'line': b"Listing '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces'...\n"}
+[3.132121] (example_interfaces) StdoutLine: {'line': b"Compiling '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py'...\n"}
+[3.132200] (example_interfaces) StdoutLine: {'line': b"Listing '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv'...\n"}
+[3.132290] (example_interfaces) StdoutLine: {'line': b"Compiling '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/__init__.py'...\n"}
+[3.132363] (example_interfaces) StdoutLine: {'line': b"Compiling '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_add_two_ints.py'...\n"}
+[3.132443] (example_interfaces) StdoutLine: {'line': b"Compiling '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_move_to_named_pose.py'...\n"}
+[3.136345] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.136731] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.136920] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.137282] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.137439] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.137732] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.137824] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so\n'}
+[3.138138] (example_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so" to ""\n'}
+[3.138245] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/MoveToNamedPose.idl\n'}
+[3.138375] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/AddTwoInts.idl\n'}
+[3.138505] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/MoveToNamedPose.srv\n'}
+[3.138636] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/MoveToNamedPose_Request.msg\n'}
+[3.138765] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/MoveToNamedPose_Response.msg\n'}
+[3.138893] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/AddTwoInts.srv\n'}
+[3.139019] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/AddTwoInts_Request.msg\n'}
+[3.139148] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/AddTwoInts_Response.msg\n'}
+[3.139279] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/ament_index/resource_index/package_run_dependencies/example_interfaces\n'}
+[3.139346] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/ament_index/resource_index/parent_prefix_path/example_interfaces\n'}
+[3.139426] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.sh\n'}
+[3.139484] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.139580] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/path.sh\n'}
+[3.139656] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/path.dsv\n'}
+[3.139764] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/local_setup.bash\n'}
+[3.139844] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/local_setup.sh\n'}
+[3.139968] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/local_setup.zsh\n'}
+[3.140033] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/local_setup.dsv\n'}
+[3.140153] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/package.dsv\n'}
+[3.140308] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/ament_index/resource_index/packages/example_interfaces\n'}
+[3.140372] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.140502] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.140647] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.140809] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.140953] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.141100] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.141239] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.141383] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.141526] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.141669] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.141806] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.141951] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.142091] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.142234] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.142373] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.142514] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.142653] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.142793] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.142922] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.143083] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.143219] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.143455] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.143589] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.143729] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.143876] (example_interfaces) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig.cmake\n'}
+[3.144007] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig-version.cmake\n'}
+[3.144074] (example_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/package.xml\n'}
+[3.146213] (example_interfaces) CommandEnded: {'returncode': 0}
+[3.205078] (-) TimerEvent: {}
+[3.305328] (-) TimerEvent: {}
+[3.341618] (example_interfaces) JobEnded: {'identifier': 'example_interfaces', 'rc': 0}
+[3.342130] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[3.396958] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[3.397472] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[3.397663] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/aprs/temp_ws/build/cpp_srvcli', '--', '-j16', '-l16'], 'cwd': '/workspaces/aprs/temp_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('REALSENSE_DIR', '/root/librealsense'), ('HOSTNAME', 'SahuGf'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('HOME', '/home/SahuGf'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-175f91df-be45-4e3e-9ede-9e1c5c9a7c32.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/workspaces/aprs/temp_ws/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock","/tmp/.X11-unix/X1","/home/SahuGf/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('REALSENSE_BASE', '/root'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ac5623843.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/temp_ws/build/cpp_srvcli'), ('PYTHONPATH', '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces:/opt/ros/humble')]), 'shell': False}
+[3.405419] (-) TimerEvent: {}
+[3.421493] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.505538] (-) TimerEvent: {}
+[3.536263] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.563579] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.565423] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.569970] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.578208] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.589905] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.605652] (-) TimerEvent: {}
+[3.633709] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.634878] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.705776] (-) TimerEvent: {}
+[3.801063] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.805868] (-) TimerEvent: {}
+[3.906111] (-) TimerEvent: {}
+[3.924121] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.0.0 (/workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake)\n'}
+[4.006237] (-) TimerEvent: {}
+[4.022463] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.078461] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.078641] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.078717] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.079075] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.080032] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.080130] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.080399] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.081012] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.090629] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[4.092089] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/aprs/temp_ws/build/cpp_srvcli\n'}
+[4.106352] (-) TimerEvent: {}
+[4.125885] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[4.206473] (-) TimerEvent: {}
+[4.306763] (-) TimerEvent: {}
+[4.407101] (-) TimerEvent: {}
+[4.507391] (-) TimerEvent: {}
+[4.607678] (-) TimerEvent: {}
+[4.707969] (-) TimerEvent: {}
+[4.808259] (-) TimerEvent: {}
+[4.908559] (-) TimerEvent: {}
+[5.009232] (-) TimerEvent: {}
+[5.109526] (-) TimerEvent: {}
+[5.209837] (-) TimerEvent: {}
+[5.310157] (-) TimerEvent: {}
+[5.411128] (-) TimerEvent: {}
+[5.511463] (-) TimerEvent: {}
+[5.611768] (-) TimerEvent: {}
+[5.712056] (-) TimerEvent: {}
+[5.812351] (-) TimerEvent: {}
+[5.912689] (-) TimerEvent: {}
+[6.013260] (-) TimerEvent: {}
+[6.113555] (-) TimerEvent: {}
+[6.213847] (-) TimerEvent: {}
+[6.314152] (-) TimerEvent: {}
+[6.414438] (-) TimerEvent: {}
+[6.514731] (-) TimerEvent: {}
+[6.604015] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[6.614829] (-) TimerEvent: {}
+[6.715085] (-) TimerEvent: {}
+[6.719194] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[6.730003] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[6.755755] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[6.756522] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/aprs/temp_ws/build/cpp_srvcli'], 'cwd': '/workspaces/aprs/temp_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('REALSENSE_DIR', '/root/librealsense'), ('HOSTNAME', 'SahuGf'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('HOME', '/home/SahuGf'), ('OLDPWD', '/workspaces/aprs'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-175f91df-be45-4e3e-9ede-9e1c5c9a7c32.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/workspaces/aprs/temp_ws/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock","/tmp/.X11-unix/X1","/home/SahuGf/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('REALSENSE_BASE', '/root'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ac5623843.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-eddea03f-953e-4f4a-ab96-9e4396e7705e.sock'), ('AMENT_PREFIX_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'dialog'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/aprs/temp_ws/build/cpp_srvcli'), ('PYTHONPATH', '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/aprs/temp_ws/install/example_interfaces:/opt/ros/humble')]), 'shell': False}
+[6.763322] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.763488] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[6.764382] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/aprs/temp_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[6.764514] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[6.764706] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[6.764929] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[6.765086] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[6.765260] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[6.765392] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[6.765517] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[6.765653] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[6.765787] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[6.765908] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[6.766033] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[6.766235] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[6.766405] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[6.766514] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[6.766639] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /workspaces/aprs/temp_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[6.768336] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[6.815183] (-) TimerEvent: {}
+[6.877682] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[6.878265] (-) EventReactorShutdown: {}

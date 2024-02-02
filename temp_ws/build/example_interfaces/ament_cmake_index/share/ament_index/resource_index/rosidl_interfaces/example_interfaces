@@ -1,0 +1,8 @@
+srv/AddTwoInts.idl
+srv/AddTwoInts.srv
+srv/AddTwoInts_Request.msg
+srv/AddTwoInts_Response.msg
+srv/MoveToNamedPose.idl
+srv/MoveToNamedPose.srv
+srv/MoveToNamedPose_Request.msg
+srv/MoveToNamedPose_Response.msg

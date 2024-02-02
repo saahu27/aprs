@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="vaccum_gripper" params="prefix parent *origin">
+
+    <link name="${prefix}vaccum_e_link">
+      <visual>
+        <origin rpy="0 -1.5708 0" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find vaccum_description)/meshes/VacuumGripper.stl" scale="1 1 1"/>
+        </geometry>
+        <material name="Dark">
+          <color rgba=".1 0.1 0.1 1.0"/>
+        </material>
+      </visual>
+      <collision>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find vaccum_description)/meshes/VacuumGripper.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="${prefix}vaccum_gripper_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${prefix}vaccum_e_link"/>
+      <xacro:insert_block name="origin"/>
+    </joint>
+
+
+    <gazebo reference="${prefix}vaccum_e_link">
+      <material>Gazebo/FlatBlack</material>
+    </gazebo> 
+
+  </xacro:macro>
+</robot>

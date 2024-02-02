@@ -1,0 +1,219 @@
+cmake_minimum_required(VERSION 3.8)
+project(gear_ur)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(ament_cmake_python REQUIRED)
+find_package(rclpy REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(image_transport REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(std_srvs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
+find_package(shape_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(example_interfaces REQUIRED)
+
+
+
+include_directories(include/gear_ur)
+install(DIRECTORY include launch DESTINATION share/${PROJECT_NAME}/)
+
+# rosidl_generate_interfaces(${PROJECT_NAME}
+#   ${srv_files}
+
+#   DEPENDENCIES
+#   builtin_interfaces
+#   std_msgs
+#   geometry_msgs
+# )
+
+ament_export_dependencies(rosidl_default_runtime)
+
+add_executable(service src/gear_pick.cpp src/main.cpp)
+ament_target_dependencies(service rclcpp example_interfaces std_srvs geometry_msgs std_msgs moveit_ros_planning_interface)
+
+# rosidl_target_interfaces(service ${PROJECT_NAME} "rosidl_typesupport_cpp")
+
+install(TARGETS
+  service
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # uncomment the line when a copyright and license is not present in all source files
+  #set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # uncomment the line when this package is not in a git repo
+  #set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+
+
+ament_package()
+
+
+
+
+
+# cmake_minimum_required(VERSION 3.8)
+# project(gear_ur)
+
+# if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+#   add_compile_options(-Wall -Wextra -Wpedantic)
+# endif()
+
+# # find dependencies
+# find_package(ament_cmake REQUIRED)
+# find_package(rclcpp REQUIRED)
+# find_package(example_interfaces REQUIRED)
+# find_package(moveit_ros_planning_interface REQUIRED)
+# find_package(builtin_interfaces REQUIRED)
+# find_package(std_msgs REQUIRED)
+# find_package(rosidl_default_generators REQUIRED)
+
+
+# if(BUILD_TESTING)
+#   find_package(ament_lint_auto REQUIRED)
+#   # the following line skips the linter which checks for copyrights
+#   # comment the line when a copyright and license is added to all source files
+#   set(ament_cmake_copyright_FOUND TRUE)
+#   # the following line skips cpplint (only works in a git repo)
+#   # comment the line when this package is in a git repo and when
+#   # a copyright and license is added to all source files
+#   set(ament_cmake_cpplint_FOUND TRUE)
+#   ament_lint_auto_find_test_dependencies()
+# endif()
+
+
+# add_executable(server src/gear_pick.cpp)
+# ament_target_dependencies(server rclcpp moveit_ros_planning_interface example_interfaces)
+# target_include_directories(${PROJECT_NAME} PRIVATE include)
+# ament_target_dependencies(${PROJECT_NAME} ${THIS_PACKAGE_INCLUDE_DEPENDS})
+
+
+# install(TARGETS
+#     server
+#   DESTINATION lib/${PROJECT_NAME})
+
+# install(DIRECTORY include/
+#   DESTINATION include
+# )
+
+# ament_package()
+
+
+
+
+
+
+
+
+
+
+
+# cmake_minimum_required(VERSION 3.5)
+# project(gear_ur)
+
+# # Default to C++14
+# if(NOT CMAKE_CXX_STANDARD)
+#   set(CMAKE_CXX_STANDARD 17)
+# endif()
+
+# if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+#   add_compile_options(-Wall -Wextra -Wpedantic)
+# endif()
+
+# set(THIS_PACKAGE_INCLUDE_DEPENDS
+#   rclcpp 
+#   moveit_ros_planning_interface
+#   std_msgs
+#   rosidl_default_generators
+#   example_interfaces
+#   builtin_interfaces
+# )
+
+# find_package(ament_cmake REQUIRED)
+# find_package(ament_cmake_python REQUIRED)
+# find_package(std_msgs REQUIRED)
+# find_package(example_interfaces REQUIRED)
+# find_package(rclcpp REQUIRED)
+# foreach(Dependency IN ITEMS ${THIS_PACKAGE_INCLUDE_DEPENDS})
+#   find_package(${Dependency} REQUIRED)
+# endforeach()
+
+# add_library(${PROJECT_NAME} SHARED
+#   src/gear_pick.cpp
+# )
+# target_include_directories(${PROJECT_NAME} PRIVATE include)
+# ament_target_dependencies(${PROJECT_NAME} ${THIS_PACKAGE_INCLUDE_DEPENDS})
+
+# # Add main competitor executable
+# add_executable(gear src/main.cpp)
+# target_include_directories(gear PRIVATE include)
+# target_link_libraries(gear
+#   ${PROJECT_NAME}
+# )
+# ament_target_dependencies(gear ${THIS_PACKAGE_INCLUDE_DEPENDS})
+
+
+# # rosidl_target_interfaces(gear ${PROJECT_NAME} "rosidl_typesupport_cpp")
+
+# install(TARGETS gear
+#   RUNTIME DESTINATION lib/${PROJECT_NAME}
+# )
+
+# # Add moveit test executable
+# # add_executable(moveit_test src/moveit_test.cpp)
+# # target_include_directories(moveit_test PRIVATE include)
+# # target_link_libraries(moveit_test
+# #   ${PROJECT_NAME}
+# # )
+# # ament_target_dependencies(moveit_test ${THIS_PACKAGE_INCLUDE_DEPENDS})
+
+# # install(TARGETS moveit_test
+# #   RUNTIME DESTINATION lib/${PROJECT_NAME}
+# # )
+
+# install(TARGETS ${PROJECT_NAME}
+#   RUNTIME DESTINATION bin
+#   LIBRARY DESTINATION lib
+#   ARCHIVE DESTINATION lib
+# )
+
+# install(DIRECTORY include/
+#   DESTINATION include
+# )
+
+# install(DIRECTORY 
+#   launch
+#   include
+#   DESTINATION share/${PROJECT_NAME}
+# )
+
+# ament_export_dependencies(rosidl_default_runtime)
+
+# ament_export_libraries(
+#   ${PROJECT_NAME}
+# )
+# ament_export_include_directories(
+#   include
+# )
+# ament_export_dependencies(
+#   ${THIS_PACKAGE_INCLUDE_DEPENDS}
+# )
+# ament_package()

@@ -20,7 +20,7 @@ The arguments for launch files can be listed using ``ros2 launch ur_robot_driver
 The most relevant arguments are the following:
 
 
-* ``ur_type`` (\ *mandatory* ) - a type of used UR robot (\ *ur3*\ , *ur3e*\ , *ur5*\ , *ur5e*\ , *ur10*\ , *ur10e*\ , or *ur16e*\ ).
+* ``ur_type`` (\ *mandatory* ) - a type of used UR robot (\ *ur3*\ , *ur3e*\ , *ur5*\ , *ur5e*\ , *ur10*\ , *ur10e*\ , or *ur16e*\ , *ur20*\ ).
 * ``robot_ip`` (\ *mandatory* ) - IP address by which the root can be reached.
 * ``use_fake_hardware`` (default: *false* ) - use simple hardware emulator from ros2_control.
   Useful for testing launch files, descriptions, etc. See explanation below.
@@ -106,7 +106,7 @@ For details on the Docker image, please see the more detailed guide :ref:`here <
 Example Commands for Testing the Driver
 ---------------------------------------
 
-Allowed UR - Type strings: ``ur3``\ , ``ur3e``\ , ``ur5``\ , ``ur5e``\ , ``ur10``\ , ``ur10e``\ , ``ur16e``.
+Allowed UR - Type strings: ``ur3``\ , ``ur3e``\ , ``ur5``\ , ``ur5e``\ , ``ur10``\ , ``ur10e``\ , ``ur16e``\ , ``ur20``.
 
 1. Start hardware, simulator or mockup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -189,7 +189,7 @@ To test the driver with the example MoveIt-setup, first start the driver as desc
    ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur5e launch_rviz:=true
 
 Now you should be able to use the MoveIt Plugin in rviz2 to plan and execute trajectories with the
-robot as explained `here <https://moveit.picknik.ai/galactic/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html>`_.
+robot as explained `here <https://moveit.picknik.ai/main/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html>`_.
 
 Fake hardware on ROS2 Galactic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -2,6 +2,17 @@
 Changelog for package ur_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.10 (2024-01-03)
+-------------------
+* Update JTC API (`#896 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/896>`_)
+* Remove noisy controller log message (`#858 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/issues/858>`_)
+* Contributors: Felix Exner (fexner), mergify[bot], Robert Wilbrandt
+
+2.2.9 (2023-09-22)
+------------------
+* Update sjtc to newest upstream API
+* Contributors: Felix Exner
+
 2.2.8 (2023-06-26)
 ------------------
 

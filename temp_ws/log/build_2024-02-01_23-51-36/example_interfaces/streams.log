@@ -1,0 +1,248 @@
+[0.062s] Invoking command in '/workspaces/aprs/temp_ws/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/temp_ws/build/example_interfaces -- -j16 -l16
+[0.090s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.209s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.233s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.235s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.239s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.269s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.293s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.323s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.573s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.055s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.062s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.083s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.084s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.084s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.101s] -- Found PythonExtra: .so  
+[1.152s] -- Configuring done
+[1.183s] -- Generating done
+[1.186s] -- Build files have been written to: /workspaces/aprs/temp_ws/build/example_interfaces
+[1.208s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.217s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.228s] [  5%] Built target ament_cmake_python_copy_example_interfaces
+[1.427s] running egg_info
+[1.428s] creating example_interfaces.egg-info
+[1.428s] writing example_interfaces.egg-info/PKG-INFO
+[1.429s] writing dependency_links to example_interfaces.egg-info/dependency_links.txt
+[1.429s] writing top-level names to example_interfaces.egg-info/top_level.txt
+[1.429s] writing manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[1.431s] reading manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[1.431s] writing manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[1.466s] [  5%] Built target ament_cmake_python_build_example_interfaces_egg
+[1.474s] [  5%] Built target example_interfaces__cpp
+[1.484s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.484s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.484s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.492s] [ 17%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_interfaces/srv/detail/add_two_ints__functions.c.o[0m
+[1.492s] [ 17%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_interfaces/srv/detail/move_to_named_pose__functions.c.o[0m
+[1.545s] [ 20%] [32m[1mLinking C shared library libexample_interfaces__rosidl_generator_c.so[0m
+[1.581s] [ 20%] Built target example_interfaces__rosidl_generator_c
+[1.592s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.592s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.592s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.695s] [ 33%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_interfaces/srv/move_to_named_pose__type_support.cpp.o[0m
+[1.695s] [ 33%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_interfaces/srv/add_two_ints__type_support.cpp.o[0m
+[1.720s] [ 38%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_interfaces/srv/detail/move_to_named_pose__type_support.cpp.o[0m
+[1.720s] [ 38%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_interfaces/srv/detail/add_two_ints__type_support.cpp.o[0m
+[1.783s] [ 41%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_interfaces/srv/detail/dds_fastrtps/move_to_named_pose__type_support.cpp.o[0m
+[1.785s] [ 43%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[1.806s] [ 46%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_interfaces/srv/move_to_named_pose__type_support.cpp.o[0m
+[1.809s] [ 48%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_interfaces/srv/add_two_ints__type_support.cpp.o[0m
+[1.850s] [ 51%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_c.so[0m
+[1.882s] [ 53%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_interfaces/srv/detail/move_to_named_pose__type_support_c.cpp.o[0m
+[1.883s] [ 56%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[1.898s] [ 58%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_interfaces/srv/detail/add_two_ints__type_support.c.o[0m
+[1.898s] [ 58%] Built target example_interfaces__rosidl_typesupport_c
+[1.898s] [ 61%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_interfaces/srv/detail/move_to_named_pose__type_support.c.o[0m
+[1.950s] [ 64%] [32m[1mLinking C shared library libexample_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.963s] [ 66%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_cpp.so[0m
+[1.983s] [ 66%] Built target example_interfaces__rosidl_typesupport_introspection_c
+[2.004s] [ 66%] Built target example_interfaces__rosidl_typesupport_cpp
+[2.089s] [ 69%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.159s] [ 69%] Built target example_interfaces__rosidl_typesupport_introspection_cpp
+[2.195s] [ 71%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.224s] [ 74%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.264s] [ 74%] Built target example_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.288s] [ 74%] Built target example_interfaces__rosidl_typesupport_fastrtps_c
+[2.307s] [ 74%] Built target example_interfaces
+[2.328s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.662s] [ 76%] Built target example_interfaces__py
+[2.683s] [ 82%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_interfaces/srv/_add_two_ints_s.c.o[0m
+[2.683s] [ 82%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_interfaces/srv/_move_to_named_pose_s.c.o[0m
+[2.782s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/libexample_interfaces__rosidl_generator_py.so[0m
+[2.822s] [ 84%] Built target example_interfaces__rosidl_generator_py
+[2.844s] [ 92%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.844s] [ 92%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.844s] [ 92%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.944s] [100%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.944s] [100%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.944s] [100%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.981s] [100%] Built target example_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.981s] [100%] Built target example_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.982s] [100%] Built target example_interfaces__rosidl_typesupport_c__pyext
+[2.993s] Invoked command in '/workspaces/aprs/temp_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/temp_ws/build/example_interfaces -- -j16 -l16
+[3.078s] Invoking command in '/workspaces/aprs/temp_ws/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/temp_ws/build/example_interfaces
+[3.084s] -- Install configuration: ""
+[3.084s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_interfaces
+[3.084s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces
+[3.085s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv
+[3.085s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail
+[3.085s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.h
+[3.085s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__type_support.h
+[3.085s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__type_support.h
+[3.085s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__functions.c
+[3.085s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__functions.h
+[3.085s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__functions.h
+[3.086s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__struct.h
+[3.086s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__functions.c
+[3.086s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/add_two_ints.h
+[3.086s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/move_to_named_pose.h
+[3.086s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg
+[3.086s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.086s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/library_path.sh
+[3.086s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/library_path.dsv
+[3.087s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so
+[3.087s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so" to ""
+[3.087s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces
+[3.087s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv
+[3.087s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail
+[3.087s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[3.087s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__rosidl_typesupport_fastrtps_c.h
+[3.088s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg
+[3.088s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.088s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.088s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.088s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces
+[3.088s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv
+[3.088s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp
+[3.088s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail
+[3.088s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp
+[3.089s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp
+[3.089s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__traits.hpp
+[3.089s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__struct.hpp
+[3.089s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp
+[3.089s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__builder.hpp
+[3.089s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/move_to_named_pose.hpp
+[3.089s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces
+[3.089s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv
+[3.089s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail
+[3.089s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/dds_fastrtps
+[3.089s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[3.090s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.090s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg
+[3.090s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.090s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.090s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.090s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces
+[3.090s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv
+[3.090s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail
+[3.090s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__type_support.c
+[3.091s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[3.091s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__rosidl_typesupport_introspection_c.h
+[3.091s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__type_support.c
+[3.091s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg
+[3.091s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.091s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so
+[3.091s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.091s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so
+[3.092s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so" to ""
+[3.092s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces
+[3.092s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv
+[3.092s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail
+[3.092s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__rosidl_typesupport_introspection_cpp.hpp
+[3.092s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/move_to_named_pose__type_support.cpp
+[3.092s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.092s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__type_support.cpp
+[3.092s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.093s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.093s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so
+[3.093s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.093s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/pythonpath.sh
+[3.093s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/pythonpath.dsv
+[3.093s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info
+[3.094s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.094s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.094s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.094s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.094s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces
+[3.094s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv
+[3.094s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_move_to_named_pose.py
+[3.094s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_add_two_ints.py
+[3.094s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_add_two_ints_s.c
+[3.095s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/__init__.py
+[3.095s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_move_to_named_pose_s.c
+[3.095s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.095s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.095s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.095s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.095s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/libexample_interfaces__rosidl_generator_py.so
+[3.096s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py
+[3.096s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.096s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c
+[3.131s] Listing '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces'...
+[3.131s] Compiling '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py'...
+[3.131s] Listing '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv'...
+[3.132s] Compiling '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/__init__.py'...
+[3.132s] Compiling '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_add_two_ints.py'...
+[3.132s] Compiling '/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/srv/_move_to_named_pose.py'...
+[3.136s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.136s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.136s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.137s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.137s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.137s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.137s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so
+[3.137s] -- Set runtime path of "/workspaces/aprs/temp_ws/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so" to ""
+[3.138s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/MoveToNamedPose.idl
+[3.138s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/AddTwoInts.idl
+[3.138s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/MoveToNamedPose.srv
+[3.138s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/MoveToNamedPose_Request.msg
+[3.138s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/MoveToNamedPose_Response.msg
+[3.138s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/AddTwoInts.srv
+[3.138s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/AddTwoInts_Request.msg
+[3.138s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/srv/AddTwoInts_Response.msg
+[3.139s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/ament_index/resource_index/package_run_dependencies/example_interfaces
+[3.139s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/ament_index/resource_index/parent_prefix_path/example_interfaces
+[3.139s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.sh
+[3.139s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.dsv
+[3.139s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/path.sh
+[3.139s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/environment/path.dsv
+[3.139s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/local_setup.bash
+[3.139s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/local_setup.sh
+[3.139s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/local_setup.zsh
+[3.139s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/local_setup.dsv
+[3.139s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/package.dsv
+[3.140s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/ament_index/resource_index/packages/example_interfaces
+[3.140s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport.cmake
+[3.140s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.140s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.140s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.140s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cppExport.cmake
+[3.140s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.140s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.141s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.141s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.141s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport.cmake
+[3.141s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.141s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.141s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.141s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport.cmake
+[3.142s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.142s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport.cmake
+[3.142s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.142s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.142s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.142s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.142s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.143s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.143s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.143s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.143s] -- Installing: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig.cmake
+[3.143s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig-version.cmake
+[3.143s] -- Up-to-date: /workspaces/aprs/temp_ws/install/example_interfaces/share/example_interfaces/package.xml
+[3.146s] Invoked command in '/workspaces/aprs/temp_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/temp_ws/build/example_interfaces

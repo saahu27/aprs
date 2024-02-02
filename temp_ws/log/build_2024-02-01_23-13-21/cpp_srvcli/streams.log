@@ -1,0 +1,10 @@
+[0.079s] Invoking command in '/workspaces/aprs/temp_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/temp_ws/build/cpp_srvcli -- -j16 -l16
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.380s] [01m[K/workspaces/aprs/temp_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:4:10:[m[K [01;31m[Kfatal error: [m[K/workspaces/aprs/temp_ws/src/example_interfaces/srv/add_two_ints.hpp: No such file or directory
+[0.380s]     4 | #include [01;31m[K"/workspaces/aprs/temp_ws/src/example_interfaces/srv/add_two_ints.hpp"[m[K
+[0.380s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.380s] compilation terminated.
+[0.391s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[0.391s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/server.dir/all] Error 2
+[0.392s] gmake: *** [Makefile:146: all] Error 2
+[0.394s] Invoked command in '/workspaces/aprs/temp_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/temp_ws/build/cpp_srvcli -- -j16 -l16

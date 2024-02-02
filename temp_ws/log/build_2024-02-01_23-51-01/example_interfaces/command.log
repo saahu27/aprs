@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/aprs/temp_ws/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/temp_ws/build/example_interfaces -- -j16 -l16
+Invoked command in '/workspaces/aprs/temp_ws/build/example_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/temp_ws/build/example_interfaces -- -j16 -l16

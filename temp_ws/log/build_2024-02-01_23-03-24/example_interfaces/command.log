@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/aprs/temp_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/temp_ws/src/example_interfaces -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/temp_ws/install/example_interfaces
+Invoked command in '/workspaces/aprs/temp_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/aprs/temp_ws/src/example_interfaces -DCMAKE_INSTALL_PREFIX=/workspaces/aprs/temp_ws/install/example_interfaces
+Invoking command in '/workspaces/aprs/temp_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/temp_ws/build/example_interfaces -- -j16 -l16
+Invoked command in '/workspaces/aprs/temp_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/aprs/temp_ws/build/example_interfaces -- -j16 -l16
+Invoking command in '/workspaces/aprs/temp_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/temp_ws/build/example_interfaces
+Invoked command in '/workspaces/aprs/temp_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/aprs/temp_ws/build/example_interfaces
